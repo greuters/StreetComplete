@@ -27,6 +27,7 @@ class MainMenuButtonFragment : Fragment(R.layout.fragment_main_menu_button) {
 
     interface Listener {
         fun getDownloadArea(): BoundingBox?
+        fun getDownloadAreaGpx()
     }
 
     private val listener: Listener? get() = parentFragment as? Listener ?: activity as? Listener
@@ -69,6 +70,7 @@ class MainMenuButtonFragment : Fragment(R.layout.fragment_main_menu_button) {
             requireContext(),
             if (teamModeQuestFilter.isEnabled) teamModeQuestFilter.indexInTeam else null,
             this::onClickDownload,
+            this::onClickDownloadGpx,
             teamModeQuestFilter::enableTeamMode,
             teamModeQuestFilter::disableTeamMode
         ).show()
@@ -92,13 +94,22 @@ class MainMenuButtonFragment : Fragment(R.layout.fragment_main_menu_button) {
         else context?.toast(R.string.offline)
     }
 
+    private fun onClickDownloadGpx() {
+        if (isConnected()) downloadAlongGpx()
+        else context?.toast(R.string.offline)
+    }
+
     private fun isConnected(): Boolean {
         val connectivityManager = context?.getSystemService<ConnectivityManager>()
         val activeNetworkInfo = connectivityManager?.activeNetworkInfo
         return activeNetworkInfo != null && activeNetworkInfo.isConnected
     }
 
-    private fun downloadDisplayedArea() {
+    private fun downloadAlongGpx() {
+        listener?.getDownloadAreaGpx() ?: return
+    }
+
+        private fun downloadDisplayedArea() {
         val downloadArea = listener?.getDownloadArea() ?: return
 
         if (downloadController.isPriorityDownloadInProgress) {

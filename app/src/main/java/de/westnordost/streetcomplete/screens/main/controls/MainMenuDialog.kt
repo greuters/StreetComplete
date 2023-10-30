@@ -17,6 +17,7 @@ class MainMenuDialog(
     context: Context,
     indexInTeam: Int?,
     onClickDownload: () -> Unit,
+    onClickDownloadGpx: () -> Unit,
     onEnableTeamMode: (Int, Int) -> Unit,
     onDisableTeamMode: () -> Unit
 ) : AlertDialog(context) {
@@ -48,6 +49,10 @@ class MainMenuDialog(
         }
         binding.downloadButton.setOnClickListener {
             onClickDownload()
+            dismiss()
+        }
+        binding.downloadGpxButton.setOnClickListener {
+            onClickDownloadGpx()
             dismiss()
         }
 
