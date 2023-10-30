@@ -1,6 +1,7 @@
 package de.westnordost.streetcomplete.screens.main
 
 import android.annotation.SuppressLint
+import android.app.Activity
 import android.content.Context
 import android.content.Intent
 import android.content.SharedPreferences
@@ -11,15 +12,19 @@ import android.graphics.Rect
 import android.graphics.RectF
 import android.location.Location
 import android.os.Bundle
+import android.util.Log
 import android.view.View
 import android.view.ViewGroup
 import android.view.animation.AccelerateInterpolator
 import android.view.animation.OvershootInterpolator
 import android.widget.Toast
 import androidx.activity.OnBackPressedCallback
+import androidx.activity.result.ActivityResult
+import androidx.activity.result.contract.ActivityResultContracts
 import androidx.annotation.AnyThread
 import androidx.annotation.DrawableRes
 import androidx.annotation.UiThread
+import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.widget.PopupMenu
 import androidx.core.graphics.Insets
 import androidx.core.graphics.minus
@@ -33,9 +38,13 @@ import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
 import androidx.fragment.app.commit
 import de.westnordost.osmfeatures.FeatureDictionary
+import de.westnordost.osmapi.common.Handler
+import de.westnordost.osmapi.traces.GpsTrackpoint
+import de.westnordost.osmapi.traces.GpxTrackParser
 import de.westnordost.streetcomplete.ApplicationConstants
 import de.westnordost.streetcomplete.Prefs
 import de.westnordost.streetcomplete.R
+import de.westnordost.streetcomplete.data.download.DownloadController
 import de.westnordost.streetcomplete.data.download.tiles.asBoundingBoxOfEnclosingTiles
 import de.westnordost.streetcomplete.data.edithistory.Edit
 import de.westnordost.streetcomplete.data.edithistory.EditKey
@@ -110,9 +119,11 @@ import de.westnordost.streetcomplete.util.location.FineLocationManager
 import de.westnordost.streetcomplete.util.location.LocationAvailabilityReceiver
 import de.westnordost.streetcomplete.util.location.LocationRequestFragment
 import de.westnordost.streetcomplete.util.math.area
+import de.westnordost.streetcomplete.util.math.distanceTo
 import de.westnordost.streetcomplete.util.math.enclosingBoundingBox
 import de.westnordost.streetcomplete.util.math.enlargedBy
 import de.westnordost.streetcomplete.util.math.initialBearingTo
+import de.westnordost.streetcomplete.util.math.translate
 import de.westnordost.streetcomplete.util.viewBinding
 import de.westnordost.streetcomplete.view.insets_animation.respectSystemInsets
 import kotlinx.coroutines.Dispatchers
@@ -168,6 +179,8 @@ class MainFragment :
     SelectedOverlaySource.Listener,
     // rest
     ShowsGeometryMarkers {
+
+    private val downloadController: DownloadController by inject()
 
     private val visibleQuestsSource: VisibleQuestsSource by inject()
     private val mapDataWithEditsSource: MapDataWithEditsSource by inject()
@@ -434,6 +447,87 @@ class MainFragment :
         }
 
         return enclosingBBox
+    }
+
+    private fun downloadAroundCenter(center: LatLon, previousCenter: LatLon?) {
+        Log.d("GPXParser", "downloading around $center")
+        val positions = arrayOf(
+            // previousCenter has to be included to completely cover tracks for which sampling distance is larger than 2 * AREA_HALF_WIDTH
+            // this might create an unnecessarily large download area however
+            // adding center points by interpolating between the two or aborting with a user alert might be a better solution
+            previousCenter,
+            center.translate(AREA_HALF_WIDTH, 0.0),
+            center.translate(AREA_HALF_WIDTH, 90.0),
+            center.translate(AREA_HALF_WIDTH, 180.0),
+            center.translate(AREA_HALF_WIDTH, 270.0)
+        ).filterNotNull()
+
+        val downloadArea = positions.enclosingBoundingBox()
+        downloadController.download(downloadArea, false)
+    }
+
+    private val gpxFilePicker =
+        registerForActivityResult(ActivityResultContracts.StartActivityForResult()) { result: ActivityResult ->
+            if (result.resultCode == Activity.RESULT_OK) {
+                // Using content resolver to get an input stream from selected URI
+                // See:  https://commonsware.com/blog/2016/03/15/how-consume-content-uri.html
+                result.data?.data?.let { uri ->
+                    context?.contentResolver?.openInputStream(uri).let { inputStream ->
+                        var lastDownloadedCenter: LatLon? = null
+                        var lastTentativeCenter: LatLon? = null
+                        val handler = Handler<GpsTrackpoint> { tea ->
+                            print(tea?.position)
+                            tea.position?.let {
+                                val currentCenter = LatLon(it.latitude, it.longitude)
+                                if(lastTentativeCenter != null) {
+                                    if (lastDownloadedCenter != null) {
+                                        if (currentCenter.distanceTo(lastTentativeCenter!!) < AREA_HALF_WIDTH
+                                            && lastDownloadedCenter!!.distanceTo(lastTentativeCenter!!) < AREA_HALF_WIDTH
+                                        ) {
+                                            Log.d(
+                                                "GPXParser",
+                                                "omitting point which is included in previous and next area: $lastTentativeCenter"
+                                            )
+                                            lastTentativeCenter = currentCenter
+                                            return@Handler
+                                        }
+                                    }
+
+                                    downloadAroundCenter(lastTentativeCenter!!, lastDownloadedCenter)
+                                    lastDownloadedCenter = lastTentativeCenter
+                                }
+
+                                lastTentativeCenter = currentCenter
+                            }
+                        }
+
+                        val parser = GpxTrackParser(handler)
+                        parser.parse(inputStream)
+                        // download endpoint separately, as no point after it is visited by the handler
+                        if(lastTentativeCenter != null) {
+                            downloadAroundCenter(lastTentativeCenter!!, lastDownloadedCenter)
+                        }
+                        Log.d("GPXParser", "finished scheduling downloads")
+                    }
+                }
+            }
+        }
+
+    override fun getDownloadAreaGpx() {
+        // let user select file
+        val intent = Intent(Intent.ACTION_OPEN_DOCUMENT).apply {
+            addCategory(Intent.CATEGORY_OPENABLE)
+            type = "*/*" // That's needed for some reason, crashes otherwise
+            putExtra(
+                // List all file types you want the user to be able to select
+                Intent.EXTRA_MIME_TYPES, arrayOf(
+                    "application/gpx",
+                    "application/gpx+xml"
+                )
+            )
+        }
+        gpxFilePicker.launch(intent)
+        return
     }
 
     /* ------------------------------ UndoButtonFragment.Listener ------------------------------- */
@@ -1199,5 +1293,6 @@ class MainFragment :
         private const val EDIT_HISTORY = "edit_history"
 
         private const val TAG_LOCATION_REQUEST = "LocationRequestFragment"
+        private const val AREA_HALF_WIDTH = 100.0 // in meters
     }
 }
