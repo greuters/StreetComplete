@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.view.dialogs
+package de.westnordost.streetcompletegpx.view.dialogs
 
 import android.content.Context
 import android.view.LayoutInflater
@@ -12,13 +12,13 @@ import androidx.recyclerview.widget.RecyclerView
 import de.westnordost.osmfeatures.Feature
 import de.westnordost.osmfeatures.FeatureDictionary
 import de.westnordost.osmfeatures.GeometryType
-import de.westnordost.streetcomplete.databinding.ViewFeatureBinding
-import de.westnordost.streetcomplete.databinding.ViewSelectPresetBinding
-import de.westnordost.streetcomplete.util.getLocalesForFeatureDictionary
-import de.westnordost.streetcomplete.util.ktx.hideKeyboard
-import de.westnordost.streetcomplete.util.ktx.nonBlankTextOrNull
-import de.westnordost.streetcomplete.view.ListAdapter
-import de.westnordost.streetcomplete.view.controller.FeatureViewController
+import de.westnordost.streetcompletegpx.databinding.ViewFeatureBinding
+import de.westnordost.streetcompletegpx.databinding.ViewSelectPresetBinding
+import de.westnordost.streetcompletegpx.util.getLocalesForFeatureDictionary
+import de.westnordost.streetcompletegpx.util.ktx.hideKeyboard
+import de.westnordost.streetcompletegpx.util.ktx.nonBlankTextOrNull
+import de.westnordost.streetcompletegpx.view.ListAdapter
+import de.westnordost.streetcompletegpx.view.controller.FeatureViewController
 
 /** Search and select a preset */
 class SearchFeaturesDialog(

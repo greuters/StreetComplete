@@ -1,19 +1,19 @@
-package de.westnordost.streetcomplete.data.osm.osmquests
+package de.westnordost.streetcompletegpx.data.osm.osmquests
 
-import de.westnordost.streetcomplete.data.CursorPosition
-import de.westnordost.streetcomplete.data.Database
-import de.westnordost.streetcomplete.data.osm.mapdata.BoundingBox
-import de.westnordost.streetcomplete.data.osm.mapdata.ElementKey
-import de.westnordost.streetcomplete.data.osm.mapdata.ElementType
-import de.westnordost.streetcomplete.data.osm.mapdata.LatLon
-import de.westnordost.streetcomplete.data.osm.osmquests.OsmQuestTable.Columns.ELEMENT_ID
-import de.westnordost.streetcomplete.data.osm.osmquests.OsmQuestTable.Columns.ELEMENT_TYPE
-import de.westnordost.streetcomplete.data.osm.osmquests.OsmQuestTable.Columns.LATITUDE
-import de.westnordost.streetcomplete.data.osm.osmquests.OsmQuestTable.Columns.LONGITUDE
-import de.westnordost.streetcomplete.data.osm.osmquests.OsmQuestTable.Columns.QUEST_TYPE
-import de.westnordost.streetcomplete.data.osm.osmquests.OsmQuestTable.NAME
-import de.westnordost.streetcomplete.data.queryIn
-import de.westnordost.streetcomplete.data.quest.OsmQuestKey
+import de.westnordost.streetcompletegpx.data.CursorPosition
+import de.westnordost.streetcompletegpx.data.Database
+import de.westnordost.streetcompletegpx.data.osm.mapdata.BoundingBox
+import de.westnordost.streetcompletegpx.data.osm.mapdata.ElementKey
+import de.westnordost.streetcompletegpx.data.osm.mapdata.ElementType
+import de.westnordost.streetcompletegpx.data.osm.mapdata.LatLon
+import de.westnordost.streetcompletegpx.data.osm.osmquests.OsmQuestTable.Columns.ELEMENT_ID
+import de.westnordost.streetcompletegpx.data.osm.osmquests.OsmQuestTable.Columns.ELEMENT_TYPE
+import de.westnordost.streetcompletegpx.data.osm.osmquests.OsmQuestTable.Columns.LATITUDE
+import de.westnordost.streetcompletegpx.data.osm.osmquests.OsmQuestTable.Columns.LONGITUDE
+import de.westnordost.streetcompletegpx.data.osm.osmquests.OsmQuestTable.Columns.QUEST_TYPE
+import de.westnordost.streetcompletegpx.data.osm.osmquests.OsmQuestTable.NAME
+import de.westnordost.streetcompletegpx.data.queryIn
+import de.westnordost.streetcompletegpx.data.quest.OsmQuestKey
 
 /** Persists OsmQuest objects, or more specifically, OsmQuestEntry objects */
 class OsmQuestDao(private val db: Database) {

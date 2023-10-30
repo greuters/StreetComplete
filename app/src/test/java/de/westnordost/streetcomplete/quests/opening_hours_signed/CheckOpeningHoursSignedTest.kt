@@ -1,12 +1,12 @@
-package de.westnordost.streetcomplete.quests.opening_hours_signed
+package de.westnordost.streetcompletegpx.quests.opening_hours_signed
 
-import de.westnordost.streetcomplete.data.osm.edits.update_tags.StringMapEntryAdd
-import de.westnordost.streetcomplete.data.osm.edits.update_tags.StringMapEntryDelete
-import de.westnordost.streetcomplete.data.osm.edits.update_tags.StringMapEntryModify
-import de.westnordost.streetcomplete.osm.nowAsCheckDateString
-import de.westnordost.streetcomplete.quests.verifyAnswer
-import de.westnordost.streetcomplete.testutils.mock
-import de.westnordost.streetcomplete.testutils.node
+import de.westnordost.streetcompletegpx.data.osm.edits.update_tags.StringMapEntryAdd
+import de.westnordost.streetcompletegpx.data.osm.edits.update_tags.StringMapEntryDelete
+import de.westnordost.streetcompletegpx.data.osm.edits.update_tags.StringMapEntryModify
+import de.westnordost.streetcompletegpx.osm.nowAsCheckDateString
+import de.westnordost.streetcompletegpx.quests.verifyAnswer
+import de.westnordost.streetcompletegpx.testutils.mock
+import de.westnordost.streetcompletegpx.testutils.node
 import kotlin.test.Test
 import kotlin.test.assertFalse
 import kotlin.test.assertTrue

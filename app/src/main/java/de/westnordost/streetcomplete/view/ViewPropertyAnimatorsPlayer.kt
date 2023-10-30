@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.view
+package de.westnordost.streetcompletegpx.view
 
 import android.animation.Animator
 import android.animation.AnimatorListenerAdapter

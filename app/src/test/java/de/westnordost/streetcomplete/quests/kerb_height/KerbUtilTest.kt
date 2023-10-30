@@ -1,10 +1,10 @@
-package de.westnordost.streetcomplete.quests.kerb_height
+package de.westnordost.streetcompletegpx.quests.kerb_height
 
-import de.westnordost.streetcomplete.osm.kerb.couldBeAKerb
-import de.westnordost.streetcomplete.osm.kerb.findAllKerbNodes
-import de.westnordost.streetcomplete.quests.TestMapDataWithGeometry
-import de.westnordost.streetcomplete.testutils.node
-import de.westnordost.streetcomplete.testutils.way
+import de.westnordost.streetcompletegpx.osm.kerb.couldBeAKerb
+import de.westnordost.streetcompletegpx.osm.kerb.findAllKerbNodes
+import de.westnordost.streetcompletegpx.quests.TestMapDataWithGeometry
+import de.westnordost.streetcompletegpx.testutils.node
+import de.westnordost.streetcompletegpx.testutils.way
 import kotlin.test.Test
 import kotlin.test.assertEquals
 import kotlin.test.assertFalse

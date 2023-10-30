@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.quests.barrier_bicycle_barrier_type
+package de.westnordost.streetcompletegpx.quests.barrier_bicycle_barrier_type
 
 sealed interface BicycleBarrierTypeAnswer
 

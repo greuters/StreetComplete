@@ -1,14 +1,14 @@
-package de.westnordost.streetcomplete.data.osmnotes.edits
+package de.westnordost.streetcompletegpx.data.osmnotes.edits
 
-import de.westnordost.streetcomplete.data.osm.mapdata.BoundingBox
-import de.westnordost.streetcomplete.data.osm.mapdata.LatLon
-import de.westnordost.streetcomplete.data.osmnotes.Note
-import de.westnordost.streetcomplete.data.osmnotes.NoteComment
-import de.westnordost.streetcomplete.data.osmnotes.NoteController
-import de.westnordost.streetcomplete.data.osmnotes.edits.NoteEditAction.COMMENT
-import de.westnordost.streetcomplete.data.osmnotes.edits.NoteEditAction.CREATE
-import de.westnordost.streetcomplete.data.user.User
-import de.westnordost.streetcomplete.data.user.UserDataSource
+import de.westnordost.streetcompletegpx.data.osm.mapdata.BoundingBox
+import de.westnordost.streetcompletegpx.data.osm.mapdata.LatLon
+import de.westnordost.streetcompletegpx.data.osmnotes.Note
+import de.westnordost.streetcompletegpx.data.osmnotes.NoteComment
+import de.westnordost.streetcompletegpx.data.osmnotes.NoteController
+import de.westnordost.streetcompletegpx.data.osmnotes.edits.NoteEditAction.COMMENT
+import de.westnordost.streetcompletegpx.data.osmnotes.edits.NoteEditAction.CREATE
+import de.westnordost.streetcompletegpx.data.user.User
+import de.westnordost.streetcompletegpx.data.user.UserDataSource
 import java.util.concurrent.CopyOnWriteArrayList
 
 class NotesWithEditsSource(

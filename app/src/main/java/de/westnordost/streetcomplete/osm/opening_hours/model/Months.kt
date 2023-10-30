@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.osm.opening_hours.model
+package de.westnordost.streetcompletegpx.osm.opening_hours.model
 
 import kotlinx.serialization.Serializable
 import java.text.DateFormatSymbols

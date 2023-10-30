@@ -1,11 +1,11 @@
-package de.westnordost.streetcomplete.screens.user.profile
+package de.westnordost.streetcompletegpx.screens.user.profile
 
 import android.graphics.Canvas
 import android.graphics.ColorFilter
 import android.graphics.Paint
 import android.graphics.PixelFormat
 import android.graphics.drawable.Drawable
-import de.westnordost.streetcomplete.util.ktx.systemTimeNow
+import de.westnordost.streetcompletegpx.util.ktx.systemTimeNow
 import kotlinx.datetime.DateTimeUnit
 import kotlinx.datetime.LocalDate
 import kotlinx.datetime.TimeZone

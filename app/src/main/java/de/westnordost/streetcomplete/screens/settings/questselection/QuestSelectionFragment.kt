@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.screens.settings.questselection
+package de.westnordost.streetcompletegpx.screens.settings.questselection
 
 import android.content.Context
 import android.content.SharedPreferences
@@ -12,16 +12,16 @@ import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import de.westnordost.countryboundaries.CountryBoundaries
-import de.westnordost.streetcomplete.R
-import de.westnordost.streetcomplete.data.quest.QuestTypeRegistry
-import de.westnordost.streetcomplete.data.visiblequests.QuestPresetsSource
-import de.westnordost.streetcomplete.data.visiblequests.QuestTypeOrderController
-import de.westnordost.streetcomplete.data.visiblequests.VisibleQuestTypeController
-import de.westnordost.streetcomplete.databinding.FragmentQuestSelectionBinding
-import de.westnordost.streetcomplete.screens.HasTitle
-import de.westnordost.streetcomplete.screens.TwoPaneDetailFragment
-import de.westnordost.streetcomplete.util.ktx.viewLifecycleScope
-import de.westnordost.streetcomplete.util.viewBinding
+import de.westnordost.streetcompletegpx.R
+import de.westnordost.streetcompletegpx.data.quest.QuestTypeRegistry
+import de.westnordost.streetcompletegpx.data.visiblequests.QuestPresetsSource
+import de.westnordost.streetcompletegpx.data.visiblequests.QuestTypeOrderController
+import de.westnordost.streetcompletegpx.data.visiblequests.VisibleQuestTypeController
+import de.westnordost.streetcompletegpx.databinding.FragmentQuestSelectionBinding
+import de.westnordost.streetcompletegpx.screens.HasTitle
+import de.westnordost.streetcompletegpx.screens.TwoPaneDetailFragment
+import de.westnordost.streetcompletegpx.util.ktx.viewLifecycleScope
+import de.westnordost.streetcompletegpx.util.viewBinding
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import org.koin.android.ext.android.inject

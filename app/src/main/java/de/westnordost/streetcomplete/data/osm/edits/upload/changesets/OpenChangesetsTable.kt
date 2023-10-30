@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.data.osm.edits.upload.changesets
+package de.westnordost.streetcompletegpx.data.osm.edits.upload.changesets
 
 object OpenChangesetsTable {
     const val NAME = "open_changesets"

@@ -1,7 +1,7 @@
-package de.westnordost.streetcomplete.data.osm.mapdata
+package de.westnordost.streetcompletegpx.data.osm.mapdata
 
-import de.westnordost.streetcomplete.data.osm.geometry.ElementGeometry
-import de.westnordost.streetcomplete.data.osm.geometry.ElementPointGeometry
+import de.westnordost.streetcompletegpx.data.osm.geometry.ElementGeometry
+import de.westnordost.streetcompletegpx.data.osm.geometry.ElementPointGeometry
 
 interface MapDataWithGeometry : MapData {
     fun getNodeGeometry(id: Long): ElementPointGeometry?

@@ -1,10 +1,10 @@
-package de.westnordost.streetcomplete.quests
+package de.westnordost.streetcompletegpx.quests
 
-import de.westnordost.streetcomplete.data.osm.edits.update_tags.StringMapChangesBuilder
-import de.westnordost.streetcomplete.data.osm.edits.update_tags.StringMapEntryChange
-import de.westnordost.streetcomplete.data.osm.geometry.ElementPointGeometry
-import de.westnordost.streetcomplete.data.osm.mapdata.LatLon
-import de.westnordost.streetcomplete.data.osm.osmquests.OsmElementQuestType
+import de.westnordost.streetcompletegpx.data.osm.edits.update_tags.StringMapChangesBuilder
+import de.westnordost.streetcompletegpx.data.osm.edits.update_tags.StringMapEntryChange
+import de.westnordost.streetcompletegpx.data.osm.geometry.ElementPointGeometry
+import de.westnordost.streetcompletegpx.data.osm.mapdata.LatLon
+import de.westnordost.streetcompletegpx.data.osm.osmquests.OsmElementQuestType
 import org.assertj.core.api.Assertions.assertThat
 
 fun <T> OsmElementQuestType<T>.verifyAnswer(tags: Map<String, String>, answer: T, vararg expectedChanges: StringMapEntryChange) {

@@ -1,8 +1,8 @@
-package de.westnordost.streetcomplete.quests.bollard_type
+package de.westnordost.streetcompletegpx.quests.bollard_type
 
-import de.westnordost.streetcomplete.R
-import de.westnordost.streetcomplete.quests.AImageListQuestForm
-import de.westnordost.streetcomplete.quests.AnswerItem
+import de.westnordost.streetcompletegpx.R
+import de.westnordost.streetcompletegpx.quests.AImageListQuestForm
+import de.westnordost.streetcompletegpx.quests.AnswerItem
 
 class AddBollardTypeForm : AImageListQuestForm<BollardType, BollardTypeAnswer>() {
 

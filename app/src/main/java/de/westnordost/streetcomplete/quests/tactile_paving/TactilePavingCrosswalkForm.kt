@@ -1,11 +1,11 @@
-package de.westnordost.streetcomplete.quests.tactile_paving
+package de.westnordost.streetcompletegpx.quests.tactile_paving
 
-import de.westnordost.streetcomplete.R
-import de.westnordost.streetcomplete.quests.AbstractOsmQuestForm
-import de.westnordost.streetcomplete.quests.AnswerItem
-import de.westnordost.streetcomplete.quests.tactile_paving.TactilePavingCrosswalkAnswer.INCORRECT
-import de.westnordost.streetcomplete.quests.tactile_paving.TactilePavingCrosswalkAnswer.NO
-import de.westnordost.streetcomplete.quests.tactile_paving.TactilePavingCrosswalkAnswer.YES
+import de.westnordost.streetcompletegpx.R
+import de.westnordost.streetcompletegpx.quests.AbstractOsmQuestForm
+import de.westnordost.streetcompletegpx.quests.AnswerItem
+import de.westnordost.streetcompletegpx.quests.tactile_paving.TactilePavingCrosswalkAnswer.INCORRECT
+import de.westnordost.streetcompletegpx.quests.tactile_paving.TactilePavingCrosswalkAnswer.NO
+import de.westnordost.streetcompletegpx.quests.tactile_paving.TactilePavingCrosswalkAnswer.YES
 
 class TactilePavingCrosswalkForm : AbstractOsmQuestForm<TactilePavingCrosswalkAnswer>() {
 

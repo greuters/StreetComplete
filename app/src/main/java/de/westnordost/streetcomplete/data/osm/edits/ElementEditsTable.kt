@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.data.osm.edits
+package de.westnordost.streetcompletegpx.data.osm.edits
 
 object ElementEditsTable {
     const val NAME = "osm_element_edits"

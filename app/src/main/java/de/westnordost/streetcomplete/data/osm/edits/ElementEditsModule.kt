@@ -1,12 +1,12 @@
-package de.westnordost.streetcomplete.data.osm.edits
+package de.westnordost.streetcompletegpx.data.osm.edits
 
-import de.westnordost.streetcomplete.data.osm.edits.upload.ElementEditUploader
-import de.westnordost.streetcomplete.data.osm.edits.upload.ElementEditsUploader
-import de.westnordost.streetcomplete.data.osm.edits.upload.LastEditTimeStore
-import de.westnordost.streetcomplete.data.osm.edits.upload.changesets.ChangesetAutoCloser
-import de.westnordost.streetcomplete.data.osm.edits.upload.changesets.ChangesetAutoCloserWorker
-import de.westnordost.streetcomplete.data.osm.edits.upload.changesets.OpenChangesetsDao
-import de.westnordost.streetcomplete.data.osm.edits.upload.changesets.OpenChangesetsManager
+import de.westnordost.streetcompletegpx.data.osm.edits.upload.ElementEditUploader
+import de.westnordost.streetcompletegpx.data.osm.edits.upload.ElementEditsUploader
+import de.westnordost.streetcompletegpx.data.osm.edits.upload.LastEditTimeStore
+import de.westnordost.streetcompletegpx.data.osm.edits.upload.changesets.ChangesetAutoCloser
+import de.westnordost.streetcompletegpx.data.osm.edits.upload.changesets.ChangesetAutoCloserWorker
+import de.westnordost.streetcompletegpx.data.osm.edits.upload.changesets.OpenChangesetsDao
+import de.westnordost.streetcompletegpx.data.osm.edits.upload.changesets.OpenChangesetsManager
 import org.koin.androidx.workmanager.dsl.worker
 import org.koin.dsl.module
 

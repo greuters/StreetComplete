@@ -1,20 +1,20 @@
-package de.westnordost.streetcomplete.quests.shop_type
+package de.westnordost.streetcompletegpx.quests.shop_type
 
-import de.westnordost.streetcomplete.R
-import de.westnordost.streetcomplete.data.elementfilter.toElementFilterExpression
-import de.westnordost.streetcomplete.data.osm.geometry.ElementGeometry
-import de.westnordost.streetcomplete.data.osm.mapdata.Element
-import de.westnordost.streetcomplete.data.osm.mapdata.MapDataWithGeometry
-import de.westnordost.streetcomplete.data.osm.mapdata.filter
-import de.westnordost.streetcomplete.data.osm.osmquests.OsmElementQuestType
-import de.westnordost.streetcomplete.data.user.achievements.EditTypeAchievement.CITIZEN
-import de.westnordost.streetcomplete.osm.IS_SHOP_EXPRESSION
-import de.westnordost.streetcomplete.osm.IS_SHOP_OR_DISUSED_SHOP_EXPRESSION
-import de.westnordost.streetcomplete.osm.LAST_CHECK_DATE_KEYS
-import de.westnordost.streetcomplete.osm.Tags
-import de.westnordost.streetcomplete.osm.isShopExpressionFragment
-import de.westnordost.streetcomplete.osm.replaceShop
-import de.westnordost.streetcomplete.osm.updateCheckDate
+import de.westnordost.streetcompletegpx.R
+import de.westnordost.streetcompletegpx.data.elementfilter.toElementFilterExpression
+import de.westnordost.streetcompletegpx.data.osm.geometry.ElementGeometry
+import de.westnordost.streetcompletegpx.data.osm.mapdata.Element
+import de.westnordost.streetcompletegpx.data.osm.mapdata.MapDataWithGeometry
+import de.westnordost.streetcompletegpx.data.osm.mapdata.filter
+import de.westnordost.streetcompletegpx.data.osm.osmquests.OsmElementQuestType
+import de.westnordost.streetcompletegpx.data.user.achievements.EditTypeAchievement.CITIZEN
+import de.westnordost.streetcompletegpx.osm.IS_SHOP_EXPRESSION
+import de.westnordost.streetcompletegpx.osm.IS_SHOP_OR_DISUSED_SHOP_EXPRESSION
+import de.westnordost.streetcompletegpx.osm.LAST_CHECK_DATE_KEYS
+import de.westnordost.streetcompletegpx.osm.Tags
+import de.westnordost.streetcompletegpx.osm.isShopExpressionFragment
+import de.westnordost.streetcompletegpx.osm.replaceShop
+import de.westnordost.streetcompletegpx.osm.updateCheckDate
 
 class CheckShopType : OsmElementQuestType<ShopTypeAnswer> {
 

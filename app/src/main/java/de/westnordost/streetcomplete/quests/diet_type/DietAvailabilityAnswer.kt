@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.quests.diet_type
+package de.westnordost.streetcompletegpx.quests.diet_type
 
 sealed interface DietAvailabilityAnswer
 

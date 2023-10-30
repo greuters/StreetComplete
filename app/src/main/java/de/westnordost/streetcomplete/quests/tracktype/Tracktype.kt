@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.quests.tracktype
+package de.westnordost.streetcompletegpx.quests.tracktype
 
 enum class Tracktype(val osmValue: String) {
     GRADE1("grade1"),

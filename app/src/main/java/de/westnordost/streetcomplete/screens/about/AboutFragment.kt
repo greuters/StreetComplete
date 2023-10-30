@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.screens.about
+package de.westnordost.streetcompletegpx.screens.about
 
 import android.os.Bundle
 import android.view.View
@@ -7,16 +7,16 @@ import androidx.annotation.DrawableRes
 import androidx.appcompat.app.AlertDialog
 import androidx.core.widget.TextViewCompat
 import androidx.preference.Preference
-import de.westnordost.streetcomplete.ApplicationConstants.COPYRIGHT_YEARS
-import de.westnordost.streetcomplete.BuildConfig
-import de.westnordost.streetcomplete.R
-import de.westnordost.streetcomplete.databinding.CellLabeledIconSelectRightBinding
-import de.westnordost.streetcomplete.databinding.DialogDonateBinding
-import de.westnordost.streetcomplete.screens.HasTitle
-import de.westnordost.streetcomplete.screens.TwoPaneListFragment
-import de.westnordost.streetcomplete.util.ktx.openUri
-import de.westnordost.streetcomplete.util.ktx.setUpToolbarTitleAndIcon
-import de.westnordost.streetcomplete.view.ListAdapter
+import de.westnordost.streetcompletegpx.ApplicationConstants.COPYRIGHT_YEARS
+import de.westnordost.streetcompletegpx.BuildConfig
+import de.westnordost.streetcompletegpx.R
+import de.westnordost.streetcompletegpx.databinding.CellLabeledIconSelectRightBinding
+import de.westnordost.streetcompletegpx.databinding.DialogDonateBinding
+import de.westnordost.streetcompletegpx.screens.HasTitle
+import de.westnordost.streetcompletegpx.screens.TwoPaneListFragment
+import de.westnordost.streetcompletegpx.util.ktx.openUri
+import de.westnordost.streetcompletegpx.util.ktx.setUpToolbarTitleAndIcon
+import de.westnordost.streetcompletegpx.view.ListAdapter
 import java.util.Locale
 
 /** Shows the about screen list. */

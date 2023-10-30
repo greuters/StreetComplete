@@ -1,11 +1,11 @@
-package de.westnordost.streetcomplete.quests.lanes
+package de.westnordost.streetcompletegpx.quests.lanes
 
 import android.content.Context
 import android.util.AttributeSet
 import android.view.View
 import android.widget.FrameLayout
 import androidx.core.view.children
-import de.westnordost.streetcomplete.view.StreetRotateable
+import de.westnordost.streetcompletegpx.view.StreetRotateable
 import kotlin.math.PI
 import kotlin.math.abs
 import kotlin.math.cos

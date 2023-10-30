@@ -1,12 +1,12 @@
-package de.westnordost.streetcomplete.quests.postbox_collection_times
+package de.westnordost.streetcompletegpx.quests.postbox_collection_times
 
 import ch.poole.openinghoursparser.Rule
 import ch.poole.openinghoursparser.TimeSpan
 import ch.poole.openinghoursparser.WeekDay
 import ch.poole.openinghoursparser.WeekDayRange
-import de.westnordost.streetcomplete.data.osm.edits.update_tags.StringMapEntryAdd
-import de.westnordost.streetcomplete.osm.opening_hours.parser.OpeningHoursRuleList
-import de.westnordost.streetcomplete.quests.verifyAnswer
+import de.westnordost.streetcompletegpx.data.osm.edits.update_tags.StringMapEntryAdd
+import de.westnordost.streetcompletegpx.osm.opening_hours.parser.OpeningHoursRuleList
+import de.westnordost.streetcompletegpx.quests.verifyAnswer
 import kotlin.test.Test
 
 class AddPostboxCollectionTimesTest {

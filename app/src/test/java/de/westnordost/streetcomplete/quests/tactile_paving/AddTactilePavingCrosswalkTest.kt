@@ -1,8 +1,8 @@
-package de.westnordost.streetcomplete.quests.tactile_paving
+package de.westnordost.streetcompletegpx.quests.tactile_paving
 
-import de.westnordost.streetcomplete.quests.TestMapDataWithGeometry
-import de.westnordost.streetcomplete.testutils.node
-import de.westnordost.streetcomplete.testutils.way
+import de.westnordost.streetcompletegpx.quests.TestMapDataWithGeometry
+import de.westnordost.streetcompletegpx.testutils.node
+import de.westnordost.streetcompletegpx.testutils.way
 import kotlin.test.Test
 import kotlin.test.assertEquals
 import kotlin.test.assertNull

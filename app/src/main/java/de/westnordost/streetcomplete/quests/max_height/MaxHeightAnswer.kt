@@ -1,6 +1,6 @@
-package de.westnordost.streetcomplete.quests.max_height
+package de.westnordost.streetcompletegpx.quests.max_height
 
-import de.westnordost.streetcomplete.osm.Length
+import de.westnordost.streetcompletegpx.osm.Length
 
 sealed interface MaxHeightAnswer
 

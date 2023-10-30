@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.quests.max_weight
+package de.westnordost.streetcompletegpx.quests.max_weight
 
 import android.os.Bundle
 import android.view.View
@@ -9,15 +9,15 @@ import androidx.appcompat.app.AlertDialog
 import androidx.core.view.isInvisible
 import androidx.core.view.isVisible
 import androidx.core.widget.doAfterTextChanged
-import de.westnordost.streetcomplete.R
-import de.westnordost.streetcomplete.data.meta.WeightMeasurementUnit
-import de.westnordost.streetcomplete.databinding.QuestMaxweightBinding
-import de.westnordost.streetcomplete.quests.AbstractOsmQuestForm
-import de.westnordost.streetcomplete.quests.AnswerItem
-import de.westnordost.streetcomplete.util.ktx.numberOrNull
-import de.westnordost.streetcomplete.util.ktx.showKeyboard
-import de.westnordost.streetcomplete.view.image_select.ImageListPickerDialog
-import de.westnordost.streetcomplete.view.inputfilter.acceptDecimalDigits
+import de.westnordost.streetcompletegpx.R
+import de.westnordost.streetcompletegpx.data.meta.WeightMeasurementUnit
+import de.westnordost.streetcompletegpx.databinding.QuestMaxweightBinding
+import de.westnordost.streetcompletegpx.quests.AbstractOsmQuestForm
+import de.westnordost.streetcompletegpx.quests.AnswerItem
+import de.westnordost.streetcompletegpx.util.ktx.numberOrNull
+import de.westnordost.streetcompletegpx.util.ktx.showKeyboard
+import de.westnordost.streetcompletegpx.view.image_select.ImageListPickerDialog
+import de.westnordost.streetcompletegpx.view.inputfilter.acceptDecimalDigits
 
 class AddMaxWeightForm : AbstractOsmQuestForm<MaxWeightAnswer>() {
 

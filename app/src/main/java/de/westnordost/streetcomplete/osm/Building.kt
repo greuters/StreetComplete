@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.osm
+package de.westnordost.streetcompletegpx.osm
 
 /** building values that are more or less synonymous with supported building values */
 val buildingSynonyms = mapOf(

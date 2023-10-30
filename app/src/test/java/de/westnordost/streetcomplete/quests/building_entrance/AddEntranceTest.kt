@@ -1,11 +1,11 @@
-package de.westnordost.streetcomplete.quests.building_entrance
+package de.westnordost.streetcompletegpx.quests.building_entrance
 
-import de.westnordost.streetcomplete.data.osm.mapdata.ElementType
-import de.westnordost.streetcomplete.quests.TestMapDataWithGeometry
-import de.westnordost.streetcomplete.testutils.member
-import de.westnordost.streetcomplete.testutils.node
-import de.westnordost.streetcomplete.testutils.rel
-import de.westnordost.streetcomplete.testutils.way
+import de.westnordost.streetcompletegpx.data.osm.mapdata.ElementType
+import de.westnordost.streetcompletegpx.quests.TestMapDataWithGeometry
+import de.westnordost.streetcompletegpx.testutils.member
+import de.westnordost.streetcompletegpx.testutils.node
+import de.westnordost.streetcompletegpx.testutils.rel
+import de.westnordost.streetcompletegpx.testutils.way
 import kotlin.test.Test
 import kotlin.test.assertEquals
 

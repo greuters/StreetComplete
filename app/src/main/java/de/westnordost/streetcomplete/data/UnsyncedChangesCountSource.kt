@@ -1,9 +1,9 @@
-package de.westnordost.streetcomplete.data
+package de.westnordost.streetcompletegpx.data
 
-import de.westnordost.streetcomplete.data.osm.edits.ElementEdit
-import de.westnordost.streetcomplete.data.osm.edits.ElementEditsSource
-import de.westnordost.streetcomplete.data.osmnotes.edits.NoteEdit
-import de.westnordost.streetcomplete.data.osmnotes.edits.NoteEditsSource
+import de.westnordost.streetcompletegpx.data.osm.edits.ElementEdit
+import de.westnordost.streetcompletegpx.data.osm.edits.ElementEditsSource
+import de.westnordost.streetcompletegpx.data.osmnotes.edits.NoteEdit
+import de.westnordost.streetcompletegpx.data.osmnotes.edits.NoteEditsSource
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 import java.util.concurrent.CopyOnWriteArrayList

@@ -1,6 +1,6 @@
-package de.westnordost.streetcomplete.quests.shop_type
+package de.westnordost.streetcompletegpx.quests.shop_type
 
-import de.westnordost.streetcomplete.testutils.node
+import de.westnordost.streetcompletegpx.testutils.node
 import kotlin.test.Test
 import kotlin.test.assertFalse
 import kotlin.test.assertTrue

@@ -1,17 +1,17 @@
-package de.westnordost.streetcomplete.data.location
+package de.westnordost.streetcompletegpx.data.location
 
 import android.content.Context
 import android.location.Location
 import android.view.LayoutInflater
 import androidx.appcompat.app.AlertDialog
 import androidx.core.view.isGone
-import de.westnordost.streetcomplete.R
-import de.westnordost.streetcomplete.data.osm.geometry.ElementGeometry
-import de.westnordost.streetcomplete.data.osm.geometry.ElementPolygonsGeometry
-import de.westnordost.streetcomplete.data.osm.geometry.ElementPolylinesGeometry
-import de.westnordost.streetcomplete.data.osm.mapdata.LatLon
-import de.westnordost.streetcomplete.databinding.QuestSourceDialogLayoutBinding
-import de.westnordost.streetcomplete.util.math.flatDistanceToArcs
+import de.westnordost.streetcompletegpx.R
+import de.westnordost.streetcompletegpx.data.osm.geometry.ElementGeometry
+import de.westnordost.streetcompletegpx.data.osm.geometry.ElementPolygonsGeometry
+import de.westnordost.streetcompletegpx.data.osm.geometry.ElementPolylinesGeometry
+import de.westnordost.streetcompletegpx.data.osm.mapdata.LatLon
+import de.westnordost.streetcompletegpx.databinding.QuestSourceDialogLayoutBinding
+import de.westnordost.streetcompletegpx.util.math.flatDistanceToArcs
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.suspendCancellableCoroutine
 import kotlinx.coroutines.withContext

@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.data
+package de.westnordost.streetcompletegpx.data
 
 import android.database.sqlite.SQLiteOpenHelper
 import androidx.test.platform.app.InstrumentationRegistry

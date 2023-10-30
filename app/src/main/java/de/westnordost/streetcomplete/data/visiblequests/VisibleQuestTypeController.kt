@@ -1,8 +1,8 @@
-package de.westnordost.streetcomplete.data.visiblequests
+package de.westnordost.streetcompletegpx.data.visiblequests
 
-import de.westnordost.streetcomplete.data.osmnotes.notequests.OsmNoteQuestType
-import de.westnordost.streetcomplete.data.quest.QuestType
-import de.westnordost.streetcomplete.data.quest.QuestTypeRegistry
+import de.westnordost.streetcompletegpx.data.osmnotes.notequests.OsmNoteQuestType
+import de.westnordost.streetcompletegpx.data.quest.QuestType
+import de.westnordost.streetcompletegpx.data.quest.QuestTypeRegistry
 import java.util.concurrent.CopyOnWriteArrayList
 
 /** Controller to set/get quest types as enabled or disabled. This controls only the visibility

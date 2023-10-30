@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.quests.recycling_material
+package de.westnordost.streetcompletegpx.quests.recycling_material
 
 /** All recycling:* keys known to StreetComplete */
 enum class RecyclingMaterial(val value: String) {

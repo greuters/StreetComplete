@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.quests.tactile_paving
+package de.westnordost.streetcompletegpx.quests.tactile_paving
 
 enum class TactilePavingStepsAnswer(val osmValue: String) {
     YES("yes"),

@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.quests
+package de.westnordost.streetcompletegpx.quests
 
 import android.content.Intent
 import android.content.SharedPreferences
@@ -10,11 +10,11 @@ import androidx.appcompat.app.AlertDialog
 import androidx.core.content.edit
 import androidx.core.text.parseAsHtml
 import androidx.recyclerview.widget.RecyclerView
-import de.westnordost.streetcomplete.Prefs
-import de.westnordost.streetcomplete.R
-import de.westnordost.streetcomplete.data.meta.AbbreviationsByLocale
-import de.westnordost.streetcomplete.osm.LocalizedName
-import de.westnordost.streetcomplete.view.AdapterDataChangedWatcher
+import de.westnordost.streetcompletegpx.Prefs
+import de.westnordost.streetcompletegpx.R
+import de.westnordost.streetcompletegpx.data.meta.AbbreviationsByLocale
+import de.westnordost.streetcompletegpx.osm.LocalizedName
+import de.westnordost.streetcompletegpx.view.AdapterDataChangedWatcher
 import kotlinx.serialization.decodeFromString
 import kotlinx.serialization.encodeToString
 import kotlinx.serialization.json.Json

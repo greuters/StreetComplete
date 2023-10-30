@@ -1,7 +1,7 @@
-package de.westnordost.streetcomplete.osm
+package de.westnordost.streetcompletegpx.osm
 
-import de.westnordost.streetcomplete.data.elementfilter.toElementFilterExpression
-import de.westnordost.streetcomplete.data.osm.mapdata.Element
+import de.westnordost.streetcompletegpx.data.elementfilter.toElementFilterExpression
+import de.westnordost.streetcompletegpx.data.osm.mapdata.Element
 
 private val isPrivateOnFootFilter by lazy { """
     nodes, ways, relations with

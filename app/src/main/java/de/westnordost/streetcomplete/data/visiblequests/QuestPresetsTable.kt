@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.data.visiblequests
+package de.westnordost.streetcompletegpx.data.visiblequests
 
 object QuestPresetsTable {
     const val NAME = "quest_presets"

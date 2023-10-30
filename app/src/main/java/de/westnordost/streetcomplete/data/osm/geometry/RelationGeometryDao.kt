@@ -1,15 +1,15 @@
-package de.westnordost.streetcomplete.data.osm.geometry
+package de.westnordost.streetcompletegpx.data.osm.geometry
 
-import de.westnordost.streetcomplete.data.CursorPosition
-import de.westnordost.streetcomplete.data.Database
-import de.westnordost.streetcomplete.data.osm.geometry.RelationGeometryTable.Columns.CENTER_LATITUDE
-import de.westnordost.streetcomplete.data.osm.geometry.RelationGeometryTable.Columns.CENTER_LONGITUDE
-import de.westnordost.streetcomplete.data.osm.geometry.RelationGeometryTable.Columns.GEOMETRY_POLYGONS
-import de.westnordost.streetcomplete.data.osm.geometry.RelationGeometryTable.Columns.GEOMETRY_POLYLINES
-import de.westnordost.streetcomplete.data.osm.geometry.RelationGeometryTable.Columns.ID
-import de.westnordost.streetcomplete.data.osm.geometry.RelationGeometryTable.NAME
-import de.westnordost.streetcomplete.data.osm.mapdata.ElementType
-import de.westnordost.streetcomplete.data.osm.mapdata.LatLon
+import de.westnordost.streetcompletegpx.data.CursorPosition
+import de.westnordost.streetcompletegpx.data.Database
+import de.westnordost.streetcompletegpx.data.osm.geometry.RelationGeometryTable.Columns.CENTER_LATITUDE
+import de.westnordost.streetcompletegpx.data.osm.geometry.RelationGeometryTable.Columns.CENTER_LONGITUDE
+import de.westnordost.streetcompletegpx.data.osm.geometry.RelationGeometryTable.Columns.GEOMETRY_POLYGONS
+import de.westnordost.streetcompletegpx.data.osm.geometry.RelationGeometryTable.Columns.GEOMETRY_POLYLINES
+import de.westnordost.streetcompletegpx.data.osm.geometry.RelationGeometryTable.Columns.ID
+import de.westnordost.streetcompletegpx.data.osm.geometry.RelationGeometryTable.NAME
+import de.westnordost.streetcompletegpx.data.osm.mapdata.ElementType
+import de.westnordost.streetcompletegpx.data.osm.mapdata.LatLon
 
 /** Stores the geometry of relations */
 class RelationGeometryDao(

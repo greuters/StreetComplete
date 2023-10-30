@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.data.osm.edits
+package de.westnordost.streetcompletegpx.data.osm.edits
 
 interface ElementEditType : EditType {
     /** The changeset comment to be used when uploading to the OSM API. It should briefly explain

@@ -1,11 +1,11 @@
-package de.westnordost.streetcomplete.quests.crossing
+package de.westnordost.streetcompletegpx.quests.crossing
 
 import androidx.appcompat.app.AlertDialog
-import de.westnordost.streetcomplete.R
-import de.westnordost.streetcomplete.data.osm.edits.MapDataWithEditsSource
-import de.westnordost.streetcomplete.quests.AListQuestForm
-import de.westnordost.streetcomplete.quests.TextItem
-import de.westnordost.streetcomplete.quests.crossing.CrossingAnswer.*
+import de.westnordost.streetcompletegpx.R
+import de.westnordost.streetcompletegpx.data.osm.edits.MapDataWithEditsSource
+import de.westnordost.streetcompletegpx.quests.AListQuestForm
+import de.westnordost.streetcompletegpx.quests.TextItem
+import de.westnordost.streetcompletegpx.quests.crossing.CrossingAnswer.*
 import org.koin.android.ext.android.inject
 
 class AddCrossingForm : AListQuestForm<CrossingAnswer>() {

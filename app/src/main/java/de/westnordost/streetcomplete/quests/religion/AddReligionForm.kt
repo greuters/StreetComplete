@@ -1,10 +1,10 @@
-package de.westnordost.streetcomplete.quests.religion
+package de.westnordost.streetcompletegpx.quests.religion
 
 import android.os.Bundle
-import de.westnordost.streetcomplete.R
-import de.westnordost.streetcomplete.quests.AImageListQuestForm
-import de.westnordost.streetcomplete.quests.AnswerItem
-import de.westnordost.streetcomplete.quests.religion.Religion.MULTIFAITH
+import de.westnordost.streetcompletegpx.R
+import de.westnordost.streetcompletegpx.quests.AImageListQuestForm
+import de.westnordost.streetcompletegpx.quests.AnswerItem
+import de.westnordost.streetcompletegpx.quests.religion.Religion.MULTIFAITH
 
 class AddReligionForm : AImageListQuestForm<Religion, Religion>() {
 

@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.view
+package de.westnordost.streetcompletegpx.view
 
 import android.content.Context
 import android.graphics.Bitmap
@@ -15,10 +15,10 @@ import androidx.core.graphics.drawable.toDrawable
 import androidx.core.view.doOnPreDraw
 import androidx.core.view.isGone
 import androidx.core.view.updateLayoutParams
-import de.westnordost.streetcomplete.R
-import de.westnordost.streetcomplete.databinding.ViewSideSelectPuzzleBinding
-import de.westnordost.streetcomplete.util.ktx.getBitmapDrawable
-import de.westnordost.streetcomplete.util.ktx.showTapHint
+import de.westnordost.streetcompletegpx.R
+import de.westnordost.streetcompletegpx.databinding.ViewSideSelectPuzzleBinding
+import de.westnordost.streetcompletegpx.util.ktx.getBitmapDrawable
+import de.westnordost.streetcompletegpx.util.ktx.showTapHint
 import kotlin.math.PI
 import kotlin.math.abs
 import kotlin.math.cos

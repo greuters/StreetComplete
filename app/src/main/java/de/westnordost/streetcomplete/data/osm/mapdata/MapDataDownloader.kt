@@ -1,11 +1,11 @@
-package de.westnordost.streetcomplete.data.osm.mapdata
+package de.westnordost.streetcompletegpx.data.osm.mapdata
 
 import android.util.Log
-import de.westnordost.streetcomplete.ApplicationConstants
-import de.westnordost.streetcomplete.data.download.QueryTooBigException
-import de.westnordost.streetcomplete.util.ktx.format
-import de.westnordost.streetcomplete.util.ktx.nowAsEpochMilliseconds
-import de.westnordost.streetcomplete.util.math.enlargedBy
+import de.westnordost.streetcompletegpx.ApplicationConstants
+import de.westnordost.streetcompletegpx.data.download.QueryTooBigException
+import de.westnordost.streetcompletegpx.util.ktx.format
+import de.westnordost.streetcompletegpx.util.ktx.nowAsEpochMilliseconds
+import de.westnordost.streetcompletegpx.util.math.enlargedBy
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 import kotlinx.coroutines.yield

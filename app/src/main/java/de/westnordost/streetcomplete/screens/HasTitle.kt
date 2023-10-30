@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.screens
+package de.westnordost.streetcompletegpx.screens
 
 interface HasTitle {
     val title: String

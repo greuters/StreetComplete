@@ -1,6 +1,6 @@
-package de.westnordost.streetcomplete.quests.building_type
+package de.westnordost.streetcompletegpx.quests.building_type
 
-import de.westnordost.streetcomplete.quests.building_type.BuildingType.*
+import de.westnordost.streetcompletegpx.quests.building_type.BuildingType.*
 
 enum class BuildingTypeCategory(val type: BuildingType?, val subTypes: List<BuildingType>) {
     RESIDENTIAL(BuildingType.RESIDENTIAL, listOf(

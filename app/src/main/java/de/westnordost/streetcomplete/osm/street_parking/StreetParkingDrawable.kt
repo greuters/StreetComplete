@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.osm.street_parking
+package de.westnordost.streetcompletegpx.osm.street_parking
 
 import android.content.Context
 import android.graphics.Canvas
@@ -7,18 +7,18 @@ import android.graphics.PixelFormat
 import android.graphics.drawable.Drawable
 import androidx.annotation.DrawableRes
 import androidx.core.graphics.withSave
-import de.westnordost.streetcomplete.R
-import de.westnordost.streetcomplete.osm.street_parking.ParkingOrientation.DIAGONAL
-import de.westnordost.streetcomplete.osm.street_parking.ParkingOrientation.PARALLEL
-import de.westnordost.streetcomplete.osm.street_parking.ParkingOrientation.PERPENDICULAR
-import de.westnordost.streetcomplete.osm.street_parking.ParkingPosition.HALF_ON_STREET
-import de.westnordost.streetcomplete.osm.street_parking.ParkingPosition.OFF_STREET
-import de.westnordost.streetcomplete.osm.street_parking.ParkingPosition.ON_STREET
-import de.westnordost.streetcomplete.osm.street_parking.ParkingPosition.PAINTED_AREA_ONLY
-import de.westnordost.streetcomplete.osm.street_parking.ParkingPosition.STAGGERED_HALF_ON_STREET
-import de.westnordost.streetcomplete.osm.street_parking.ParkingPosition.STAGGERED_ON_STREET
-import de.westnordost.streetcomplete.osm.street_parking.ParkingPosition.STREET_SIDE
-import de.westnordost.streetcomplete.util.ktx.isApril1st
+import de.westnordost.streetcompletegpx.R
+import de.westnordost.streetcompletegpx.osm.street_parking.ParkingOrientation.DIAGONAL
+import de.westnordost.streetcompletegpx.osm.street_parking.ParkingOrientation.PARALLEL
+import de.westnordost.streetcompletegpx.osm.street_parking.ParkingOrientation.PERPENDICULAR
+import de.westnordost.streetcompletegpx.osm.street_parking.ParkingPosition.HALF_ON_STREET
+import de.westnordost.streetcompletegpx.osm.street_parking.ParkingPosition.OFF_STREET
+import de.westnordost.streetcompletegpx.osm.street_parking.ParkingPosition.ON_STREET
+import de.westnordost.streetcompletegpx.osm.street_parking.ParkingPosition.PAINTED_AREA_ONLY
+import de.westnordost.streetcompletegpx.osm.street_parking.ParkingPosition.STAGGERED_HALF_ON_STREET
+import de.westnordost.streetcompletegpx.osm.street_parking.ParkingPosition.STAGGERED_ON_STREET
+import de.westnordost.streetcompletegpx.osm.street_parking.ParkingPosition.STREET_SIDE
+import de.westnordost.streetcompletegpx.util.ktx.isApril1st
 import kotlin.math.ceil
 import kotlin.math.round
 import kotlin.random.Random

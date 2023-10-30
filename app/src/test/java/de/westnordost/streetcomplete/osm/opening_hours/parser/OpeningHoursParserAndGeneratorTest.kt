@@ -1,7 +1,7 @@
-package de.westnordost.streetcomplete.osm.opening_hours.parser
+package de.westnordost.streetcompletegpx.osm.opening_hours.parser
 
-import de.westnordost.streetcomplete.quests.opening_hours.adapter.OpeningHoursRow
-import de.westnordost.streetcomplete.quests.postbox_collection_times.CollectionTimesRow
+import de.westnordost.streetcompletegpx.quests.opening_hours.adapter.OpeningHoursRow
+import de.westnordost.streetcompletegpx.quests.postbox_collection_times.CollectionTimesRow
 import kotlin.test.Test
 import kotlin.test.assertEquals
 import kotlin.test.assertNull

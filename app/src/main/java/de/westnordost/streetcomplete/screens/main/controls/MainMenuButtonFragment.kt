@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.screens.main.controls
+package de.westnordost.streetcompletegpx.screens.main.controls
 
 import android.net.ConnectivityManager
 import android.os.Bundle
@@ -6,16 +6,16 @@ import android.view.View
 import androidx.appcompat.app.AlertDialog
 import androidx.core.content.getSystemService
 import androidx.fragment.app.Fragment
-import de.westnordost.streetcomplete.R
-import de.westnordost.streetcomplete.data.download.DownloadController
-import de.westnordost.streetcomplete.data.osm.mapdata.BoundingBox
-import de.westnordost.streetcomplete.data.visiblequests.TeamModeQuestFilter
-import de.westnordost.streetcomplete.databinding.FragmentMainMenuButtonBinding
-import de.westnordost.streetcomplete.util.ktx.popIn
-import de.westnordost.streetcomplete.util.ktx.popOut
-import de.westnordost.streetcomplete.util.ktx.toast
-import de.westnordost.streetcomplete.util.ktx.viewLifecycleScope
-import de.westnordost.streetcomplete.util.viewBinding
+import de.westnordost.streetcompletegpx.R
+import de.westnordost.streetcompletegpx.data.download.DownloadController
+import de.westnordost.streetcompletegpx.data.osm.mapdata.BoundingBox
+import de.westnordost.streetcompletegpx.data.visiblequests.TeamModeQuestFilter
+import de.westnordost.streetcompletegpx.databinding.FragmentMainMenuButtonBinding
+import de.westnordost.streetcompletegpx.util.ktx.popIn
+import de.westnordost.streetcompletegpx.util.ktx.popOut
+import de.westnordost.streetcompletegpx.util.ktx.toast
+import de.westnordost.streetcompletegpx.util.ktx.viewLifecycleScope
+import de.westnordost.streetcompletegpx.util.viewBinding
 import kotlinx.coroutines.launch
 import org.koin.android.ext.android.inject
 

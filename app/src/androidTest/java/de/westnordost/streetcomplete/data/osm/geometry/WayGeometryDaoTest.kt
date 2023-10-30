@@ -1,9 +1,9 @@
-package de.westnordost.streetcomplete.data.osm.geometry
+package de.westnordost.streetcompletegpx.data.osm.geometry
 
-import de.westnordost.streetcomplete.data.ApplicationDbTestCase
-import de.westnordost.streetcomplete.data.osm.mapdata.ElementType
-import de.westnordost.streetcomplete.data.osm.mapdata.LatLon
-import de.westnordost.streetcomplete.util.ktx.containsExactlyInAnyOrder
+import de.westnordost.streetcompletegpx.data.ApplicationDbTestCase
+import de.westnordost.streetcompletegpx.data.osm.mapdata.ElementType
+import de.westnordost.streetcompletegpx.data.osm.mapdata.LatLon
+import de.westnordost.streetcompletegpx.util.ktx.containsExactlyInAnyOrder
 import kotlin.test.BeforeTest
 import kotlin.test.Test
 import kotlin.test.assertEquals

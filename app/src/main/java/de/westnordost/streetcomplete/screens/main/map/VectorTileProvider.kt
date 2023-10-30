@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.screens.main.map
+package de.westnordost.streetcompletegpx.screens.main.map
 
 abstract class VectorTileProvider(
     val title: String,

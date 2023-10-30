@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.screens.main.bottom_sheet
+package de.westnordost.streetcompletegpx.screens.main.bottom_sheet
 
 import android.content.res.Resources
 import android.graphics.Canvas
@@ -8,7 +8,7 @@ import android.graphics.PixelFormat
 import android.graphics.PointF
 import android.graphics.drawable.Drawable
 import androidx.core.graphics.minus
-import de.westnordost.streetcomplete.util.ktx.translate
+import de.westnordost.streetcompletegpx.util.ktx.translate
 import kotlin.math.PI
 import kotlin.math.atan2
 import kotlin.math.sqrt

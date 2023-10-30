@@ -1,7 +1,7 @@
-package de.westnordost.streetcomplete.quests.drinking_water
+package de.westnordost.streetcompletegpx.quests.drinking_water
 
-import de.westnordost.streetcomplete.quests.TestMapDataWithGeometry
-import de.westnordost.streetcomplete.testutils.node
+import de.westnordost.streetcompletegpx.quests.TestMapDataWithGeometry
+import de.westnordost.streetcompletegpx.testutils.node
 import kotlin.test.Test
 import kotlin.test.assertEquals
 

@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.quests.sport
+package de.westnordost.streetcompletegpx.quests.sport
 
 enum class Sport(val osmValue: String) {
     MULTI("multi"),

@@ -1,17 +1,17 @@
-package de.westnordost.streetcomplete.quests.bike_shop
+package de.westnordost.streetcompletegpx.quests.bike_shop
 
-import de.westnordost.streetcomplete.R
-import de.westnordost.streetcomplete.data.osm.geometry.ElementGeometry
-import de.westnordost.streetcomplete.data.osm.mapdata.Element
-import de.westnordost.streetcomplete.data.osm.mapdata.MapDataWithGeometry
-import de.westnordost.streetcomplete.data.osm.mapdata.filter
-import de.westnordost.streetcomplete.data.osm.osmquests.OsmFilterQuestType
-import de.westnordost.streetcomplete.data.user.achievements.EditTypeAchievement.BICYCLIST
-import de.westnordost.streetcomplete.osm.IS_SHOP_OR_DISUSED_SHOP_EXPRESSION
-import de.westnordost.streetcomplete.osm.Tags
-import de.westnordost.streetcomplete.osm.updateWithCheckDate
-import de.westnordost.streetcomplete.quests.YesNoQuestForm
-import de.westnordost.streetcomplete.util.ktx.toYesNo
+import de.westnordost.streetcompletegpx.R
+import de.westnordost.streetcompletegpx.data.osm.geometry.ElementGeometry
+import de.westnordost.streetcompletegpx.data.osm.mapdata.Element
+import de.westnordost.streetcompletegpx.data.osm.mapdata.MapDataWithGeometry
+import de.westnordost.streetcompletegpx.data.osm.mapdata.filter
+import de.westnordost.streetcompletegpx.data.osm.osmquests.OsmFilterQuestType
+import de.westnordost.streetcompletegpx.data.user.achievements.EditTypeAchievement.BICYCLIST
+import de.westnordost.streetcompletegpx.osm.IS_SHOP_OR_DISUSED_SHOP_EXPRESSION
+import de.westnordost.streetcompletegpx.osm.Tags
+import de.westnordost.streetcompletegpx.osm.updateWithCheckDate
+import de.westnordost.streetcompletegpx.quests.YesNoQuestForm
+import de.westnordost.streetcompletegpx.util.ktx.toYesNo
 
 class AddBikeRepairAvailability : OsmFilterQuestType<Boolean>() {
 

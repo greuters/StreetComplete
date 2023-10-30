@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.data.osm.osmquests
+package de.westnordost.streetcompletegpx.data.osm.osmquests
 
 import org.koin.core.qualifier.named
 import org.koin.dsl.module

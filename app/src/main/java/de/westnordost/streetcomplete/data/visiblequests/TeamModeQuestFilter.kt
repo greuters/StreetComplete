@@ -1,12 +1,12 @@
-package de.westnordost.streetcomplete.data.visiblequests
+package de.westnordost.streetcompletegpx.data.visiblequests
 
 import android.content.SharedPreferences
 import androidx.core.content.edit
-import de.westnordost.streetcomplete.Prefs
-import de.westnordost.streetcomplete.data.osm.created_elements.CreatedElementsSource
-import de.westnordost.streetcomplete.data.osm.osmquests.OsmQuest
-import de.westnordost.streetcomplete.data.osmnotes.notequests.OsmNoteQuest
-import de.westnordost.streetcomplete.data.quest.Quest
+import de.westnordost.streetcompletegpx.Prefs
+import de.westnordost.streetcompletegpx.data.osm.created_elements.CreatedElementsSource
+import de.westnordost.streetcompletegpx.data.osm.osmquests.OsmQuest
+import de.westnordost.streetcompletegpx.data.osmnotes.notequests.OsmNoteQuest
+import de.westnordost.streetcompletegpx.data.quest.Quest
 import java.util.concurrent.CopyOnWriteArrayList
 
 /** Controller for filtering all quests that are hidden because they are shown to other users in

@@ -1,7 +1,7 @@
-package de.westnordost.streetcomplete.data.osm.edits
+package de.westnordost.streetcompletegpx.data.osm.edits
 
-import de.westnordost.streetcomplete.data.osm.mapdata.ElementKey
-import de.westnordost.streetcomplete.data.osm.mapdata.ElementType
+import de.westnordost.streetcompletegpx.data.osm.mapdata.ElementKey
+import de.westnordost.streetcompletegpx.data.osm.mapdata.ElementType
 
 /** Provides stable element ids for the creation of new elements */
 class ElementIdProvider(elementKeys: Collection<ElementKey>) {

@@ -1,11 +1,11 @@
-package de.westnordost.streetcomplete.data.osm.osmquests
+package de.westnordost.streetcompletegpx.data.osm.osmquests
 
-import de.westnordost.streetcomplete.data.osm.geometry.ElementGeometry
-import de.westnordost.streetcomplete.data.osm.mapdata.Element
-import de.westnordost.streetcomplete.data.osm.mapdata.MapDataWithGeometry
-import de.westnordost.streetcomplete.data.user.achievements.EditTypeAchievement
-import de.westnordost.streetcomplete.osm.Tags
-import de.westnordost.streetcomplete.quests.AbstractOsmQuestForm
+import de.westnordost.streetcompletegpx.data.osm.geometry.ElementGeometry
+import de.westnordost.streetcompletegpx.data.osm.mapdata.Element
+import de.westnordost.streetcompletegpx.data.osm.mapdata.MapDataWithGeometry
+import de.westnordost.streetcompletegpx.data.user.achievements.EditTypeAchievement
+import de.westnordost.streetcompletegpx.osm.Tags
+import de.westnordost.streetcompletegpx.quests.AbstractOsmQuestForm
 
 open class TestQuestType : OsmElementQuestType<String> {
 

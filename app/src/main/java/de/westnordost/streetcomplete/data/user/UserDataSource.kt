@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.data.user
+package de.westnordost.streetcompletegpx.data.user
 
 interface UserDataSource {
     interface Listener {

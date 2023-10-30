@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.util
+package de.westnordost.streetcompletegpx.util
 
 import android.content.Context
 import android.content.res.Configuration
@@ -8,8 +8,8 @@ import android.os.LocaleList
 import androidx.core.os.ConfigurationCompat
 import androidx.core.os.LocaleListCompat
 import androidx.preference.PreferenceManager
-import de.westnordost.streetcomplete.Prefs
-import de.westnordost.streetcomplete.util.ktx.addedToFront
+import de.westnordost.streetcompletegpx.Prefs
+import de.westnordost.streetcompletegpx.util.ktx.addedToFront
 import java.util.Locale
 
 /** Get the override-locale selected in this app or null if there is no override */

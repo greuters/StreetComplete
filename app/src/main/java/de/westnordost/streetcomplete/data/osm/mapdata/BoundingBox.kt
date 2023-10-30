@@ -1,6 +1,6 @@
-package de.westnordost.streetcomplete.data.osm.mapdata
+package de.westnordost.streetcompletegpx.data.osm.mapdata
 
-import de.westnordost.streetcomplete.util.math.normalizeLongitude
+import de.westnordost.streetcompletegpx.util.math.normalizeLongitude
 import kotlinx.serialization.Serializable
 
 @Serializable

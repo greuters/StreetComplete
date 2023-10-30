@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.data
+package de.westnordost.streetcompletegpx.data
 
 /** A class where objects of a certain type are
  *  1. registered and can be recalled by class name

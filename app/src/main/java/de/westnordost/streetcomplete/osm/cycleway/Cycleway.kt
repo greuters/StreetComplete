@@ -1,13 +1,13 @@
-package de.westnordost.streetcomplete.osm.cycleway
+package de.westnordost.streetcompletegpx.osm.cycleway
 
-import de.westnordost.streetcomplete.data.meta.CountryInfo
-import de.westnordost.streetcomplete.osm.cycleway.Cycleway.*
-import de.westnordost.streetcomplete.osm.cycleway.Direction.*
-import de.westnordost.streetcomplete.osm.isForwardOneway
-import de.westnordost.streetcomplete.osm.isInContraflowOfOneway
-import de.westnordost.streetcomplete.osm.isNotOnewayForCyclists
-import de.westnordost.streetcomplete.osm.isOneway
-import de.westnordost.streetcomplete.osm.isReversedOneway
+import de.westnordost.streetcompletegpx.data.meta.CountryInfo
+import de.westnordost.streetcompletegpx.osm.cycleway.Cycleway.*
+import de.westnordost.streetcompletegpx.osm.cycleway.Direction.*
+import de.westnordost.streetcompletegpx.osm.isForwardOneway
+import de.westnordost.streetcompletegpx.osm.isInContraflowOfOneway
+import de.westnordost.streetcompletegpx.osm.isNotOnewayForCyclists
+import de.westnordost.streetcompletegpx.osm.isOneway
+import de.westnordost.streetcompletegpx.osm.isReversedOneway
 import kotlinx.serialization.Serializable
 
 data class LeftAndRightCycleway(val left: CyclewayAndDirection?, val right: CyclewayAndDirection?)

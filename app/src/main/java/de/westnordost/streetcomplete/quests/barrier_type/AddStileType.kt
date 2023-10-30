@@ -1,15 +1,15 @@
-package de.westnordost.streetcomplete.quests.barrier_type
+package de.westnordost.streetcompletegpx.quests.barrier_type
 
-import de.westnordost.streetcomplete.R
-import de.westnordost.streetcomplete.data.elementfilter.toElementFilterExpression
-import de.westnordost.streetcomplete.data.osm.geometry.ElementGeometry
-import de.westnordost.streetcomplete.data.osm.mapdata.Element
-import de.westnordost.streetcomplete.data.osm.mapdata.MapDataWithGeometry
-import de.westnordost.streetcomplete.data.osm.osmquests.OsmElementQuestType
-import de.westnordost.streetcomplete.data.user.achievements.EditTypeAchievement.OUTDOORS
-import de.westnordost.streetcomplete.osm.Tags
-import de.westnordost.streetcomplete.osm.hasCheckDate
-import de.westnordost.streetcomplete.osm.updateCheckDate
+import de.westnordost.streetcompletegpx.R
+import de.westnordost.streetcompletegpx.data.elementfilter.toElementFilterExpression
+import de.westnordost.streetcompletegpx.data.osm.geometry.ElementGeometry
+import de.westnordost.streetcompletegpx.data.osm.mapdata.Element
+import de.westnordost.streetcompletegpx.data.osm.mapdata.MapDataWithGeometry
+import de.westnordost.streetcompletegpx.data.osm.osmquests.OsmElementQuestType
+import de.westnordost.streetcompletegpx.data.user.achievements.EditTypeAchievement.OUTDOORS
+import de.westnordost.streetcompletegpx.osm.Tags
+import de.westnordost.streetcompletegpx.osm.hasCheckDate
+import de.westnordost.streetcompletegpx.osm.updateCheckDate
 
 class AddStileType : OsmElementQuestType<StileTypeAnswer> {
 

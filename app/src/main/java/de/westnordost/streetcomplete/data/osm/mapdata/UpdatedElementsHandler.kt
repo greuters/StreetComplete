@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.data.osm.mapdata
+package de.westnordost.streetcompletegpx.data.osm.mapdata
 
 /** Reads the answer of an update map call on the OSM API. */
 class UpdatedElementsHandler(val ignoreRelationTypes: Set<String?> = emptySet()) {

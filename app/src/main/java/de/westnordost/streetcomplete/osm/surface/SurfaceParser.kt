@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.osm.surface
+package de.westnordost.streetcompletegpx.osm.surface
 
 /** Parse the surface and optional associated note from the given [tags].
  *  Specify a [prefix] if you want for example the surface of the "footway" (then looks for

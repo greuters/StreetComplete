@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.view
+package de.westnordost.streetcompletegpx.view
 
 import android.content.Context
 import android.graphics.Canvas
@@ -8,7 +8,7 @@ import android.util.AttributeSet
 import android.widget.FrameLayout
 import androidx.annotation.Keep
 import androidx.core.content.withStyledAttributes
-import de.westnordost.streetcomplete.R
+import de.westnordost.streetcompletegpx.R
 import kotlin.math.sqrt
 
 /** A frame layout that masks its children in a circle or oval if not square */

@@ -1,14 +1,14 @@
-package de.westnordost.streetcomplete.data.osm.edits.upload
+package de.westnordost.streetcompletegpx.data.osm.edits.upload
 
-import de.westnordost.streetcomplete.ApplicationConstants
-import de.westnordost.streetcomplete.data.osm.edits.ElementEdit
-import de.westnordost.streetcomplete.data.osm.edits.ElementIdProvider
-import de.westnordost.streetcomplete.data.osm.edits.upload.changesets.OpenChangesetsManager
-import de.westnordost.streetcomplete.data.osm.mapdata.MapDataApi
-import de.westnordost.streetcomplete.data.osm.mapdata.MapDataChanges
-import de.westnordost.streetcomplete.data.osm.mapdata.MapDataController
-import de.westnordost.streetcomplete.data.osm.mapdata.MapDataUpdates
-import de.westnordost.streetcomplete.data.upload.ConflictException
+import de.westnordost.streetcompletegpx.ApplicationConstants
+import de.westnordost.streetcompletegpx.data.osm.edits.ElementEdit
+import de.westnordost.streetcompletegpx.data.osm.edits.ElementIdProvider
+import de.westnordost.streetcompletegpx.data.osm.edits.upload.changesets.OpenChangesetsManager
+import de.westnordost.streetcompletegpx.data.osm.mapdata.MapDataApi
+import de.westnordost.streetcompletegpx.data.osm.mapdata.MapDataChanges
+import de.westnordost.streetcompletegpx.data.osm.mapdata.MapDataController
+import de.westnordost.streetcompletegpx.data.osm.mapdata.MapDataUpdates
+import de.westnordost.streetcompletegpx.data.upload.ConflictException
 
 class ElementEditUploader(
     private val changesetManager: OpenChangesetsManager,

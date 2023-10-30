@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.osm
+package de.westnordost.streetcompletegpx.osm
 
 /** Expands [prefix]:both:[suffix] and [prefix]:[suffix] (if [useNakedTag] is `true`) into
  *  the keys [prefix]:left:[suffix] and [prefix]:right:[suffix] if they don't exist in the map yet.

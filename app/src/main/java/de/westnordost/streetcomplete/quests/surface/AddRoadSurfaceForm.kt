@@ -1,13 +1,13 @@
-package de.westnordost.streetcomplete.quests.surface
+package de.westnordost.streetcompletegpx.quests.surface
 
 import androidx.appcompat.app.AlertDialog
-import de.westnordost.streetcomplete.R
-import de.westnordost.streetcomplete.osm.surface.SELECTABLE_WAY_SURFACES
-import de.westnordost.streetcomplete.osm.surface.Surface
-import de.westnordost.streetcomplete.osm.surface.SurfaceAndNote
-import de.westnordost.streetcomplete.osm.surface.isSurfaceAndTracktypeConflicting
-import de.westnordost.streetcomplete.osm.surface.toItems
-import de.westnordost.streetcomplete.quests.AImageListQuestForm
+import de.westnordost.streetcompletegpx.R
+import de.westnordost.streetcompletegpx.osm.surface.SELECTABLE_WAY_SURFACES
+import de.westnordost.streetcompletegpx.osm.surface.Surface
+import de.westnordost.streetcompletegpx.osm.surface.SurfaceAndNote
+import de.westnordost.streetcompletegpx.osm.surface.isSurfaceAndTracktypeConflicting
+import de.westnordost.streetcompletegpx.osm.surface.toItems
+import de.westnordost.streetcompletegpx.quests.AImageListQuestForm
 
 class AddRoadSurfaceForm : AImageListQuestForm<Surface, SurfaceAndNote>() {
     override val items get() = SELECTABLE_WAY_SURFACES.toItems()

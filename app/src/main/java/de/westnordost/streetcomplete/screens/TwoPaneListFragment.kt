@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.screens
+package de.westnordost.streetcompletegpx.screens
 
 import android.os.Bundle
 import android.view.View
@@ -6,8 +6,8 @@ import androidx.core.view.isGone
 import androidx.fragment.app.FragmentOnAttachListener
 import androidx.preference.Preference
 import androidx.preference.PreferenceFragmentCompat
-import de.westnordost.streetcomplete.R
-import de.westnordost.streetcomplete.util.ktx.asRecursiveSequence
+import de.westnordost.streetcompletegpx.R
+import de.westnordost.streetcompletegpx.util.ktx.asRecursiveSequence
 
 /** A two pane list fragment that handles showing a divider to separate the detail view and allows
  * highlighting the preference belonging to the fragment shown in the detail pane. */

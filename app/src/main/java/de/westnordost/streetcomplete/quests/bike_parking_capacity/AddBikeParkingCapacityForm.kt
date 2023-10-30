@@ -1,14 +1,14 @@
-package de.westnordost.streetcomplete.quests.bike_parking_capacity
+package de.westnordost.streetcompletegpx.quests.bike_parking_capacity
 
 import android.os.Bundle
 import android.view.View
 import androidx.core.os.bundleOf
 import androidx.core.view.isGone
 import androidx.core.widget.doAfterTextChanged
-import de.westnordost.streetcomplete.R
-import de.westnordost.streetcomplete.databinding.QuestBikeParkingCapacityBinding
-import de.westnordost.streetcomplete.quests.AbstractOsmQuestForm
-import de.westnordost.streetcomplete.util.ktx.intOrNull
+import de.westnordost.streetcompletegpx.R
+import de.westnordost.streetcompletegpx.databinding.QuestBikeParkingCapacityBinding
+import de.westnordost.streetcompletegpx.quests.AbstractOsmQuestForm
+import de.westnordost.streetcompletegpx.util.ktx.intOrNull
 
 class AddBikeParkingCapacityForm : AbstractOsmQuestForm<Int>() {
 

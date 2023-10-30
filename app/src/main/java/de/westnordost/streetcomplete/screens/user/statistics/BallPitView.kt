@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.screens.user.statistics
+package de.westnordost.streetcompletegpx.screens.user.statistics
 
 import android.annotation.SuppressLint
 import android.content.Context
@@ -20,9 +20,9 @@ import android.widget.FrameLayout
 import androidx.core.content.getSystemService
 import androidx.lifecycle.DefaultLifecycleObserver
 import androidx.lifecycle.LifecycleOwner
-import de.westnordost.streetcomplete.databinding.ViewBallPitBinding
-import de.westnordost.streetcomplete.util.ktx.awaitPreDraw
-import de.westnordost.streetcomplete.util.ktx.sumByFloat
+import de.westnordost.streetcompletegpx.databinding.ViewBallPitBinding
+import de.westnordost.streetcompletegpx.util.ktx.awaitPreDraw
+import de.westnordost.streetcompletegpx.util.ktx.sumByFloat
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.SupervisorJob

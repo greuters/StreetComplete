@@ -1,11 +1,11 @@
-package de.westnordost.streetcomplete.data.elementfilter.filters
+package de.westnordost.streetcompletegpx.data.elementfilter.filters
 
-import de.westnordost.streetcomplete.data.elementfilter.Matcher
-import de.westnordost.streetcomplete.data.elementfilter.withOptionalUnitToDoubleOrNull
-import de.westnordost.streetcomplete.data.osm.mapdata.Element
-import de.westnordost.streetcomplete.osm.getLastCheckDateKeys
-import de.westnordost.streetcomplete.osm.toCheckDate
-import de.westnordost.streetcomplete.util.ktx.toLocalDate
+import de.westnordost.streetcompletegpx.data.elementfilter.Matcher
+import de.westnordost.streetcompletegpx.data.elementfilter.withOptionalUnitToDoubleOrNull
+import de.westnordost.streetcompletegpx.data.osm.mapdata.Element
+import de.westnordost.streetcompletegpx.osm.getLastCheckDateKeys
+import de.westnordost.streetcompletegpx.osm.toCheckDate
+import de.westnordost.streetcompletegpx.util.ktx.toLocalDate
 import kotlinx.datetime.Instant
 import kotlinx.datetime.LocalDate
 

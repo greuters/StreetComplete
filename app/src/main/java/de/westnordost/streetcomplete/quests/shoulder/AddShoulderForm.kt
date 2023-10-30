@@ -1,16 +1,16 @@
-package de.westnordost.streetcomplete.quests.shoulder
+package de.westnordost.streetcompletegpx.quests.shoulder
 
 import android.os.Bundle
 import android.view.View
 import android.widget.TextView
-import de.westnordost.streetcomplete.R
-import de.westnordost.streetcomplete.quests.AStreetSideSelectForm
-import de.westnordost.streetcomplete.util.ktx.shoulderLineStyleResId
-import de.westnordost.streetcomplete.view.controller.StreetSideDisplayItem
-import de.westnordost.streetcomplete.view.controller.StreetSideItem
-import de.westnordost.streetcomplete.view.image_select.DisplayItem
-import de.westnordost.streetcomplete.view.image_select.ImageListPickerDialog
-import de.westnordost.streetcomplete.view.image_select.Item
+import de.westnordost.streetcompletegpx.R
+import de.westnordost.streetcompletegpx.quests.AStreetSideSelectForm
+import de.westnordost.streetcompletegpx.util.ktx.shoulderLineStyleResId
+import de.westnordost.streetcompletegpx.view.controller.StreetSideDisplayItem
+import de.westnordost.streetcompletegpx.view.controller.StreetSideItem
+import de.westnordost.streetcompletegpx.view.image_select.DisplayItem
+import de.westnordost.streetcompletegpx.view.image_select.ImageListPickerDialog
+import de.westnordost.streetcompletegpx.view.image_select.Item
 
 class AddShoulderForm : AStreetSideSelectForm<Boolean, ShoulderSides>() {
 

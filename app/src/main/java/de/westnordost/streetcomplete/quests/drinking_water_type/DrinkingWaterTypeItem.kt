@@ -1,15 +1,15 @@
-package de.westnordost.streetcomplete.quests.drinking_water_type
+package de.westnordost.streetcompletegpx.quests.drinking_water_type
 
-import de.westnordost.streetcomplete.R
-import de.westnordost.streetcomplete.quests.drinking_water_type.DrinkingWaterType.DISUSED_DRINKING_WATER
-import de.westnordost.streetcomplete.quests.drinking_water_type.DrinkingWaterType.HAND_PUMP
-import de.westnordost.streetcomplete.quests.drinking_water_type.DrinkingWaterType.SPRING
-import de.westnordost.streetcomplete.quests.drinking_water_type.DrinkingWaterType.WATER_FOUNTAIN_BOTTLE_REFILL_ONLY
-import de.westnordost.streetcomplete.quests.drinking_water_type.DrinkingWaterType.WATER_FOUNTAIN_GENERIC
-import de.westnordost.streetcomplete.quests.drinking_water_type.DrinkingWaterType.WATER_FOUNTAIN_JET
-import de.westnordost.streetcomplete.quests.drinking_water_type.DrinkingWaterType.WATER_TAP
-import de.westnordost.streetcomplete.quests.drinking_water_type.DrinkingWaterType.WATER_WELL_WITHOUT_PUMP
-import de.westnordost.streetcomplete.view.image_select.Item
+import de.westnordost.streetcompletegpx.R
+import de.westnordost.streetcompletegpx.quests.drinking_water_type.DrinkingWaterType.DISUSED_DRINKING_WATER
+import de.westnordost.streetcompletegpx.quests.drinking_water_type.DrinkingWaterType.HAND_PUMP
+import de.westnordost.streetcompletegpx.quests.drinking_water_type.DrinkingWaterType.SPRING
+import de.westnordost.streetcompletegpx.quests.drinking_water_type.DrinkingWaterType.WATER_FOUNTAIN_BOTTLE_REFILL_ONLY
+import de.westnordost.streetcompletegpx.quests.drinking_water_type.DrinkingWaterType.WATER_FOUNTAIN_GENERIC
+import de.westnordost.streetcompletegpx.quests.drinking_water_type.DrinkingWaterType.WATER_FOUNTAIN_JET
+import de.westnordost.streetcompletegpx.quests.drinking_water_type.DrinkingWaterType.WATER_TAP
+import de.westnordost.streetcompletegpx.quests.drinking_water_type.DrinkingWaterType.WATER_WELL_WITHOUT_PUMP
+import de.westnordost.streetcompletegpx.view.image_select.Item
 
 fun DrinkingWaterType.asItem() = Item(this, iconResId, titleResId)
 

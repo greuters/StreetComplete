@@ -1,8 +1,8 @@
-package de.westnordost.streetcomplete.quests.camera_type
+package de.westnordost.streetcompletegpx.quests.camera_type
 
 import android.os.Bundle
-import de.westnordost.streetcomplete.R
-import de.westnordost.streetcomplete.quests.AImageListQuestForm
+import de.westnordost.streetcompletegpx.R
+import de.westnordost.streetcompletegpx.quests.AImageListQuestForm
 
 class AddCameraTypeForm : AImageListQuestForm<CameraType, CameraType>() {
 

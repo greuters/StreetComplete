@@ -1,13 +1,13 @@
-package de.westnordost.streetcomplete.quests.car_wash_type
+package de.westnordost.streetcompletegpx.quests.car_wash_type
 
-import de.westnordost.streetcomplete.R
-import de.westnordost.streetcomplete.data.osm.geometry.ElementGeometry
-import de.westnordost.streetcomplete.data.osm.osmquests.OsmFilterQuestType
-import de.westnordost.streetcomplete.data.user.achievements.EditTypeAchievement.CAR
-import de.westnordost.streetcomplete.osm.Tags
-import de.westnordost.streetcomplete.quests.car_wash_type.CarWashType.AUTOMATED
-import de.westnordost.streetcomplete.quests.car_wash_type.CarWashType.SELF_SERVICE
-import de.westnordost.streetcomplete.util.ktx.toYesNo
+import de.westnordost.streetcompletegpx.R
+import de.westnordost.streetcompletegpx.data.osm.geometry.ElementGeometry
+import de.westnordost.streetcompletegpx.data.osm.osmquests.OsmFilterQuestType
+import de.westnordost.streetcompletegpx.data.user.achievements.EditTypeAchievement.CAR
+import de.westnordost.streetcompletegpx.osm.Tags
+import de.westnordost.streetcompletegpx.quests.car_wash_type.CarWashType.AUTOMATED
+import de.westnordost.streetcompletegpx.quests.car_wash_type.CarWashType.SELF_SERVICE
+import de.westnordost.streetcompletegpx.util.ktx.toYesNo
 
 class AddCarWashType : OsmFilterQuestType<List<CarWashType>>() {
 

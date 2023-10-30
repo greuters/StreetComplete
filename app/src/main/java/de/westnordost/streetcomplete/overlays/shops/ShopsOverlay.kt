@@ -1,21 +1,21 @@
-package de.westnordost.streetcomplete.overlays.shops
+package de.westnordost.streetcompletegpx.overlays.shops
 
 import de.westnordost.osmfeatures.Feature
-import de.westnordost.streetcomplete.R
-import de.westnordost.streetcomplete.data.osm.mapdata.Element
-import de.westnordost.streetcomplete.data.osm.mapdata.MapDataWithGeometry
-import de.westnordost.streetcomplete.data.osm.mapdata.Node
-import de.westnordost.streetcomplete.data.osm.mapdata.filter
-import de.westnordost.streetcomplete.data.user.achievements.EditTypeAchievement
-import de.westnordost.streetcomplete.osm.IS_SHOP_OR_DISUSED_SHOP_EXPRESSION
-import de.westnordost.streetcomplete.overlays.Color
-import de.westnordost.streetcomplete.overlays.Overlay
-import de.westnordost.streetcomplete.overlays.PointStyle
-import de.westnordost.streetcomplete.overlays.PolygonStyle
-import de.westnordost.streetcomplete.quests.place_name.AddPlaceName
-import de.westnordost.streetcomplete.quests.shop_type.CheckShopType
-import de.westnordost.streetcomplete.quests.shop_type.SpecifyShopType
-import de.westnordost.streetcomplete.util.getNameLabel
+import de.westnordost.streetcompletegpx.R
+import de.westnordost.streetcompletegpx.data.osm.mapdata.Element
+import de.westnordost.streetcompletegpx.data.osm.mapdata.MapDataWithGeometry
+import de.westnordost.streetcompletegpx.data.osm.mapdata.Node
+import de.westnordost.streetcompletegpx.data.osm.mapdata.filter
+import de.westnordost.streetcompletegpx.data.user.achievements.EditTypeAchievement
+import de.westnordost.streetcompletegpx.osm.IS_SHOP_OR_DISUSED_SHOP_EXPRESSION
+import de.westnordost.streetcompletegpx.overlays.Color
+import de.westnordost.streetcompletegpx.overlays.Overlay
+import de.westnordost.streetcompletegpx.overlays.PointStyle
+import de.westnordost.streetcompletegpx.overlays.PolygonStyle
+import de.westnordost.streetcompletegpx.quests.place_name.AddPlaceName
+import de.westnordost.streetcompletegpx.quests.shop_type.CheckShopType
+import de.westnordost.streetcompletegpx.quests.shop_type.SpecifyShopType
+import de.westnordost.streetcompletegpx.util.getNameLabel
 
 class ShopsOverlay(private val getFeature: (tags: Map<String, String>) -> Feature?) : Overlay {
 

@@ -1,7 +1,7 @@
-package de.westnordost.streetcomplete.data.download.tiles
+package de.westnordost.streetcompletegpx.data.download.tiles
 
-import de.westnordost.streetcomplete.testutils.bbox
-import de.westnordost.streetcomplete.testutils.p
+import de.westnordost.streetcompletegpx.testutils.bbox
+import de.westnordost.streetcompletegpx.testutils.p
 import kotlin.test.Test
 import kotlin.test.assertEquals
 import kotlin.test.assertNull

@@ -1,8 +1,8 @@
-package de.westnordost.streetcomplete.quests.barrier_bicycle_barrier_installation
+package de.westnordost.streetcompletegpx.quests.barrier_bicycle_barrier_installation
 
-import de.westnordost.streetcomplete.R
-import de.westnordost.streetcomplete.quests.AImageListQuestForm
-import de.westnordost.streetcomplete.quests.AnswerItem
+import de.westnordost.streetcompletegpx.R
+import de.westnordost.streetcompletegpx.quests.AImageListQuestForm
+import de.westnordost.streetcompletegpx.quests.AnswerItem
 
 class AddBicycleBarrierInstallationForm :
     AImageListQuestForm<BicycleBarrierInstallation, BicycleBarrierInstallationAnswer>() {

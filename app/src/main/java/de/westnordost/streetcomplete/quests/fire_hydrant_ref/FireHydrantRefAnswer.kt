@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.quests.fire_hydrant_ref
+package de.westnordost.streetcompletegpx.quests.fire_hydrant_ref
 
 sealed interface FireHydrantRefAnswer
 

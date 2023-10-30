@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.data.visiblequests
+package de.westnordost.streetcompletegpx.data.visiblequests
 
 interface QuestPresetsSource {
     interface Listener {

@@ -1,12 +1,12 @@
-package de.westnordost.streetcomplete.quests.construction
+package de.westnordost.streetcompletegpx.quests.construction
 
-import de.westnordost.streetcomplete.R
-import de.westnordost.streetcomplete.data.osm.geometry.ElementGeometry
-import de.westnordost.streetcomplete.data.osm.osmquests.OsmFilterQuestType
-import de.westnordost.streetcomplete.data.user.achievements.EditTypeAchievement.BUILDING
-import de.westnordost.streetcomplete.osm.Tags
-import de.westnordost.streetcomplete.osm.toCheckDateString
-import de.westnordost.streetcomplete.osm.updateCheckDate
+import de.westnordost.streetcompletegpx.R
+import de.westnordost.streetcompletegpx.data.osm.geometry.ElementGeometry
+import de.westnordost.streetcompletegpx.data.osm.osmquests.OsmFilterQuestType
+import de.westnordost.streetcompletegpx.data.user.achievements.EditTypeAchievement.BUILDING
+import de.westnordost.streetcompletegpx.osm.Tags
+import de.westnordost.streetcompletegpx.osm.toCheckDateString
+import de.westnordost.streetcompletegpx.osm.updateCheckDate
 
 class MarkCompletedBuildingConstruction : OsmFilterQuestType<CompletedConstructionAnswer>() {
 

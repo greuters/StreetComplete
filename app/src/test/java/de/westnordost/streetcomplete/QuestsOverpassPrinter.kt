@@ -1,10 +1,10 @@
-package de.westnordost.streetcomplete
+package de.westnordost.streetcompletegpx
 
-import de.westnordost.streetcomplete.data.elementfilter.toOverpassQLString
-import de.westnordost.streetcomplete.data.osm.osmquests.OsmElementQuestType
-import de.westnordost.streetcomplete.data.osm.osmquests.OsmFilterQuestType
-import de.westnordost.streetcomplete.quests.questTypeRegistry
-import de.westnordost.streetcomplete.testutils.mock
+import de.westnordost.streetcompletegpx.data.elementfilter.toOverpassQLString
+import de.westnordost.streetcompletegpx.data.osm.osmquests.OsmElementQuestType
+import de.westnordost.streetcompletegpx.data.osm.osmquests.OsmFilterQuestType
+import de.westnordost.streetcompletegpx.quests.questTypeRegistry
+import de.westnordost.streetcompletegpx.testutils.mock
 
 fun main() {
 

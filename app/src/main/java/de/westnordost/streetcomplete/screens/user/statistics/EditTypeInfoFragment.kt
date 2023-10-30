@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.screens.user.statistics
+package de.westnordost.streetcompletegpx.screens.user.statistics
 
 import android.animation.ValueAnimator
 import android.os.Bundle
@@ -6,12 +6,12 @@ import android.view.View
 import android.view.animation.DecelerateInterpolator
 import androidx.core.animation.doOnStart
 import androidx.core.view.isInvisible
-import de.westnordost.streetcomplete.R
-import de.westnordost.streetcomplete.data.osm.edits.EditType
-import de.westnordost.streetcomplete.databinding.FragmentEditTypeInfoDialogBinding
-import de.westnordost.streetcomplete.util.ktx.openUri
-import de.westnordost.streetcomplete.util.viewBinding
-import de.westnordost.streetcomplete.view.CircularOutlineProvider
+import de.westnordost.streetcompletegpx.R
+import de.westnordost.streetcompletegpx.data.osm.edits.EditType
+import de.westnordost.streetcompletegpx.databinding.FragmentEditTypeInfoDialogBinding
+import de.westnordost.streetcompletegpx.util.ktx.openUri
+import de.westnordost.streetcompletegpx.util.viewBinding
+import de.westnordost.streetcompletegpx.view.CircularOutlineProvider
 import kotlin.math.min
 import kotlin.math.pow
 

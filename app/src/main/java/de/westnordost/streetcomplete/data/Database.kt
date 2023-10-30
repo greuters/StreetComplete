@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.data
+package de.westnordost.streetcompletegpx.data
 
 interface Database {
 

@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.data.elementfilter
+package de.westnordost.streetcompletegpx.data.elementfilter
 
 import kotlin.math.max
 import kotlin.math.min

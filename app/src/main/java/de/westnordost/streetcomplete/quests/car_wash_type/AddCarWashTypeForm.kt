@@ -1,6 +1,6 @@
-package de.westnordost.streetcomplete.quests.car_wash_type
+package de.westnordost.streetcompletegpx.quests.car_wash_type
 
-import de.westnordost.streetcomplete.quests.AImageListQuestForm
+import de.westnordost.streetcompletegpx.quests.AImageListQuestForm
 
 class AddCarWashTypeForm : AImageListQuestForm<CarWashType, List<CarWashType>>() {
 

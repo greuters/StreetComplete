@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.screens.user.login
+package de.westnordost.streetcompletegpx.screens.user.login
 
 import android.os.Bundle
 import android.view.View
@@ -11,16 +11,16 @@ import androidx.fragment.app.commit
 import androidx.fragment.app.replace
 import de.westnordost.osmapi.user.Permission
 import de.westnordost.osmapi.user.PermissionsApi
-import de.westnordost.streetcomplete.R
-import de.westnordost.streetcomplete.data.UnsyncedChangesCountSource
-import de.westnordost.streetcomplete.data.osmConnection
-import de.westnordost.streetcomplete.data.user.UserLoginStatusController
-import de.westnordost.streetcomplete.data.user.UserUpdater
-import de.westnordost.streetcomplete.databinding.FragmentLoginBinding
-import de.westnordost.streetcomplete.screens.HasTitle
-import de.westnordost.streetcomplete.util.ktx.toast
-import de.westnordost.streetcomplete.util.ktx.viewLifecycleScope
-import de.westnordost.streetcomplete.util.viewBinding
+import de.westnordost.streetcompletegpx.R
+import de.westnordost.streetcompletegpx.data.UnsyncedChangesCountSource
+import de.westnordost.streetcompletegpx.data.osmConnection
+import de.westnordost.streetcompletegpx.data.user.UserLoginStatusController
+import de.westnordost.streetcompletegpx.data.user.UserUpdater
+import de.westnordost.streetcompletegpx.databinding.FragmentLoginBinding
+import de.westnordost.streetcompletegpx.screens.HasTitle
+import de.westnordost.streetcompletegpx.util.ktx.toast
+import de.westnordost.streetcompletegpx.util.ktx.viewLifecycleScope
+import de.westnordost.streetcompletegpx.util.viewBinding
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext

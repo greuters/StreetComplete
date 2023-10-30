@@ -1,10 +1,10 @@
-package de.westnordost.streetcomplete.data.osm.edits.upload.changesets
+package de.westnordost.streetcompletegpx.data.osm.edits.upload.changesets
 
 import android.content.Context
 import androidx.work.Worker
 import androidx.work.WorkerParameters
-import de.westnordost.streetcomplete.data.download.ConnectionException
-import de.westnordost.streetcomplete.data.user.AuthorizationException
+import de.westnordost.streetcompletegpx.data.download.ConnectionException
+import de.westnordost.streetcompletegpx.data.user.AuthorizationException
 
 class ChangesetAutoCloserWorker(
     private val openChangesetsManager: OpenChangesetsManager,

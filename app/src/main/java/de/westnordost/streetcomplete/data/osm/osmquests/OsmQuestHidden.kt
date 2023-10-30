@@ -1,10 +1,10 @@
-package de.westnordost.streetcomplete.data.osm.osmquests
+package de.westnordost.streetcompletegpx.data.osm.osmquests
 
-import de.westnordost.streetcomplete.data.edithistory.Edit
-import de.westnordost.streetcomplete.data.edithistory.OsmQuestHiddenKey
-import de.westnordost.streetcomplete.data.osm.mapdata.ElementType
-import de.westnordost.streetcomplete.data.osm.mapdata.LatLon
-import de.westnordost.streetcomplete.data.quest.OsmQuestKey
+import de.westnordost.streetcompletegpx.data.edithistory.Edit
+import de.westnordost.streetcompletegpx.data.edithistory.OsmQuestHiddenKey
+import de.westnordost.streetcompletegpx.data.osm.mapdata.ElementType
+import de.westnordost.streetcompletegpx.data.osm.mapdata.LatLon
+import de.westnordost.streetcompletegpx.data.quest.OsmQuestKey
 
 data class OsmQuestHidden(
     val elementType: ElementType,

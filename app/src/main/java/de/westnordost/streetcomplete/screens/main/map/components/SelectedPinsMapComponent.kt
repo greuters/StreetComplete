@@ -1,12 +1,12 @@
-package de.westnordost.streetcomplete.screens.main.map.components
+package de.westnordost.streetcompletegpx.screens.main.map.components
 
 import android.content.Context
 import androidx.annotation.DrawableRes
 import com.mapzen.tangram.MapData
 import com.mapzen.tangram.geometry.Point
-import de.westnordost.streetcomplete.data.osm.mapdata.LatLon
-import de.westnordost.streetcomplete.screens.main.map.tangram.KtMapController
-import de.westnordost.streetcomplete.screens.main.map.tangram.toLngLat
+import de.westnordost.streetcompletegpx.data.osm.mapdata.LatLon
+import de.westnordost.streetcompletegpx.screens.main.map.tangram.KtMapController
+import de.westnordost.streetcompletegpx.screens.main.map.tangram.toLngLat
 
 /** Takes care of displaying "selected" pins. Those pins are always shown on top of pins displayed
  *  by the [PinsMapComponent] */

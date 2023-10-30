@@ -1,14 +1,14 @@
-package de.westnordost.streetcomplete.data.osm.mapdata
+package de.westnordost.streetcompletegpx.data.osm.mapdata
 
-import de.westnordost.streetcomplete.data.download.tiles.TilesRect
-import de.westnordost.streetcomplete.data.download.tiles.asBoundingBoxOfEnclosingTiles
-import de.westnordost.streetcomplete.data.download.tiles.enclosingTilePos
-import de.westnordost.streetcomplete.data.download.tiles.enclosingTilesRect
-import de.westnordost.streetcomplete.data.osm.geometry.*
-import de.westnordost.streetcomplete.testutils.*
-import de.westnordost.streetcomplete.util.ktx.containsExactlyInAnyOrder
-import de.westnordost.streetcomplete.util.math.enclosingBoundingBox
-import de.westnordost.streetcomplete.util.math.isCompletelyInside
+import de.westnordost.streetcompletegpx.data.download.tiles.TilesRect
+import de.westnordost.streetcompletegpx.data.download.tiles.asBoundingBoxOfEnclosingTiles
+import de.westnordost.streetcompletegpx.data.download.tiles.enclosingTilePos
+import de.westnordost.streetcompletegpx.data.download.tiles.enclosingTilesRect
+import de.westnordost.streetcompletegpx.data.osm.geometry.*
+import de.westnordost.streetcompletegpx.testutils.*
+import de.westnordost.streetcompletegpx.util.ktx.containsExactlyInAnyOrder
+import de.westnordost.streetcompletegpx.util.math.enclosingBoundingBox
+import de.westnordost.streetcompletegpx.util.math.isCompletelyInside
 import org.mockito.Mockito.verify
 import org.mockito.Mockito.verifyNoInteractions
 import org.mockito.Mockito.verifyNoMoreInteractions

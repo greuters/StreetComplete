@@ -1,12 +1,12 @@
-package de.westnordost.streetcomplete.quests.tourism_information
+package de.westnordost.streetcompletegpx.quests.tourism_information
 
-import de.westnordost.streetcomplete.R
-import de.westnordost.streetcomplete.data.osm.geometry.ElementGeometry
-import de.westnordost.streetcomplete.data.osm.osmquests.OsmFilterQuestType
-import de.westnordost.streetcomplete.data.user.achievements.EditTypeAchievement.CITIZEN
-import de.westnordost.streetcomplete.data.user.achievements.EditTypeAchievement.OUTDOORS
-import de.westnordost.streetcomplete.data.user.achievements.EditTypeAchievement.RARE
-import de.westnordost.streetcomplete.osm.Tags
+import de.westnordost.streetcompletegpx.R
+import de.westnordost.streetcompletegpx.data.osm.geometry.ElementGeometry
+import de.westnordost.streetcompletegpx.data.osm.osmquests.OsmFilterQuestType
+import de.westnordost.streetcompletegpx.data.user.achievements.EditTypeAchievement.CITIZEN
+import de.westnordost.streetcompletegpx.data.user.achievements.EditTypeAchievement.OUTDOORS
+import de.westnordost.streetcompletegpx.data.user.achievements.EditTypeAchievement.RARE
+import de.westnordost.streetcompletegpx.osm.Tags
 
 class AddInformationToTourism : OsmFilterQuestType<TourismInformation>() {
 

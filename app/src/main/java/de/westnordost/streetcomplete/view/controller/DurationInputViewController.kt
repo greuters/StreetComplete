@@ -1,14 +1,14 @@
-package de.westnordost.streetcomplete.view.controller
+package de.westnordost.streetcompletegpx.view.controller
 
 import android.content.res.Resources
 import android.widget.ArrayAdapter
 import android.widget.EditText
 import android.widget.Spinner
 import androidx.core.widget.doAfterTextChanged
-import de.westnordost.streetcomplete.R
-import de.westnordost.streetcomplete.util.ktx.numberOrNull
-import de.westnordost.streetcomplete.view.OnAdapterItemSelectedListener
-import de.westnordost.streetcomplete.view.inputfilter.acceptDecimalDigits
+import de.westnordost.streetcompletegpx.R
+import de.westnordost.streetcompletegpx.util.ktx.numberOrNull
+import de.westnordost.streetcompletegpx.view.OnAdapterItemSelectedListener
+import de.westnordost.streetcompletegpx.view.inputfilter.acceptDecimalDigits
 
 /** Manages inputting a duration - in days, hours or minutes */
 class DurationInputViewController(

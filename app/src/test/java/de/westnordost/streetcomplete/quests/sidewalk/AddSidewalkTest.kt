@@ -1,10 +1,10 @@
-package de.westnordost.streetcomplete.quests.sidewalk
+package de.westnordost.streetcompletegpx.quests.sidewalk
 
-import de.westnordost.streetcomplete.data.osm.geometry.ElementPolylinesGeometry
-import de.westnordost.streetcomplete.quests.TestMapDataWithGeometry
-import de.westnordost.streetcomplete.testutils.p
-import de.westnordost.streetcomplete.testutils.way
-import de.westnordost.streetcomplete.util.math.translate
+import de.westnordost.streetcompletegpx.data.osm.geometry.ElementPolylinesGeometry
+import de.westnordost.streetcompletegpx.quests.TestMapDataWithGeometry
+import de.westnordost.streetcompletegpx.testutils.p
+import de.westnordost.streetcompletegpx.testutils.way
+import de.westnordost.streetcompletegpx.util.math.translate
 import kotlin.test.Test
 import kotlin.test.assertEquals
 import kotlin.test.assertTrue

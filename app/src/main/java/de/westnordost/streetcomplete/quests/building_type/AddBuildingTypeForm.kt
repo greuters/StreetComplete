@@ -1,10 +1,10 @@
-package de.westnordost.streetcomplete.quests.building_type
+package de.westnordost.streetcompletegpx.quests.building_type
 
 import android.os.Bundle
 import androidx.appcompat.app.AlertDialog
-import de.westnordost.streetcomplete.R
-import de.westnordost.streetcomplete.quests.AGroupedImageListQuestForm
-import de.westnordost.streetcomplete.quests.AnswerItem
+import de.westnordost.streetcompletegpx.R
+import de.westnordost.streetcompletegpx.quests.AGroupedImageListQuestForm
+import de.westnordost.streetcompletegpx.quests.AnswerItem
 
 class AddBuildingTypeForm : AGroupedImageListQuestForm<BuildingType, BuildingType>() {
 

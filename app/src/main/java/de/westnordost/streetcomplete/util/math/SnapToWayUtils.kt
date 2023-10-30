@@ -1,11 +1,11 @@
-package de.westnordost.streetcomplete.util.math
+package de.westnordost.streetcompletegpx.util.math
 
-import de.westnordost.streetcomplete.data.osm.geometry.ElementGeometry
-import de.westnordost.streetcomplete.data.osm.geometry.ElementPolygonsGeometry
-import de.westnordost.streetcomplete.data.osm.geometry.ElementPolylinesGeometry
-import de.westnordost.streetcomplete.data.osm.mapdata.LatLon
-import de.westnordost.streetcomplete.data.osm.mapdata.Way
-import de.westnordost.streetcomplete.util.ktx.asSequenceOfPairs
+import de.westnordost.streetcompletegpx.data.osm.geometry.ElementGeometry
+import de.westnordost.streetcompletegpx.data.osm.geometry.ElementPolygonsGeometry
+import de.westnordost.streetcompletegpx.data.osm.geometry.ElementPolylinesGeometry
+import de.westnordost.streetcompletegpx.data.osm.mapdata.LatLon
+import de.westnordost.streetcompletegpx.data.osm.mapdata.Way
+import de.westnordost.streetcompletegpx.util.ktx.asSequenceOfPairs
 import kotlin.math.min
 
 sealed interface PositionOnWay {

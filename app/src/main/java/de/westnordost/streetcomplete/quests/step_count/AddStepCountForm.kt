@@ -1,13 +1,13 @@
-package de.westnordost.streetcomplete.quests.step_count
+package de.westnordost.streetcompletegpx.quests.step_count
 
 import android.os.Bundle
 import android.view.View
 import androidx.core.os.bundleOf
 import androidx.core.widget.doAfterTextChanged
-import de.westnordost.streetcomplete.R
-import de.westnordost.streetcomplete.databinding.QuestStepCountBinding
-import de.westnordost.streetcomplete.quests.AbstractOsmQuestForm
-import de.westnordost.streetcomplete.util.ktx.intOrNull
+import de.westnordost.streetcompletegpx.R
+import de.westnordost.streetcompletegpx.databinding.QuestStepCountBinding
+import de.westnordost.streetcompletegpx.quests.AbstractOsmQuestForm
+import de.westnordost.streetcompletegpx.util.ktx.intOrNull
 
 class AddStepCountForm : AbstractOsmQuestForm<Int>() {
 

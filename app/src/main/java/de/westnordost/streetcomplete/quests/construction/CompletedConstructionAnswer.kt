@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.quests.construction
+package de.westnordost.streetcompletegpx.quests.construction
 
 import kotlinx.datetime.LocalDate
 

@@ -1,12 +1,12 @@
-package de.westnordost.streetcomplete.quests.bike_shop
+package de.westnordost.streetcompletegpx.quests.bike_shop
 
-import de.westnordost.streetcomplete.R
-import de.westnordost.streetcomplete.quests.AListQuestForm
-import de.westnordost.streetcomplete.quests.TextItem
-import de.westnordost.streetcomplete.quests.bike_shop.SecondHandBicycleAvailability.NEW_AND_SECOND_HAND
-import de.westnordost.streetcomplete.quests.bike_shop.SecondHandBicycleAvailability.NO_BICYCLES_SOLD
-import de.westnordost.streetcomplete.quests.bike_shop.SecondHandBicycleAvailability.ONLY_NEW
-import de.westnordost.streetcomplete.quests.bike_shop.SecondHandBicycleAvailability.ONLY_SECOND_HAND
+import de.westnordost.streetcompletegpx.R
+import de.westnordost.streetcompletegpx.quests.AListQuestForm
+import de.westnordost.streetcompletegpx.quests.TextItem
+import de.westnordost.streetcompletegpx.quests.bike_shop.SecondHandBicycleAvailability.NEW_AND_SECOND_HAND
+import de.westnordost.streetcompletegpx.quests.bike_shop.SecondHandBicycleAvailability.NO_BICYCLES_SOLD
+import de.westnordost.streetcompletegpx.quests.bike_shop.SecondHandBicycleAvailability.ONLY_NEW
+import de.westnordost.streetcompletegpx.quests.bike_shop.SecondHandBicycleAvailability.ONLY_SECOND_HAND
 
 class AddSecondHandBicycleAvailabilityForm : AListQuestForm<SecondHandBicycleAvailability>() {
 

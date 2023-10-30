@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.quests.opening_hours
+package de.westnordost.streetcompletegpx.quests.opening_hours
 
 import android.content.Context
 import android.content.DialogInterface
@@ -16,10 +16,10 @@ import androidx.recyclerview.widget.RecyclerView
 import androidx.viewpager2.widget.ViewPager2
 import com.google.android.material.tabs.TabLayout
 import com.google.android.material.tabs.TabLayoutMediator
-import de.westnordost.streetcomplete.R
-import de.westnordost.streetcomplete.databinding.DialogTimeRangePickerBinding
-import de.westnordost.streetcomplete.databinding.TimeRangePickerBinding
-import de.westnordost.streetcomplete.osm.opening_hours.model.TimeRange
+import de.westnordost.streetcompletegpx.R
+import de.westnordost.streetcompletegpx.databinding.DialogTimeRangePickerBinding
+import de.westnordost.streetcompletegpx.databinding.TimeRangePickerBinding
+import de.westnordost.streetcompletegpx.osm.opening_hours.model.TimeRange
 
 class TimeRangePickerDialog(
     context: Context,

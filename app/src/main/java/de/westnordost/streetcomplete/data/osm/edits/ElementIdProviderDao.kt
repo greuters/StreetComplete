@@ -1,14 +1,14 @@
-package de.westnordost.streetcomplete.data.osm.edits
+package de.westnordost.streetcompletegpx.data.osm.edits
 
-import de.westnordost.streetcomplete.data.CursorPosition
-import de.westnordost.streetcomplete.data.Database
-import de.westnordost.streetcomplete.data.osm.edits.ElementIdProviderTable.Columns.EDIT_ID
-import de.westnordost.streetcomplete.data.osm.edits.ElementIdProviderTable.Columns.ELEMENT_ID
-import de.westnordost.streetcomplete.data.osm.edits.ElementIdProviderTable.Columns.ELEMENT_TYPE
-import de.westnordost.streetcomplete.data.osm.edits.ElementIdProviderTable.NAME
-import de.westnordost.streetcomplete.data.osm.mapdata.ElementIdUpdate
-import de.westnordost.streetcomplete.data.osm.mapdata.ElementKey
-import de.westnordost.streetcomplete.data.osm.mapdata.ElementType
+import de.westnordost.streetcompletegpx.data.CursorPosition
+import de.westnordost.streetcompletegpx.data.Database
+import de.westnordost.streetcompletegpx.data.osm.edits.ElementIdProviderTable.Columns.EDIT_ID
+import de.westnordost.streetcompletegpx.data.osm.edits.ElementIdProviderTable.Columns.ELEMENT_ID
+import de.westnordost.streetcompletegpx.data.osm.edits.ElementIdProviderTable.Columns.ELEMENT_TYPE
+import de.westnordost.streetcompletegpx.data.osm.edits.ElementIdProviderTable.NAME
+import de.westnordost.streetcompletegpx.data.osm.mapdata.ElementIdUpdate
+import de.westnordost.streetcompletegpx.data.osm.mapdata.ElementKey
+import de.westnordost.streetcompletegpx.data.osm.mapdata.ElementType
 
 /** Assigns new element ids for ElementEditActions that create new elements */
 class ElementIdProviderDao(private val db: Database) {

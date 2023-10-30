@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.data.osm.edits.update_tags
+package de.westnordost.streetcompletegpx.data.osm.edits.update_tags
 
 class StringMapChangesBuilder(private val source: Map<String, String>) : Map<String, String> {
     private val changes: MutableMap<String, StringMapEntryChange> = mutableMapOf()

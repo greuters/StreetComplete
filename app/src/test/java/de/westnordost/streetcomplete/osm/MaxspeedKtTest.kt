@@ -1,11 +1,11 @@
-package de.westnordost.streetcomplete.osm
+package de.westnordost.streetcompletegpx.osm
 
-import de.westnordost.streetcomplete.data.meta.CountryInfo
-import de.westnordost.streetcomplete.data.meta.CountryInfos
-import de.westnordost.streetcomplete.data.meta.SpeedMeasurementUnit
-import de.westnordost.streetcomplete.testutils.any
-import de.westnordost.streetcomplete.testutils.mock
-import de.westnordost.streetcomplete.testutils.on
+import de.westnordost.streetcompletegpx.data.meta.CountryInfo
+import de.westnordost.streetcompletegpx.data.meta.CountryInfos
+import de.westnordost.streetcompletegpx.data.meta.SpeedMeasurementUnit
+import de.westnordost.streetcompletegpx.testutils.any
+import de.westnordost.streetcompletegpx.testutils.mock
+import de.westnordost.streetcompletegpx.testutils.on
 import kotlin.test.Test
 import kotlin.test.assertEquals
 

@@ -1,8 +1,8 @@
-package de.westnordost.streetcomplete.quests.existence
+package de.westnordost.streetcompletegpx.quests.existence
 
-import de.westnordost.streetcomplete.R
-import de.westnordost.streetcomplete.quests.AbstractOsmQuestForm
-import de.westnordost.streetcomplete.quests.AnswerItem
+import de.westnordost.streetcompletegpx.R
+import de.westnordost.streetcompletegpx.quests.AbstractOsmQuestForm
+import de.westnordost.streetcompletegpx.quests.AnswerItem
 
 class CheckExistenceForm : AbstractOsmQuestForm<Unit>() {
 

@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.quests.tourism_information
+package de.westnordost.streetcompletegpx.quests.tourism_information
 
 enum class TourismInformation(val osmValue: String) {
     OFFICE("office"),

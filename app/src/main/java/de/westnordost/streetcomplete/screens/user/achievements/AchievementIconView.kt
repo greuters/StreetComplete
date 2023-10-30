@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.screens.user.achievements
+package de.westnordost.streetcompletegpx.screens.user.achievements
 
 import android.content.Context
 import android.graphics.Outline
@@ -10,7 +10,7 @@ import android.view.View
 import android.view.ViewOutlineProvider
 import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.core.view.isInvisible
-import de.westnordost.streetcomplete.databinding.ViewAchievementIconBinding
+import de.westnordost.streetcompletegpx.databinding.ViewAchievementIconBinding
 
 /** Shows an achievement icon with its frame and level indicator */
 class AchievementIconView @JvmOverloads constructor(

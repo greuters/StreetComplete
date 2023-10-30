@@ -1,11 +1,11 @@
-package de.westnordost.streetcomplete.quests.place_name
+package de.westnordost.streetcompletegpx.quests.place_name
 
 import androidx.appcompat.app.AlertDialog
-import de.westnordost.streetcomplete.R
-import de.westnordost.streetcomplete.databinding.QuestLocalizednameBinding
-import de.westnordost.streetcomplete.osm.LocalizedName
-import de.westnordost.streetcomplete.quests.AAddLocalizedNameForm
-import de.westnordost.streetcomplete.quests.AnswerItem
+import de.westnordost.streetcompletegpx.R
+import de.westnordost.streetcompletegpx.databinding.QuestLocalizednameBinding
+import de.westnordost.streetcompletegpx.osm.LocalizedName
+import de.westnordost.streetcompletegpx.quests.AAddLocalizedNameForm
+import de.westnordost.streetcompletegpx.quests.AnswerItem
 
 class AddPlaceNameForm : AAddLocalizedNameForm<PlaceNameAnswer>() {
 

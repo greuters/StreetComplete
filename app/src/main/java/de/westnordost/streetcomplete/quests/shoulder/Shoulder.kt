@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.quests.shoulder
+package de.westnordost.streetcompletegpx.quests.shoulder
 
 data class ShoulderSides(val left: Boolean, val right: Boolean)
 

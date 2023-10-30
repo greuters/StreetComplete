@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.screens.tutorial
+package de.westnordost.streetcompletegpx.screens.tutorial
 
 import android.animation.TimeAnimator
 import android.annotation.SuppressLint
@@ -11,13 +11,13 @@ import android.view.animation.AnticipateInterpolator
 import android.view.animation.LinearInterpolator
 import androidx.core.view.isInvisible
 import androidx.fragment.app.Fragment
-import de.westnordost.streetcomplete.R
-import de.westnordost.streetcomplete.databinding.FragmentOverlaysTutorialBinding
-import de.westnordost.streetcomplete.util.ktx.dpToPx
-import de.westnordost.streetcomplete.util.ktx.pxToDp
-import de.westnordost.streetcomplete.util.ktx.viewLifecycleScope
-import de.westnordost.streetcomplete.util.viewBinding
-import de.westnordost.streetcomplete.view.insets_animation.respectSystemInsets
+import de.westnordost.streetcompletegpx.R
+import de.westnordost.streetcompletegpx.databinding.FragmentOverlaysTutorialBinding
+import de.westnordost.streetcompletegpx.util.ktx.dpToPx
+import de.westnordost.streetcompletegpx.util.ktx.pxToDp
+import de.westnordost.streetcompletegpx.util.ktx.viewLifecycleScope
+import de.westnordost.streetcompletegpx.util.viewBinding
+import de.westnordost.streetcompletegpx.view.insets_animation.respectSystemInsets
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 

@@ -1,6 +1,6 @@
-package de.westnordost.streetcomplete.quests.bike_parking_type
+package de.westnordost.streetcompletegpx.quests.bike_parking_type
 
-import de.westnordost.streetcomplete.quests.AImageListQuestForm
+import de.westnordost.streetcompletegpx.quests.AImageListQuestForm
 
 class AddBikeParkingTypeForm : AImageListQuestForm<BikeParkingType, BikeParkingType>() {
 

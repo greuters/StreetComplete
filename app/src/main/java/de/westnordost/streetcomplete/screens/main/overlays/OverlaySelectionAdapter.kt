@@ -1,13 +1,13 @@
-package de.westnordost.streetcomplete.screens.main.overlays
+package de.westnordost.streetcompletegpx.screens.main.overlays
 
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.BaseAdapter
 import android.widget.TextView
-import de.westnordost.streetcomplete.R
-import de.westnordost.streetcomplete.overlays.Overlay
-import de.westnordost.streetcomplete.util.ktx.dpToPx
+import de.westnordost.streetcompletegpx.R
+import de.westnordost.streetcompletegpx.overlays.Overlay
+import de.westnordost.streetcompletegpx.util.ktx.dpToPx
 
 /** Adapter for the list in which the user can select which overlay he wants to use */
 class OverlaySelectionAdapter(private val overlays: List<Overlay>) : BaseAdapter() {

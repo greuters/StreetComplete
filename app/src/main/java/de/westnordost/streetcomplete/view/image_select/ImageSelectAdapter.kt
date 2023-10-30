@@ -1,9 +1,9 @@
-package de.westnordost.streetcomplete.view.image_select
+package de.westnordost.streetcompletegpx.view.image_select
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import de.westnordost.streetcomplete.R
+import de.westnordost.streetcompletegpx.R
 import java.util.concurrent.CopyOnWriteArrayList
 
 /** Select a number of items from a list of items  */

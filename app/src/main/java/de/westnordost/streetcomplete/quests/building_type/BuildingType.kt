@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.quests.building_type
+package de.westnordost.streetcompletegpx.quests.building_type
 
 enum class BuildingType(val osmKey: String, val osmValue: String) {
     HOUSE           ("building", "house"),

@@ -1,11 +1,11 @@
-package de.westnordost.streetcomplete.data.osmnotes.notequests
+package de.westnordost.streetcompletegpx.data.osmnotes.notequests
 
-import de.westnordost.streetcomplete.data.CursorPosition
-import de.westnordost.streetcomplete.data.Database
-import de.westnordost.streetcomplete.data.osmnotes.notequests.NoteQuestsHiddenTable.Columns.NOTE_ID
-import de.westnordost.streetcomplete.data.osmnotes.notequests.NoteQuestsHiddenTable.Columns.TIMESTAMP
-import de.westnordost.streetcomplete.data.osmnotes.notequests.NoteQuestsHiddenTable.NAME
-import de.westnordost.streetcomplete.util.ktx.nowAsEpochMilliseconds
+import de.westnordost.streetcompletegpx.data.CursorPosition
+import de.westnordost.streetcompletegpx.data.Database
+import de.westnordost.streetcompletegpx.data.osmnotes.notequests.NoteQuestsHiddenTable.Columns.NOTE_ID
+import de.westnordost.streetcompletegpx.data.osmnotes.notequests.NoteQuestsHiddenTable.Columns.TIMESTAMP
+import de.westnordost.streetcompletegpx.data.osmnotes.notequests.NoteQuestsHiddenTable.NAME
+import de.westnordost.streetcompletegpx.util.ktx.nowAsEpochMilliseconds
 
 /** Persists which note ids should be hidden (because the user selected so) in the note quest */
 class NoteQuestsHiddenDao(private val db: Database) {

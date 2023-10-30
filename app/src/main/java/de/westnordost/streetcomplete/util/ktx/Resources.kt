@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.util.ktx
+package de.westnordost.streetcompletegpx.util.ktx
 
 import android.content.res.Configuration
 import android.content.res.Resources
@@ -8,9 +8,9 @@ import androidx.annotation.DrawableRes
 import androidx.annotation.RawRes
 import com.charleskorn.kaml.Yaml
 import com.charleskorn.kaml.decodeFromStream
-import de.westnordost.streetcomplete.view.DrawableImage
-import de.westnordost.streetcomplete.view.Image
-import de.westnordost.streetcomplete.view.ResImage
+import de.westnordost.streetcompletegpx.view.DrawableImage
+import de.westnordost.streetcompletegpx.view.Image
+import de.westnordost.streetcompletegpx.view.ResImage
 
 inline fun <reified T> Resources.getYamlObject(@RawRes id: Int): T =
     Yaml.default.decodeFromStream(openRawResource(id))

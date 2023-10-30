@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.screens.main.map
+package de.westnordost.streetcompletegpx.screens.main.map
 
 import android.content.Context
 import android.content.SharedPreferences
@@ -6,12 +6,12 @@ import android.graphics.Bitmap
 import android.graphics.Canvas
 import android.graphics.Color
 import androidx.core.content.edit
-import de.westnordost.streetcomplete.BuildConfig
-import de.westnordost.streetcomplete.Prefs
-import de.westnordost.streetcomplete.R
-import de.westnordost.streetcomplete.util.ktx.createBitmapWithWhiteBorder
-import de.westnordost.streetcomplete.util.ktx.dpToPx
-import de.westnordost.streetcomplete.view.presetIconIndex
+import de.westnordost.streetcompletegpx.BuildConfig
+import de.westnordost.streetcompletegpx.Prefs
+import de.westnordost.streetcompletegpx.R
+import de.westnordost.streetcompletegpx.util.ktx.createBitmapWithWhiteBorder
+import de.westnordost.streetcompletegpx.util.ktx.dpToPx
+import de.westnordost.streetcompletegpx.view.presetIconIndex
 import java.lang.Integer.max
 import kotlin.math.ceil
 import kotlin.math.sqrt

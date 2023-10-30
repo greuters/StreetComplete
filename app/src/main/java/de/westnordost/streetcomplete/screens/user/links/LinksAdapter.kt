@@ -1,10 +1,10 @@
-package de.westnordost.streetcomplete.screens.user.links
+package de.westnordost.streetcompletegpx.screens.user.links
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
-import de.westnordost.streetcomplete.data.user.achievements.Link
-import de.westnordost.streetcomplete.databinding.RowLinkItemBinding
-import de.westnordost.streetcomplete.view.ListAdapter
+import de.westnordost.streetcompletegpx.data.user.achievements.Link
+import de.westnordost.streetcompletegpx.databinding.RowLinkItemBinding
+import de.westnordost.streetcompletegpx.view.ListAdapter
 
 /** Adapter for a list of links */
 class LinksAdapter(links: List<Link>, private val onClickLink: (url: String) -> Unit) :

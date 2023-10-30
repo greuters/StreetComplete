@@ -1,8 +1,8 @@
-package de.westnordost.streetcomplete.data.user.achievements
+package de.westnordost.streetcompletegpx.data.user.achievements
 
-import de.westnordost.streetcomplete.data.overlays.OverlayRegistry
-import de.westnordost.streetcomplete.data.quest.QuestTypeRegistry
-import de.westnordost.streetcomplete.data.user.statistics.StatisticsSource
+import de.westnordost.streetcompletegpx.data.overlays.OverlayRegistry
+import de.westnordost.streetcompletegpx.data.quest.QuestTypeRegistry
+import de.westnordost.streetcompletegpx.data.user.statistics.StatisticsSource
 import java.util.concurrent.CopyOnWriteArrayList
 
 /** Manages the data associated with achievements: Unlocked achievements, unlocked links and info

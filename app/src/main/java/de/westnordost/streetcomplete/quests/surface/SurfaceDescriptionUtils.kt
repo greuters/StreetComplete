@@ -1,10 +1,10 @@
-package de.westnordost.streetcomplete.quests.surface
+package de.westnordost.streetcompletegpx.quests.surface
 
 import android.content.Context
 import androidx.appcompat.app.AlertDialog
-import de.westnordost.streetcomplete.R
-import de.westnordost.streetcomplete.osm.surface.Surface
-import de.westnordost.streetcomplete.osm.surface.shouldBeDescribed
+import de.westnordost.streetcompletegpx.R
+import de.westnordost.streetcompletegpx.osm.surface.Surface
+import de.westnordost.streetcompletegpx.osm.surface.shouldBeDescribed
 
 fun collectSurfaceDescriptionIfNecessary(
     context: Context,

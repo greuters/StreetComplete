@@ -1,14 +1,14 @@
-package de.westnordost.streetcomplete.quests
+package de.westnordost.streetcompletegpx.quests
 
-import de.westnordost.streetcomplete.data.osm.geometry.ElementGeometry
-import de.westnordost.streetcomplete.data.osm.geometry.ElementPointGeometry
-import de.westnordost.streetcomplete.data.osm.mapdata.Element
-import de.westnordost.streetcomplete.data.osm.mapdata.MapDataWithGeometry
-import de.westnordost.streetcomplete.data.osm.mapdata.MutableMapData
-import de.westnordost.streetcomplete.data.osm.mapdata.Node
-import de.westnordost.streetcomplete.data.osm.mapdata.Relation
-import de.westnordost.streetcomplete.data.osm.mapdata.Way
-import de.westnordost.streetcomplete.testutils.bbox
+import de.westnordost.streetcompletegpx.data.osm.geometry.ElementGeometry
+import de.westnordost.streetcompletegpx.data.osm.geometry.ElementPointGeometry
+import de.westnordost.streetcompletegpx.data.osm.mapdata.Element
+import de.westnordost.streetcompletegpx.data.osm.mapdata.MapDataWithGeometry
+import de.westnordost.streetcompletegpx.data.osm.mapdata.MutableMapData
+import de.westnordost.streetcompletegpx.data.osm.mapdata.Node
+import de.westnordost.streetcompletegpx.data.osm.mapdata.Relation
+import de.westnordost.streetcompletegpx.data.osm.mapdata.Way
+import de.westnordost.streetcompletegpx.testutils.bbox
 
 class TestMapDataWithGeometry(elements: Iterable<Element>) : MutableMapData(), MapDataWithGeometry {
 

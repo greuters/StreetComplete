@@ -1,6 +1,6 @@
-package de.westnordost.streetcomplete.util.ktx
+package de.westnordost.streetcompletegpx.util.ktx
 
 import android.location.Location
-import de.westnordost.streetcomplete.data.osm.mapdata.LatLon
+import de.westnordost.streetcompletegpx.data.osm.mapdata.LatLon
 
 fun Location.toLatLon() = LatLon(latitude, longitude)

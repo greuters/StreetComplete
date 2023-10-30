@@ -1,11 +1,11 @@
-package de.westnordost.streetcomplete.quests.self_service
+package de.westnordost.streetcompletegpx.quests.self_service
 
-import de.westnordost.streetcomplete.R
-import de.westnordost.streetcomplete.quests.AbstractOsmQuestForm
-import de.westnordost.streetcomplete.quests.AnswerItem
-import de.westnordost.streetcomplete.quests.self_service.SelfServiceLaundry.NO
-import de.westnordost.streetcomplete.quests.self_service.SelfServiceLaundry.ONLY
-import de.westnordost.streetcomplete.quests.self_service.SelfServiceLaundry.OPTIONAL
+import de.westnordost.streetcompletegpx.R
+import de.westnordost.streetcompletegpx.quests.AbstractOsmQuestForm
+import de.westnordost.streetcompletegpx.quests.AnswerItem
+import de.westnordost.streetcompletegpx.quests.self_service.SelfServiceLaundry.NO
+import de.westnordost.streetcompletegpx.quests.self_service.SelfServiceLaundry.ONLY
+import de.westnordost.streetcompletegpx.quests.self_service.SelfServiceLaundry.OPTIONAL
 
 class AddSelfServiceLaundryForm : AbstractOsmQuestForm<SelfServiceLaundry>() {
 

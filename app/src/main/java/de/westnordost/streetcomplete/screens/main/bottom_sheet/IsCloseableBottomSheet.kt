@@ -1,6 +1,6 @@
-package de.westnordost.streetcomplete.screens.main.bottom_sheet
+package de.westnordost.streetcompletegpx.screens.main.bottom_sheet
 
-import de.westnordost.streetcomplete.data.osm.mapdata.LatLon
+import de.westnordost.streetcompletegpx.data.osm.mapdata.LatLon
 
 interface IsCloseableBottomSheet {
     /** Returns true if the bottom sheet shall consume the event */

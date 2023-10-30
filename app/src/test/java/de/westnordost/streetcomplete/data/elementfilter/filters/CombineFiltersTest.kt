@@ -1,9 +1,9 @@
-package de.westnordost.streetcomplete.data.elementfilter.filters
+package de.westnordost.streetcompletegpx.data.elementfilter.filters
 
-import de.westnordost.streetcomplete.testutils.any
-import de.westnordost.streetcomplete.testutils.mock
-import de.westnordost.streetcomplete.testutils.node
-import de.westnordost.streetcomplete.testutils.on
+import de.westnordost.streetcompletegpx.testutils.any
+import de.westnordost.streetcompletegpx.testutils.mock
+import de.westnordost.streetcompletegpx.testutils.node
+import de.westnordost.streetcompletegpx.testutils.on
 import kotlin.test.Test
 import kotlin.test.assertFalse
 import kotlin.test.assertTrue

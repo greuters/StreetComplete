@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.quests.police_type
+package de.westnordost.streetcompletegpx.quests.police_type
 
 enum class PoliceType(val operatorName: String, val wikidata: String) {
     CARABINIERI("Arma dei Carabinieri", "Q54852"),

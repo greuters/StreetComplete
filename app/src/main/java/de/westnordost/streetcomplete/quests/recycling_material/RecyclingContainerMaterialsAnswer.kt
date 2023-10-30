@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.quests.recycling_material
+package de.westnordost.streetcompletegpx.quests.recycling_material
 
 sealed interface RecyclingContainerMaterialsAnswer
 

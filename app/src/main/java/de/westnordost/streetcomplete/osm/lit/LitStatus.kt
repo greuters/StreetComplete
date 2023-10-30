@@ -1,13 +1,13 @@
-package de.westnordost.streetcomplete.osm.lit
+package de.westnordost.streetcompletegpx.osm.lit
 
-import de.westnordost.streetcomplete.osm.Tags
-import de.westnordost.streetcomplete.osm.lit.LitStatus.AUTOMATIC
-import de.westnordost.streetcomplete.osm.lit.LitStatus.NIGHT_AND_DAY
-import de.westnordost.streetcomplete.osm.lit.LitStatus.NO
-import de.westnordost.streetcomplete.osm.lit.LitStatus.UNSUPPORTED
-import de.westnordost.streetcomplete.osm.lit.LitStatus.YES
-import de.westnordost.streetcomplete.osm.updateCheckDateForKey
-import de.westnordost.streetcomplete.osm.updateWithCheckDate
+import de.westnordost.streetcompletegpx.osm.Tags
+import de.westnordost.streetcompletegpx.osm.lit.LitStatus.AUTOMATIC
+import de.westnordost.streetcompletegpx.osm.lit.LitStatus.NIGHT_AND_DAY
+import de.westnordost.streetcompletegpx.osm.lit.LitStatus.NO
+import de.westnordost.streetcompletegpx.osm.lit.LitStatus.UNSUPPORTED
+import de.westnordost.streetcompletegpx.osm.lit.LitStatus.YES
+import de.westnordost.streetcompletegpx.osm.updateCheckDateForKey
+import de.westnordost.streetcompletegpx.osm.updateWithCheckDate
 
 enum class LitStatus {
     YES,

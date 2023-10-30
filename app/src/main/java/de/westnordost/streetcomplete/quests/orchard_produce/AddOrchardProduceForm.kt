@@ -1,6 +1,6 @@
-package de.westnordost.streetcomplete.quests.orchard_produce
+package de.westnordost.streetcompletegpx.quests.orchard_produce
 
-import de.westnordost.streetcomplete.quests.AImageListQuestForm
+import de.westnordost.streetcompletegpx.quests.AImageListQuestForm
 
 class AddOrchardProduceForm : AImageListQuestForm<OrchardProduce, List<OrchardProduce>>() {
 

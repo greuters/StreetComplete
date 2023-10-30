@@ -1,7 +1,7 @@
-package de.westnordost.streetcomplete.data.osm.mapdata
+package de.westnordost.streetcompletegpx.data.osm.mapdata
 
-import de.westnordost.streetcomplete.data.elementfilter.ElementFilterExpression
-import de.westnordost.streetcomplete.data.elementfilter.toElementFilterExpression
+import de.westnordost.streetcompletegpx.data.elementfilter.ElementFilterExpression
+import de.westnordost.streetcompletegpx.data.elementfilter.toElementFilterExpression
 
 private val filterExpCache: MutableMap<String, ElementFilterExpression> = HashMap()
 

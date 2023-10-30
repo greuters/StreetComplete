@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.osm.opening_hours.parser
+package de.westnordost.streetcompletegpx.osm.opening_hours.parser
 
 import ch.poole.openinghoursparser.Holiday
 import ch.poole.openinghoursparser.Rule

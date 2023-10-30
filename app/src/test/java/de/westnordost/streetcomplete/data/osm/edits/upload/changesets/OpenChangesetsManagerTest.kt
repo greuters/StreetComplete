@@ -1,13 +1,13 @@
-package de.westnordost.streetcomplete.data.osm.edits.upload.changesets
+package de.westnordost.streetcompletegpx.data.osm.edits.upload.changesets
 
-import de.westnordost.streetcomplete.ApplicationConstants
-import de.westnordost.streetcomplete.data.osm.edits.upload.LastEditTimeStore
-import de.westnordost.streetcomplete.data.osm.mapdata.MapDataApi
-import de.westnordost.streetcomplete.data.osm.osmquests.OsmElementQuestType
-import de.westnordost.streetcomplete.data.quest.TestQuestTypeA
-import de.westnordost.streetcomplete.testutils.any
-import de.westnordost.streetcomplete.testutils.mock
-import de.westnordost.streetcomplete.testutils.on
+import de.westnordost.streetcompletegpx.ApplicationConstants
+import de.westnordost.streetcompletegpx.data.osm.edits.upload.LastEditTimeStore
+import de.westnordost.streetcompletegpx.data.osm.mapdata.MapDataApi
+import de.westnordost.streetcompletegpx.data.osm.osmquests.OsmElementQuestType
+import de.westnordost.streetcompletegpx.data.quest.TestQuestTypeA
+import de.westnordost.streetcompletegpx.testutils.any
+import de.westnordost.streetcompletegpx.testutils.mock
+import de.westnordost.streetcompletegpx.testutils.on
 import org.mockito.Mockito.never
 import org.mockito.Mockito.verify
 import java.util.Locale

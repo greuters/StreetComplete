@@ -1,9 +1,9 @@
-package de.westnordost.streetcomplete.quests.building_type
+package de.westnordost.streetcompletegpx.quests.building_type
 
-import de.westnordost.streetcomplete.R
-import de.westnordost.streetcomplete.quests.building_type.BuildingType.*
-import de.westnordost.streetcomplete.view.image_select.GroupableDisplayItem
-import de.westnordost.streetcomplete.view.image_select.Item
+import de.westnordost.streetcompletegpx.R
+import de.westnordost.streetcompletegpx.quests.building_type.BuildingType.*
+import de.westnordost.streetcompletegpx.view.image_select.GroupableDisplayItem
+import de.westnordost.streetcompletegpx.view.image_select.Item
 
 fun List<BuildingType>.toItems() = mapNotNull { it.asItem() }
 

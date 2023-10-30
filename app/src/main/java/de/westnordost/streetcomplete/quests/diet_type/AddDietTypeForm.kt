@@ -1,16 +1,16 @@
-package de.westnordost.streetcomplete.quests.diet_type
+package de.westnordost.streetcompletegpx.quests.diet_type
 
 import android.os.Bundle
 import android.view.View
 import androidx.appcompat.app.AlertDialog
 import androidx.core.os.bundleOf
-import de.westnordost.streetcomplete.R
-import de.westnordost.streetcomplete.databinding.QuestDietTypeExplanationBinding
-import de.westnordost.streetcomplete.quests.AbstractOsmQuestForm
-import de.westnordost.streetcomplete.quests.AnswerItem
-import de.westnordost.streetcomplete.quests.diet_type.DietAvailability.DIET_NO
-import de.westnordost.streetcomplete.quests.diet_type.DietAvailability.DIET_ONLY
-import de.westnordost.streetcomplete.quests.diet_type.DietAvailability.DIET_YES
+import de.westnordost.streetcompletegpx.R
+import de.westnordost.streetcompletegpx.databinding.QuestDietTypeExplanationBinding
+import de.westnordost.streetcompletegpx.quests.AbstractOsmQuestForm
+import de.westnordost.streetcompletegpx.quests.AnswerItem
+import de.westnordost.streetcompletegpx.quests.diet_type.DietAvailability.DIET_NO
+import de.westnordost.streetcompletegpx.quests.diet_type.DietAvailability.DIET_ONLY
+import de.westnordost.streetcompletegpx.quests.diet_type.DietAvailability.DIET_YES
 
 class AddDietTypeForm : AbstractOsmQuestForm<DietAvailabilityAnswer>() {
 

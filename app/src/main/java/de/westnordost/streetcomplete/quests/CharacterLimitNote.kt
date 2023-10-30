@@ -1,11 +1,11 @@
-package de.westnordost.streetcomplete.quests
+package de.westnordost.streetcompletegpx.quests
 
-import de.westnordost.streetcomplete.ApplicationConstants
-import de.westnordost.streetcomplete.data.osm.edits.update_tags.StringMapEntryAdd
-import de.westnordost.streetcomplete.data.osm.edits.update_tags.StringMapEntryChange
-import de.westnordost.streetcomplete.data.osm.edits.update_tags.StringMapEntryDelete
-import de.westnordost.streetcomplete.data.osm.edits.update_tags.StringMapEntryModify
-import de.westnordost.streetcomplete.data.osm.mapdata.ElementType
+import de.westnordost.streetcompletegpx.ApplicationConstants
+import de.westnordost.streetcompletegpx.data.osm.edits.update_tags.StringMapEntryAdd
+import de.westnordost.streetcompletegpx.data.osm.edits.update_tags.StringMapEntryChange
+import de.westnordost.streetcompletegpx.data.osm.edits.update_tags.StringMapEntryDelete
+import de.westnordost.streetcompletegpx.data.osm.edits.update_tags.StringMapEntryModify
+import de.westnordost.streetcompletegpx.data.osm.mapdata.ElementType
 
 fun createNoteTextForTooLongTags(
     englishQuestTitle: String,

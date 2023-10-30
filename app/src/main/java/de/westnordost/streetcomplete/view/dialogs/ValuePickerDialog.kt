@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.view.dialogs
+package de.westnordost.streetcompletegpx.view.dialogs
 
 import android.content.Context
 import android.content.DialogInterface
@@ -9,8 +9,8 @@ import android.widget.NumberPicker
 import androidx.annotation.LayoutRes
 import androidx.appcompat.app.AlertDialog
 import androidx.core.view.children
-import de.westnordost.streetcomplete.R
-import de.westnordost.streetcomplete.util.ktx.spToPx
+import de.westnordost.streetcompletegpx.R
+import de.westnordost.streetcompletegpx.util.ktx.spToPx
 
 /** A dialog in which you can select one value from a range of values. If a custom layout is supplied,
  *  it must have a NumberPicker with the id "numberPicker". */

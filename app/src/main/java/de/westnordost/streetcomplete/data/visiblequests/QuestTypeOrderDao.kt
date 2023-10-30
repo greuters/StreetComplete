@@ -1,10 +1,10 @@
-package de.westnordost.streetcomplete.data.visiblequests
+package de.westnordost.streetcompletegpx.data.visiblequests
 
-import de.westnordost.streetcomplete.data.Database
-import de.westnordost.streetcomplete.data.visiblequests.QuestTypeOrderTable.Columns.AFTER
-import de.westnordost.streetcomplete.data.visiblequests.QuestTypeOrderTable.Columns.BEFORE
-import de.westnordost.streetcomplete.data.visiblequests.QuestTypeOrderTable.Columns.QUEST_PRESET_ID
-import de.westnordost.streetcomplete.data.visiblequests.QuestTypeOrderTable.NAME
+import de.westnordost.streetcompletegpx.data.Database
+import de.westnordost.streetcompletegpx.data.visiblequests.QuestTypeOrderTable.Columns.AFTER
+import de.westnordost.streetcompletegpx.data.visiblequests.QuestTypeOrderTable.Columns.BEFORE
+import de.westnordost.streetcompletegpx.data.visiblequests.QuestTypeOrderTable.Columns.QUEST_PRESET_ID
+import de.westnordost.streetcompletegpx.data.visiblequests.QuestTypeOrderTable.NAME
 
 class QuestTypeOrderDao(private val db: Database) {
 

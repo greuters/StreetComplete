@@ -1,11 +1,11 @@
-package de.westnordost.streetcomplete.quests.fire_hydrant_ref
+package de.westnordost.streetcompletegpx.quests.fire_hydrant_ref
 
-import de.westnordost.streetcomplete.R
-import de.westnordost.streetcomplete.data.osm.geometry.ElementGeometry
-import de.westnordost.streetcomplete.data.osm.osmquests.OsmFilterQuestType
-import de.westnordost.streetcomplete.data.quest.NoCountriesExcept
-import de.westnordost.streetcomplete.data.user.achievements.EditTypeAchievement
-import de.westnordost.streetcomplete.osm.Tags
+import de.westnordost.streetcompletegpx.R
+import de.westnordost.streetcompletegpx.data.osm.geometry.ElementGeometry
+import de.westnordost.streetcompletegpx.data.osm.osmquests.OsmFilterQuestType
+import de.westnordost.streetcompletegpx.data.quest.NoCountriesExcept
+import de.westnordost.streetcompletegpx.data.user.achievements.EditTypeAchievement
+import de.westnordost.streetcompletegpx.osm.Tags
 
 class AddFireHydrantRef : OsmFilterQuestType<FireHydrantRefAnswer>() {
 

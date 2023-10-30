@@ -1,8 +1,8 @@
-package de.westnordost.streetcomplete.data.osm.mapdata
+package de.westnordost.streetcompletegpx.data.osm.mapdata
 
-import de.westnordost.streetcomplete.data.osm.mapdata.ElementType.NODE
-import de.westnordost.streetcomplete.data.osm.mapdata.ElementType.RELATION
-import de.westnordost.streetcomplete.data.osm.mapdata.ElementType.WAY
+import de.westnordost.streetcompletegpx.data.osm.mapdata.ElementType.NODE
+import de.westnordost.streetcompletegpx.data.osm.mapdata.ElementType.RELATION
+import de.westnordost.streetcompletegpx.data.osm.mapdata.ElementType.WAY
 
 /** Stores OSM elements. Actually, stores nothing, but delegates the work to a NodeDao, WayDao and
  *  a RelationDao. :-P */

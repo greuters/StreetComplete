@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.data.osm.geometry
+package de.westnordost.streetcompletegpx.data.osm.geometry
 
 import kotlin.test.Test
 import kotlin.test.assertEquals

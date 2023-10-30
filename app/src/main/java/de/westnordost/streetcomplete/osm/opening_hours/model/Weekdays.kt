@@ -1,7 +1,7 @@
-package de.westnordost.streetcomplete.osm.opening_hours.model
+package de.westnordost.streetcompletegpx.osm.opening_hours.model
 
 import android.content.res.Resources
-import de.westnordost.streetcomplete.R
+import de.westnordost.streetcompletegpx.R
 import kotlinx.serialization.Serializable
 import java.text.DateFormatSymbols
 import java.util.Locale

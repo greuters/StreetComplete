@@ -1,15 +1,15 @@
-package de.westnordost.streetcomplete.osm.address
+package de.westnordost.streetcompletegpx.osm.address
 
 import android.app.Activity
 import android.view.View
 import android.widget.Button
 import android.widget.EditText
 import androidx.core.widget.doAfterTextChanged
-import de.westnordost.streetcomplete.R
-import de.westnordost.streetcomplete.util.ktx.dpToPx
-import de.westnordost.streetcomplete.util.ktx.nonBlankHintOrNull
-import de.westnordost.streetcomplete.util.ktx.nonBlankTextOrNull
-import de.westnordost.streetcomplete.view.controller.SwitchKeyboardButtonViewController
+import de.westnordost.streetcompletegpx.R
+import de.westnordost.streetcompletegpx.util.ktx.dpToPx
+import de.westnordost.streetcompletegpx.util.ktx.nonBlankHintOrNull
+import de.westnordost.streetcompletegpx.util.ktx.nonBlankTextOrNull
+import de.westnordost.streetcompletegpx.view.controller.SwitchKeyboardButtonViewController
 
 /** Manages the UI for inputting EITHER:
  *  - a house number,

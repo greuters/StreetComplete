@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.view.controller
+package de.westnordost.streetcompletegpx.view.controller
 
 import android.app.Activity
 import android.text.InputType
@@ -7,7 +7,7 @@ import android.view.View
 import android.widget.Button
 import android.widget.EditText
 import androidx.core.view.isInvisible
-import de.westnordost.streetcomplete.util.ktx.showKeyboard
+import de.westnordost.streetcompletegpx.util.ktx.showKeyboard
 
 /** Manages a [button] that switches the keyboard of the current focused edit text to and from
  *  either text input or number input. The button is only shown and functional if one of the edit

@@ -1,19 +1,19 @@
-package de.westnordost.streetcomplete.quests.summit
+package de.westnordost.streetcompletegpx.quests.summit
 
-import de.westnordost.streetcomplete.R
-import de.westnordost.streetcomplete.data.elementfilter.toElementFilterExpression
-import de.westnordost.streetcomplete.data.osm.geometry.ElementGeometry
-import de.westnordost.streetcomplete.data.osm.mapdata.Element
-import de.westnordost.streetcomplete.data.osm.mapdata.MapDataWithGeometry
-import de.westnordost.streetcomplete.data.osm.osmquests.OsmElementQuestType
-import de.westnordost.streetcomplete.data.quest.NoCountriesExcept
-import de.westnordost.streetcomplete.data.user.achievements.EditTypeAchievement.OUTDOORS
-import de.westnordost.streetcomplete.data.user.achievements.EditTypeAchievement.RARE
-import de.westnordost.streetcomplete.osm.Tags
-import de.westnordost.streetcomplete.osm.updateWithCheckDate
-import de.westnordost.streetcomplete.quests.YesNoQuestForm
-import de.westnordost.streetcomplete.util.ktx.toYesNo
-import de.westnordost.streetcomplete.util.math.distanceToArcs
+import de.westnordost.streetcompletegpx.R
+import de.westnordost.streetcompletegpx.data.elementfilter.toElementFilterExpression
+import de.westnordost.streetcompletegpx.data.osm.geometry.ElementGeometry
+import de.westnordost.streetcompletegpx.data.osm.mapdata.Element
+import de.westnordost.streetcompletegpx.data.osm.mapdata.MapDataWithGeometry
+import de.westnordost.streetcompletegpx.data.osm.osmquests.OsmElementQuestType
+import de.westnordost.streetcompletegpx.data.quest.NoCountriesExcept
+import de.westnordost.streetcompletegpx.data.user.achievements.EditTypeAchievement.OUTDOORS
+import de.westnordost.streetcompletegpx.data.user.achievements.EditTypeAchievement.RARE
+import de.westnordost.streetcompletegpx.osm.Tags
+import de.westnordost.streetcompletegpx.osm.updateWithCheckDate
+import de.westnordost.streetcompletegpx.quests.YesNoQuestForm
+import de.westnordost.streetcompletegpx.util.ktx.toYesNo
+import de.westnordost.streetcompletegpx.util.math.distanceToArcs
 
 class AddSummitRegister : OsmElementQuestType<Boolean> {
 

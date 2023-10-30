@@ -1,15 +1,15 @@
-package de.westnordost.streetcomplete.quests.foot
+package de.westnordost.streetcompletegpx.quests.foot
 
 import androidx.appcompat.app.AlertDialog
-import de.westnordost.streetcomplete.R
-import de.westnordost.streetcomplete.databinding.DialogLivingStreetConfirmationBinding
-import de.westnordost.streetcomplete.quests.AbstractOsmQuestForm
-import de.westnordost.streetcomplete.quests.AnswerItem
-import de.westnordost.streetcomplete.quests.foot.ProhibitedForPedestriansAnswer.HAS_SEPARATE_SIDEWALK
-import de.westnordost.streetcomplete.quests.foot.ProhibitedForPedestriansAnswer.IS_LIVING_STREET
-import de.westnordost.streetcomplete.quests.foot.ProhibitedForPedestriansAnswer.NO
-import de.westnordost.streetcomplete.quests.foot.ProhibitedForPedestriansAnswer.YES
-import de.westnordost.streetcomplete.util.ktx.livingStreetSignDrawableResId
+import de.westnordost.streetcompletegpx.R
+import de.westnordost.streetcompletegpx.databinding.DialogLivingStreetConfirmationBinding
+import de.westnordost.streetcompletegpx.quests.AbstractOsmQuestForm
+import de.westnordost.streetcompletegpx.quests.AnswerItem
+import de.westnordost.streetcompletegpx.quests.foot.ProhibitedForPedestriansAnswer.HAS_SEPARATE_SIDEWALK
+import de.westnordost.streetcompletegpx.quests.foot.ProhibitedForPedestriansAnswer.IS_LIVING_STREET
+import de.westnordost.streetcompletegpx.quests.foot.ProhibitedForPedestriansAnswer.NO
+import de.westnordost.streetcompletegpx.quests.foot.ProhibitedForPedestriansAnswer.YES
+import de.westnordost.streetcompletegpx.util.ktx.livingStreetSignDrawableResId
 
 class AddProhibitedForPedestriansForm : AbstractOsmQuestForm<ProhibitedForPedestriansAnswer>() {
 

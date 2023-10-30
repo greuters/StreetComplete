@@ -1,14 +1,14 @@
-package de.westnordost.streetcomplete.quests.postbox_ref
+package de.westnordost.streetcompletegpx.quests.postbox_ref
 
 import android.os.Bundle
 import android.view.View
 import androidx.appcompat.app.AlertDialog
 import androidx.core.widget.doAfterTextChanged
-import de.westnordost.streetcomplete.R
-import de.westnordost.streetcomplete.databinding.QuestRefBinding
-import de.westnordost.streetcomplete.quests.AbstractOsmQuestForm
-import de.westnordost.streetcomplete.quests.AnswerItem
-import de.westnordost.streetcomplete.util.ktx.nonBlankTextOrNull
+import de.westnordost.streetcompletegpx.R
+import de.westnordost.streetcompletegpx.databinding.QuestRefBinding
+import de.westnordost.streetcompletegpx.quests.AbstractOsmQuestForm
+import de.westnordost.streetcompletegpx.quests.AnswerItem
+import de.westnordost.streetcompletegpx.util.ktx.nonBlankTextOrNull
 
 class AddPostboxRefForm : AbstractOsmQuestForm<PostboxRefAnswer>() {
 

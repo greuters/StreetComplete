@@ -1,6 +1,6 @@
-package de.westnordost.streetcomplete.quests
+package de.westnordost.streetcompletegpx.quests
 
-import de.westnordost.streetcomplete.R
+import de.westnordost.streetcompletegpx.R
 
 class YesNoQuestForm : AbstractOsmQuestForm<Boolean>() {
 

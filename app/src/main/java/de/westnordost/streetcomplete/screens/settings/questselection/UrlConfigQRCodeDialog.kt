@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.screens.settings.questselection
+package de.westnordost.streetcompletegpx.screens.settings.questselection
 
 import android.content.ClipData
 import android.content.ClipboardManager
@@ -17,9 +17,9 @@ import com.google.zxing.EncodeHintType
 import com.google.zxing.common.BitMatrix
 import com.google.zxing.qrcode.QRCodeWriter
 import com.google.zxing.qrcode.decoder.ErrorCorrectionLevel
-import de.westnordost.streetcomplete.R
-import de.westnordost.streetcomplete.databinding.DialogQrCodeBinding
-import de.westnordost.streetcomplete.util.ktx.toast
+import de.westnordost.streetcompletegpx.R
+import de.westnordost.streetcompletegpx.databinding.DialogQrCodeBinding
+import de.westnordost.streetcompletegpx.util.ktx.toast
 
 class UrlConfigQRCodeDialog(
     context: Context,

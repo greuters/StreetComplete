@@ -1,14 +1,14 @@
-package de.westnordost.streetcomplete.screens.main.map.components
+package de.westnordost.streetcompletegpx.screens.main.map.components
 
 import android.graphics.RectF
 import android.view.animation.AccelerateDecelerateInterpolator
 import android.view.animation.DecelerateInterpolator
 import com.mapzen.tangram.MapData
-import de.westnordost.streetcomplete.data.osm.geometry.ElementGeometry
-import de.westnordost.streetcomplete.screens.main.map.tangram.CameraPosition
-import de.westnordost.streetcomplete.screens.main.map.tangram.KtMapController
-import de.westnordost.streetcomplete.screens.main.map.tangram.screenAreaContains
-import de.westnordost.streetcomplete.screens.main.map.tangram.toTangramGeometry
+import de.westnordost.streetcompletegpx.data.osm.geometry.ElementGeometry
+import de.westnordost.streetcompletegpx.screens.main.map.tangram.CameraPosition
+import de.westnordost.streetcompletegpx.screens.main.map.tangram.KtMapController
+import de.westnordost.streetcompletegpx.screens.main.map.tangram.screenAreaContains
+import de.westnordost.streetcompletegpx.screens.main.map.tangram.toTangramGeometry
 import kotlin.math.abs
 import kotlin.math.max
 import kotlin.math.min

@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.osm.level
+package de.westnordost.streetcompletegpx.osm.level
 
 sealed class Level
 data class SingleLevel(val level: Double) : Level()

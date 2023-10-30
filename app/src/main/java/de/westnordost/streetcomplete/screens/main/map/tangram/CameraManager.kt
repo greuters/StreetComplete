@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.screens.main.map.tangram
+package de.westnordost.streetcompletegpx.screens.main.map.tangram
 
 import android.animation.Animator
 import android.animation.ObjectAnimator
@@ -17,9 +17,9 @@ import androidx.annotation.UiThread
 import androidx.core.animation.addListener
 import com.mapzen.tangram.CameraUpdateFactory
 import com.mapzen.tangram.MapController
-import de.westnordost.streetcomplete.data.osm.mapdata.LatLon
-import de.westnordost.streetcomplete.util.ktx.nowAsEpochMilliseconds
-import de.westnordost.streetcomplete.util.ktx.runImmediate
+import de.westnordost.streetcompletegpx.data.osm.mapdata.LatLon
+import de.westnordost.streetcompletegpx.util.ktx.nowAsEpochMilliseconds
+import de.westnordost.streetcompletegpx.util.ktx.runImmediate
 import kotlin.math.PI
 import kotlin.math.min
 

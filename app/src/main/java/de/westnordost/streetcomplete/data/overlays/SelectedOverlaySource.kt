@@ -1,6 +1,6 @@
-package de.westnordost.streetcomplete.data.overlays
+package de.westnordost.streetcompletegpx.data.overlays
 
-import de.westnordost.streetcomplete.overlays.Overlay
+import de.westnordost.streetcompletegpx.overlays.Overlay
 
 interface SelectedOverlaySource {
     interface Listener {

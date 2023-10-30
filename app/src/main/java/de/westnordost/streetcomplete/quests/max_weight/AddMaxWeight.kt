@@ -1,14 +1,14 @@
-package de.westnordost.streetcomplete.quests.max_weight
+package de.westnordost.streetcompletegpx.quests.max_weight
 
-import de.westnordost.streetcomplete.R
-import de.westnordost.streetcomplete.data.osm.geometry.ElementGeometry
-import de.westnordost.streetcomplete.data.osm.osmquests.OsmFilterQuestType
-import de.westnordost.streetcomplete.data.user.achievements.EditTypeAchievement.CAR
-import de.westnordost.streetcomplete.osm.Tags
-import de.westnordost.streetcomplete.quests.max_weight.MaxWeightSign.MAX_AXLE_LOAD
-import de.westnordost.streetcomplete.quests.max_weight.MaxWeightSign.MAX_GROSS_VEHICLE_MASS
-import de.westnordost.streetcomplete.quests.max_weight.MaxWeightSign.MAX_TANDEM_AXLE_LOAD
-import de.westnordost.streetcomplete.quests.max_weight.MaxWeightSign.MAX_WEIGHT
+import de.westnordost.streetcompletegpx.R
+import de.westnordost.streetcompletegpx.data.osm.geometry.ElementGeometry
+import de.westnordost.streetcompletegpx.data.osm.osmquests.OsmFilterQuestType
+import de.westnordost.streetcompletegpx.data.user.achievements.EditTypeAchievement.CAR
+import de.westnordost.streetcompletegpx.osm.Tags
+import de.westnordost.streetcompletegpx.quests.max_weight.MaxWeightSign.MAX_AXLE_LOAD
+import de.westnordost.streetcompletegpx.quests.max_weight.MaxWeightSign.MAX_GROSS_VEHICLE_MASS
+import de.westnordost.streetcompletegpx.quests.max_weight.MaxWeightSign.MAX_TANDEM_AXLE_LOAD
+import de.westnordost.streetcompletegpx.quests.max_weight.MaxWeightSign.MAX_WEIGHT
 
 class AddMaxWeight : OsmFilterQuestType<MaxWeightAnswer>() {
 

@@ -1,8 +1,8 @@
-package de.westnordost.streetcomplete.quests.parking_fee
+package de.westnordost.streetcompletegpx.quests.parking_fee
 
-import de.westnordost.streetcomplete.osm.Tags
-import de.westnordost.streetcomplete.osm.opening_hours.parser.OpeningHoursRuleList
-import de.westnordost.streetcomplete.osm.updateWithCheckDate
+import de.westnordost.streetcompletegpx.osm.Tags
+import de.westnordost.streetcompletegpx.osm.opening_hours.parser.OpeningHoursRuleList
+import de.westnordost.streetcompletegpx.osm.updateWithCheckDate
 
 sealed interface Fee
 

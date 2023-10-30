@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.data.osm.mapdata
+package de.westnordost.streetcompletegpx.data.osm.mapdata
 
 object WayTables {
     const val NAME = "osm_ways"

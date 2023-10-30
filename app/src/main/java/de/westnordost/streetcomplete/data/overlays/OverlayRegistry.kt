@@ -1,7 +1,7 @@
-package de.westnordost.streetcomplete.data.overlays
+package de.westnordost.streetcompletegpx.data.overlays
 
-import de.westnordost.streetcomplete.data.ObjectTypeRegistry
-import de.westnordost.streetcomplete.overlays.Overlay
+import de.westnordost.streetcompletegpx.data.ObjectTypeRegistry
+import de.westnordost.streetcompletegpx.overlays.Overlay
 
 /** Every overlay must be registered here
  *

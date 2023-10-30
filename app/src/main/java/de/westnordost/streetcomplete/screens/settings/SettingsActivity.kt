@@ -1,9 +1,9 @@
-package de.westnordost.streetcomplete.screens.settings
+package de.westnordost.streetcompletegpx.screens.settings
 
 import android.content.Context
 import android.content.Intent
 import android.os.Bundle
-import de.westnordost.streetcomplete.screens.FragmentContainerActivity
+import de.westnordost.streetcompletegpx.screens.FragmentContainerActivity
 
 class SettingsActivity : FragmentContainerActivity() {
 

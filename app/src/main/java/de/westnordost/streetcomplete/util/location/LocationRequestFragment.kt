@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.util.location
+package de.westnordost.streetcompletegpx.util.location
 
 import android.Manifest.permission.ACCESS_FINE_LOCATION
 import android.content.BroadcastReceiver
@@ -14,9 +14,9 @@ import androidx.appcompat.app.AlertDialog
 import androidx.core.app.ActivityCompat
 import androidx.fragment.app.Fragment
 import androidx.localbroadcastmanager.content.LocalBroadcastManager
-import de.westnordost.streetcomplete.R
-import de.westnordost.streetcomplete.util.ktx.hasLocationPermission
-import de.westnordost.streetcomplete.util.ktx.isLocationEnabled
+import de.westnordost.streetcompletegpx.R
+import de.westnordost.streetcompletegpx.util.ktx.hasLocationPermission
+import de.westnordost.streetcompletegpx.util.ktx.isLocationEnabled
 
 /** Manages the process to ensure that the app can access the user's location. Two steps:
  *

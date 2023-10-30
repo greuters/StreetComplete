@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.screens.main.messages
+package de.westnordost.streetcompletegpx.screens.main.messages
 
 import android.app.Dialog
 import android.graphics.drawable.AnimatedVectorDrawable
@@ -9,13 +9,13 @@ import android.view.ViewGroup.LayoutParams.MATCH_PARENT
 import android.view.animation.DecelerateInterpolator
 import androidx.core.os.bundleOf
 import androidx.fragment.app.DialogFragment
-import de.westnordost.streetcomplete.R
-import de.westnordost.streetcomplete.databinding.FragmentUnreadOsmMessageBinding
-import de.westnordost.streetcomplete.util.SoundFx
-import de.westnordost.streetcomplete.util.ktx.dpToPx
-import de.westnordost.streetcomplete.util.ktx.openUri
-import de.westnordost.streetcomplete.util.ktx.viewLifecycleScope
-import de.westnordost.streetcomplete.util.viewBinding
+import de.westnordost.streetcompletegpx.R
+import de.westnordost.streetcompletegpx.databinding.FragmentUnreadOsmMessageBinding
+import de.westnordost.streetcompletegpx.util.SoundFx
+import de.westnordost.streetcompletegpx.util.ktx.dpToPx
+import de.westnordost.streetcompletegpx.util.ktx.openUri
+import de.westnordost.streetcompletegpx.util.ktx.viewLifecycleScope
+import de.westnordost.streetcompletegpx.util.viewBinding
 import kotlinx.coroutines.launch
 import org.koin.android.ext.android.inject
 

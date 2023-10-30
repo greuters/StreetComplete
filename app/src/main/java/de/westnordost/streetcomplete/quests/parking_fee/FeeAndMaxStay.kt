@@ -1,6 +1,6 @@
-package de.westnordost.streetcomplete.quests.parking_fee
+package de.westnordost.streetcompletegpx.quests.parking_fee
 
-import de.westnordost.streetcomplete.osm.Tags
+import de.westnordost.streetcompletegpx.osm.Tags
 
 data class FeeAndMaxStay(val fee: Fee, val maxstay: Maxstay? = null)
 

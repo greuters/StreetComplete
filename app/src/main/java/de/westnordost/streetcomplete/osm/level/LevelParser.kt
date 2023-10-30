@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.osm.level
+package de.westnordost.streetcompletegpx.osm.level
 
 /** get for which level(s) the element with the given tags is defined, if any.
  *  repeat_on is interpreted the same way as level */

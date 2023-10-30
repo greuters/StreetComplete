@@ -1,12 +1,12 @@
-package de.westnordost.streetcomplete.quests.level
+package de.westnordost.streetcompletegpx.quests.level
 
-import de.westnordost.streetcomplete.data.osm.geometry.ElementPointGeometry
-import de.westnordost.streetcomplete.data.osm.geometry.ElementPolygonsGeometry
-import de.westnordost.streetcomplete.data.osm.mapdata.LatLon
-import de.westnordost.streetcomplete.quests.createMapData
-import de.westnordost.streetcomplete.testutils.node
-import de.westnordost.streetcomplete.testutils.p
-import de.westnordost.streetcomplete.testutils.way
+import de.westnordost.streetcompletegpx.data.osm.geometry.ElementPointGeometry
+import de.westnordost.streetcompletegpx.data.osm.geometry.ElementPolygonsGeometry
+import de.westnordost.streetcompletegpx.data.osm.mapdata.LatLon
+import de.westnordost.streetcompletegpx.quests.createMapData
+import de.westnordost.streetcompletegpx.testutils.node
+import de.westnordost.streetcompletegpx.testutils.p
+import de.westnordost.streetcompletegpx.testutils.way
 import kotlin.test.Test
 import kotlin.test.assertEquals
 

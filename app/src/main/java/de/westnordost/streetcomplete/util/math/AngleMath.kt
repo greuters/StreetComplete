@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.util.math
+package de.westnordost.streetcompletegpx.util.math
 
 import kotlin.math.PI
 

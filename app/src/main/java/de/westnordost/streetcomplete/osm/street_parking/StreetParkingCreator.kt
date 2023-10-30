@@ -1,13 +1,13 @@
-package de.westnordost.streetcomplete.osm.street_parking
+package de.westnordost.streetcompletegpx.osm.street_parking
 
-import de.westnordost.streetcomplete.osm.Tags
-import de.westnordost.streetcomplete.osm.expandSides
-import de.westnordost.streetcomplete.osm.hasCheckDateForKey
-import de.westnordost.streetcomplete.osm.mergeSides
-import de.westnordost.streetcomplete.osm.removeCheckDatesForKey
-import de.westnordost.streetcomplete.osm.street_parking.ParkingOrientation.*
-import de.westnordost.streetcomplete.osm.street_parking.ParkingPosition.*
-import de.westnordost.streetcomplete.osm.updateCheckDateForKey
+import de.westnordost.streetcompletegpx.osm.Tags
+import de.westnordost.streetcompletegpx.osm.expandSides
+import de.westnordost.streetcompletegpx.osm.hasCheckDateForKey
+import de.westnordost.streetcompletegpx.osm.mergeSides
+import de.westnordost.streetcompletegpx.osm.removeCheckDatesForKey
+import de.westnordost.streetcompletegpx.osm.street_parking.ParkingOrientation.*
+import de.westnordost.streetcompletegpx.osm.street_parking.ParkingPosition.*
+import de.westnordost.streetcompletegpx.osm.updateCheckDateForKey
 
 fun LeftAndRightStreetParking.applyTo(tags: Tags) {
     if (left == null && right == null) return

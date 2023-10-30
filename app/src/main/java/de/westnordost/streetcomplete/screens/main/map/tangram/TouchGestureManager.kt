@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.screens.main.map.tangram
+package de.westnordost.streetcompletegpx.screens.main.map.tangram
 
 import com.mapzen.tangram.MapController
 import com.mapzen.tangram.TouchInput

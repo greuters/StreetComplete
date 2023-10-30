@@ -1,11 +1,11 @@
-package de.westnordost.streetcomplete.screens.main.controls
+package de.westnordost.streetcompletegpx.screens.main.controls
 
 import android.content.Context
 import android.util.AttributeSet
 import android.view.LayoutInflater
 import android.widget.RelativeLayout
 import androidx.core.view.isInvisible
-import de.westnordost.streetcomplete.databinding.ViewMessagesButtonBinding
+import de.westnordost.streetcompletegpx.databinding.ViewMessagesButtonBinding
 
 /** View that shows a messages-button with a little counter at the top right */
 class MessagesButton @JvmOverloads constructor(

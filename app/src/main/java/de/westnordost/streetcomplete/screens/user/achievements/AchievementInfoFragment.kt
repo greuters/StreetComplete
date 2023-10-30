@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.screens.user.achievements
+package de.westnordost.streetcompletegpx.screens.user.achievements
 
 import android.animation.LayoutTransition
 import android.animation.LayoutTransition.APPEARING
@@ -15,17 +15,17 @@ import androidx.activity.OnBackPressedCallback
 import androidx.core.view.isGone
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
-import de.westnordost.streetcomplete.R
-import de.westnordost.streetcomplete.data.user.achievements.Achievement
-import de.westnordost.streetcomplete.databinding.FragmentAchievementInfoBinding
-import de.westnordost.streetcomplete.screens.user.links.LinksAdapter
-import de.westnordost.streetcomplete.util.ktx.openUri
-import de.westnordost.streetcomplete.util.viewBinding
-import de.westnordost.streetcomplete.view.Transforms
-import de.westnordost.streetcomplete.view.ViewPropertyAnimatorsPlayer
-import de.westnordost.streetcomplete.view.animateFrom
-import de.westnordost.streetcomplete.view.animateTo
-import de.westnordost.streetcomplete.view.applyTransforms
+import de.westnordost.streetcompletegpx.R
+import de.westnordost.streetcompletegpx.data.user.achievements.Achievement
+import de.westnordost.streetcompletegpx.databinding.FragmentAchievementInfoBinding
+import de.westnordost.streetcompletegpx.screens.user.links.LinksAdapter
+import de.westnordost.streetcompletegpx.util.ktx.openUri
+import de.westnordost.streetcompletegpx.util.viewBinding
+import de.westnordost.streetcompletegpx.view.Transforms
+import de.westnordost.streetcompletegpx.view.ViewPropertyAnimatorsPlayer
+import de.westnordost.streetcompletegpx.view.animateFrom
+import de.westnordost.streetcompletegpx.view.animateTo
+import de.westnordost.streetcompletegpx.view.applyTransforms
 
 /** Shows details for a certain level of one achievement as a fake-dialog.
  *  There are two modes:

@@ -1,10 +1,10 @@
-package de.westnordost.streetcomplete.osm
+package de.westnordost.streetcompletegpx.osm
 
-import de.westnordost.streetcomplete.data.osm.mapdata.LatLon
-import de.westnordost.streetcomplete.data.osm.mapdata.MapData
-import de.westnordost.streetcomplete.data.osm.mapdata.Node
-import de.westnordost.streetcomplete.data.osm.mapdata.Way
-import de.westnordost.streetcomplete.util.math.isRightOf
+import de.westnordost.streetcompletegpx.data.osm.mapdata.LatLon
+import de.westnordost.streetcompletegpx.data.osm.mapdata.MapData
+import de.westnordost.streetcompletegpx.data.osm.mapdata.Node
+import de.westnordost.streetcompletegpx.data.osm.mapdata.Way
+import de.westnordost.streetcompletegpx.util.math.isRightOf
 
 data class WaysCrossing(val node: Node, var barrierWays: List<Way>, var movingWays: List<Way>)
 

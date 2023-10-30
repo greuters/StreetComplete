@@ -1,14 +1,14 @@
-package de.westnordost.streetcomplete.osm.sidewalk
+package de.westnordost.streetcompletegpx.osm.sidewalk
 
-import de.westnordost.streetcomplete.R
-import de.westnordost.streetcomplete.osm.sidewalk.Sidewalk.INVALID
-import de.westnordost.streetcomplete.osm.sidewalk.Sidewalk.NO
-import de.westnordost.streetcomplete.osm.sidewalk.Sidewalk.SEPARATE
-import de.westnordost.streetcomplete.osm.sidewalk.Sidewalk.YES
-import de.westnordost.streetcomplete.view.controller.StreetSideDisplayItem
-import de.westnordost.streetcomplete.view.controller.StreetSideItem
-import de.westnordost.streetcomplete.view.image_select.DisplayItem
-import de.westnordost.streetcomplete.view.image_select.Item
+import de.westnordost.streetcompletegpx.R
+import de.westnordost.streetcompletegpx.osm.sidewalk.Sidewalk.INVALID
+import de.westnordost.streetcompletegpx.osm.sidewalk.Sidewalk.NO
+import de.westnordost.streetcompletegpx.osm.sidewalk.Sidewalk.SEPARATE
+import de.westnordost.streetcompletegpx.osm.sidewalk.Sidewalk.YES
+import de.westnordost.streetcompletegpx.view.controller.StreetSideDisplayItem
+import de.westnordost.streetcompletegpx.view.controller.StreetSideItem
+import de.westnordost.streetcompletegpx.view.image_select.DisplayItem
+import de.westnordost.streetcompletegpx.view.image_select.Item
 
 fun Sidewalk.asStreetSideItem(): StreetSideDisplayItem<Sidewalk>? =
     if (this == INVALID) null

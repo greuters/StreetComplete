@@ -1,6 +1,6 @@
-package de.westnordost.streetcomplete.quests.drinking_water_type
+package de.westnordost.streetcompletegpx.quests.drinking_water_type
 
-import de.westnordost.streetcomplete.quests.AImageListQuestForm
+import de.westnordost.streetcompletegpx.quests.AImageListQuestForm
 
 class AddDrinkingWaterTypeForm : AImageListQuestForm<DrinkingWaterType, DrinkingWaterType>() {
 

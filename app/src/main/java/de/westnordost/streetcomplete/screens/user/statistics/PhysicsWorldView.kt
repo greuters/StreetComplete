@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.screens.user.statistics
+package de.westnordost.streetcompletegpx.screens.user.statistics
 
 import android.content.Context
 import android.graphics.Canvas

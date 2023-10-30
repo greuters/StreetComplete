@@ -1,15 +1,15 @@
-package de.westnordost.streetcomplete.quests.steps_ramp
+package de.westnordost.streetcompletegpx.quests.steps_ramp
 
 import android.os.Bundle
 import android.view.View
 import androidx.appcompat.app.AlertDialog
-import de.westnordost.streetcomplete.R
-import de.westnordost.streetcomplete.quests.AImageListQuestForm
-import de.westnordost.streetcomplete.quests.steps_ramp.StepsRamp.BICYCLE
-import de.westnordost.streetcomplete.quests.steps_ramp.StepsRamp.NONE
-import de.westnordost.streetcomplete.quests.steps_ramp.StepsRamp.STROLLER
-import de.westnordost.streetcomplete.quests.steps_ramp.StepsRamp.WHEELCHAIR
-import de.westnordost.streetcomplete.view.image_select.ImageSelectAdapter
+import de.westnordost.streetcompletegpx.R
+import de.westnordost.streetcompletegpx.quests.AImageListQuestForm
+import de.westnordost.streetcompletegpx.quests.steps_ramp.StepsRamp.BICYCLE
+import de.westnordost.streetcompletegpx.quests.steps_ramp.StepsRamp.NONE
+import de.westnordost.streetcompletegpx.quests.steps_ramp.StepsRamp.STROLLER
+import de.westnordost.streetcompletegpx.quests.steps_ramp.StepsRamp.WHEELCHAIR
+import de.westnordost.streetcompletegpx.view.image_select.ImageSelectAdapter
 
 class AddStepsRampForm : AImageListQuestForm<StepsRamp, StepsRampAnswer>() {
 

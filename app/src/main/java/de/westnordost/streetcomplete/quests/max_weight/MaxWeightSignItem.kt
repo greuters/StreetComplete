@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.quests.max_weight
+package de.westnordost.streetcompletegpx.quests.max_weight
 
 import android.graphics.Bitmap
 import android.graphics.drawable.BitmapDrawable
@@ -8,10 +8,10 @@ import android.view.ViewGroup
 import android.widget.FrameLayout
 import androidx.core.graphics.applyCanvas
 import androidx.core.graphics.createBitmap
-import de.westnordost.streetcomplete.R
-import de.westnordost.streetcomplete.view.DrawableImage
-import de.westnordost.streetcomplete.view.image_select.DisplayItem
-import de.westnordost.streetcomplete.view.image_select.Item2
+import de.westnordost.streetcompletegpx.R
+import de.westnordost.streetcompletegpx.view.DrawableImage
+import de.westnordost.streetcompletegpx.view.image_select.DisplayItem
+import de.westnordost.streetcompletegpx.view.image_select.Item2
 
 fun MaxWeightSign.asItem(inflater: LayoutInflater): DisplayItem<MaxWeightSign> =
     Item2(this, DrawableImage(BitmapDrawable(inflater.context.resources, createBitmap(inflater))))

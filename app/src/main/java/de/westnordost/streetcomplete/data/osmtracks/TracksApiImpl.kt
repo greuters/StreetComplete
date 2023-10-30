@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.data.osmtracks
+package de.westnordost.streetcompletegpx.data.osmtracks
 
 import de.westnordost.osmapi.OsmConnection
 import de.westnordost.osmapi.common.errors.OsmApiException
@@ -9,9 +9,9 @@ import de.westnordost.osmapi.map.data.OsmLatLon
 import de.westnordost.osmapi.traces.GpsTraceDetails
 import de.westnordost.osmapi.traces.GpsTracesApi
 import de.westnordost.osmapi.traces.GpsTrackpoint
-import de.westnordost.streetcomplete.ApplicationConstants
-import de.westnordost.streetcomplete.data.download.ConnectionException
-import de.westnordost.streetcomplete.data.user.AuthorizationException
+import de.westnordost.streetcompletegpx.ApplicationConstants
+import de.westnordost.streetcompletegpx.data.download.ConnectionException
+import de.westnordost.streetcompletegpx.data.user.AuthorizationException
 import kotlinx.datetime.Instant
 import kotlinx.datetime.LocalDateTime
 import kotlinx.datetime.TimeZone

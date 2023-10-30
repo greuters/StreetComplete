@@ -1,18 +1,18 @@
-package de.westnordost.streetcomplete.data.edithistory
+package de.westnordost.streetcompletegpx.data.edithistory
 
-import de.westnordost.streetcomplete.ApplicationConstants.MAX_UNDO_HISTORY_AGE
-import de.westnordost.streetcomplete.data.osm.edits.ElementEdit
-import de.westnordost.streetcomplete.data.osm.edits.ElementEditsController
-import de.westnordost.streetcomplete.data.osm.edits.ElementEditsSource
-import de.westnordost.streetcomplete.data.osm.edits.IsRevertAction
-import de.westnordost.streetcomplete.data.osm.osmquests.OsmQuestController
-import de.westnordost.streetcomplete.data.osm.osmquests.OsmQuestHidden
-import de.westnordost.streetcomplete.data.osmnotes.edits.NoteEdit
-import de.westnordost.streetcomplete.data.osmnotes.edits.NoteEditsController
-import de.westnordost.streetcomplete.data.osmnotes.edits.NoteEditsSource
-import de.westnordost.streetcomplete.data.osmnotes.notequests.OsmNoteQuestController
-import de.westnordost.streetcomplete.data.osmnotes.notequests.OsmNoteQuestHidden
-import de.westnordost.streetcomplete.util.ktx.nowAsEpochMilliseconds
+import de.westnordost.streetcompletegpx.ApplicationConstants.MAX_UNDO_HISTORY_AGE
+import de.westnordost.streetcompletegpx.data.osm.edits.ElementEdit
+import de.westnordost.streetcompletegpx.data.osm.edits.ElementEditsController
+import de.westnordost.streetcompletegpx.data.osm.edits.ElementEditsSource
+import de.westnordost.streetcompletegpx.data.osm.edits.IsRevertAction
+import de.westnordost.streetcompletegpx.data.osm.osmquests.OsmQuestController
+import de.westnordost.streetcompletegpx.data.osm.osmquests.OsmQuestHidden
+import de.westnordost.streetcompletegpx.data.osmnotes.edits.NoteEdit
+import de.westnordost.streetcompletegpx.data.osmnotes.edits.NoteEditsController
+import de.westnordost.streetcompletegpx.data.osmnotes.edits.NoteEditsSource
+import de.westnordost.streetcompletegpx.data.osmnotes.notequests.OsmNoteQuestController
+import de.westnordost.streetcompletegpx.data.osmnotes.notequests.OsmNoteQuestHidden
+import de.westnordost.streetcompletegpx.util.ktx.nowAsEpochMilliseconds
 import java.util.concurrent.CopyOnWriteArrayList
 
 /** All edits done by the user in one place: Edits made on notes, on map data, hidings of quests */

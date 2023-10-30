@@ -1,7 +1,7 @@
-package de.westnordost.streetcomplete.osm.cycleway
+package de.westnordost.streetcompletegpx.osm.cycleway
 
-import de.westnordost.streetcomplete.osm.cycleway.Cycleway.*
-import de.westnordost.streetcomplete.osm.cycleway.Direction.*
+import de.westnordost.streetcompletegpx.osm.cycleway.Cycleway.*
+import de.westnordost.streetcompletegpx.osm.cycleway.Direction.*
 import kotlin.test.Test
 import kotlin.test.assertFalse
 import kotlin.test.assertTrue

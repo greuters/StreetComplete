@@ -1,7 +1,7 @@
-package de.westnordost.streetcomplete.osm
+package de.westnordost.streetcompletegpx.osm
 
-import de.westnordost.streetcomplete.util.ktx.systemTimeNow
-import de.westnordost.streetcomplete.util.ktx.toLocalDate
+import de.westnordost.streetcompletegpx.util.ktx.systemTimeNow
+import de.westnordost.streetcompletegpx.util.ktx.toLocalDate
 import kotlinx.datetime.LocalDate
 
 /** Returns all the known keys used for recording the date at which the tag with the given key

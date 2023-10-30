@@ -1,10 +1,10 @@
-package de.westnordost.streetcomplete.view.controller
+package de.westnordost.streetcompletegpx.view.controller
 
 import android.text.Editable
 import android.view.inputmethod.EditorInfo
 import android.widget.EditText
-import de.westnordost.streetcomplete.data.meta.Abbreviations
-import de.westnordost.streetcomplete.view.DefaultTextWatcher
+import de.westnordost.streetcompletegpx.data.meta.Abbreviations
+import de.westnordost.streetcompletegpx.view.DefaultTextWatcher
 
 /** Automatically expands abbreviations when finishing a word (via space, "-" or ".")  */
 class AutoCorrectAbbreviationsViewController(private val editText: EditText) {

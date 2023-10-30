@@ -1,11 +1,11 @@
-package de.westnordost.streetcomplete.osm.sidewalk
+package de.westnordost.streetcompletegpx.osm.sidewalk
 
-import de.westnordost.streetcomplete.osm.Tags
-import de.westnordost.streetcomplete.osm.expandSides
-import de.westnordost.streetcomplete.osm.hasCheckDateForKey
-import de.westnordost.streetcomplete.osm.mergeSides
-import de.westnordost.streetcomplete.osm.sidewalk.Sidewalk.*
-import de.westnordost.streetcomplete.osm.updateCheckDateForKey
+import de.westnordost.streetcompletegpx.osm.Tags
+import de.westnordost.streetcompletegpx.osm.expandSides
+import de.westnordost.streetcompletegpx.osm.hasCheckDateForKey
+import de.westnordost.streetcompletegpx.osm.mergeSides
+import de.westnordost.streetcompletegpx.osm.sidewalk.Sidewalk.*
+import de.westnordost.streetcompletegpx.osm.updateCheckDateForKey
 
 fun LeftAndRightSidewalk.applyTo(tags: Tags) {
     if (left == null && right == null) return

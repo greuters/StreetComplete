@@ -1,6 +1,6 @@
-package de.westnordost.streetcomplete.quests.barrier_type
+package de.westnordost.streetcompletegpx.quests.barrier_type
 
-import de.westnordost.streetcomplete.quests.AImageListQuestForm
+import de.westnordost.streetcompletegpx.quests.AImageListQuestForm
 
 class AddBarrierTypeForm : AImageListQuestForm<BarrierType, BarrierType>() {
 

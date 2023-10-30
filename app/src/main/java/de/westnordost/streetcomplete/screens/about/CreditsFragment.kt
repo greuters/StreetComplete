@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.screens.about
+package de.westnordost.streetcompletegpx.screens.about
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -8,15 +8,15 @@ import android.view.ViewGroup.LayoutParams.WRAP_CONTENT
 import android.widget.LinearLayout
 import android.widget.TextView
 import androidx.core.widget.TextViewCompat
-import de.westnordost.streetcomplete.R
-import de.westnordost.streetcomplete.databinding.FragmentCreditsBinding
-import de.westnordost.streetcomplete.databinding.RowCreditsTranslatorsBinding
-import de.westnordost.streetcomplete.screens.HasTitle
-import de.westnordost.streetcomplete.screens.TwoPaneDetailFragment
-import de.westnordost.streetcomplete.util.ktx.getYamlObject
-import de.westnordost.streetcomplete.util.ktx.viewLifecycleScope
-import de.westnordost.streetcomplete.util.viewBinding
-import de.westnordost.streetcomplete.view.setHtml
+import de.westnordost.streetcompletegpx.R
+import de.westnordost.streetcompletegpx.databinding.FragmentCreditsBinding
+import de.westnordost.streetcompletegpx.databinding.RowCreditsTranslatorsBinding
+import de.westnordost.streetcompletegpx.screens.HasTitle
+import de.westnordost.streetcompletegpx.screens.TwoPaneDetailFragment
+import de.westnordost.streetcompletegpx.util.ktx.getYamlObject
+import de.westnordost.streetcompletegpx.util.ktx.viewLifecycleScope
+import de.westnordost.streetcompletegpx.util.viewBinding
+import de.westnordost.streetcompletegpx.view.setHtml
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext

@@ -1,8 +1,8 @@
-package de.westnordost.streetcomplete.osm.cycleway_separate
+package de.westnordost.streetcompletegpx.osm.cycleway_separate
 
-import de.westnordost.streetcomplete.R
-import de.westnordost.streetcomplete.osm.cycleway_separate.SeparateCycleway.*
-import de.westnordost.streetcomplete.view.image_select.Item
+import de.westnordost.streetcompletegpx.R
+import de.westnordost.streetcompletegpx.osm.cycleway_separate.SeparateCycleway.*
+import de.westnordost.streetcompletegpx.view.image_select.Item
 
 fun SeparateCycleway.asItem(isLeftHandTraffic: Boolean) =
     Item(this, getIconResId(isLeftHandTraffic), titleResId)

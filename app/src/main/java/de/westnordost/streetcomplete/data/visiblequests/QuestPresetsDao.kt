@@ -1,9 +1,9 @@
-package de.westnordost.streetcomplete.data.visiblequests
+package de.westnordost.streetcompletegpx.data.visiblequests
 
-import de.westnordost.streetcomplete.data.Database
-import de.westnordost.streetcomplete.data.visiblequests.QuestPresetsTable.Columns.QUEST_PRESET_ID
-import de.westnordost.streetcomplete.data.visiblequests.QuestPresetsTable.Columns.QUEST_PRESET_NAME
-import de.westnordost.streetcomplete.data.visiblequests.QuestPresetsTable.NAME
+import de.westnordost.streetcompletegpx.data.Database
+import de.westnordost.streetcompletegpx.data.visiblequests.QuestPresetsTable.Columns.QUEST_PRESET_ID
+import de.westnordost.streetcompletegpx.data.visiblequests.QuestPresetsTable.Columns.QUEST_PRESET_NAME
+import de.westnordost.streetcompletegpx.data.visiblequests.QuestPresetsTable.NAME
 
 class QuestPresetsDao(private val db: Database) {
 

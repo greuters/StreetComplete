@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.screens
+package de.westnordost.streetcompletegpx.screens
 
 import android.os.Bundle
 import android.view.View
@@ -8,7 +8,7 @@ import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
 import androidx.fragment.app.FragmentManager.FragmentLifecycleCallbacks
 import androidx.preference.PreferenceHeaderFragmentCompat
-import de.westnordost.streetcomplete.R
+import de.westnordost.streetcompletegpx.R
 
 /** A two pane preferences fragment that dispatches updates of its pane state to its children. */
 abstract class TwoPaneHeaderFragment : PreferenceHeaderFragmentCompat() {

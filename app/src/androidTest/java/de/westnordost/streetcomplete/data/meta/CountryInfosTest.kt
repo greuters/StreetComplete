@@ -1,7 +1,7 @@
-package de.westnordost.streetcomplete.data.meta
+package de.westnordost.streetcompletegpx.data.meta
 
 import androidx.test.platform.app.InstrumentationRegistry
-import de.westnordost.streetcomplete.osm.opening_hours.model.Weekdays.Companion.getWeekdayIndex
+import de.westnordost.streetcompletegpx.osm.opening_hours.model.Weekdays.Companion.getWeekdayIndex
 import kotlin.test.Test
 import kotlin.test.assertEquals
 import kotlin.test.assertNotNull

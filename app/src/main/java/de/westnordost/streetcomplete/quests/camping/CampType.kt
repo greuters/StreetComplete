@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.quests.camping
+package de.westnordost.streetcompletegpx.quests.camping
 
 enum class CampType(val tents: Boolean, val caravans: Boolean) {
     TENTS_AND_CARAVANS(true, true),

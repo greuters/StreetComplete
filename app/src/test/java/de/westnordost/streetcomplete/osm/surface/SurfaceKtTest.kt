@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.osm.surface
+package de.westnordost.streetcompletegpx.osm.surface
 
 import kotlin.test.*
 import kotlin.test.Test

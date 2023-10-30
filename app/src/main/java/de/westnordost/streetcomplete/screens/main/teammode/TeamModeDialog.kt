@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.screens.main.teammode
+package de.westnordost.streetcompletegpx.screens.main.teammode
 
 import android.content.Context
 import android.view.LayoutInflater
@@ -7,8 +7,8 @@ import androidx.appcompat.app.AlertDialog
 import androidx.core.view.isGone
 import androidx.core.widget.doAfterTextChanged
 import androidx.recyclerview.widget.GridLayoutManager
-import de.westnordost.streetcomplete.databinding.DialogTeamModeBinding
-import de.westnordost.streetcomplete.screens.main.teammode.TeamModeColorCircleView.Companion.MAX_TEAM_SIZE
+import de.westnordost.streetcompletegpx.databinding.DialogTeamModeBinding
+import de.westnordost.streetcompletegpx.screens.main.teammode.TeamModeColorCircleView.Companion.MAX_TEAM_SIZE
 
 /** Shows a dialog containing the team mode settings */
 class TeamModeDialog(

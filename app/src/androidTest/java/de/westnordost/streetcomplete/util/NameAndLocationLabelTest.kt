@@ -1,12 +1,12 @@
-package de.westnordost.streetcomplete.util
+package de.westnordost.streetcompletegpx.util
 
 import android.content.res.Configuration
 import android.content.res.Resources
 import androidx.test.platform.app.InstrumentationRegistry
 import de.westnordost.osmfeatures.AndroidFeatureDictionary
 import de.westnordost.osmfeatures.FeatureDictionary
-import de.westnordost.streetcomplete.data.osm.mapdata.LatLon
-import de.westnordost.streetcomplete.data.osm.mapdata.Node
+import de.westnordost.streetcompletegpx.data.osm.mapdata.LatLon
+import de.westnordost.streetcompletegpx.data.osm.mapdata.Node
 import java.util.Locale
 import kotlin.test.Test
 import kotlin.test.assertEquals

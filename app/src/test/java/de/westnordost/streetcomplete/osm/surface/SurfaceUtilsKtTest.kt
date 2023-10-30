@@ -1,9 +1,9 @@
-package de.westnordost.streetcomplete.osm.surface
+package de.westnordost.streetcompletegpx.osm.surface
 
-import de.westnordost.streetcomplete.data.osm.edits.update_tags.StringMapChangesBuilder
-import de.westnordost.streetcomplete.data.osm.edits.update_tags.StringMapEntryAdd
-import de.westnordost.streetcomplete.data.osm.edits.update_tags.StringMapEntryDelete
-import de.westnordost.streetcomplete.util.ktx.containsExactlyInAnyOrder
+import de.westnordost.streetcompletegpx.data.osm.edits.update_tags.StringMapChangesBuilder
+import de.westnordost.streetcompletegpx.data.osm.edits.update_tags.StringMapEntryAdd
+import de.westnordost.streetcompletegpx.data.osm.edits.update_tags.StringMapEntryDelete
+import de.westnordost.streetcompletegpx.util.ktx.containsExactlyInAnyOrder
 import kotlin.test.*
 import kotlin.test.Test
 

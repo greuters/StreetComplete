@@ -1,7 +1,7 @@
-package de.westnordost.streetcomplete.data.quest
+package de.westnordost.streetcompletegpx.data.quest
 
-import de.westnordost.streetcomplete.data.osm.geometry.ElementGeometry
-import de.westnordost.streetcomplete.data.osm.mapdata.LatLon
+import de.westnordost.streetcompletegpx.data.osm.geometry.ElementGeometry
+import de.westnordost.streetcompletegpx.data.osm.mapdata.LatLon
 
 /** Represents one task for the user to complete/correct  */
 interface Quest {

@@ -1,25 +1,25 @@
-package de.westnordost.streetcomplete.data.osm.edits.split_way
+package de.westnordost.streetcompletegpx.data.osm.edits.split_way
 
-import de.westnordost.streetcomplete.data.osm.edits.ElementEditAction
-import de.westnordost.streetcomplete.data.osm.edits.ElementIdProvider
-import de.westnordost.streetcomplete.data.osm.edits.NewElementsCount
-import de.westnordost.streetcomplete.data.osm.edits.update_tags.isGeometrySubstantiallyDifferent
-import de.westnordost.streetcomplete.data.osm.mapdata.ElementKey
-import de.westnordost.streetcomplete.data.osm.mapdata.ElementType
-import de.westnordost.streetcomplete.data.osm.mapdata.MapDataChanges
-import de.westnordost.streetcomplete.data.osm.mapdata.MapDataRepository
-import de.westnordost.streetcomplete.data.osm.mapdata.Node
-import de.westnordost.streetcomplete.data.osm.mapdata.Relation
-import de.westnordost.streetcomplete.data.osm.mapdata.RelationMember
-import de.westnordost.streetcomplete.data.osm.mapdata.Way
-import de.westnordost.streetcomplete.data.osm.mapdata.key
-import de.westnordost.streetcomplete.data.upload.ConflictException
-import de.westnordost.streetcomplete.util.ktx.containsAny
-import de.westnordost.streetcomplete.util.ktx.findNext
-import de.westnordost.streetcomplete.util.ktx.findPrevious
-import de.westnordost.streetcomplete.util.ktx.firstAndLast
-import de.westnordost.streetcomplete.util.ktx.indexOfMaxBy
-import de.westnordost.streetcomplete.util.ktx.nowAsEpochMilliseconds
+import de.westnordost.streetcompletegpx.data.osm.edits.ElementEditAction
+import de.westnordost.streetcompletegpx.data.osm.edits.ElementIdProvider
+import de.westnordost.streetcompletegpx.data.osm.edits.NewElementsCount
+import de.westnordost.streetcompletegpx.data.osm.edits.update_tags.isGeometrySubstantiallyDifferent
+import de.westnordost.streetcompletegpx.data.osm.mapdata.ElementKey
+import de.westnordost.streetcompletegpx.data.osm.mapdata.ElementType
+import de.westnordost.streetcompletegpx.data.osm.mapdata.MapDataChanges
+import de.westnordost.streetcompletegpx.data.osm.mapdata.MapDataRepository
+import de.westnordost.streetcompletegpx.data.osm.mapdata.Node
+import de.westnordost.streetcompletegpx.data.osm.mapdata.Relation
+import de.westnordost.streetcompletegpx.data.osm.mapdata.RelationMember
+import de.westnordost.streetcompletegpx.data.osm.mapdata.Way
+import de.westnordost.streetcompletegpx.data.osm.mapdata.key
+import de.westnordost.streetcompletegpx.data.upload.ConflictException
+import de.westnordost.streetcompletegpx.util.ktx.containsAny
+import de.westnordost.streetcompletegpx.util.ktx.findNext
+import de.westnordost.streetcompletegpx.util.ktx.findPrevious
+import de.westnordost.streetcompletegpx.util.ktx.firstAndLast
+import de.westnordost.streetcompletegpx.util.ktx.indexOfMaxBy
+import de.westnordost.streetcompletegpx.util.ktx.nowAsEpochMilliseconds
 import kotlinx.serialization.Serializable
 
 /** Action that performs a split on a way.

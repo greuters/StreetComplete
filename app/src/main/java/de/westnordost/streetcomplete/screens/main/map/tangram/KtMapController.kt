@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.screens.main.map.tangram
+package de.westnordost.streetcompletegpx.screens.main.map.tangram
 
 import android.animation.TimeAnimator
 import android.content.ContentResolver
@@ -22,14 +22,14 @@ import com.mapzen.tangram.networking.HttpHandler
 import com.mapzen.tangram.viewholder.GLSurfaceViewHolderFactory
 import com.mapzen.tangram.viewholder.GLViewHolder
 import com.mapzen.tangram.viewholder.GLViewHolderFactory
-import de.westnordost.streetcomplete.data.osm.mapdata.BoundingBox
-import de.westnordost.streetcomplete.data.osm.mapdata.LatLon
-import de.westnordost.streetcomplete.util.math.centerPointOfPolyline
-import de.westnordost.streetcomplete.util.math.distanceTo
-import de.westnordost.streetcomplete.util.math.enclosingBoundingBox
-import de.westnordost.streetcomplete.util.math.initialBearingTo
-import de.westnordost.streetcomplete.util.math.normalizeLongitude
-import de.westnordost.streetcomplete.util.math.translate
+import de.westnordost.streetcompletegpx.data.osm.mapdata.BoundingBox
+import de.westnordost.streetcompletegpx.data.osm.mapdata.LatLon
+import de.westnordost.streetcompletegpx.util.math.centerPointOfPolyline
+import de.westnordost.streetcompletegpx.util.math.distanceTo
+import de.westnordost.streetcompletegpx.util.math.enclosingBoundingBox
+import de.westnordost.streetcompletegpx.util.math.initialBearingTo
+import de.westnordost.streetcompletegpx.util.math.normalizeLongitude
+import de.westnordost.streetcompletegpx.util.math.translate
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.SupervisorJob

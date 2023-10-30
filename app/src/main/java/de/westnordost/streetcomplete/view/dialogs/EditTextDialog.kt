@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.view.dialogs
+package de.westnordost.streetcompletegpx.view.dialogs
 
 import android.content.Context
 import android.os.Bundle
@@ -7,9 +7,9 @@ import android.widget.EditText
 import androidx.annotation.LayoutRes
 import androidx.appcompat.app.AlertDialog
 import androidx.core.widget.doAfterTextChanged
-import de.westnordost.streetcomplete.R
-import de.westnordost.streetcomplete.util.ktx.nonBlankTextOrNull
-import de.westnordost.streetcomplete.util.ktx.showKeyboard
+import de.westnordost.streetcompletegpx.R
+import de.westnordost.streetcompletegpx.util.ktx.nonBlankTextOrNull
+import de.westnordost.streetcompletegpx.util.ktx.showKeyboard
 
 /** A dialog in which you input a text */
 class EditTextDialog(

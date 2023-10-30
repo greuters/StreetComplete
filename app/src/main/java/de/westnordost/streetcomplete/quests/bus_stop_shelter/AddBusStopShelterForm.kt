@@ -1,11 +1,11 @@
-package de.westnordost.streetcomplete.quests.bus_stop_shelter
+package de.westnordost.streetcompletegpx.quests.bus_stop_shelter
 
-import de.westnordost.streetcomplete.R
-import de.westnordost.streetcomplete.quests.AbstractOsmQuestForm
-import de.westnordost.streetcomplete.quests.AnswerItem
-import de.westnordost.streetcomplete.quests.bus_stop_shelter.BusStopShelterAnswer.COVERED
-import de.westnordost.streetcomplete.quests.bus_stop_shelter.BusStopShelterAnswer.NO_SHELTER
-import de.westnordost.streetcomplete.quests.bus_stop_shelter.BusStopShelterAnswer.SHELTER
+import de.westnordost.streetcompletegpx.R
+import de.westnordost.streetcompletegpx.quests.AbstractOsmQuestForm
+import de.westnordost.streetcompletegpx.quests.AnswerItem
+import de.westnordost.streetcompletegpx.quests.bus_stop_shelter.BusStopShelterAnswer.COVERED
+import de.westnordost.streetcompletegpx.quests.bus_stop_shelter.BusStopShelterAnswer.NO_SHELTER
+import de.westnordost.streetcompletegpx.quests.bus_stop_shelter.BusStopShelterAnswer.SHELTER
 
 class AddBusStopShelterForm : AbstractOsmQuestForm<BusStopShelterAnswer>() {
 

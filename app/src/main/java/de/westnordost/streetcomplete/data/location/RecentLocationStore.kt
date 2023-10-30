@@ -1,8 +1,8 @@
-package de.westnordost.streetcomplete.data.location
+package de.westnordost.streetcompletegpx.data.location
 
 import android.location.Location
-import de.westnordost.streetcomplete.util.ktx.toLatLon
-import de.westnordost.streetcomplete.util.math.flatDistanceTo
+import de.westnordost.streetcompletegpx.util.ktx.toLatLon
+import de.westnordost.streetcompletegpx.util.math.flatDistanceTo
 import kotlin.math.abs
 
 class RecentLocationStore {

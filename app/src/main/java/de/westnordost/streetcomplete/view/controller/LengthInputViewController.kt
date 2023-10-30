@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.view.controller
+package de.westnordost.streetcompletegpx.view.controller
 
 import android.view.ViewGroup
 import android.widget.ArrayAdapter
@@ -8,17 +8,17 @@ import androidx.annotation.LayoutRes
 import androidx.core.view.isGone
 import androidx.core.view.isInvisible
 import androidx.core.widget.doAfterTextChanged
-import de.westnordost.streetcomplete.R
-import de.westnordost.streetcomplete.data.meta.LengthUnit
-import de.westnordost.streetcomplete.osm.Length
-import de.westnordost.streetcomplete.osm.LengthInFeetAndInches
-import de.westnordost.streetcomplete.osm.LengthInMeters
-import de.westnordost.streetcomplete.util.ktx.intOrNull
-import de.westnordost.streetcomplete.util.ktx.numberOrNull
-import de.westnordost.streetcomplete.view.OnAdapterItemSelectedListener
-import de.westnordost.streetcomplete.view.inputfilter.acceptDecimalDigits
-import de.westnordost.streetcomplete.view.inputfilter.acceptIntDigits
-import de.westnordost.streetcomplete.view.inputfilter.acceptIntRange
+import de.westnordost.streetcompletegpx.R
+import de.westnordost.streetcompletegpx.data.meta.LengthUnit
+import de.westnordost.streetcompletegpx.osm.Length
+import de.westnordost.streetcompletegpx.osm.LengthInFeetAndInches
+import de.westnordost.streetcompletegpx.osm.LengthInMeters
+import de.westnordost.streetcompletegpx.util.ktx.intOrNull
+import de.westnordost.streetcompletegpx.util.ktx.numberOrNull
+import de.westnordost.streetcompletegpx.view.OnAdapterItemSelectedListener
+import de.westnordost.streetcompletegpx.view.inputfilter.acceptDecimalDigits
+import de.westnordost.streetcompletegpx.view.inputfilter.acceptIntDigits
+import de.westnordost.streetcompletegpx.view.inputfilter.acceptIntRange
 
 /** Manages inputting a length in any of the units specified in meters or feet+inch. */
 class LengthInputViewController(

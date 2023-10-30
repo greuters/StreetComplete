@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.quests.powerpoles_material
+package de.westnordost.streetcompletegpx.quests.powerpoles_material
 
 enum class PowerPolesMaterial(val osmValue: String) {
     WOOD("wood"),

@@ -1,6 +1,6 @@
-package de.westnordost.streetcomplete.quests.way_lit
+package de.westnordost.streetcompletegpx.quests.way_lit
 
-import de.westnordost.streetcomplete.osm.lit.LitStatus
+import de.westnordost.streetcompletegpx.osm.lit.LitStatus
 
 sealed interface WayLitOrIsStepsAnswer
 object IsActuallyStepsAnswer : WayLitOrIsStepsAnswer

@@ -1,11 +1,11 @@
-package de.westnordost.streetcomplete.data.osm.edits.create
+package de.westnordost.streetcompletegpx.data.osm.edits.create
 
-import de.westnordost.streetcomplete.data.osm.edits.ElementEditAction
-import de.westnordost.streetcomplete.data.osm.edits.MapDataWithEditsSource
-import de.westnordost.streetcomplete.data.osm.edits.update_tags.StringMapChangesBuilder
-import de.westnordost.streetcomplete.util.math.PositionOnWay
-import de.westnordost.streetcomplete.util.math.PositionOnWaySegment
-import de.westnordost.streetcomplete.util.math.VertexOfWay
+import de.westnordost.streetcompletegpx.data.osm.edits.ElementEditAction
+import de.westnordost.streetcompletegpx.data.osm.edits.MapDataWithEditsSource
+import de.westnordost.streetcompletegpx.data.osm.edits.update_tags.StringMapChangesBuilder
+import de.westnordost.streetcompletegpx.util.math.PositionOnWay
+import de.westnordost.streetcompletegpx.util.math.PositionOnWaySegment
+import de.westnordost.streetcompletegpx.util.math.VertexOfWay
 
 fun createNodeAction(
     positionOnWay: PositionOnWay,

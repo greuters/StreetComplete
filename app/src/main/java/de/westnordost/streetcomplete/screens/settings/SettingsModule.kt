@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.screens.settings
+package de.westnordost.streetcompletegpx.screens.settings
 
 import org.koin.dsl.module
 

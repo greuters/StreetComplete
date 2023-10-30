@@ -1,7 +1,7 @@
-package de.westnordost.streetcomplete.data
+package de.westnordost.streetcompletegpx.data
 
-import de.westnordost.streetcomplete.data.osm.mapdata.MapDataController
-import de.westnordost.streetcomplete.data.quest.VisibleQuestsSource
+import de.westnordost.streetcompletegpx.data.osm.mapdata.MapDataController
+import de.westnordost.streetcompletegpx.data.quest.VisibleQuestsSource
 
 class CacheTrimmer(
     private val visibleQuestsSource: VisibleQuestsSource,

@@ -1,12 +1,12 @@
-package de.westnordost.streetcomplete.quests
+package de.westnordost.streetcompletegpx.quests
 
 import android.os.Bundle
 import android.view.View
 import android.view.View.generateViewId
 import android.widget.RadioButton
 import android.widget.RadioGroup
-import de.westnordost.streetcomplete.R
-import de.westnordost.streetcomplete.databinding.QuestGenericRadioListBinding
+import de.westnordost.streetcompletegpx.R
+import de.westnordost.streetcompletegpx.databinding.QuestGenericRadioListBinding
 
 abstract class AListQuestForm<T> : AbstractOsmQuestForm<T>() {
 

@@ -1,8 +1,8 @@
-package de.westnordost.streetcomplete.util
+package de.westnordost.streetcompletegpx.util
 
 import android.content.SharedPreferences
 import androidx.core.content.edit
-import de.westnordost.streetcomplete.Prefs
+import de.westnordost.streetcompletegpx.Prefs
 
 class LastPickedValuesStore<T : Any>(
     private val prefs: SharedPreferences,

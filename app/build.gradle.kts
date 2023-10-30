@@ -31,11 +31,11 @@ android {
     }
 
     defaultConfig {
-        applicationId = "de.westnordost.streetcomplete"
+        applicationId = "de.westnordost.streetcompletegpx"
         minSdk = 21
         targetSdk = 33
-        versionCode = 5402
-        versionName = "54.1"
+        versionCode = 1
+        versionName = "1.0"
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
 
@@ -79,7 +79,7 @@ android {
         )
         abortOnError = false
     }
-    namespace = "de.westnordost.streetcomplete"
+    namespace = "de.westnordost.streetcompletegpx"
 }
 
 val keystorePropertiesFile = rootProject.file("keystore.properties")

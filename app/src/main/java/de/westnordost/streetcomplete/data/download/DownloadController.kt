@@ -1,13 +1,13 @@
-package de.westnordost.streetcomplete.data.download
+package de.westnordost.streetcompletegpx.data.download
 
 import android.content.ComponentName
 import android.content.Context
 import android.content.Intent
 import android.content.ServiceConnection
 import android.os.IBinder
-import de.westnordost.streetcomplete.ApplicationConstants
-import de.westnordost.streetcomplete.data.download.tiles.enclosingTilesRect
-import de.westnordost.streetcomplete.data.osm.mapdata.BoundingBox
+import de.westnordost.streetcompletegpx.ApplicationConstants
+import de.westnordost.streetcompletegpx.data.download.tiles.enclosingTilesRect
+import de.westnordost.streetcompletegpx.data.osm.mapdata.BoundingBox
 
 /** Controls downloading */
 class DownloadController(

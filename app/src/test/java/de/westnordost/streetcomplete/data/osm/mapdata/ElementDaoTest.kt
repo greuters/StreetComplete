@@ -1,14 +1,14 @@
-package de.westnordost.streetcomplete.data.osm.mapdata
+package de.westnordost.streetcompletegpx.data.osm.mapdata
 
-import de.westnordost.streetcomplete.data.osm.mapdata.ElementType.NODE
-import de.westnordost.streetcomplete.data.osm.mapdata.ElementType.RELATION
-import de.westnordost.streetcomplete.data.osm.mapdata.ElementType.WAY
-import de.westnordost.streetcomplete.testutils.eq
-import de.westnordost.streetcomplete.testutils.mock
-import de.westnordost.streetcomplete.testutils.node
-import de.westnordost.streetcomplete.testutils.on
-import de.westnordost.streetcomplete.testutils.rel
-import de.westnordost.streetcomplete.testutils.way
+import de.westnordost.streetcompletegpx.data.osm.mapdata.ElementType.NODE
+import de.westnordost.streetcompletegpx.data.osm.mapdata.ElementType.RELATION
+import de.westnordost.streetcompletegpx.data.osm.mapdata.ElementType.WAY
+import de.westnordost.streetcompletegpx.testutils.eq
+import de.westnordost.streetcompletegpx.testutils.mock
+import de.westnordost.streetcompletegpx.testutils.node
+import de.westnordost.streetcompletegpx.testutils.on
+import de.westnordost.streetcompletegpx.testutils.rel
+import de.westnordost.streetcompletegpx.testutils.way
 import org.mockito.Mockito.anyCollection
 import org.mockito.Mockito.verify
 import kotlin.test.BeforeTest

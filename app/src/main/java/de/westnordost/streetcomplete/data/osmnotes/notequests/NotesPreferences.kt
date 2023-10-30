@@ -1,7 +1,7 @@
-package de.westnordost.streetcomplete.data.osmnotes.notequests
+package de.westnordost.streetcompletegpx.data.osmnotes.notequests
 
 import android.content.SharedPreferences
-import de.westnordost.streetcomplete.Prefs
+import de.westnordost.streetcompletegpx.Prefs
 
 class NotesPreferences(private val prefs: SharedPreferences) {
 

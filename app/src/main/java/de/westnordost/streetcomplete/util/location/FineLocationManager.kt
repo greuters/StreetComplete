@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.util.location
+package de.westnordost.streetcompletegpx.util.location
 
 import android.Manifest.permission.ACCESS_FINE_LOCATION
 import android.content.Context

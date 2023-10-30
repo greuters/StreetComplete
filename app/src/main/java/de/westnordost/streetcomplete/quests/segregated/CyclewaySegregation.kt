@@ -1,3 +1,3 @@
-package de.westnordost.streetcomplete.quests.segregated
+package de.westnordost.streetcompletegpx.quests.segregated
 
 enum class CyclewaySegregation { YES, NO, SIDEWALK }

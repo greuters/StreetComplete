@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.quests.shop_type
+package de.westnordost.streetcompletegpx.quests.shop_type
 
 sealed interface ShopTypeAnswer
 

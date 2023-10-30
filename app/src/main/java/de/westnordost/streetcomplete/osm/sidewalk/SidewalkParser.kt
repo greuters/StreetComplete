@@ -1,10 +1,10 @@
-package de.westnordost.streetcomplete.osm.sidewalk
+package de.westnordost.streetcompletegpx.osm.sidewalk
 
-import de.westnordost.streetcomplete.osm.sidewalk.Sidewalk.INVALID
-import de.westnordost.streetcomplete.osm.sidewalk.Sidewalk.NO
-import de.westnordost.streetcomplete.osm.sidewalk.Sidewalk.SEPARATE
-import de.westnordost.streetcomplete.osm.sidewalk.Sidewalk.YES
-import de.westnordost.streetcomplete.util.ktx.containsAny
+import de.westnordost.streetcompletegpx.osm.sidewalk.Sidewalk.INVALID
+import de.westnordost.streetcompletegpx.osm.sidewalk.Sidewalk.NO
+import de.westnordost.streetcompletegpx.osm.sidewalk.Sidewalk.SEPARATE
+import de.westnordost.streetcompletegpx.osm.sidewalk.Sidewalk.YES
+import de.westnordost.streetcompletegpx.util.ktx.containsAny
 
 /** Returns on which sides are sidewalks. Returns null if there is no sidewalk tagging */
 fun createSidewalkSides(tags: Map<String, String>): LeftAndRightSidewalk? {

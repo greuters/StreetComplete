@@ -1,9 +1,9 @@
-package de.westnordost.streetcomplete.osm.lane_narrowing_traffic_calming
+package de.westnordost.streetcompletegpx.osm.lane_narrowing_traffic_calming
 
-import de.westnordost.streetcomplete.R
-import de.westnordost.streetcomplete.osm.lane_narrowing_traffic_calming.LaneNarrowingTrafficCalming.*
-import de.westnordost.streetcomplete.view.image_select.DisplayItem
-import de.westnordost.streetcomplete.view.image_select.Item
+import de.westnordost.streetcompletegpx.R
+import de.westnordost.streetcompletegpx.osm.lane_narrowing_traffic_calming.LaneNarrowingTrafficCalming.*
+import de.westnordost.streetcompletegpx.view.image_select.DisplayItem
+import de.westnordost.streetcompletegpx.view.image_select.Item
 
 fun LaneNarrowingTrafficCalming.asItem(): DisplayItem<LaneNarrowingTrafficCalming> =
     Item(this, iconResId, titleResId)

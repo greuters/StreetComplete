@@ -1,10 +1,10 @@
-package de.westnordost.streetcomplete.data.osm.edits
+package de.westnordost.streetcompletegpx.data.osm.edits
 
-import de.westnordost.streetcomplete.data.osm.edits.upload.LastEditTimeStore
-import de.westnordost.streetcomplete.data.osm.geometry.ElementGeometry
-import de.westnordost.streetcomplete.data.osm.mapdata.ElementKey
-import de.westnordost.streetcomplete.data.osm.mapdata.MapDataUpdates
-import de.westnordost.streetcomplete.util.ktx.nowAsEpochMilliseconds
+import de.westnordost.streetcompletegpx.data.osm.edits.upload.LastEditTimeStore
+import de.westnordost.streetcompletegpx.data.osm.geometry.ElementGeometry
+import de.westnordost.streetcompletegpx.data.osm.mapdata.ElementKey
+import de.westnordost.streetcompletegpx.data.osm.mapdata.MapDataUpdates
+import de.westnordost.streetcompletegpx.util.ktx.nowAsEpochMilliseconds
 import java.util.concurrent.CopyOnWriteArrayList
 
 class ElementEditsController(

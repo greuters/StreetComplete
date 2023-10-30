@@ -1,12 +1,12 @@
-package de.westnordost.streetcomplete.quests.construction
+package de.westnordost.streetcompletegpx.quests.construction
 
 import android.app.DatePickerDialog
-import de.westnordost.streetcomplete.R
-import de.westnordost.streetcomplete.quests.AbstractOsmQuestForm
-import de.westnordost.streetcomplete.quests.AnswerItem
-import de.westnordost.streetcomplete.util.ktx.systemTimeNow
-import de.westnordost.streetcomplete.util.ktx.toInstant
-import de.westnordost.streetcomplete.util.ktx.toLocalDate
+import de.westnordost.streetcompletegpx.R
+import de.westnordost.streetcompletegpx.quests.AbstractOsmQuestForm
+import de.westnordost.streetcompletegpx.quests.AnswerItem
+import de.westnordost.streetcompletegpx.util.ktx.systemTimeNow
+import de.westnordost.streetcompletegpx.util.ktx.toInstant
+import de.westnordost.streetcompletegpx.util.ktx.toLocalDate
 import kotlinx.datetime.DateTimeUnit
 import kotlinx.datetime.LocalDate
 import kotlinx.datetime.plus

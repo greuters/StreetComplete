@@ -1,18 +1,18 @@
-package de.westnordost.streetcomplete.osm.cycleway
+package de.westnordost.streetcompletegpx.osm.cycleway
 
-import de.westnordost.streetcomplete.osm.Tags
-import de.westnordost.streetcomplete.osm.cycleway.Cycleway.*
-import de.westnordost.streetcomplete.osm.cycleway.Direction.*
-import de.westnordost.streetcomplete.osm.expandSides
-import de.westnordost.streetcomplete.osm.hasCheckDateForKey
-import de.westnordost.streetcomplete.osm.isInContraflowOfOneway
-import de.westnordost.streetcomplete.osm.isOneway
-import de.westnordost.streetcomplete.osm.isReversedOneway
-import de.westnordost.streetcomplete.osm.mergeSides
-import de.westnordost.streetcomplete.osm.sidewalk.LeftAndRightSidewalk
-import de.westnordost.streetcomplete.osm.sidewalk.Sidewalk
-import de.westnordost.streetcomplete.osm.sidewalk.applyTo
-import de.westnordost.streetcomplete.osm.updateCheckDateForKey
+import de.westnordost.streetcompletegpx.osm.Tags
+import de.westnordost.streetcompletegpx.osm.cycleway.Cycleway.*
+import de.westnordost.streetcompletegpx.osm.cycleway.Direction.*
+import de.westnordost.streetcompletegpx.osm.expandSides
+import de.westnordost.streetcompletegpx.osm.hasCheckDateForKey
+import de.westnordost.streetcompletegpx.osm.isInContraflowOfOneway
+import de.westnordost.streetcompletegpx.osm.isOneway
+import de.westnordost.streetcompletegpx.osm.isReversedOneway
+import de.westnordost.streetcompletegpx.osm.mergeSides
+import de.westnordost.streetcompletegpx.osm.sidewalk.LeftAndRightSidewalk
+import de.westnordost.streetcompletegpx.osm.sidewalk.Sidewalk
+import de.westnordost.streetcompletegpx.osm.sidewalk.applyTo
+import de.westnordost.streetcompletegpx.osm.updateCheckDateForKey
 
 fun LeftAndRightCycleway.applyTo(tags: Tags, isLeftHandTraffic: Boolean) {
     if (left == null && right == null) return

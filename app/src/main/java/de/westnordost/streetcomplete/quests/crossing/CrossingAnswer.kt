@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.quests.crossing
+package de.westnordost.streetcompletegpx.quests.crossing
 
 enum class CrossingAnswer {
     YES,

@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.quests.shop_type
+package de.westnordost.streetcompletegpx.quests.shop_type
 
 import android.content.Context
 import android.content.DialogInterface
@@ -9,14 +9,14 @@ import androidx.appcompat.app.AlertDialog
 import de.westnordost.osmfeatures.Feature
 import de.westnordost.osmfeatures.FeatureDictionary
 import de.westnordost.osmfeatures.GeometryType
-import de.westnordost.streetcomplete.R
-import de.westnordost.streetcomplete.data.osm.mapdata.LatLon
-import de.westnordost.streetcomplete.data.osm.mapdata.Node
-import de.westnordost.streetcomplete.databinding.DialogShopGoneBinding
-import de.westnordost.streetcomplete.databinding.ViewShopTypeBinding
-import de.westnordost.streetcomplete.osm.IS_SHOP_EXPRESSION
-import de.westnordost.streetcomplete.view.controller.FeatureViewController
-import de.westnordost.streetcomplete.view.dialogs.SearchFeaturesDialog
+import de.westnordost.streetcompletegpx.R
+import de.westnordost.streetcompletegpx.data.osm.mapdata.LatLon
+import de.westnordost.streetcompletegpx.data.osm.mapdata.Node
+import de.westnordost.streetcompletegpx.databinding.DialogShopGoneBinding
+import de.westnordost.streetcompletegpx.databinding.ViewShopTypeBinding
+import de.westnordost.streetcompletegpx.osm.IS_SHOP_EXPRESSION
+import de.westnordost.streetcompletegpx.view.controller.FeatureViewController
+import de.westnordost.streetcompletegpx.view.dialogs.SearchFeaturesDialog
 
 class ShopGoneDialog(
     context: Context,

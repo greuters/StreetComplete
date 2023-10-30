@@ -1,9 +1,9 @@
-package de.westnordost.streetcomplete
+package de.westnordost.streetcompletegpx
 
-import de.westnordost.streetcomplete.data.osm.edits.split_way.SplitWayAction
+import de.westnordost.streetcompletegpx.data.osm.edits.split_way.SplitWayAction
 
 object ApplicationConstants {
-    const val NAME = "StreetComplete"
+    const val NAME = "StreetCompleteGpx"
     const val USER_AGENT = NAME + " " + BuildConfig.VERSION_NAME
     const val QUESTTYPE_TAG_KEY = NAME + ":quest_type"
 

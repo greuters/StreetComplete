@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.view
+package de.westnordost.streetcompletegpx.view
 
 import android.graphics.Canvas
 import android.graphics.Paint
@@ -12,7 +12,7 @@ import android.text.style.BulletSpan
 import android.text.style.LeadingMarginSpan
 import android.widget.TextView
 import androidx.core.text.HtmlCompat
-import de.westnordost.streetcomplete.util.ktx.spToPx
+import de.westnordost.streetcompletegpx.util.ktx.spToPx
 import org.xml.sax.XMLReader
 
 fun TextView.setHtml(html: String) {

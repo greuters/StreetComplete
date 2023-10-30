@@ -1,10 +1,10 @@
-package de.westnordost.streetcomplete.util.ktx
+package de.westnordost.streetcompletegpx.util.ktx
 
 import androidx.appcompat.widget.Toolbar
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
 import androidx.lifecycle.lifecycleScope
-import de.westnordost.streetcomplete.screens.HasTitle
+import de.westnordost.streetcompletegpx.screens.HasTitle
 
 fun Fragment.openUri(uri: String) = context?.openUri(uri) ?: false
 

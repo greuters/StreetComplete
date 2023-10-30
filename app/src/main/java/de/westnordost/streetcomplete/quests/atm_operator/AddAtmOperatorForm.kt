@@ -1,6 +1,6 @@
-package de.westnordost.streetcomplete.quests.atm_operator
+package de.westnordost.streetcompletegpx.quests.atm_operator
 
-import de.westnordost.streetcomplete.quests.ANameWithSuggestionsForm
+import de.westnordost.streetcompletegpx.quests.ANameWithSuggestionsForm
 
 class AddAtmOperatorForm : ANameWithSuggestionsForm<String>() {
 

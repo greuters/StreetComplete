@@ -1,24 +1,24 @@
-package de.westnordost.streetcomplete.quests.recycling_material
+package de.westnordost.streetcompletegpx.quests.recycling_material
 
-import de.westnordost.streetcomplete.R
-import de.westnordost.streetcomplete.quests.recycling_material.RecyclingMaterial.BATTERIES
-import de.westnordost.streetcomplete.quests.recycling_material.RecyclingMaterial.BEVERAGE_CARTONS
-import de.westnordost.streetcomplete.quests.recycling_material.RecyclingMaterial.CANS
-import de.westnordost.streetcomplete.quests.recycling_material.RecyclingMaterial.CLOTHES
-import de.westnordost.streetcomplete.quests.recycling_material.RecyclingMaterial.COOKING_OIL
-import de.westnordost.streetcomplete.quests.recycling_material.RecyclingMaterial.ENGINE_OIL
-import de.westnordost.streetcomplete.quests.recycling_material.RecyclingMaterial.GLASS
-import de.westnordost.streetcomplete.quests.recycling_material.RecyclingMaterial.GLASS_BOTTLES
-import de.westnordost.streetcomplete.quests.recycling_material.RecyclingMaterial.GREEN_WASTE
-import de.westnordost.streetcomplete.quests.recycling_material.RecyclingMaterial.PAPER
-import de.westnordost.streetcomplete.quests.recycling_material.RecyclingMaterial.PET
-import de.westnordost.streetcomplete.quests.recycling_material.RecyclingMaterial.PLASTIC
-import de.westnordost.streetcomplete.quests.recycling_material.RecyclingMaterial.PLASTIC_BOTTLES
-import de.westnordost.streetcomplete.quests.recycling_material.RecyclingMaterial.PLASTIC_PACKAGING
-import de.westnordost.streetcomplete.quests.recycling_material.RecyclingMaterial.SCRAP_METAL
-import de.westnordost.streetcomplete.quests.recycling_material.RecyclingMaterial.SHOES
-import de.westnordost.streetcomplete.quests.recycling_material.RecyclingMaterial.SMALL_ELECTRICAL_APPLIANCES
-import de.westnordost.streetcomplete.view.image_select.Item
+import de.westnordost.streetcompletegpx.R
+import de.westnordost.streetcompletegpx.quests.recycling_material.RecyclingMaterial.BATTERIES
+import de.westnordost.streetcompletegpx.quests.recycling_material.RecyclingMaterial.BEVERAGE_CARTONS
+import de.westnordost.streetcompletegpx.quests.recycling_material.RecyclingMaterial.CANS
+import de.westnordost.streetcompletegpx.quests.recycling_material.RecyclingMaterial.CLOTHES
+import de.westnordost.streetcompletegpx.quests.recycling_material.RecyclingMaterial.COOKING_OIL
+import de.westnordost.streetcompletegpx.quests.recycling_material.RecyclingMaterial.ENGINE_OIL
+import de.westnordost.streetcompletegpx.quests.recycling_material.RecyclingMaterial.GLASS
+import de.westnordost.streetcompletegpx.quests.recycling_material.RecyclingMaterial.GLASS_BOTTLES
+import de.westnordost.streetcompletegpx.quests.recycling_material.RecyclingMaterial.GREEN_WASTE
+import de.westnordost.streetcompletegpx.quests.recycling_material.RecyclingMaterial.PAPER
+import de.westnordost.streetcompletegpx.quests.recycling_material.RecyclingMaterial.PET
+import de.westnordost.streetcompletegpx.quests.recycling_material.RecyclingMaterial.PLASTIC
+import de.westnordost.streetcompletegpx.quests.recycling_material.RecyclingMaterial.PLASTIC_BOTTLES
+import de.westnordost.streetcompletegpx.quests.recycling_material.RecyclingMaterial.PLASTIC_PACKAGING
+import de.westnordost.streetcompletegpx.quests.recycling_material.RecyclingMaterial.SCRAP_METAL
+import de.westnordost.streetcompletegpx.quests.recycling_material.RecyclingMaterial.SHOES
+import de.westnordost.streetcompletegpx.quests.recycling_material.RecyclingMaterial.SMALL_ELECTRICAL_APPLIANCES
+import de.westnordost.streetcompletegpx.view.image_select.Item
 
 fun RecyclingMaterial.asItem(): Item<List<RecyclingMaterial>> =
     Item(listOf(this), iconResId, titleResId)

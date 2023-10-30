@@ -1,6 +1,6 @@
-package de.westnordost.streetcomplete.quests.place_name
+package de.westnordost.streetcompletegpx.quests.place_name
 
-import de.westnordost.streetcomplete.osm.LocalizedName
+import de.westnordost.streetcompletegpx.osm.LocalizedName
 
 sealed interface PlaceNameAnswer
 

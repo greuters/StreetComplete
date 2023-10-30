@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.quests.parking_access
+package de.westnordost.streetcompletegpx.quests.parking_access
 
 enum class ParkingAccess(val osmValue: String) {
     YES("yes"),

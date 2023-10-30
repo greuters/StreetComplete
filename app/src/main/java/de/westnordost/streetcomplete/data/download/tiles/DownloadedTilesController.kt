@@ -1,7 +1,7 @@
-package de.westnordost.streetcomplete.data.download.tiles
+package de.westnordost.streetcompletegpx.data.download.tiles
 
-import de.westnordost.streetcomplete.ApplicationConstants
-import de.westnordost.streetcomplete.util.ktx.nowAsEpochMilliseconds
+import de.westnordost.streetcompletegpx.ApplicationConstants
+import de.westnordost.streetcompletegpx.util.ktx.nowAsEpochMilliseconds
 import java.util.concurrent.CopyOnWriteArrayList
 
 class DownloadedTilesController(

@@ -1,13 +1,13 @@
-package de.westnordost.streetcomplete.quests.existence
+package de.westnordost.streetcompletegpx.quests.existence
 
-import de.westnordost.streetcomplete.data.osm.edits.update_tags.StringMapEntryAdd
-import de.westnordost.streetcomplete.data.osm.edits.update_tags.StringMapEntryDelete
-import de.westnordost.streetcomplete.data.osm.edits.update_tags.StringMapEntryModify
-import de.westnordost.streetcomplete.osm.nowAsCheckDateString
-import de.westnordost.streetcomplete.quests.verifyAnswer
-import de.westnordost.streetcomplete.testutils.mock
-import de.westnordost.streetcomplete.testutils.node
-import de.westnordost.streetcomplete.util.ktx.nowAsEpochMilliseconds
+import de.westnordost.streetcompletegpx.data.osm.edits.update_tags.StringMapEntryAdd
+import de.westnordost.streetcompletegpx.data.osm.edits.update_tags.StringMapEntryDelete
+import de.westnordost.streetcompletegpx.data.osm.edits.update_tags.StringMapEntryModify
+import de.westnordost.streetcompletegpx.osm.nowAsCheckDateString
+import de.westnordost.streetcompletegpx.quests.verifyAnswer
+import de.westnordost.streetcompletegpx.testutils.mock
+import de.westnordost.streetcompletegpx.testutils.node
+import de.westnordost.streetcompletegpx.util.ktx.nowAsEpochMilliseconds
 import kotlin.test.Test
 import kotlin.test.assertFalse
 import kotlin.test.assertTrue

@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.quests.max_speed
+package de.westnordost.streetcompletegpx.quests.max_speed
 
 import kotlin.math.roundToInt
 

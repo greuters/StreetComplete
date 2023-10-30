@@ -1,6 +1,6 @@
-package de.westnordost.streetcomplete.osm.address
+package de.westnordost.streetcompletegpx.osm.address
 
-import de.westnordost.streetcomplete.osm.Tags
+import de.westnordost.streetcompletegpx.osm.Tags
 
 sealed interface StreetOrPlaceName
 

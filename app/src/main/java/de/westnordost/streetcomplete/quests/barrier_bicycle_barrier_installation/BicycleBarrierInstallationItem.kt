@@ -1,10 +1,10 @@
-package de.westnordost.streetcomplete.quests.barrier_bicycle_barrier_installation
+package de.westnordost.streetcompletegpx.quests.barrier_bicycle_barrier_installation
 
-import de.westnordost.streetcomplete.R
-import de.westnordost.streetcomplete.quests.barrier_bicycle_barrier_installation.BicycleBarrierInstallation.FIXED
-import de.westnordost.streetcomplete.quests.barrier_bicycle_barrier_installation.BicycleBarrierInstallation.OPENABLE
-import de.westnordost.streetcomplete.quests.barrier_bicycle_barrier_installation.BicycleBarrierInstallation.REMOVABLE
-import de.westnordost.streetcomplete.view.image_select.Item
+import de.westnordost.streetcompletegpx.R
+import de.westnordost.streetcompletegpx.quests.barrier_bicycle_barrier_installation.BicycleBarrierInstallation.FIXED
+import de.westnordost.streetcompletegpx.quests.barrier_bicycle_barrier_installation.BicycleBarrierInstallation.OPENABLE
+import de.westnordost.streetcompletegpx.quests.barrier_bicycle_barrier_installation.BicycleBarrierInstallation.REMOVABLE
+import de.westnordost.streetcompletegpx.view.image_select.Item
 
 fun BicycleBarrierInstallation.asItem() = Item(this, iconResId, titleResId)
 

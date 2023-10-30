@@ -1,13 +1,13 @@
-package de.westnordost.streetcomplete.screens.main.map.components
+package de.westnordost.streetcompletegpx.screens.main.map.components
 
 import com.mapzen.tangram.MapData
 import com.mapzen.tangram.geometry.Polygon
-import de.westnordost.streetcomplete.ApplicationConstants
-import de.westnordost.streetcomplete.data.download.tiles.TilePos
-import de.westnordost.streetcomplete.data.osm.mapdata.LatLon
-import de.westnordost.streetcomplete.data.osm.mapdata.toPolygon
-import de.westnordost.streetcomplete.screens.main.map.tangram.KtMapController
-import de.westnordost.streetcomplete.screens.main.map.tangram.toLngLat
+import de.westnordost.streetcompletegpx.ApplicationConstants
+import de.westnordost.streetcompletegpx.data.download.tiles.TilePos
+import de.westnordost.streetcompletegpx.data.osm.mapdata.LatLon
+import de.westnordost.streetcompletegpx.data.osm.mapdata.toPolygon
+import de.westnordost.streetcompletegpx.screens.main.map.tangram.KtMapController
+import de.westnordost.streetcompletegpx.screens.main.map.tangram.toLngLat
 
 class DownloadedAreaMapComponent(private val ctrl: KtMapController) {
     private var layer: MapData? = null

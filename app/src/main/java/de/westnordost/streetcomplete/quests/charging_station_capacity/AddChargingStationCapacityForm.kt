@@ -1,12 +1,12 @@
-package de.westnordost.streetcomplete.quests.charging_station_capacity
+package de.westnordost.streetcompletegpx.quests.charging_station_capacity
 
 import android.os.Bundle
 import android.view.View
 import androidx.core.widget.doAfterTextChanged
-import de.westnordost.streetcomplete.R
-import de.westnordost.streetcomplete.databinding.QuestChargingStationCapacityBinding
-import de.westnordost.streetcomplete.quests.AbstractOsmQuestForm
-import de.westnordost.streetcomplete.util.ktx.intOrNull
+import de.westnordost.streetcompletegpx.R
+import de.westnordost.streetcompletegpx.databinding.QuestChargingStationCapacityBinding
+import de.westnordost.streetcompletegpx.quests.AbstractOsmQuestForm
+import de.westnordost.streetcompletegpx.util.ktx.intOrNull
 
 class AddChargingStationCapacityForm : AbstractOsmQuestForm<Int>() {
 

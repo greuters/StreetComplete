@@ -1,12 +1,12 @@
-package de.westnordost.streetcomplete.data.osmnotes.notequests
+package de.westnordost.streetcompletegpx.data.osmnotes.notequests
 
-import de.westnordost.streetcomplete.ApplicationConstants
-import de.westnordost.streetcomplete.data.osm.mapdata.BoundingBox
-import de.westnordost.streetcomplete.data.osmnotes.Note
-import de.westnordost.streetcomplete.data.osmnotes.NoteComment
-import de.westnordost.streetcomplete.data.osmnotes.edits.NotesWithEditsSource
-import de.westnordost.streetcomplete.data.user.UserDataSource
-import de.westnordost.streetcomplete.data.user.UserLoginStatusSource
+import de.westnordost.streetcompletegpx.ApplicationConstants
+import de.westnordost.streetcompletegpx.data.osm.mapdata.BoundingBox
+import de.westnordost.streetcompletegpx.data.osmnotes.Note
+import de.westnordost.streetcompletegpx.data.osmnotes.NoteComment
+import de.westnordost.streetcompletegpx.data.osmnotes.edits.NotesWithEditsSource
+import de.westnordost.streetcompletegpx.data.user.UserDataSource
+import de.westnordost.streetcompletegpx.data.user.UserLoginStatusSource
 import java.util.concurrent.CopyOnWriteArrayList
 
 /** Used to get visible osm note quests */

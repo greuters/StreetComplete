@@ -1,21 +1,21 @@
-package de.westnordost.streetcomplete.quests.sidewalk
+package de.westnordost.streetcompletegpx.quests.sidewalk
 
-import de.westnordost.streetcomplete.R
-import de.westnordost.streetcomplete.data.elementfilter.toElementFilterExpression
-import de.westnordost.streetcomplete.data.osm.geometry.ElementGeometry
-import de.westnordost.streetcomplete.data.osm.mapdata.Element
-import de.westnordost.streetcomplete.data.osm.mapdata.MapDataWithGeometry
-import de.westnordost.streetcomplete.data.osm.mapdata.filter
-import de.westnordost.streetcomplete.data.osm.osmquests.OsmElementQuestType
-import de.westnordost.streetcomplete.data.user.achievements.EditTypeAchievement.PEDESTRIAN
-import de.westnordost.streetcomplete.osm.MAXSPEED_TYPE_KEYS
-import de.westnordost.streetcomplete.osm.Tags
-import de.westnordost.streetcomplete.osm.sidewalk.LeftAndRightSidewalk
-import de.westnordost.streetcomplete.osm.sidewalk.Sidewalk.INVALID
-import de.westnordost.streetcomplete.osm.sidewalk.any
-import de.westnordost.streetcomplete.osm.sidewalk.applyTo
-import de.westnordost.streetcomplete.osm.sidewalk.createSidewalkSides
-import de.westnordost.streetcomplete.osm.surface.ANYTHING_UNPAVED
+import de.westnordost.streetcompletegpx.R
+import de.westnordost.streetcompletegpx.data.elementfilter.toElementFilterExpression
+import de.westnordost.streetcompletegpx.data.osm.geometry.ElementGeometry
+import de.westnordost.streetcompletegpx.data.osm.mapdata.Element
+import de.westnordost.streetcompletegpx.data.osm.mapdata.MapDataWithGeometry
+import de.westnordost.streetcompletegpx.data.osm.mapdata.filter
+import de.westnordost.streetcompletegpx.data.osm.osmquests.OsmElementQuestType
+import de.westnordost.streetcompletegpx.data.user.achievements.EditTypeAchievement.PEDESTRIAN
+import de.westnordost.streetcompletegpx.osm.MAXSPEED_TYPE_KEYS
+import de.westnordost.streetcompletegpx.osm.Tags
+import de.westnordost.streetcompletegpx.osm.sidewalk.LeftAndRightSidewalk
+import de.westnordost.streetcompletegpx.osm.sidewalk.Sidewalk.INVALID
+import de.westnordost.streetcompletegpx.osm.sidewalk.any
+import de.westnordost.streetcompletegpx.osm.sidewalk.applyTo
+import de.westnordost.streetcompletegpx.osm.sidewalk.createSidewalkSides
+import de.westnordost.streetcompletegpx.osm.surface.ANYTHING_UNPAVED
 
 class AddSidewalk : OsmElementQuestType<LeftAndRightSidewalk> {
     override val changesetComment = "Specify whether roads have sidewalks"

@@ -1,11 +1,11 @@
-package de.westnordost.streetcomplete.quests.railway_crossing
+package de.westnordost.streetcompletegpx.quests.railway_crossing
 
-import de.westnordost.streetcomplete.data.osm.edits.update_tags.StringMapEntryAdd
-import de.westnordost.streetcomplete.data.osm.edits.update_tags.StringMapEntryDelete
-import de.westnordost.streetcomplete.quests.TestMapDataWithGeometry
-import de.westnordost.streetcomplete.quests.verifyAnswer
-import de.westnordost.streetcomplete.testutils.node
-import de.westnordost.streetcomplete.testutils.way
+import de.westnordost.streetcompletegpx.data.osm.edits.update_tags.StringMapEntryAdd
+import de.westnordost.streetcompletegpx.data.osm.edits.update_tags.StringMapEntryDelete
+import de.westnordost.streetcompletegpx.quests.TestMapDataWithGeometry
+import de.westnordost.streetcompletegpx.quests.verifyAnswer
+import de.westnordost.streetcompletegpx.testutils.node
+import de.westnordost.streetcompletegpx.testutils.way
 import kotlin.test.Test
 import kotlin.test.assertEquals
 import kotlin.test.assertNull

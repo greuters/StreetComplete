@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.data.osm.osmquests
+package de.westnordost.streetcompletegpx.data.osm.osmquests
 
 object OsmQuestTable {
     const val NAME = "osm_quests"

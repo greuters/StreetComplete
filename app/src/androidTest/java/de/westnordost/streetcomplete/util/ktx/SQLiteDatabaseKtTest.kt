@@ -1,6 +1,6 @@
-package de.westnordost.streetcomplete.util.ktx
+package de.westnordost.streetcompletegpx.util.ktx
 
-import de.westnordost.streetcomplete.data.ApplicationDbTestCase
+import de.westnordost.streetcompletegpx.data.ApplicationDbTestCase
 import kotlin.test.AfterTest
 import kotlin.test.BeforeTest
 

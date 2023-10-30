@@ -1,8 +1,8 @@
-package de.westnordost.streetcomplete.quests.max_speed
+package de.westnordost.streetcompletegpx.quests.max_speed
 
-import de.westnordost.streetcomplete.data.osm.edits.update_tags.StringMapEntryAdd
-import de.westnordost.streetcomplete.data.osm.edits.update_tags.StringMapEntryModify
-import de.westnordost.streetcomplete.quests.verifyAnswer
+import de.westnordost.streetcompletegpx.data.osm.edits.update_tags.StringMapEntryAdd
+import de.westnordost.streetcompletegpx.data.osm.edits.update_tags.StringMapEntryModify
+import de.westnordost.streetcompletegpx.quests.verifyAnswer
 import kotlin.test.Test
 
 class AddMaxSpeedTest {

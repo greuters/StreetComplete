@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.osm.address
+package de.westnordost.streetcompletegpx.osm.address
 
 /** Structured representation of a addr:housenumber string */
 data class HouseNumbers(val list: List<HouseNumbersPart>) {

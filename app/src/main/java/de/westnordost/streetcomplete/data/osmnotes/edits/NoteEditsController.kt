@@ -1,11 +1,11 @@
-package de.westnordost.streetcomplete.data.osmnotes.edits
+package de.westnordost.streetcompletegpx.data.osmnotes.edits
 
-import de.westnordost.streetcomplete.data.osm.mapdata.BoundingBox
-import de.westnordost.streetcomplete.data.osm.mapdata.ElementIdUpdate
-import de.westnordost.streetcomplete.data.osm.mapdata.LatLon
-import de.westnordost.streetcomplete.data.osmnotes.Note
-import de.westnordost.streetcomplete.data.osmtracks.Trackpoint
-import de.westnordost.streetcomplete.util.ktx.nowAsEpochMilliseconds
+import de.westnordost.streetcompletegpx.data.osm.mapdata.BoundingBox
+import de.westnordost.streetcompletegpx.data.osm.mapdata.ElementIdUpdate
+import de.westnordost.streetcompletegpx.data.osm.mapdata.LatLon
+import de.westnordost.streetcompletegpx.data.osmnotes.Note
+import de.westnordost.streetcompletegpx.data.osmtracks.Trackpoint
+import de.westnordost.streetcompletegpx.util.ktx.nowAsEpochMilliseconds
 import java.util.concurrent.CopyOnWriteArrayList
 
 class NoteEditsController(

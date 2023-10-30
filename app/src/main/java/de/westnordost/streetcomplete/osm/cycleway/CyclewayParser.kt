@@ -1,11 +1,11 @@
-package de.westnordost.streetcomplete.osm.cycleway
+package de.westnordost.streetcompletegpx.osm.cycleway
 
-import de.westnordost.streetcomplete.osm.cycleway.Cycleway.*
-import de.westnordost.streetcomplete.osm.expandSidesTags
-import de.westnordost.streetcomplete.osm.isForwardOneway
-import de.westnordost.streetcomplete.osm.isNotOnewayForCyclists
-import de.westnordost.streetcomplete.osm.isReversedOneway
-import de.westnordost.streetcomplete.util.ktx.containsAny
+import de.westnordost.streetcompletegpx.osm.cycleway.Cycleway.*
+import de.westnordost.streetcompletegpx.osm.expandSidesTags
+import de.westnordost.streetcompletegpx.osm.isForwardOneway
+import de.westnordost.streetcompletegpx.osm.isNotOnewayForCyclists
+import de.westnordost.streetcompletegpx.osm.isReversedOneway
+import de.westnordost.streetcompletegpx.util.ktx.containsAny
 
 /** Returns the Cycleway values for the left and right side using the given tags */
 fun createCyclewaySides(tags: Map<String, String>, isLeftHandTraffic: Boolean): LeftAndRightCycleway? {

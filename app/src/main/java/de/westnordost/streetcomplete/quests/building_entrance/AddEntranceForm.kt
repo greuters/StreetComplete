@@ -1,15 +1,15 @@
-package de.westnordost.streetcomplete.quests.building_entrance
+package de.westnordost.streetcompletegpx.quests.building_entrance
 
-import de.westnordost.streetcomplete.R
-import de.westnordost.streetcomplete.quests.AListQuestForm
-import de.westnordost.streetcomplete.quests.TextItem
-import de.westnordost.streetcomplete.quests.building_entrance.EntranceExistsAnswer.EMERGENCY_EXIT
-import de.westnordost.streetcomplete.quests.building_entrance.EntranceExistsAnswer.EXIT
-import de.westnordost.streetcomplete.quests.building_entrance.EntranceExistsAnswer.GENERIC
-import de.westnordost.streetcomplete.quests.building_entrance.EntranceExistsAnswer.MAIN
-import de.westnordost.streetcomplete.quests.building_entrance.EntranceExistsAnswer.SERVICE
-import de.westnordost.streetcomplete.quests.building_entrance.EntranceExistsAnswer.SHOP
-import de.westnordost.streetcomplete.quests.building_entrance.EntranceExistsAnswer.STAIRCASE
+import de.westnordost.streetcompletegpx.R
+import de.westnordost.streetcompletegpx.quests.AListQuestForm
+import de.westnordost.streetcompletegpx.quests.TextItem
+import de.westnordost.streetcompletegpx.quests.building_entrance.EntranceExistsAnswer.EMERGENCY_EXIT
+import de.westnordost.streetcompletegpx.quests.building_entrance.EntranceExistsAnswer.EXIT
+import de.westnordost.streetcompletegpx.quests.building_entrance.EntranceExistsAnswer.GENERIC
+import de.westnordost.streetcompletegpx.quests.building_entrance.EntranceExistsAnswer.MAIN
+import de.westnordost.streetcompletegpx.quests.building_entrance.EntranceExistsAnswer.SERVICE
+import de.westnordost.streetcompletegpx.quests.building_entrance.EntranceExistsAnswer.SHOP
+import de.westnordost.streetcompletegpx.quests.building_entrance.EntranceExistsAnswer.STAIRCASE
 
 class AddEntranceForm : AListQuestForm<EntranceAnswer>() {
     override val items: List<TextItem<EntranceAnswer>> = listOf(

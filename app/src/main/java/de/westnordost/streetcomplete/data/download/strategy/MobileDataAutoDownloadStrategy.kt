@@ -1,7 +1,7 @@
-package de.westnordost.streetcomplete.data.download.strategy
+package de.westnordost.streetcompletegpx.data.download.strategy
 
-import de.westnordost.streetcomplete.data.download.tiles.DownloadedTilesSource
-import de.westnordost.streetcomplete.data.osm.mapdata.MapDataController
+import de.westnordost.streetcompletegpx.data.download.tiles.DownloadedTilesSource
+import de.westnordost.streetcompletegpx.data.osm.mapdata.MapDataController
 
 /** Download strategy if user is on mobile data */
 class MobileDataAutoDownloadStrategy(

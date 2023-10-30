@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.util
+package de.westnordost.streetcompletegpx.util
 
 import android.content.res.Configuration
 import android.content.res.Resources
@@ -6,10 +6,10 @@ import android.text.Html
 import androidx.core.text.parseAsHtml
 import de.westnordost.osmfeatures.FeatureDictionary
 import de.westnordost.osmfeatures.GeometryType
-import de.westnordost.streetcomplete.R
-import de.westnordost.streetcomplete.data.osm.mapdata.Element
-import de.westnordost.streetcomplete.data.osm.mapdata.ElementType
-import de.westnordost.streetcomplete.util.ktx.geometryType
+import de.westnordost.streetcompletegpx.R
+import de.westnordost.streetcompletegpx.data.osm.mapdata.Element
+import de.westnordost.streetcompletegpx.data.osm.mapdata.ElementType
+import de.westnordost.streetcompletegpx.util.ktx.geometryType
 
 fun getNameAndLocationLabel(
     element: Element,

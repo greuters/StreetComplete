@@ -1,7 +1,7 @@
-package de.westnordost.streetcomplete.quests.recycling
+package de.westnordost.streetcompletegpx.quests.recycling
 
-import de.westnordost.streetcomplete.data.osm.edits.update_tags.StringMapEntryAdd
-import de.westnordost.streetcomplete.quests.verifyAnswer
+import de.westnordost.streetcompletegpx.data.osm.edits.update_tags.StringMapEntryAdd
+import de.westnordost.streetcompletegpx.quests.verifyAnswer
 import kotlin.test.Test
 
 class AddRecyclingTypeTest {

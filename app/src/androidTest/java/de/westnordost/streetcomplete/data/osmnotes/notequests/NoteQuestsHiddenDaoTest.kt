@@ -1,8 +1,8 @@
-package de.westnordost.streetcomplete.data.osmnotes.notequests
+package de.westnordost.streetcompletegpx.data.osmnotes.notequests
 
-import de.westnordost.streetcomplete.data.ApplicationDbTestCase
-import de.westnordost.streetcomplete.util.ktx.containsExactlyInAnyOrder
-import de.westnordost.streetcomplete.util.ktx.nowAsEpochMilliseconds
+import de.westnordost.streetcompletegpx.data.ApplicationDbTestCase
+import de.westnordost.streetcompletegpx.util.ktx.containsExactlyInAnyOrder
+import de.westnordost.streetcompletegpx.util.ktx.nowAsEpochMilliseconds
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.runBlocking
 import kotlin.test.BeforeTest

@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.data.osm.geometry
+package de.westnordost.streetcompletegpx.data.osm.geometry
 
 object WayGeometryTable {
     const val NAME = "elements_geometry_ways"

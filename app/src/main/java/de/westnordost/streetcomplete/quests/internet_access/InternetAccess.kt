@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.quests.internet_access
+package de.westnordost.streetcompletegpx.quests.internet_access
 
 enum class InternetAccess(val osmValue: String) {
     WIFI("wlan"),

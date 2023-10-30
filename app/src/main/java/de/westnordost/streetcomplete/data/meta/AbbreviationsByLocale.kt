@@ -1,10 +1,10 @@
-package de.westnordost.streetcomplete.data.meta
+package de.westnordost.streetcompletegpx.data.meta
 
 import android.content.Context
 import android.content.res.Configuration
 import android.content.res.Resources
-import de.westnordost.streetcomplete.R
-import de.westnordost.streetcomplete.util.ktx.getYamlStringMap
+import de.westnordost.streetcompletegpx.R
+import de.westnordost.streetcompletegpx.util.ktx.getYamlStringMap
 import java.util.Locale
 
 class AbbreviationsByLocale(private val applicationContext: Context) {

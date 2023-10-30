@@ -1,13 +1,13 @@
-package de.westnordost.streetcomplete.data.messages
+package de.westnordost.streetcompletegpx.data.messages
 
 import android.content.SharedPreferences
 import androidx.core.content.edit
-import de.westnordost.streetcomplete.BuildConfig
-import de.westnordost.streetcomplete.Prefs
-import de.westnordost.streetcomplete.data.user.UserDataController
-import de.westnordost.streetcomplete.data.user.UserDataSource
-import de.westnordost.streetcomplete.data.user.achievements.Achievement
-import de.westnordost.streetcomplete.data.user.achievements.AchievementsSource
+import de.westnordost.streetcompletegpx.BuildConfig
+import de.westnordost.streetcompletegpx.Prefs
+import de.westnordost.streetcompletegpx.data.user.UserDataController
+import de.westnordost.streetcompletegpx.data.user.UserDataSource
+import de.westnordost.streetcompletegpx.data.user.achievements.Achievement
+import de.westnordost.streetcompletegpx.data.user.achievements.AchievementsSource
 import java.util.concurrent.CopyOnWriteArrayList
 
 /** This class is to access user messages, which are basically dialogs that pop up when

@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.screens
+package de.westnordost.streetcompletegpx.screens
 
 import android.graphics.drawable.Drawable
 import android.os.Bundle
@@ -6,8 +6,8 @@ import android.view.View
 import androidx.annotation.LayoutRes
 import androidx.appcompat.widget.Toolbar
 import androidx.fragment.app.Fragment
-import de.westnordost.streetcomplete.R
-import de.westnordost.streetcomplete.util.ktx.setUpToolbarTitleAndIcon
+import de.westnordost.streetcompletegpx.R
+import de.westnordost.streetcompletegpx.util.ktx.setUpToolbarTitleAndIcon
 
 /** A fragment that shows the back button in its toolbar only when it is displayed as a single
  * detail pane. */

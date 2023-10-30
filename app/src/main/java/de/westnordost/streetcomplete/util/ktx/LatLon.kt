@@ -1,6 +1,6 @@
-package de.westnordost.streetcomplete.util.ktx
+package de.westnordost.streetcompletegpx.util.ktx
 
-import de.westnordost.streetcomplete.data.osm.mapdata.LatLon
+import de.westnordost.streetcompletegpx.data.osm.mapdata.LatLon
 import kotlin.math.abs
 
 /** OSM has limited precision of 7 decimals */

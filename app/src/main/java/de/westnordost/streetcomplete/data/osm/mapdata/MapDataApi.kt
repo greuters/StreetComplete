@@ -1,9 +1,9 @@
-package de.westnordost.streetcomplete.data.osm.mapdata
+package de.westnordost.streetcompletegpx.data.osm.mapdata
 
-import de.westnordost.streetcomplete.data.download.ConnectionException
-import de.westnordost.streetcomplete.data.download.QueryTooBigException
-import de.westnordost.streetcomplete.data.upload.ConflictException
-import de.westnordost.streetcomplete.data.user.AuthorizationException
+import de.westnordost.streetcompletegpx.data.download.ConnectionException
+import de.westnordost.streetcompletegpx.data.download.QueryTooBigException
+import de.westnordost.streetcompletegpx.data.upload.ConflictException
+import de.westnordost.streetcompletegpx.data.user.AuthorizationException
 
 /** Get and upload changes to map data */
 interface MapDataApi : MapDataRepository {

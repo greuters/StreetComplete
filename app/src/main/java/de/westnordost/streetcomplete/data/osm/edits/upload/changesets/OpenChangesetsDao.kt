@@ -1,11 +1,11 @@
-package de.westnordost.streetcomplete.data.osm.edits.upload.changesets
+package de.westnordost.streetcompletegpx.data.osm.edits.upload.changesets
 
-import de.westnordost.streetcomplete.data.CursorPosition
-import de.westnordost.streetcomplete.data.Database
-import de.westnordost.streetcomplete.data.osm.edits.upload.changesets.OpenChangesetsTable.Columns.CHANGESET_ID
-import de.westnordost.streetcomplete.data.osm.edits.upload.changesets.OpenChangesetsTable.Columns.QUEST_TYPE
-import de.westnordost.streetcomplete.data.osm.edits.upload.changesets.OpenChangesetsTable.Columns.SOURCE
-import de.westnordost.streetcomplete.data.osm.edits.upload.changesets.OpenChangesetsTable.NAME
+import de.westnordost.streetcompletegpx.data.CursorPosition
+import de.westnordost.streetcompletegpx.data.Database
+import de.westnordost.streetcompletegpx.data.osm.edits.upload.changesets.OpenChangesetsTable.Columns.CHANGESET_ID
+import de.westnordost.streetcompletegpx.data.osm.edits.upload.changesets.OpenChangesetsTable.Columns.QUEST_TYPE
+import de.westnordost.streetcompletegpx.data.osm.edits.upload.changesets.OpenChangesetsTable.Columns.SOURCE
+import de.westnordost.streetcompletegpx.data.osm.edits.upload.changesets.OpenChangesetsTable.NAME
 
 /** Keep track of changesets and the date of the last change that has been made to them  */
 class OpenChangesetsDao(private val db: Database) {

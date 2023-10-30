@@ -1,6 +1,6 @@
-package de.westnordost.streetcomplete.osm.address
+package de.westnordost.streetcompletegpx.osm.address
 
-import de.westnordost.streetcomplete.osm.Tags
+import de.westnordost.streetcompletegpx.osm.Tags
 
 /** The number part of an address, i.e. usually the house number. In some regions, addresses are
  *  instead expressed by conscription numbers or house+block numbers */

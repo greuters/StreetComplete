@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.quests.board_type
+package de.westnordost.streetcompletegpx.quests.board_type
 
 enum class BoardType(val osmValue: String) {
     HISTORY("history"),

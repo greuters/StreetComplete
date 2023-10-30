@@ -1,8 +1,8 @@
-package de.westnordost.streetcomplete.quests.bike_parking_type
+package de.westnordost.streetcompletegpx.quests.bike_parking_type
 
-import de.westnordost.streetcomplete.R
-import de.westnordost.streetcomplete.quests.bike_parking_type.BikeParkingType.*
-import de.westnordost.streetcomplete.view.image_select.Item
+import de.westnordost.streetcompletegpx.R
+import de.westnordost.streetcompletegpx.quests.bike_parking_type.BikeParkingType.*
+import de.westnordost.streetcompletegpx.view.image_select.Item
 
 fun BikeParkingType.asItem() = Item(this, iconResId, titleResId)
 

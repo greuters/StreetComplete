@@ -1,16 +1,16 @@
-package de.westnordost.streetcomplete.screens.main.controls
+package de.westnordost.streetcompletegpx.screens.main.controls
 
 import android.os.Bundle
 import android.view.View
 import androidx.core.view.isGone
 import androidx.core.view.isVisible
 import androidx.fragment.app.Fragment
-import de.westnordost.streetcomplete.R
-import de.westnordost.streetcomplete.data.messages.Message
-import de.westnordost.streetcomplete.data.messages.MessagesSource
-import de.westnordost.streetcomplete.util.ktx.popIn
-import de.westnordost.streetcomplete.util.ktx.popOut
-import de.westnordost.streetcomplete.util.ktx.viewLifecycleScope
+import de.westnordost.streetcompletegpx.R
+import de.westnordost.streetcompletegpx.data.messages.Message
+import de.westnordost.streetcompletegpx.data.messages.MessagesSource
+import de.westnordost.streetcompletegpx.util.ktx.popIn
+import de.westnordost.streetcompletegpx.util.ktx.popOut
+import de.westnordost.streetcompletegpx.util.ktx.viewLifecycleScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext

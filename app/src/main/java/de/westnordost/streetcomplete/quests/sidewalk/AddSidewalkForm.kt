@@ -1,17 +1,17 @@
-package de.westnordost.streetcomplete.quests.sidewalk
+package de.westnordost.streetcompletegpx.quests.sidewalk
 
 import androidx.appcompat.app.AlertDialog
-import de.westnordost.streetcomplete.R
-import de.westnordost.streetcomplete.osm.sidewalk.LeftAndRightSidewalk
-import de.westnordost.streetcomplete.osm.sidewalk.Sidewalk
-import de.westnordost.streetcomplete.osm.sidewalk.Sidewalk.NO
-import de.westnordost.streetcomplete.osm.sidewalk.Sidewalk.SEPARATE
-import de.westnordost.streetcomplete.osm.sidewalk.Sidewalk.YES
-import de.westnordost.streetcomplete.osm.sidewalk.asItem
-import de.westnordost.streetcomplete.osm.sidewalk.asStreetSideItem
-import de.westnordost.streetcomplete.quests.AStreetSideSelectForm
-import de.westnordost.streetcomplete.quests.AnswerItem
-import de.westnordost.streetcomplete.view.image_select.ImageListPickerDialog
+import de.westnordost.streetcompletegpx.R
+import de.westnordost.streetcompletegpx.osm.sidewalk.LeftAndRightSidewalk
+import de.westnordost.streetcompletegpx.osm.sidewalk.Sidewalk
+import de.westnordost.streetcompletegpx.osm.sidewalk.Sidewalk.NO
+import de.westnordost.streetcompletegpx.osm.sidewalk.Sidewalk.SEPARATE
+import de.westnordost.streetcompletegpx.osm.sidewalk.Sidewalk.YES
+import de.westnordost.streetcompletegpx.osm.sidewalk.asItem
+import de.westnordost.streetcompletegpx.osm.sidewalk.asStreetSideItem
+import de.westnordost.streetcompletegpx.quests.AStreetSideSelectForm
+import de.westnordost.streetcompletegpx.quests.AnswerItem
+import de.westnordost.streetcompletegpx.view.image_select.ImageListPickerDialog
 
 class AddSidewalkForm : AStreetSideSelectForm<Sidewalk, LeftAndRightSidewalk>() {
 

@@ -1,9 +1,9 @@
 @file:Suppress("NonAsciiCharacters")
 
-package de.westnordost.streetcomplete.util.math
+package de.westnordost.streetcompletegpx.util.math
 
-import de.westnordost.streetcomplete.data.osm.mapdata.LatLon
-import de.westnordost.streetcomplete.util.ktx.asSequenceOfPairs
+import de.westnordost.streetcompletegpx.data.osm.mapdata.LatLon
+import de.westnordost.streetcompletegpx.util.ktx.asSequenceOfPairs
 import kotlin.math.PI
 import kotlin.math.abs
 import kotlin.math.sqrt

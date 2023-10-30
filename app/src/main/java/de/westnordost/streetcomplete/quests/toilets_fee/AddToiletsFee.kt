@@ -1,13 +1,13 @@
-package de.westnordost.streetcomplete.quests.toilets_fee
+package de.westnordost.streetcompletegpx.quests.toilets_fee
 
-import de.westnordost.streetcomplete.R
-import de.westnordost.streetcomplete.data.osm.geometry.ElementGeometry
-import de.westnordost.streetcomplete.data.osm.osmquests.OsmFilterQuestType
-import de.westnordost.streetcomplete.data.quest.AllCountriesExcept
-import de.westnordost.streetcomplete.data.user.achievements.EditTypeAchievement.CITIZEN
-import de.westnordost.streetcomplete.osm.Tags
-import de.westnordost.streetcomplete.quests.YesNoQuestForm
-import de.westnordost.streetcomplete.util.ktx.toYesNo
+import de.westnordost.streetcompletegpx.R
+import de.westnordost.streetcompletegpx.data.osm.geometry.ElementGeometry
+import de.westnordost.streetcompletegpx.data.osm.osmquests.OsmFilterQuestType
+import de.westnordost.streetcompletegpx.data.quest.AllCountriesExcept
+import de.westnordost.streetcompletegpx.data.user.achievements.EditTypeAchievement.CITIZEN
+import de.westnordost.streetcompletegpx.osm.Tags
+import de.westnordost.streetcompletegpx.quests.YesNoQuestForm
+import de.westnordost.streetcompletegpx.util.ktx.toYesNo
 
 class AddToiletsFee : OsmFilterQuestType<Boolean>() {
 

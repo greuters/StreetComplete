@@ -1,26 +1,26 @@
-package de.westnordost.streetcomplete.data.elementfilter
+package de.westnordost.streetcompletegpx.data.elementfilter
 
-import de.westnordost.streetcomplete.data.elementfilter.ElementsTypeFilter.NODES
-import de.westnordost.streetcomplete.data.elementfilter.ElementsTypeFilter.RELATIONS
-import de.westnordost.streetcomplete.data.elementfilter.ElementsTypeFilter.WAYS
-import de.westnordost.streetcomplete.data.elementfilter.filters.CombineFilters
-import de.westnordost.streetcomplete.data.elementfilter.filters.CompareDateTagValue
-import de.westnordost.streetcomplete.data.elementfilter.filters.CompareElementAge
-import de.westnordost.streetcomplete.data.elementfilter.filters.CompareTagAge
-import de.westnordost.streetcomplete.data.elementfilter.filters.CompareTagValue
-import de.westnordost.streetcomplete.data.elementfilter.filters.ElementFilter
-import de.westnordost.streetcomplete.data.elementfilter.filters.HasKey
-import de.westnordost.streetcomplete.data.elementfilter.filters.HasKeyLike
-import de.westnordost.streetcomplete.data.elementfilter.filters.HasTag
-import de.westnordost.streetcomplete.data.elementfilter.filters.HasTagLike
-import de.westnordost.streetcomplete.data.elementfilter.filters.HasTagValueLike
-import de.westnordost.streetcomplete.data.elementfilter.filters.NotHasKey
-import de.westnordost.streetcomplete.data.elementfilter.filters.NotHasKeyLike
-import de.westnordost.streetcomplete.data.elementfilter.filters.NotHasTag
-import de.westnordost.streetcomplete.data.elementfilter.filters.NotHasTagLike
-import de.westnordost.streetcomplete.data.elementfilter.filters.NotHasTagValueLike
-import de.westnordost.streetcomplete.data.osm.mapdata.Element
-import de.westnordost.streetcomplete.data.osm.mapdata.ElementType
+import de.westnordost.streetcompletegpx.data.elementfilter.ElementsTypeFilter.NODES
+import de.westnordost.streetcompletegpx.data.elementfilter.ElementsTypeFilter.RELATIONS
+import de.westnordost.streetcompletegpx.data.elementfilter.ElementsTypeFilter.WAYS
+import de.westnordost.streetcompletegpx.data.elementfilter.filters.CombineFilters
+import de.westnordost.streetcompletegpx.data.elementfilter.filters.CompareDateTagValue
+import de.westnordost.streetcompletegpx.data.elementfilter.filters.CompareElementAge
+import de.westnordost.streetcompletegpx.data.elementfilter.filters.CompareTagAge
+import de.westnordost.streetcompletegpx.data.elementfilter.filters.CompareTagValue
+import de.westnordost.streetcompletegpx.data.elementfilter.filters.ElementFilter
+import de.westnordost.streetcompletegpx.data.elementfilter.filters.HasKey
+import de.westnordost.streetcompletegpx.data.elementfilter.filters.HasKeyLike
+import de.westnordost.streetcompletegpx.data.elementfilter.filters.HasTag
+import de.westnordost.streetcompletegpx.data.elementfilter.filters.HasTagLike
+import de.westnordost.streetcompletegpx.data.elementfilter.filters.HasTagValueLike
+import de.westnordost.streetcompletegpx.data.elementfilter.filters.NotHasKey
+import de.westnordost.streetcompletegpx.data.elementfilter.filters.NotHasKeyLike
+import de.westnordost.streetcompletegpx.data.elementfilter.filters.NotHasTag
+import de.westnordost.streetcompletegpx.data.elementfilter.filters.NotHasTagLike
+import de.westnordost.streetcompletegpx.data.elementfilter.filters.NotHasTagValueLike
+import de.westnordost.streetcompletegpx.data.osm.mapdata.Element
+import de.westnordost.streetcompletegpx.data.osm.mapdata.ElementType
 
 /** Represents the parse result of a string in filter syntax, e.g.
  *

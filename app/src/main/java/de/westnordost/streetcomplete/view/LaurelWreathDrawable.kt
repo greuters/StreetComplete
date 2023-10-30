@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.view
+package de.westnordost.streetcompletegpx.view
 
 import android.content.res.Resources
 import android.graphics.Canvas
@@ -8,9 +8,9 @@ import android.graphics.Paint
 import android.graphics.PixelFormat
 import android.graphics.drawable.Drawable
 import androidx.core.graphics.withRotation
-import de.westnordost.streetcomplete.R
-import de.westnordost.streetcomplete.util.ktx.flipHorizontally
-import de.westnordost.streetcomplete.util.ktx.getBitmapDrawable
+import de.westnordost.streetcompletegpx.R
+import de.westnordost.streetcompletegpx.util.ktx.flipHorizontally
+import de.westnordost.streetcompletegpx.util.ktx.getBitmapDrawable
 import kotlin.math.min
 
 /** Drawable providing decoration, suitable for a circular background

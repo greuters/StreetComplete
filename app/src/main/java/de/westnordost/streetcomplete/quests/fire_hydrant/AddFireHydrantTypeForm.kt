@@ -1,6 +1,6 @@
-package de.westnordost.streetcomplete.quests.fire_hydrant
+package de.westnordost.streetcompletegpx.quests.fire_hydrant
 
-import de.westnordost.streetcomplete.quests.AImageListQuestForm
+import de.westnordost.streetcompletegpx.quests.AImageListQuestForm
 
 class AddFireHydrantTypeForm : AImageListQuestForm<FireHydrantType, FireHydrantType>() {
 

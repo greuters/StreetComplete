@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.quests.lanes
+package de.westnordost.streetcompletegpx.quests.lanes
 
 sealed interface LanesAnswer
 

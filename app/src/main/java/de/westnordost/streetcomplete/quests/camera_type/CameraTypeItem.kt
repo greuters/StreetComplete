@@ -1,10 +1,10 @@
-package de.westnordost.streetcomplete.quests.camera_type
+package de.westnordost.streetcompletegpx.quests.camera_type
 
-import de.westnordost.streetcomplete.R
-import de.westnordost.streetcomplete.quests.camera_type.CameraType.DOME
-import de.westnordost.streetcomplete.quests.camera_type.CameraType.FIXED
-import de.westnordost.streetcomplete.quests.camera_type.CameraType.PANNING
-import de.westnordost.streetcomplete.view.image_select.Item
+import de.westnordost.streetcompletegpx.R
+import de.westnordost.streetcompletegpx.quests.camera_type.CameraType.DOME
+import de.westnordost.streetcompletegpx.quests.camera_type.CameraType.FIXED
+import de.westnordost.streetcompletegpx.quests.camera_type.CameraType.PANNING
+import de.westnordost.streetcompletegpx.view.image_select.Item
 
 fun CameraType.asItem() = Item(this, iconResId, titleResId)
 

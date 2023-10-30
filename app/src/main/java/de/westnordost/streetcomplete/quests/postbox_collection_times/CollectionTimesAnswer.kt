@@ -1,6 +1,6 @@
-package de.westnordost.streetcomplete.quests.postbox_collection_times
+package de.westnordost.streetcompletegpx.quests.postbox_collection_times
 
-import de.westnordost.streetcomplete.osm.opening_hours.parser.OpeningHoursRuleList
+import de.westnordost.streetcompletegpx.osm.opening_hours.parser.OpeningHoursRuleList
 
 sealed interface CollectionTimesAnswer
 

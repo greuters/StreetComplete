@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.screens.user
+package de.westnordost.streetcompletegpx.screens.user
 
 import android.os.Bundle
 import android.view.View
@@ -10,14 +10,14 @@ import com.google.android.material.tabs.TabLayout
 import com.google.android.material.tabs.TabLayout.TAB_LABEL_VISIBILITY_LABELED
 import com.google.android.material.tabs.TabLayout.TAB_LABEL_VISIBILITY_UNLABELED
 import com.google.android.material.tabs.TabLayoutMediator
-import de.westnordost.streetcomplete.R
-import de.westnordost.streetcomplete.databinding.FragmentUserBinding
-import de.westnordost.streetcomplete.screens.HasTitle
-import de.westnordost.streetcomplete.screens.user.achievements.AchievementsFragment
-import de.westnordost.streetcomplete.screens.user.links.LinksFragment
-import de.westnordost.streetcomplete.screens.user.profile.ProfileFragment
-import de.westnordost.streetcomplete.screens.user.statistics.EditStatisticsFragment
-import de.westnordost.streetcomplete.util.viewBinding
+import de.westnordost.streetcompletegpx.R
+import de.westnordost.streetcompletegpx.databinding.FragmentUserBinding
+import de.westnordost.streetcompletegpx.screens.HasTitle
+import de.westnordost.streetcompletegpx.screens.user.achievements.AchievementsFragment
+import de.westnordost.streetcompletegpx.screens.user.links.LinksFragment
+import de.westnordost.streetcompletegpx.screens.user.profile.ProfileFragment
+import de.westnordost.streetcompletegpx.screens.user.statistics.EditStatisticsFragment
+import de.westnordost.streetcompletegpx.util.viewBinding
 
 /** Shows the viewpager with the user profile, user statistics, achievements and links */
 class UserFragment : Fragment(R.layout.fragment_user), HasTitle {

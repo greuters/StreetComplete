@@ -1,18 +1,18 @@
-package de.westnordost.streetcomplete.quests.address
+package de.westnordost.streetcompletegpx.quests.address
 
 import android.os.Bundle
 import android.view.View
 import androidx.core.view.isGone
-import de.westnordost.streetcomplete.R
-import de.westnordost.streetcomplete.data.meta.AbbreviationsByLocale
-import de.westnordost.streetcomplete.data.osm.mapdata.LatLon
-import de.westnordost.streetcomplete.databinding.ViewStreetOrPlaceNameInputBinding
-import de.westnordost.streetcomplete.osm.address.StreetOrPlaceName
-import de.westnordost.streetcomplete.osm.address.StreetOrPlaceNameViewController
-import de.westnordost.streetcomplete.quests.AbstractOsmQuestForm
-import de.westnordost.streetcomplete.quests.AnswerItem
-import de.westnordost.streetcomplete.quests.road_name.RoadNameSuggestionsSource
-import de.westnordost.streetcomplete.util.getNameAndLocationLabel
+import de.westnordost.streetcompletegpx.R
+import de.westnordost.streetcompletegpx.data.meta.AbbreviationsByLocale
+import de.westnordost.streetcompletegpx.data.osm.mapdata.LatLon
+import de.westnordost.streetcompletegpx.databinding.ViewStreetOrPlaceNameInputBinding
+import de.westnordost.streetcompletegpx.osm.address.StreetOrPlaceName
+import de.westnordost.streetcompletegpx.osm.address.StreetOrPlaceNameViewController
+import de.westnordost.streetcompletegpx.quests.AbstractOsmQuestForm
+import de.westnordost.streetcompletegpx.quests.AnswerItem
+import de.westnordost.streetcompletegpx.quests.road_name.RoadNameSuggestionsSource
+import de.westnordost.streetcompletegpx.util.getNameAndLocationLabel
 import org.koin.android.ext.android.inject
 
 class AddAddressStreetForm : AbstractOsmQuestForm<StreetOrPlaceName>() {

@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.quests.building_entrance_reference
+package de.westnordost.streetcompletegpx.quests.building_entrance_reference
 
 import android.os.Bundle
 import android.view.View
@@ -6,11 +6,11 @@ import android.view.inputmethod.EditorInfo
 import android.widget.Button
 import android.widget.EditText
 import androidx.core.widget.doAfterTextChanged
-import de.westnordost.streetcomplete.R
-import de.westnordost.streetcomplete.quests.AbstractOsmQuestForm
-import de.westnordost.streetcomplete.quests.AnswerItem
-import de.westnordost.streetcomplete.util.ktx.nonBlankTextOrNull
-import de.westnordost.streetcomplete.view.controller.SwitchKeyboardButtonViewController
+import de.westnordost.streetcompletegpx.R
+import de.westnordost.streetcompletegpx.quests.AbstractOsmQuestForm
+import de.westnordost.streetcompletegpx.quests.AnswerItem
+import de.westnordost.streetcompletegpx.util.ktx.nonBlankTextOrNull
+import de.westnordost.streetcompletegpx.view.controller.SwitchKeyboardButtonViewController
 
 class AddEntranceReferenceForm : AbstractOsmQuestForm<EntranceAnswer>() {
 

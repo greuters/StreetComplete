@@ -1,6 +1,6 @@
-package de.westnordost.streetcomplete.screens.main.map.tangram
+package de.westnordost.streetcompletegpx.screens.main.map.tangram
 
-import de.westnordost.streetcomplete.testutils.p
+import de.westnordost.streetcompletegpx.testutils.p
 import kotlin.test.Test
 import kotlin.test.assertEquals
 

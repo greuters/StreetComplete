@@ -1,13 +1,13 @@
-package de.westnordost.streetcomplete.quests.self_service
+package de.westnordost.streetcompletegpx.quests.self_service
 
-import de.westnordost.streetcomplete.R
-import de.westnordost.streetcomplete.data.osm.geometry.ElementGeometry
-import de.westnordost.streetcomplete.data.osm.osmquests.OsmFilterQuestType
-import de.westnordost.streetcomplete.data.user.achievements.EditTypeAchievement.CITIZEN
-import de.westnordost.streetcomplete.osm.Tags
-import de.westnordost.streetcomplete.quests.self_service.SelfServiceLaundry.NO
-import de.westnordost.streetcomplete.quests.self_service.SelfServiceLaundry.ONLY
-import de.westnordost.streetcomplete.quests.self_service.SelfServiceLaundry.OPTIONAL
+import de.westnordost.streetcompletegpx.R
+import de.westnordost.streetcompletegpx.data.osm.geometry.ElementGeometry
+import de.westnordost.streetcompletegpx.data.osm.osmquests.OsmFilterQuestType
+import de.westnordost.streetcompletegpx.data.user.achievements.EditTypeAchievement.CITIZEN
+import de.westnordost.streetcompletegpx.osm.Tags
+import de.westnordost.streetcompletegpx.quests.self_service.SelfServiceLaundry.NO
+import de.westnordost.streetcompletegpx.quests.self_service.SelfServiceLaundry.ONLY
+import de.westnordost.streetcompletegpx.quests.self_service.SelfServiceLaundry.OPTIONAL
 
 class AddSelfServiceLaundry : OsmFilterQuestType<SelfServiceLaundry>() {
 

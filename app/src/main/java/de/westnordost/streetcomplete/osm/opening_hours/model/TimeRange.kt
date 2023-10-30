@@ -1,6 +1,6 @@
-package de.westnordost.streetcomplete.osm.opening_hours.model
+package de.westnordost.streetcompletegpx.osm.opening_hours.model
 
-import de.westnordost.streetcomplete.util.timeOfDayToString
+import de.westnordost.streetcompletegpx.util.timeOfDayToString
 import kotlinx.serialization.Serializable
 import java.util.Locale
 

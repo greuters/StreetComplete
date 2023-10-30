@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.screens.main.controls
+package de.westnordost.streetcompletegpx.screens.main.controls
 
 import android.content.Context
 import android.content.Intent
@@ -6,11 +6,11 @@ import android.view.LayoutInflater
 import androidx.appcompat.app.AlertDialog
 import androidx.core.view.doOnPreDraw
 import androidx.core.view.isGone
-import de.westnordost.streetcomplete.databinding.DialogMainMenuBinding
-import de.westnordost.streetcomplete.screens.about.AboutActivity
-import de.westnordost.streetcomplete.screens.main.teammode.TeamModeDialog
-import de.westnordost.streetcomplete.screens.settings.SettingsActivity
-import de.westnordost.streetcomplete.screens.user.UserActivity
+import de.westnordost.streetcompletegpx.databinding.DialogMainMenuBinding
+import de.westnordost.streetcompletegpx.screens.about.AboutActivity
+import de.westnordost.streetcompletegpx.screens.main.teammode.TeamModeDialog
+import de.westnordost.streetcompletegpx.screens.settings.SettingsActivity
+import de.westnordost.streetcompletegpx.screens.user.UserActivity
 
 /** Shows a dialog containing the main menu items */
 class MainMenuDialog(

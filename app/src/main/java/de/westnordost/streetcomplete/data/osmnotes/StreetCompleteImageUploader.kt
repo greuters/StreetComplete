@@ -1,7 +1,7 @@
-package de.westnordost.streetcomplete.data.osmnotes
+package de.westnordost.streetcompletegpx.data.osmnotes
 
-import de.westnordost.streetcomplete.ApplicationConstants
-import de.westnordost.streetcomplete.data.download.ConnectionException
+import de.westnordost.streetcompletegpx.ApplicationConstants
+import de.westnordost.streetcompletegpx.data.download.ConnectionException
 import org.json.JSONException
 import org.json.JSONObject
 import java.io.File

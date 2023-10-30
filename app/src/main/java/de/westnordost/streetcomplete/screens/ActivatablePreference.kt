@@ -1,11 +1,11 @@
-package de.westnordost.streetcomplete.screens
+package de.westnordost.streetcompletegpx.screens
 
 import android.content.Context
 import android.util.AttributeSet
 import android.view.View
 import androidx.preference.Preference
 import androidx.preference.PreferenceViewHolder
-import de.westnordost.streetcomplete.R
+import de.westnordost.streetcompletegpx.R
 
 /** A Preference that can be activated to display a different background. */
 class ActivatablePreference @JvmOverloads constructor(

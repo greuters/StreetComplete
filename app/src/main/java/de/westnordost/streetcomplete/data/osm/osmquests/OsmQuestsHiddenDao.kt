@@ -1,15 +1,15 @@
-package de.westnordost.streetcomplete.data.osm.osmquests
+package de.westnordost.streetcompletegpx.data.osm.osmquests
 
-import de.westnordost.streetcomplete.data.CursorPosition
-import de.westnordost.streetcomplete.data.Database
-import de.westnordost.streetcomplete.data.osm.mapdata.ElementType
-import de.westnordost.streetcomplete.data.osm.osmquests.OsmQuestsHiddenTable.Columns.ELEMENT_ID
-import de.westnordost.streetcomplete.data.osm.osmquests.OsmQuestsHiddenTable.Columns.ELEMENT_TYPE
-import de.westnordost.streetcomplete.data.osm.osmquests.OsmQuestsHiddenTable.Columns.QUEST_TYPE
-import de.westnordost.streetcomplete.data.osm.osmquests.OsmQuestsHiddenTable.Columns.TIMESTAMP
-import de.westnordost.streetcomplete.data.osm.osmquests.OsmQuestsHiddenTable.NAME
-import de.westnordost.streetcomplete.data.quest.OsmQuestKey
-import de.westnordost.streetcomplete.util.ktx.nowAsEpochMilliseconds
+import de.westnordost.streetcompletegpx.data.CursorPosition
+import de.westnordost.streetcompletegpx.data.Database
+import de.westnordost.streetcompletegpx.data.osm.mapdata.ElementType
+import de.westnordost.streetcompletegpx.data.osm.osmquests.OsmQuestsHiddenTable.Columns.ELEMENT_ID
+import de.westnordost.streetcompletegpx.data.osm.osmquests.OsmQuestsHiddenTable.Columns.ELEMENT_TYPE
+import de.westnordost.streetcompletegpx.data.osm.osmquests.OsmQuestsHiddenTable.Columns.QUEST_TYPE
+import de.westnordost.streetcompletegpx.data.osm.osmquests.OsmQuestsHiddenTable.Columns.TIMESTAMP
+import de.westnordost.streetcompletegpx.data.osm.osmquests.OsmQuestsHiddenTable.NAME
+import de.westnordost.streetcompletegpx.data.quest.OsmQuestKey
+import de.westnordost.streetcompletegpx.util.ktx.nowAsEpochMilliseconds
 
 /** Persists which osm quests should be hidden (because the user selected so) */
 class OsmQuestsHiddenDao(private val db: Database) {

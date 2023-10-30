@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.data.osm.mapdata
+package de.westnordost.streetcompletegpx.data.osm.mapdata
 
 interface MapData : Iterable<Element> {
     val nodes: Collection<Node>

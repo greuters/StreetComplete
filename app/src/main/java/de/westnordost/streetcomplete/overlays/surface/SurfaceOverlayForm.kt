@@ -1,29 +1,29 @@
-package de.westnordost.streetcomplete.overlays.surface
+package de.westnordost.streetcompletegpx.overlays.surface
 
 import android.os.Bundle
 import android.view.View
 import androidx.core.view.isGone
 import de.westnordost.osmfeatures.GeometryType
-import de.westnordost.streetcomplete.R
-import de.westnordost.streetcomplete.data.elementfilter.toElementFilterExpression
-import de.westnordost.streetcomplete.data.osm.edits.update_tags.StringMapChangesBuilder
-import de.westnordost.streetcomplete.data.osm.edits.update_tags.UpdateElementTagsAction
-import de.westnordost.streetcomplete.data.osm.mapdata.Element
-import de.westnordost.streetcomplete.databinding.FragmentOverlaySurfaceSelectBinding
-import de.westnordost.streetcomplete.osm.ALL_PATHS
-import de.westnordost.streetcomplete.osm.changeToSteps
-import de.westnordost.streetcomplete.osm.surface.SELECTABLE_WAY_SURFACES
-import de.westnordost.streetcomplete.osm.surface.SurfaceAndNote
-import de.westnordost.streetcomplete.osm.surface.applyTo
-import de.westnordost.streetcomplete.osm.surface.createSurface
-import de.westnordost.streetcomplete.osm.surface.createSurfaceAndNote
-import de.westnordost.streetcomplete.osm.surface.isComplete
-import de.westnordost.streetcomplete.osm.surface.updateCommonSurfaceFromFootAndCyclewaySurface
-import de.westnordost.streetcomplete.overlays.AbstractOverlayForm
-import de.westnordost.streetcomplete.overlays.AnswerItem
-import de.westnordost.streetcomplete.overlays.IAnswerItem
-import de.westnordost.streetcomplete.util.getFeatureName
-import de.westnordost.streetcomplete.util.ktx.couldBeSteps
+import de.westnordost.streetcompletegpx.R
+import de.westnordost.streetcompletegpx.data.elementfilter.toElementFilterExpression
+import de.westnordost.streetcompletegpx.data.osm.edits.update_tags.StringMapChangesBuilder
+import de.westnordost.streetcompletegpx.data.osm.edits.update_tags.UpdateElementTagsAction
+import de.westnordost.streetcompletegpx.data.osm.mapdata.Element
+import de.westnordost.streetcompletegpx.databinding.FragmentOverlaySurfaceSelectBinding
+import de.westnordost.streetcompletegpx.osm.ALL_PATHS
+import de.westnordost.streetcompletegpx.osm.changeToSteps
+import de.westnordost.streetcompletegpx.osm.surface.SELECTABLE_WAY_SURFACES
+import de.westnordost.streetcompletegpx.osm.surface.SurfaceAndNote
+import de.westnordost.streetcompletegpx.osm.surface.applyTo
+import de.westnordost.streetcompletegpx.osm.surface.createSurface
+import de.westnordost.streetcompletegpx.osm.surface.createSurfaceAndNote
+import de.westnordost.streetcompletegpx.osm.surface.isComplete
+import de.westnordost.streetcompletegpx.osm.surface.updateCommonSurfaceFromFootAndCyclewaySurface
+import de.westnordost.streetcompletegpx.overlays.AbstractOverlayForm
+import de.westnordost.streetcompletegpx.overlays.AnswerItem
+import de.westnordost.streetcompletegpx.overlays.IAnswerItem
+import de.westnordost.streetcompletegpx.util.getFeatureName
+import de.westnordost.streetcompletegpx.util.ktx.couldBeSteps
 
 class SurfaceOverlayForm : AbstractOverlayForm() {
     override val contentLayoutResId = R.layout.fragment_overlay_surface_select

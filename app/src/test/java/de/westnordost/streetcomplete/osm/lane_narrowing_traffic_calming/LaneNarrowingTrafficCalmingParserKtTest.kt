@@ -1,6 +1,6 @@
-package de.westnordost.streetcomplete.osm.lane_narrowing_traffic_calming
+package de.westnordost.streetcompletegpx.osm.lane_narrowing_traffic_calming
 
-import de.westnordost.streetcomplete.osm.lane_narrowing_traffic_calming.LaneNarrowingTrafficCalming.*
+import de.westnordost.streetcompletegpx.osm.lane_narrowing_traffic_calming.LaneNarrowingTrafficCalming.*
 import kotlin.test.*
 import kotlin.test.Test
 

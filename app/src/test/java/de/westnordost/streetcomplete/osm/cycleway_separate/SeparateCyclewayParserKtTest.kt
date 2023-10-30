@@ -1,6 +1,6 @@
-package de.westnordost.streetcomplete.osm.cycleway_separate
+package de.westnordost.streetcompletegpx.osm.cycleway_separate
 
-import de.westnordost.streetcomplete.osm.cycleway_separate.SeparateCycleway.*
+import de.westnordost.streetcompletegpx.osm.cycleway_separate.SeparateCycleway.*
 import kotlin.test.*
 import kotlin.test.Test
 

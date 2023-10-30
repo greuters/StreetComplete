@@ -1,7 +1,7 @@
-package de.westnordost.streetcomplete.screens.about
+package de.westnordost.streetcompletegpx.screens.about
 
 import android.os.Bundle
-import de.westnordost.streetcomplete.screens.FragmentContainerActivity
+import de.westnordost.streetcompletegpx.screens.FragmentContainerActivity
 
 class AboutActivity : FragmentContainerActivity() {
 

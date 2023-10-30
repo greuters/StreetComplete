@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.quests.leaf_detail
+package de.westnordost.streetcompletegpx.quests.leaf_detail
 
 enum class ForestLeafType(val osmValue: String) {
     NEEDLELEAVED("needleleaved"),

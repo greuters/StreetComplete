@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.screens.user.statistics
+package de.westnordost.streetcompletegpx.screens.user.statistics
 
 import android.os.Bundle
 import android.view.View
@@ -10,11 +10,11 @@ import android.view.animation.DecelerateInterpolator
 import android.view.animation.OvershootInterpolator
 import androidx.activity.OnBackPressedCallback
 import androidx.fragment.app.Fragment
-import de.westnordost.streetcomplete.view.Transforms
-import de.westnordost.streetcomplete.view.ViewPropertyAnimatorsPlayer
-import de.westnordost.streetcomplete.view.animateFrom
-import de.westnordost.streetcomplete.view.animateTo
-import de.westnordost.streetcomplete.view.applyTransforms
+import de.westnordost.streetcompletegpx.view.Transforms
+import de.westnordost.streetcompletegpx.view.ViewPropertyAnimatorsPlayer
+import de.westnordost.streetcompletegpx.view.animateFrom
+import de.westnordost.streetcompletegpx.view.animateTo
+import de.westnordost.streetcompletegpx.view.applyTransforms
 
 /**  It is not a real dialog because a real dialog has its own window, or in other words, has a
  *  different root view than the rest of the UI. However, for the calculation to animate the icon

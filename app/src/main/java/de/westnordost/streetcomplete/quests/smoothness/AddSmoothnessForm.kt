@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.quests.smoothness
+package de.westnordost.streetcompletegpx.quests.smoothness
 
 import android.content.Context
 import android.os.Bundle
@@ -9,15 +9,15 @@ import android.view.View
 import androidx.annotation.DrawableRes
 import androidx.appcompat.app.AlertDialog
 import androidx.core.view.isGone
-import de.westnordost.streetcomplete.R
-import de.westnordost.streetcomplete.databinding.QuestGenericListBinding
-import de.westnordost.streetcomplete.osm.surface.Surface
-import de.westnordost.streetcomplete.osm.surface.asItem
-import de.westnordost.streetcomplete.quests.AImageListQuestForm
-import de.westnordost.streetcomplete.quests.AnswerItem
-import de.westnordost.streetcomplete.util.ktx.asImageSpan
-import de.westnordost.streetcomplete.util.ktx.couldBeSteps
-import de.westnordost.streetcomplete.view.image_select.ItemViewHolder
+import de.westnordost.streetcompletegpx.R
+import de.westnordost.streetcompletegpx.databinding.QuestGenericListBinding
+import de.westnordost.streetcompletegpx.osm.surface.Surface
+import de.westnordost.streetcompletegpx.osm.surface.asItem
+import de.westnordost.streetcompletegpx.quests.AImageListQuestForm
+import de.westnordost.streetcompletegpx.quests.AnswerItem
+import de.westnordost.streetcompletegpx.util.ktx.asImageSpan
+import de.westnordost.streetcompletegpx.util.ktx.couldBeSteps
+import de.westnordost.streetcompletegpx.view.image_select.ItemViewHolder
 
 class AddSmoothnessForm : AImageListQuestForm<Smoothness, SmoothnessAnswer>() {
 

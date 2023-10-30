@@ -1,20 +1,20 @@
-package de.westnordost.streetcomplete.quests.width
+package de.westnordost.streetcompletegpx.quests.width
 
 import android.content.ActivityNotFoundException
 import android.os.Bundle
 import android.view.View
 import androidx.appcompat.app.AlertDialog
 import androidx.core.view.isGone
-import de.westnordost.streetcomplete.R
-import de.westnordost.streetcomplete.databinding.QuestLengthBinding
-import de.westnordost.streetcomplete.osm.ALL_ROADS
-import de.westnordost.streetcomplete.osm.Length
-import de.westnordost.streetcomplete.osm.hasDubiousRoadWidth
-import de.westnordost.streetcomplete.quests.AbstractOsmQuestForm
-import de.westnordost.streetcomplete.screens.measure.ArSupportChecker
-import de.westnordost.streetcomplete.screens.measure.MeasureContract
-import de.westnordost.streetcomplete.util.ktx.openUri
-import de.westnordost.streetcomplete.view.controller.LengthInputViewController
+import de.westnordost.streetcompletegpx.R
+import de.westnordost.streetcompletegpx.databinding.QuestLengthBinding
+import de.westnordost.streetcompletegpx.osm.ALL_ROADS
+import de.westnordost.streetcompletegpx.osm.Length
+import de.westnordost.streetcompletegpx.osm.hasDubiousRoadWidth
+import de.westnordost.streetcompletegpx.quests.AbstractOsmQuestForm
+import de.westnordost.streetcompletegpx.screens.measure.ArSupportChecker
+import de.westnordost.streetcompletegpx.screens.measure.MeasureContract
+import de.westnordost.streetcompletegpx.util.ktx.openUri
+import de.westnordost.streetcompletegpx.view.controller.LengthInputViewController
 import org.koin.android.ext.android.inject
 
 class AddWidthForm : AbstractOsmQuestForm<WidthAnswer>() {

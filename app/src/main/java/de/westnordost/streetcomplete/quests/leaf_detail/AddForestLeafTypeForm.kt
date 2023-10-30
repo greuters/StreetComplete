@@ -1,6 +1,6 @@
-package de.westnordost.streetcomplete.quests.leaf_detail
+package de.westnordost.streetcompletegpx.quests.leaf_detail
 
-import de.westnordost.streetcomplete.quests.AImageListQuestForm
+import de.westnordost.streetcompletegpx.quests.AImageListQuestForm
 
 class AddForestLeafTypeForm : AImageListQuestForm<ForestLeafType, ForestLeafType>() {
 

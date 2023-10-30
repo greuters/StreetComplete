@@ -1,6 +1,6 @@
-package de.westnordost.streetcomplete.quests.surface
+package de.westnordost.streetcompletegpx.quests.surface
 
-import de.westnordost.streetcomplete.osm.surface.SurfaceAndNote
+import de.westnordost.streetcompletegpx.osm.surface.SurfaceAndNote
 
 sealed interface SurfaceOrIsStepsAnswer
 object IsActuallyStepsAnswer : SurfaceOrIsStepsAnswer

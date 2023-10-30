@@ -1,6 +1,6 @@
-package de.westnordost.streetcomplete.quests.address
+package de.westnordost.streetcompletegpx.quests.address
 
-import de.westnordost.streetcomplete.osm.address.AddressNumber
+import de.westnordost.streetcompletegpx.osm.address.AddressNumber
 
 sealed interface HouseNumberAnswer
 

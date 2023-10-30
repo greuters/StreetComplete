@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.data.sync
+package de.westnordost.streetcompletegpx.data.sync
 
 import android.app.Notification
 import android.content.Context
@@ -8,10 +8,10 @@ import androidx.core.app.NotificationCompat
 import androidx.core.app.NotificationManagerCompat
 import androidx.core.app.NotificationManagerCompat.IMPORTANCE_LOW
 import androidx.core.app.PendingIntentCompat
-import de.westnordost.streetcomplete.ApplicationConstants.NAME
-import de.westnordost.streetcomplete.ApplicationConstants.NOTIFICATIONS_CHANNEL_SYNC
-import de.westnordost.streetcomplete.R
-import de.westnordost.streetcomplete.screens.MainActivity
+import de.westnordost.streetcompletegpx.ApplicationConstants.NAME
+import de.westnordost.streetcompletegpx.ApplicationConstants.NOTIFICATIONS_CHANNEL_SYNC
+import de.westnordost.streetcompletegpx.R
+import de.westnordost.streetcompletegpx.screens.MainActivity
 
 /** Creates the notification for syncing in the Android notifications area. Used both by the upload
  *  and by the download service. */

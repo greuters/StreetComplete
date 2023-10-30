@@ -1,13 +1,13 @@
-package de.westnordost.streetcomplete.quests.way_lit
+package de.westnordost.streetcompletegpx.quests.way_lit
 
-import de.westnordost.streetcomplete.R
-import de.westnordost.streetcomplete.data.osm.geometry.ElementGeometry
-import de.westnordost.streetcomplete.data.osm.osmquests.OsmFilterQuestType
-import de.westnordost.streetcomplete.data.user.achievements.EditTypeAchievement.PEDESTRIAN
-import de.westnordost.streetcomplete.osm.MAXSPEED_TYPE_KEYS
-import de.westnordost.streetcomplete.osm.Tags
-import de.westnordost.streetcomplete.osm.changeToSteps
-import de.westnordost.streetcomplete.osm.lit.applyTo
+import de.westnordost.streetcompletegpx.R
+import de.westnordost.streetcompletegpx.data.osm.geometry.ElementGeometry
+import de.westnordost.streetcompletegpx.data.osm.osmquests.OsmFilterQuestType
+import de.westnordost.streetcompletegpx.data.user.achievements.EditTypeAchievement.PEDESTRIAN
+import de.westnordost.streetcompletegpx.osm.MAXSPEED_TYPE_KEYS
+import de.westnordost.streetcompletegpx.osm.Tags
+import de.westnordost.streetcompletegpx.osm.changeToSteps
+import de.westnordost.streetcompletegpx.osm.lit.applyTo
 
 class AddWayLit : OsmFilterQuestType<WayLitOrIsStepsAnswer>() {
 

@@ -1,14 +1,14 @@
-package de.westnordost.streetcomplete.screens.main.bottom_sheet
+package de.westnordost.streetcompletegpx.screens.main.bottom_sheet
 
 import android.os.Bundle
 import android.view.View
 import android.widget.EditText
 import androidx.core.widget.doAfterTextChanged
-import de.westnordost.streetcomplete.R
-import de.westnordost.streetcomplete.quests.note_discussion.AttachPhotoFragment
-import de.westnordost.streetcomplete.util.ktx.nonBlankTextOrNull
-import de.westnordost.streetcomplete.util.ktx.popIn
-import de.westnordost.streetcomplete.util.ktx.popOut
+import de.westnordost.streetcompletegpx.R
+import de.westnordost.streetcompletegpx.quests.note_discussion.AttachPhotoFragment
+import de.westnordost.streetcompletegpx.util.ktx.nonBlankTextOrNull
+import de.westnordost.streetcompletegpx.util.ktx.popIn
+import de.westnordost.streetcompletegpx.util.ktx.popOut
 
 /** Abstract base class for a bottom sheet that lets the user create a note */
 abstract class AbstractCreateNoteFragment : AbstractBottomSheetFragment() {

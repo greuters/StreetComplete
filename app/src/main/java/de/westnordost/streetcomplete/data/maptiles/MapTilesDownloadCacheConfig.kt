@@ -1,9 +1,9 @@
-package de.westnordost.streetcomplete.data.maptiles
+package de.westnordost.streetcompletegpx.data.maptiles
 
 import android.content.Context
 import androidx.preference.PreferenceManager
-import de.westnordost.streetcomplete.ApplicationConstants.DELETE_OLD_DATA_AFTER
-import de.westnordost.streetcomplete.Prefs
+import de.westnordost.streetcompletegpx.ApplicationConstants.DELETE_OLD_DATA_AFTER
+import de.westnordost.streetcompletegpx.Prefs
 import okhttp3.Cache
 import okhttp3.CacheControl
 import java.io.File

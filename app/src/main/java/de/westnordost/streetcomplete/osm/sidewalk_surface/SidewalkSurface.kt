@@ -1,6 +1,6 @@
-package de.westnordost.streetcomplete.osm.sidewalk_surface
+package de.westnordost.streetcompletegpx.osm.sidewalk_surface
 
-import de.westnordost.streetcomplete.osm.surface.SurfaceAndNote
+import de.westnordost.streetcompletegpx.osm.surface.SurfaceAndNote
 
 data class LeftAndRightSidewalkSurface(
     val left: SurfaceAndNote?,

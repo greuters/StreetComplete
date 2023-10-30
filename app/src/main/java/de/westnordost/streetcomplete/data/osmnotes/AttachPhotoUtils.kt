@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.data.osmnotes
+package de.westnordost.streetcompletegpx.data.osmnotes
 
 import java.io.File
 

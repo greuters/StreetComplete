@@ -1,6 +1,6 @@
-package de.westnordost.streetcomplete.data.osm.edits
+package de.westnordost.streetcompletegpx.data.osm.edits
 
-import de.westnordost.streetcomplete.data.osm.geometry.ElementGeometry
+import de.westnordost.streetcompletegpx.data.osm.geometry.ElementGeometry
 
 interface AddElementEditsController {
     fun add(

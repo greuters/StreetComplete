@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.data.elementfilter.filters
+package de.westnordost.streetcompletegpx.data.elementfilter.filters
 
 import kotlin.test.Test
 import kotlin.test.assertFalse

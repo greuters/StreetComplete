@@ -1,16 +1,16 @@
-package de.westnordost.streetcomplete.quests.road_name
+package de.westnordost.streetcompletegpx.quests.road_name
 
 import android.content.DialogInterface
 import androidx.appcompat.app.AlertDialog
-import de.westnordost.streetcomplete.R
-import de.westnordost.streetcomplete.data.meta.AbbreviationsByLocale
-import de.westnordost.streetcomplete.data.osm.geometry.ElementPointGeometry
-import de.westnordost.streetcomplete.data.osm.geometry.ElementPolygonsGeometry
-import de.westnordost.streetcomplete.data.osm.geometry.ElementPolylinesGeometry
-import de.westnordost.streetcomplete.databinding.QuestRoadnameBinding
-import de.westnordost.streetcomplete.osm.LocalizedName
-import de.westnordost.streetcomplete.quests.AAddLocalizedNameForm
-import de.westnordost.streetcomplete.quests.AnswerItem
+import de.westnordost.streetcompletegpx.R
+import de.westnordost.streetcompletegpx.data.meta.AbbreviationsByLocale
+import de.westnordost.streetcompletegpx.data.osm.geometry.ElementPointGeometry
+import de.westnordost.streetcompletegpx.data.osm.geometry.ElementPolygonsGeometry
+import de.westnordost.streetcompletegpx.data.osm.geometry.ElementPolylinesGeometry
+import de.westnordost.streetcompletegpx.databinding.QuestRoadnameBinding
+import de.westnordost.streetcompletegpx.osm.LocalizedName
+import de.westnordost.streetcompletegpx.quests.AAddLocalizedNameForm
+import de.westnordost.streetcompletegpx.quests.AnswerItem
 import org.koin.android.ext.android.inject
 import java.lang.IllegalStateException
 import java.util.LinkedList

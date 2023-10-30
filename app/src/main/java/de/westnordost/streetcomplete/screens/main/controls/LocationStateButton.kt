@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.screens.main.controls
+package de.westnordost.streetcompletegpx.screens.main.controls
 
 import android.content.Context
 import android.content.res.ColorStateList
@@ -10,7 +10,7 @@ import android.util.AttributeSet
 import android.view.View
 import androidx.annotation.Keep
 import androidx.appcompat.widget.AppCompatImageButton
-import de.westnordost.streetcomplete.R
+import de.westnordost.streetcompletegpx.R
 
 /**
  * An image button which shows the current location state

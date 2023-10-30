@@ -1,14 +1,14 @@
-package de.westnordost.streetcomplete.util
+package de.westnordost.streetcompletegpx.util
 
 import android.app.Activity
 import android.content.Context
 import android.os.Build
 import androidx.annotation.StringRes
 import androidx.appcompat.app.AlertDialog
-import de.westnordost.streetcomplete.BuildConfig
-import de.westnordost.streetcomplete.R
-import de.westnordost.streetcomplete.util.ktx.sendEmail
-import de.westnordost.streetcomplete.util.ktx.toast
+import de.westnordost.streetcompletegpx.BuildConfig
+import de.westnordost.streetcompletegpx.R
+import de.westnordost.streetcompletegpx.util.ktx.sendEmail
+import de.westnordost.streetcompletegpx.util.ktx.toast
 import java.io.IOException
 import java.io.PrintWriter
 import java.io.StringWriter

@@ -1,6 +1,6 @@
-package de.westnordost.streetcomplete.data.osm.geometry
+package de.westnordost.streetcompletegpx.data.osm.geometry
 
-import de.westnordost.streetcomplete.data.osm.mapdata.LatLon
+import de.westnordost.streetcompletegpx.data.osm.mapdata.LatLon
 import java.io.ByteArrayInputStream
 import java.io.ByteArrayOutputStream
 import java.io.ObjectInputStream

@@ -1,14 +1,14 @@
-package de.westnordost.streetcomplete.quests.segregated
+package de.westnordost.streetcompletegpx.quests.segregated
 
-import de.westnordost.streetcomplete.R
-import de.westnordost.streetcomplete.data.osm.geometry.ElementGeometry
-import de.westnordost.streetcomplete.data.osm.osmquests.OsmFilterQuestType
-import de.westnordost.streetcomplete.data.user.achievements.EditTypeAchievement.BICYCLIST
-import de.westnordost.streetcomplete.data.user.achievements.EditTypeAchievement.OUTDOORS
-import de.westnordost.streetcomplete.osm.Tags
-import de.westnordost.streetcomplete.osm.surface.ANYTHING_PAVED
-import de.westnordost.streetcomplete.osm.updateWithCheckDate
-import de.westnordost.streetcomplete.quests.segregated.CyclewaySegregation.*
+import de.westnordost.streetcompletegpx.R
+import de.westnordost.streetcompletegpx.data.osm.geometry.ElementGeometry
+import de.westnordost.streetcompletegpx.data.osm.osmquests.OsmFilterQuestType
+import de.westnordost.streetcompletegpx.data.user.achievements.EditTypeAchievement.BICYCLIST
+import de.westnordost.streetcompletegpx.data.user.achievements.EditTypeAchievement.OUTDOORS
+import de.westnordost.streetcompletegpx.osm.Tags
+import de.westnordost.streetcompletegpx.osm.surface.ANYTHING_PAVED
+import de.westnordost.streetcompletegpx.osm.updateWithCheckDate
+import de.westnordost.streetcompletegpx.quests.segregated.CyclewaySegregation.*
 
 class AddCyclewaySegregation : OsmFilterQuestType<CyclewaySegregation>() {
 

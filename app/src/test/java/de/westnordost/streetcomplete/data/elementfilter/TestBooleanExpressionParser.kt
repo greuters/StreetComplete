@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.data.elementfilter
+package de.westnordost.streetcompletegpx.data.elementfilter
 
 object TestBooleanExpressionParser {
     fun parse(input: String): BooleanExpression<Matcher<String>, String>? {

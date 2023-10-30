@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.quests.smoking
+package de.westnordost.streetcompletegpx.quests.smoking
 
 enum class SmokingAllowed(val osmValue: String) {
     YES("yes"),

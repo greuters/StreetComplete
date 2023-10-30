@@ -1,12 +1,12 @@
-package de.westnordost.streetcomplete.util.ktx
+package de.westnordost.streetcompletegpx.util.ktx
 
 import de.westnordost.countryboundaries.CountryBoundaries
-import de.westnordost.streetcomplete.data.osm.mapdata.BoundingBox
-import de.westnordost.streetcomplete.data.osm.mapdata.LatLon
-import de.westnordost.streetcomplete.data.quest.AllCountries
-import de.westnordost.streetcomplete.data.quest.AllCountriesExcept
-import de.westnordost.streetcomplete.data.quest.Countries
-import de.westnordost.streetcomplete.data.quest.NoCountriesExcept
+import de.westnordost.streetcompletegpx.data.osm.mapdata.BoundingBox
+import de.westnordost.streetcompletegpx.data.osm.mapdata.LatLon
+import de.westnordost.streetcompletegpx.data.quest.AllCountries
+import de.westnordost.streetcompletegpx.data.quest.AllCountriesExcept
+import de.westnordost.streetcompletegpx.data.quest.Countries
+import de.westnordost.streetcompletegpx.data.quest.NoCountriesExcept
 
 /** Whether the given position is in any of the given countries */
 fun CountryBoundaries.isInAny(pos: LatLon, countries: Countries) = when (countries) {

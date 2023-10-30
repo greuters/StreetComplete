@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.data.meta
+package de.westnordost.streetcompletegpx.data.meta
 
 import java.util.Locale
 import kotlin.test.Test

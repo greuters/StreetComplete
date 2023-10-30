@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.screens.about
+package de.westnordost.streetcompletegpx.screens.about
 
 import android.content.Context
 import android.content.DialogInterface
@@ -9,17 +9,17 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.appcompat.app.AlertDialog
 import androidx.recyclerview.widget.DividerItemDecoration
-import de.westnordost.streetcomplete.R
-import de.westnordost.streetcomplete.databinding.DialogWhatsNewBinding
-import de.westnordost.streetcomplete.databinding.FragmentChangelogBinding
-import de.westnordost.streetcomplete.databinding.RowChangelogBinding
-import de.westnordost.streetcomplete.screens.HasTitle
-import de.westnordost.streetcomplete.screens.TwoPaneDetailFragment
-import de.westnordost.streetcomplete.util.ktx.getYamlStringMap
-import de.westnordost.streetcomplete.util.ktx.viewLifecycleScope
-import de.westnordost.streetcomplete.util.viewBinding
-import de.westnordost.streetcomplete.view.ListAdapter
-import de.westnordost.streetcomplete.view.setHtml
+import de.westnordost.streetcompletegpx.R
+import de.westnordost.streetcompletegpx.databinding.DialogWhatsNewBinding
+import de.westnordost.streetcompletegpx.databinding.FragmentChangelogBinding
+import de.westnordost.streetcompletegpx.databinding.RowChangelogBinding
+import de.westnordost.streetcompletegpx.screens.HasTitle
+import de.westnordost.streetcompletegpx.screens.TwoPaneDetailFragment
+import de.westnordost.streetcompletegpx.util.ktx.getYamlStringMap
+import de.westnordost.streetcompletegpx.util.ktx.viewLifecycleScope
+import de.westnordost.streetcompletegpx.util.viewBinding
+import de.westnordost.streetcompletegpx.view.ListAdapter
+import de.westnordost.streetcompletegpx.view.setHtml
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.cancel

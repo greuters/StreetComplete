@@ -1,7 +1,7 @@
-package de.westnordost.streetcomplete.screens.main
+package de.westnordost.streetcompletegpx.screens.main
 
-import de.westnordost.streetcomplete.data.location.RecentLocationStore
-import de.westnordost.streetcomplete.util.location.LocationAvailabilityReceiver
+import de.westnordost.streetcompletegpx.data.location.RecentLocationStore
+import de.westnordost.streetcompletegpx.util.location.LocationAvailabilityReceiver
 import org.koin.dsl.module
 
 val mainModule = module {

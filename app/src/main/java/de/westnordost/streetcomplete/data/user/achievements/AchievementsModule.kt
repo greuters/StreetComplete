@@ -1,17 +1,17 @@
-package de.westnordost.streetcomplete.data.user.achievements
+package de.westnordost.streetcompletegpx.data.user.achievements
 
-import de.westnordost.streetcomplete.R
-import de.westnordost.streetcomplete.overlays.street_parking.StreetParkingOverlay
-import de.westnordost.streetcomplete.quests.amenity_cover.AddAmenityCover
-import de.westnordost.streetcomplete.quests.cycleway.AddCycleway
-import de.westnordost.streetcomplete.quests.foot.AddProhibitedForPedestrians
-import de.westnordost.streetcomplete.quests.oneway.AddOneway
-import de.westnordost.streetcomplete.quests.sidewalk.AddSidewalk
-import de.westnordost.streetcomplete.quests.surface.AddRoadSurface
-import de.westnordost.streetcomplete.quests.traffic_signals_vibrate.AddTrafficSignalsVibration
-import de.westnordost.streetcomplete.quests.way_lit.AddWayLit
-import de.westnordost.streetcomplete.quests.wheelchair_access.AddWheelchairAccessPublicTransport
-import de.westnordost.streetcomplete.quests.wheelchair_access.AddWheelchairAccessToilets
+import de.westnordost.streetcompletegpx.R
+import de.westnordost.streetcompletegpx.overlays.street_parking.StreetParkingOverlay
+import de.westnordost.streetcompletegpx.quests.amenity_cover.AddAmenityCover
+import de.westnordost.streetcompletegpx.quests.cycleway.AddCycleway
+import de.westnordost.streetcompletegpx.quests.foot.AddProhibitedForPedestrians
+import de.westnordost.streetcompletegpx.quests.oneway.AddOneway
+import de.westnordost.streetcompletegpx.quests.sidewalk.AddSidewalk
+import de.westnordost.streetcompletegpx.quests.surface.AddRoadSurface
+import de.westnordost.streetcompletegpx.quests.traffic_signals_vibrate.AddTrafficSignalsVibration
+import de.westnordost.streetcompletegpx.quests.way_lit.AddWayLit
+import de.westnordost.streetcompletegpx.quests.wheelchair_access.AddWheelchairAccessPublicTransport
+import de.westnordost.streetcompletegpx.quests.wheelchair_access.AddWheelchairAccessToilets
 import org.koin.core.qualifier.named
 import org.koin.dsl.module
 

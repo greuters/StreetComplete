@@ -1,12 +1,12 @@
-package de.westnordost.streetcomplete.data.maptiles
+package de.westnordost.streetcompletegpx.data.maptiles
 
 import android.util.Log
-import de.westnordost.streetcomplete.ApplicationConstants
-import de.westnordost.streetcomplete.data.download.tiles.enclosingTilesRect
-import de.westnordost.streetcomplete.data.osm.mapdata.BoundingBox
-import de.westnordost.streetcomplete.screens.main.map.VectorTileProvider
-import de.westnordost.streetcomplete.util.ktx.format
-import de.westnordost.streetcomplete.util.ktx.nowAsEpochMilliseconds
+import de.westnordost.streetcompletegpx.ApplicationConstants
+import de.westnordost.streetcompletegpx.data.download.tiles.enclosingTilesRect
+import de.westnordost.streetcompletegpx.data.osm.mapdata.BoundingBox
+import de.westnordost.streetcompletegpx.screens.main.map.VectorTileProvider
+import de.westnordost.streetcompletegpx.util.ktx.format
+import de.westnordost.streetcompletegpx.util.ktx.nowAsEpochMilliseconds
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.coroutineScope
 import kotlinx.coroutines.launch

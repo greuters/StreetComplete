@@ -1,15 +1,15 @@
-package de.westnordost.streetcomplete.quests.building_type
+package de.westnordost.streetcompletegpx.quests.building_type
 
-import de.westnordost.streetcomplete.R
-import de.westnordost.streetcomplete.quests.building_type.BuildingTypeCategory.CIVIC
-import de.westnordost.streetcomplete.quests.building_type.BuildingTypeCategory.COMMERCIAL
-import de.westnordost.streetcomplete.quests.building_type.BuildingTypeCategory.FOR_CARS
-import de.westnordost.streetcomplete.quests.building_type.BuildingTypeCategory.FOR_FARMS
-import de.westnordost.streetcomplete.quests.building_type.BuildingTypeCategory.OTHER
-import de.westnordost.streetcomplete.quests.building_type.BuildingTypeCategory.RELIGIOUS
-import de.westnordost.streetcomplete.quests.building_type.BuildingTypeCategory.RESIDENTIAL
-import de.westnordost.streetcomplete.view.image_select.GroupableDisplayItem
-import de.westnordost.streetcomplete.view.image_select.Item
+import de.westnordost.streetcompletegpx.R
+import de.westnordost.streetcompletegpx.quests.building_type.BuildingTypeCategory.CIVIC
+import de.westnordost.streetcompletegpx.quests.building_type.BuildingTypeCategory.COMMERCIAL
+import de.westnordost.streetcompletegpx.quests.building_type.BuildingTypeCategory.FOR_CARS
+import de.westnordost.streetcompletegpx.quests.building_type.BuildingTypeCategory.FOR_FARMS
+import de.westnordost.streetcompletegpx.quests.building_type.BuildingTypeCategory.OTHER
+import de.westnordost.streetcompletegpx.quests.building_type.BuildingTypeCategory.RELIGIOUS
+import de.westnordost.streetcompletegpx.quests.building_type.BuildingTypeCategory.RESIDENTIAL
+import de.westnordost.streetcompletegpx.view.image_select.GroupableDisplayItem
+import de.westnordost.streetcompletegpx.view.image_select.Item
 
 fun Array<BuildingTypeCategory>.toItems() = map { it.asItem() }
 

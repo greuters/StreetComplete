@@ -1,13 +1,13 @@
-package de.westnordost.streetcomplete.quests.foot
+package de.westnordost.streetcompletegpx.quests.foot
 
-import de.westnordost.streetcomplete.data.osm.edits.update_tags.StringMapEntryAdd
-import de.westnordost.streetcomplete.data.osm.edits.update_tags.StringMapEntryDelete
-import de.westnordost.streetcomplete.data.osm.edits.update_tags.StringMapEntryModify
-import de.westnordost.streetcomplete.quests.foot.ProhibitedForPedestriansAnswer.HAS_SEPARATE_SIDEWALK
-import de.westnordost.streetcomplete.quests.foot.ProhibitedForPedestriansAnswer.IS_LIVING_STREET
-import de.westnordost.streetcomplete.quests.foot.ProhibitedForPedestriansAnswer.NO
-import de.westnordost.streetcomplete.quests.foot.ProhibitedForPedestriansAnswer.YES
-import de.westnordost.streetcomplete.quests.verifyAnswer
+import de.westnordost.streetcompletegpx.data.osm.edits.update_tags.StringMapEntryAdd
+import de.westnordost.streetcompletegpx.data.osm.edits.update_tags.StringMapEntryDelete
+import de.westnordost.streetcompletegpx.data.osm.edits.update_tags.StringMapEntryModify
+import de.westnordost.streetcompletegpx.quests.foot.ProhibitedForPedestriansAnswer.HAS_SEPARATE_SIDEWALK
+import de.westnordost.streetcompletegpx.quests.foot.ProhibitedForPedestriansAnswer.IS_LIVING_STREET
+import de.westnordost.streetcompletegpx.quests.foot.ProhibitedForPedestriansAnswer.NO
+import de.westnordost.streetcompletegpx.quests.foot.ProhibitedForPedestriansAnswer.YES
+import de.westnordost.streetcompletegpx.quests.verifyAnswer
 import kotlin.test.Test
 
 class AddProhibitedForPedestriansTest {

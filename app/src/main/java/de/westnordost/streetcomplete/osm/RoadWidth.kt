@@ -1,11 +1,11 @@
-package de.westnordost.streetcomplete.osm
+package de.westnordost.streetcompletegpx.osm
 
-import de.westnordost.streetcomplete.osm.cycleway.createCyclewaySides
-import de.westnordost.streetcomplete.osm.cycleway.estimatedWidth
-import de.westnordost.streetcomplete.osm.shoulders.createShoulders
-import de.westnordost.streetcomplete.osm.street_parking.createStreetParkingSides
-import de.westnordost.streetcomplete.osm.street_parking.estimatedWidthOffRoad
-import de.westnordost.streetcomplete.osm.street_parking.estimatedWidthOnRoad
+import de.westnordost.streetcompletegpx.osm.cycleway.createCyclewaySides
+import de.westnordost.streetcompletegpx.osm.cycleway.estimatedWidth
+import de.westnordost.streetcompletegpx.osm.shoulders.createShoulders
+import de.westnordost.streetcompletegpx.osm.street_parking.createStreetParkingSides
+import de.westnordost.streetcompletegpx.osm.street_parking.estimatedWidthOffRoad
+import de.westnordost.streetcompletegpx.osm.street_parking.estimatedWidthOnRoad
 
 /** Functions to estimate road width(s). */
 

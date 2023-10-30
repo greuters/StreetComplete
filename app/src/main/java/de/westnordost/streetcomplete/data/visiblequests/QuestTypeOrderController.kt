@@ -1,7 +1,7 @@
-package de.westnordost.streetcomplete.data.visiblequests
+package de.westnordost.streetcompletegpx.data.visiblequests
 
-import de.westnordost.streetcomplete.data.quest.QuestType
-import de.westnordost.streetcomplete.data.quest.QuestTypeRegistry
+import de.westnordost.streetcompletegpx.data.quest.QuestType
+import de.westnordost.streetcompletegpx.data.quest.QuestTypeRegistry
 import java.util.concurrent.CopyOnWriteArrayList
 
 class QuestTypeOrderController(

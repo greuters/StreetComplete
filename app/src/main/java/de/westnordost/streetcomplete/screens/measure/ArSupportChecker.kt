@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.screens.measure
+package de.westnordost.streetcompletegpx.screens.measure
 
 import android.app.ActivityManager
 import android.content.Context

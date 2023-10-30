@@ -1,9 +1,9 @@
-package de.westnordost.streetcomplete.data.osm.edits.upload
+package de.westnordost.streetcompletegpx.data.osm.edits.upload
 
 import android.content.SharedPreferences
 import androidx.core.content.edit
-import de.westnordost.streetcomplete.Prefs
-import de.westnordost.streetcomplete.util.ktx.nowAsEpochMilliseconds
+import de.westnordost.streetcompletegpx.Prefs
+import de.westnordost.streetcompletegpx.util.ktx.nowAsEpochMilliseconds
 
 class LastEditTimeStore(private val prefs: SharedPreferences) {
 

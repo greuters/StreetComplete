@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.data.meta
+package de.westnordost.streetcompletegpx.data.meta
 
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable

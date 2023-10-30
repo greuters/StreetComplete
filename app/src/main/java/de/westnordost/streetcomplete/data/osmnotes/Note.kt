@@ -1,7 +1,7 @@
-package de.westnordost.streetcomplete.data.osmnotes
+package de.westnordost.streetcompletegpx.data.osmnotes
 
-import de.westnordost.streetcomplete.data.osm.mapdata.LatLon
-import de.westnordost.streetcomplete.data.user.User
+import de.westnordost.streetcompletegpx.data.osm.mapdata.LatLon
+import de.westnordost.streetcompletegpx.data.user.User
 import kotlinx.serialization.Serializable
 
 @Serializable

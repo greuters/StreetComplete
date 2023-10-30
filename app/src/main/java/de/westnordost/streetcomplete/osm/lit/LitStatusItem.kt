@@ -1,13 +1,13 @@
-package de.westnordost.streetcomplete.osm.lit
+package de.westnordost.streetcompletegpx.osm.lit
 
-import de.westnordost.streetcomplete.R
-import de.westnordost.streetcomplete.osm.lit.LitStatus.AUTOMATIC
-import de.westnordost.streetcomplete.osm.lit.LitStatus.NIGHT_AND_DAY
-import de.westnordost.streetcomplete.osm.lit.LitStatus.NO
-import de.westnordost.streetcomplete.osm.lit.LitStatus.UNSUPPORTED
-import de.westnordost.streetcomplete.osm.lit.LitStatus.YES
-import de.westnordost.streetcomplete.view.image_select.DisplayItem
-import de.westnordost.streetcomplete.view.image_select.Item
+import de.westnordost.streetcompletegpx.R
+import de.westnordost.streetcompletegpx.osm.lit.LitStatus.AUTOMATIC
+import de.westnordost.streetcompletegpx.osm.lit.LitStatus.NIGHT_AND_DAY
+import de.westnordost.streetcompletegpx.osm.lit.LitStatus.NO
+import de.westnordost.streetcompletegpx.osm.lit.LitStatus.UNSUPPORTED
+import de.westnordost.streetcompletegpx.osm.lit.LitStatus.YES
+import de.westnordost.streetcompletegpx.view.image_select.DisplayItem
+import de.westnordost.streetcompletegpx.view.image_select.Item
 
 fun LitStatus.asItem(): DisplayItem<LitStatus> =
     Item(this, iconResId, titleResId)

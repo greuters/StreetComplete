@@ -1,7 +1,7 @@
-package de.westnordost.streetcomplete.quests.fire_hydrant_position
+package de.westnordost.streetcompletegpx.quests.fire_hydrant_position
 
-import de.westnordost.streetcomplete.quests.AImageListQuestForm
-import de.westnordost.streetcomplete.view.image_select.DisplayItem
+import de.westnordost.streetcompletegpx.quests.AImageListQuestForm
+import de.westnordost.streetcompletegpx.view.image_select.DisplayItem
 
 class AddFireHydrantPositionForm : AImageListQuestForm<FireHydrantPosition, FireHydrantPosition>() {
 

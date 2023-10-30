@@ -1,6 +1,6 @@
-package de.westnordost.streetcomplete.data.osm.osmquests
+package de.westnordost.streetcompletegpx.data.osm.osmquests
 
-import de.westnordost.streetcomplete.R
+import de.westnordost.streetcompletegpx.R
 
 class DisabledTestQuestType : TestQuestType() {
     override val defaultDisabledMessage = R.string.default_disabled_msg_go_inside

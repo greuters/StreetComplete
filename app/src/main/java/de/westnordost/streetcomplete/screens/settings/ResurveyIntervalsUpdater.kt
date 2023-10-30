@@ -1,12 +1,12 @@
-package de.westnordost.streetcomplete.screens.settings
+package de.westnordost.streetcompletegpx.screens.settings
 
 import android.content.SharedPreferences
-import de.westnordost.streetcomplete.Prefs
-import de.westnordost.streetcomplete.Prefs.ResurveyIntervals.DEFAULT
-import de.westnordost.streetcomplete.Prefs.ResurveyIntervals.LESS_OFTEN
-import de.westnordost.streetcomplete.Prefs.ResurveyIntervals.MORE_OFTEN
-import de.westnordost.streetcomplete.Prefs.ResurveyIntervals.valueOf
-import de.westnordost.streetcomplete.data.elementfilter.filters.RelativeDate
+import de.westnordost.streetcompletegpx.Prefs
+import de.westnordost.streetcompletegpx.Prefs.ResurveyIntervals.DEFAULT
+import de.westnordost.streetcompletegpx.Prefs.ResurveyIntervals.LESS_OFTEN
+import de.westnordost.streetcompletegpx.Prefs.ResurveyIntervals.MORE_OFTEN
+import de.westnordost.streetcompletegpx.Prefs.ResurveyIntervals.valueOf
+import de.westnordost.streetcompletegpx.data.elementfilter.filters.RelativeDate
 
 /** This class is just to access the user's preference about which multiplier for the resurvey
  *  intervals to use */

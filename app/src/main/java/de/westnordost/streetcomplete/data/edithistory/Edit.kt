@@ -1,8 +1,8 @@
-package de.westnordost.streetcomplete.data.edithistory
+package de.westnordost.streetcompletegpx.data.edithistory
 
-import de.westnordost.streetcomplete.data.osm.mapdata.LatLon
-import de.westnordost.streetcomplete.data.quest.OsmNoteQuestKey
-import de.westnordost.streetcomplete.data.quest.OsmQuestKey
+import de.westnordost.streetcompletegpx.data.osm.mapdata.LatLon
+import de.westnordost.streetcompletegpx.data.quest.OsmNoteQuestKey
+import de.westnordost.streetcompletegpx.data.quest.OsmQuestKey
 
 interface Edit {
     val key: EditKey

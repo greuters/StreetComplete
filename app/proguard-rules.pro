@@ -39,11 +39,11 @@
 }
 
 # Change here com.yourcompany.yourpackage
--keep,includedescriptorclasses class de.westnordost.streetcomplete.**$$serializer { *; }
--keepclassmembers class de.westnordost.streetcomplete.** {
+-keep,includedescriptorclasses class de.westnordost.streetcompletegpx.**$$serializer { *; }
+-keepclassmembers class de.westnordost.streetcompletegpx.** {
     *** Companion;
 }
--keepclasseswithmembers class de.westnordost.streetcomplete.** {
+-keepclasseswithmembers class de.westnordost.streetcompletegpx.** {
     kotlinx.serialization.KSerializer serializer(...);
 }
 

@@ -1,14 +1,14 @@
-package de.westnordost.streetcomplete.screens.user.links
+package de.westnordost.streetcompletegpx.screens.user.links
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.core.view.isGone
 import androidx.recyclerview.widget.RecyclerView
-import de.westnordost.streetcomplete.R
-import de.westnordost.streetcomplete.data.user.achievements.Link
-import de.westnordost.streetcomplete.data.user.achievements.LinkCategory
-import de.westnordost.streetcomplete.databinding.RowLinkCategoryItemBinding
-import de.westnordost.streetcomplete.databinding.RowLinkItemBinding
+import de.westnordost.streetcompletegpx.R
+import de.westnordost.streetcompletegpx.data.user.achievements.Link
+import de.westnordost.streetcompletegpx.data.user.achievements.LinkCategory
+import de.westnordost.streetcompletegpx.databinding.RowLinkCategoryItemBinding
+import de.westnordost.streetcompletegpx.databinding.RowLinkItemBinding
 
 /** Adapter for a list of links, grouped by category */
 class GroupedLinksAdapter(links: List<Link>, private val onClickLink: (url: String) -> Unit) :

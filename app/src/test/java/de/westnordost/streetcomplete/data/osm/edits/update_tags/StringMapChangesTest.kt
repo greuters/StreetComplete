@@ -1,7 +1,7 @@
-package de.westnordost.streetcomplete.data.osm.edits.update_tags
+package de.westnordost.streetcompletegpx.data.osm.edits.update_tags
 
-import de.westnordost.streetcomplete.testutils.mock
-import de.westnordost.streetcomplete.testutils.on
+import de.westnordost.streetcompletegpx.testutils.mock
+import de.westnordost.streetcompletegpx.testutils.on
 import org.mockito.Mockito.atLeastOnce
 import org.mockito.Mockito.verify
 import kotlin.test.Test

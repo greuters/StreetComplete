@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.quests.bike_parking_type
+package de.westnordost.streetcompletegpx.quests.bike_parking_type
 
 enum class BikeParkingType(val osmValue: String) {
     STANDS("stands"),

@@ -1,18 +1,18 @@
-package de.westnordost.streetcomplete.quests.postbox_collection_times
+package de.westnordost.streetcompletegpx.quests.postbox_collection_times
 
-import de.westnordost.streetcomplete.R
-import de.westnordost.streetcomplete.data.elementfilter.toElementFilterExpression
-import de.westnordost.streetcomplete.data.osm.geometry.ElementGeometry
-import de.westnordost.streetcomplete.data.osm.mapdata.Element
-import de.westnordost.streetcomplete.data.osm.mapdata.MapDataWithGeometry
-import de.westnordost.streetcomplete.data.osm.mapdata.filter
-import de.westnordost.streetcomplete.data.osm.osmquests.OsmElementQuestType
-import de.westnordost.streetcomplete.data.quest.NoCountriesExcept
-import de.westnordost.streetcomplete.data.user.achievements.EditTypeAchievement.POSTMAN
-import de.westnordost.streetcomplete.osm.Tags
-import de.westnordost.streetcomplete.osm.opening_hours.parser.isSupportedCollectionTimes
-import de.westnordost.streetcomplete.osm.opening_hours.parser.toOpeningHoursRules
-import de.westnordost.streetcomplete.osm.updateWithCheckDate
+import de.westnordost.streetcompletegpx.R
+import de.westnordost.streetcompletegpx.data.elementfilter.toElementFilterExpression
+import de.westnordost.streetcompletegpx.data.osm.geometry.ElementGeometry
+import de.westnordost.streetcompletegpx.data.osm.mapdata.Element
+import de.westnordost.streetcompletegpx.data.osm.mapdata.MapDataWithGeometry
+import de.westnordost.streetcompletegpx.data.osm.mapdata.filter
+import de.westnordost.streetcompletegpx.data.osm.osmquests.OsmElementQuestType
+import de.westnordost.streetcompletegpx.data.quest.NoCountriesExcept
+import de.westnordost.streetcompletegpx.data.user.achievements.EditTypeAchievement.POSTMAN
+import de.westnordost.streetcompletegpx.osm.Tags
+import de.westnordost.streetcompletegpx.osm.opening_hours.parser.isSupportedCollectionTimes
+import de.westnordost.streetcompletegpx.osm.opening_hours.parser.toOpeningHoursRules
+import de.westnordost.streetcompletegpx.osm.updateWithCheckDate
 
 class AddPostboxCollectionTimes : OsmElementQuestType<CollectionTimesAnswer> {
 

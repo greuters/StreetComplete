@@ -1,6 +1,6 @@
-package de.westnordost.streetcomplete.data.osmtracks
+package de.westnordost.streetcompletegpx.data.osmtracks
 
-import de.westnordost.streetcomplete.data.osm.mapdata.LatLon
+import de.westnordost.streetcompletegpx.data.osm.mapdata.LatLon
 import kotlinx.serialization.ExperimentalSerializationApi
 import kotlinx.serialization.Serializable
 import kotlinx.serialization.json.JsonNames

@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.data.osmnotes.edits
+package de.westnordost.streetcompletegpx.data.osmnotes.edits
 
 import org.koin.dsl.module
 

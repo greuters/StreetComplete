@@ -1,10 +1,10 @@
-package de.westnordost.streetcomplete.quests.postbox_royal_cypher
+package de.westnordost.streetcompletegpx.quests.postbox_royal_cypher
 
 import android.os.Bundle
 import androidx.appcompat.app.AlertDialog
-import de.westnordost.streetcomplete.R
-import de.westnordost.streetcomplete.quests.AImageListQuestForm
-import de.westnordost.streetcomplete.quests.AnswerItem
+import de.westnordost.streetcompletegpx.R
+import de.westnordost.streetcompletegpx.quests.AImageListQuestForm
+import de.westnordost.streetcompletegpx.quests.AnswerItem
 
 class AddPostboxRoyalCypherForm : AImageListQuestForm<PostboxRoyalCypher, PostboxRoyalCypher>() {
 

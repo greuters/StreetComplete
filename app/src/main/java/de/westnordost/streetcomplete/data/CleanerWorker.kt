@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.data
+package de.westnordost.streetcompletegpx.data
 
 import android.content.Context
 import androidx.work.Worker

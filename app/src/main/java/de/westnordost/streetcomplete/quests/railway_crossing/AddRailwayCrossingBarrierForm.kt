@@ -1,7 +1,7 @@
-package de.westnordost.streetcomplete.quests.railway_crossing
+package de.westnordost.streetcompletegpx.quests.railway_crossing
 
-import de.westnordost.streetcomplete.quests.AImageListQuestForm
-import de.westnordost.streetcomplete.view.image_select.DisplayItem
+import de.westnordost.streetcompletegpx.quests.AImageListQuestForm
+import de.westnordost.streetcompletegpx.view.image_select.DisplayItem
 
 class AddRailwayCrossingBarrierForm : AImageListQuestForm<RailwayCrossingBarrier, RailwayCrossingBarrier>() {
 

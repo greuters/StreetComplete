@@ -1,13 +1,13 @@
-package de.westnordost.streetcomplete.data.user.statistics
+package de.westnordost.streetcompletegpx.data.user.statistics
 
 import android.content.SharedPreferences
 import de.westnordost.countryboundaries.CountryBoundaries
-import de.westnordost.streetcomplete.Prefs
-import de.westnordost.streetcomplete.data.user.UserLoginStatusSource
-import de.westnordost.streetcomplete.testutils.any
-import de.westnordost.streetcomplete.testutils.mock
-import de.westnordost.streetcomplete.testutils.on
-import de.westnordost.streetcomplete.testutils.p
+import de.westnordost.streetcompletegpx.Prefs
+import de.westnordost.streetcompletegpx.data.user.UserLoginStatusSource
+import de.westnordost.streetcompletegpx.testutils.any
+import de.westnordost.streetcompletegpx.testutils.mock
+import de.westnordost.streetcompletegpx.testutils.on
+import de.westnordost.streetcompletegpx.testutils.p
 import kotlinx.datetime.LocalDate
 import org.mockito.ArgumentMatchers.anyDouble
 import org.mockito.Mockito.verify

@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.data.osm.created_elements
+package de.westnordost.streetcompletegpx.data.osm.created_elements
 
 object CreatedElementsTable {
     const val NAME = "created_elements"

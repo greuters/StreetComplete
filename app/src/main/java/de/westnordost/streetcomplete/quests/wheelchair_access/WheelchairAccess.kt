@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.quests.wheelchair_access
+package de.westnordost.streetcompletegpx.quests.wheelchair_access
 
 enum class WheelchairAccess(val osmValue: String) {
     YES("yes"),

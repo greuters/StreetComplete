@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.screens.user.statistics
+package de.westnordost.streetcompletegpx.screens.user.statistics
 
 import android.os.Bundle
 import android.view.View
@@ -7,16 +7,16 @@ import android.view.ViewGroup.LayoutParams.MATCH_PARENT
 import android.widget.FrameLayout
 import android.widget.ImageView
 import androidx.fragment.app.Fragment
-import de.westnordost.streetcomplete.R
-import de.westnordost.streetcomplete.data.osm.edits.EditType
-import de.westnordost.streetcomplete.data.overlays.OverlayRegistry
-import de.westnordost.streetcomplete.data.quest.QuestTypeRegistry
-import de.westnordost.streetcomplete.data.user.statistics.StatisticsSource
-import de.westnordost.streetcomplete.databinding.FragmentStatisticsBallPitBinding
-import de.westnordost.streetcomplete.util.ktx.dpToPx
-import de.westnordost.streetcomplete.util.ktx.viewLifecycleScope
-import de.westnordost.streetcomplete.util.viewBinding
-import de.westnordost.streetcomplete.view.CircularOutlineProvider
+import de.westnordost.streetcompletegpx.R
+import de.westnordost.streetcompletegpx.data.osm.edits.EditType
+import de.westnordost.streetcompletegpx.data.overlays.OverlayRegistry
+import de.westnordost.streetcompletegpx.data.quest.QuestTypeRegistry
+import de.westnordost.streetcompletegpx.data.user.statistics.StatisticsSource
+import de.westnordost.streetcompletegpx.databinding.FragmentStatisticsBallPitBinding
+import de.westnordost.streetcompletegpx.util.ktx.dpToPx
+import de.westnordost.streetcompletegpx.util.ktx.viewLifecycleScope
+import de.westnordost.streetcompletegpx.util.viewBinding
+import de.westnordost.streetcompletegpx.view.CircularOutlineProvider
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext

@@ -1,10 +1,10 @@
-package de.westnordost.streetcomplete.quests.oneway_suspects
+package de.westnordost.streetcompletegpx.quests.oneway_suspects
 
-import de.westnordost.streetcomplete.data.osm.mapdata.BoundingBox
-import de.westnordost.streetcomplete.data.osm.mapdata.LatLon
-import de.westnordost.streetcomplete.quests.oneway_suspects.data.ONEWAY_API_URL
-import de.westnordost.streetcomplete.quests.oneway_suspects.data.TrafficFlowSegment
-import de.westnordost.streetcomplete.quests.oneway_suspects.data.TrafficFlowSegmentsApi
+import de.westnordost.streetcompletegpx.data.osm.mapdata.BoundingBox
+import de.westnordost.streetcompletegpx.data.osm.mapdata.LatLon
+import de.westnordost.streetcompletegpx.quests.oneway_suspects.data.ONEWAY_API_URL
+import de.westnordost.streetcompletegpx.quests.oneway_suspects.data.TrafficFlowSegment
+import de.westnordost.streetcompletegpx.quests.oneway_suspects.data.TrafficFlowSegmentsApi
 import org.assertj.core.api.Assertions.assertThat
 import kotlin.test.Test
 import kotlin.test.assertTrue

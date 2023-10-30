@@ -1,6 +1,6 @@
-package de.westnordost.streetcomplete.quests.traffic_calming_type
+package de.westnordost.streetcompletegpx.quests.traffic_calming_type
 
-import de.westnordost.streetcomplete.quests.AImageListQuestForm
+import de.westnordost.streetcompletegpx.quests.AImageListQuestForm
 
 class AddTrafficCalmingTypeForm : AImageListQuestForm<TrafficCalmingType, TrafficCalmingType>() {
 

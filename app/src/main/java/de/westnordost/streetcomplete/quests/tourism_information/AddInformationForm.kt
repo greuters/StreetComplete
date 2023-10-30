@@ -1,8 +1,8 @@
-package de.westnordost.streetcomplete.quests.tourism_information
+package de.westnordost.streetcompletegpx.quests.tourism_information
 
 import android.os.Bundle
-import de.westnordost.streetcomplete.R
-import de.westnordost.streetcomplete.quests.AImageListQuestForm
+import de.westnordost.streetcompletegpx.R
+import de.westnordost.streetcompletegpx.quests.AImageListQuestForm
 
 class AddInformationForm : AImageListQuestForm<TourismInformation, TourismInformation>() {
 

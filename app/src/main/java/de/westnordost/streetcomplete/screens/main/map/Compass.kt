@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.screens.main.map
+package de.westnordost.streetcompletegpx.screens.main.map
 
 import android.hardware.GeomagneticField
 import android.hardware.Sensor
@@ -12,7 +12,7 @@ import android.view.Display
 import android.view.Surface
 import androidx.lifecycle.DefaultLifecycleObserver
 import androidx.lifecycle.LifecycleOwner
-import de.westnordost.streetcomplete.util.ktx.nowAsEpochMilliseconds
+import de.westnordost.streetcompletegpx.util.ktx.nowAsEpochMilliseconds
 import java.lang.Math.toRadians
 import kotlin.math.PI
 import kotlin.math.abs

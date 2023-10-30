@@ -1,14 +1,14 @@
-package de.westnordost.streetcomplete.data.messages
+package de.westnordost.streetcompletegpx.data.messages
 
 import android.content.SharedPreferences
 import androidx.core.content.edit
-import de.westnordost.streetcomplete.ApplicationConstants.QUEST_COUNT_AT_WHICH_TO_SHOW_QUEST_SELECTION_HINT
-import de.westnordost.streetcomplete.Prefs
-import de.westnordost.streetcomplete.data.messages.QuestSelectionHintState.NOT_SHOWN
-import de.westnordost.streetcomplete.data.messages.QuestSelectionHintState.SHOULD_SHOW
-import de.westnordost.streetcomplete.data.quest.Quest
-import de.westnordost.streetcomplete.data.quest.QuestKey
-import de.westnordost.streetcomplete.data.quest.VisibleQuestsSource
+import de.westnordost.streetcompletegpx.ApplicationConstants.QUEST_COUNT_AT_WHICH_TO_SHOW_QUEST_SELECTION_HINT
+import de.westnordost.streetcompletegpx.Prefs
+import de.westnordost.streetcompletegpx.data.messages.QuestSelectionHintState.NOT_SHOWN
+import de.westnordost.streetcompletegpx.data.messages.QuestSelectionHintState.SHOULD_SHOW
+import de.westnordost.streetcompletegpx.data.quest.Quest
+import de.westnordost.streetcompletegpx.data.quest.QuestKey
+import de.westnordost.streetcompletegpx.data.quest.VisibleQuestsSource
 import java.util.concurrent.CopyOnWriteArrayList
 
 class QuestSelectionHintController(

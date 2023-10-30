@@ -1,9 +1,9 @@
-package de.westnordost.streetcomplete.osm.sidewalk
+package de.westnordost.streetcompletegpx.osm.sidewalk
 
-import de.westnordost.streetcomplete.osm.sidewalk.Sidewalk.INVALID
-import de.westnordost.streetcomplete.osm.sidewalk.Sidewalk.NO
-import de.westnordost.streetcomplete.osm.sidewalk.Sidewalk.SEPARATE
-import de.westnordost.streetcomplete.osm.sidewalk.Sidewalk.YES
+import de.westnordost.streetcompletegpx.osm.sidewalk.Sidewalk.INVALID
+import de.westnordost.streetcompletegpx.osm.sidewalk.Sidewalk.NO
+import de.westnordost.streetcompletegpx.osm.sidewalk.Sidewalk.SEPARATE
+import de.westnordost.streetcompletegpx.osm.sidewalk.Sidewalk.YES
 import kotlin.test.Test
 import kotlin.test.assertEquals
 

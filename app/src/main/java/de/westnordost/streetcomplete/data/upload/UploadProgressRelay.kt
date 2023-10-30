@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.data.upload
+package de.westnordost.streetcompletegpx.data.upload
 
 import java.util.concurrent.CopyOnWriteArrayList
 

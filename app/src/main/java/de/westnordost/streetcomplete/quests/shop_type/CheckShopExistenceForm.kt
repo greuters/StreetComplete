@@ -1,8 +1,8 @@
-package de.westnordost.streetcomplete.quests.shop_type
+package de.westnordost.streetcompletegpx.quests.shop_type
 
-import de.westnordost.streetcomplete.R
-import de.westnordost.streetcomplete.quests.AbstractOsmQuestForm
-import de.westnordost.streetcomplete.quests.AnswerItem
+import de.westnordost.streetcompletegpx.R
+import de.westnordost.streetcompletegpx.quests.AbstractOsmQuestForm
+import de.westnordost.streetcompletegpx.quests.AnswerItem
 
 class CheckShopExistenceForm : AbstractOsmQuestForm<Unit>() {
     override val buttonPanelAnswers = listOf(

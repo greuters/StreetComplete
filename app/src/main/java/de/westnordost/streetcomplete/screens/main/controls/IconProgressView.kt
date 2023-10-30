@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.screens.main.controls
+package de.westnordost.streetcompletegpx.screens.main.controls
 
 import android.animation.Animator
 import android.animation.AnimatorInflater
@@ -11,8 +11,8 @@ import android.provider.Settings
 import android.util.AttributeSet
 import android.view.LayoutInflater
 import android.widget.RelativeLayout
-import de.westnordost.streetcomplete.R
-import de.westnordost.streetcomplete.databinding.ViewIconProgressBinding
+import de.westnordost.streetcompletegpx.R
+import de.westnordost.streetcompletegpx.databinding.ViewIconProgressBinding
 
 /** Shows an icon, surrounded by a circular progress bar and a finished-checkmark */
 class IconProgressView @JvmOverloads constructor(

@@ -1,6 +1,6 @@
-package de.westnordost.streetcomplete.quests.surface
+package de.westnordost.streetcompletegpx.quests.surface
 
-import de.westnordost.streetcomplete.osm.sidewalk_surface.LeftAndRightSidewalkSurface
+import de.westnordost.streetcompletegpx.osm.sidewalk_surface.LeftAndRightSidewalkSurface
 
 sealed interface SidewalkSurfaceAnswer
 

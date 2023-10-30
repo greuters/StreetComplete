@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.quests.note_discussion
+package de.westnordost.streetcompletegpx.quests.note_discussion
 
 import android.content.ActivityNotFoundException
 import android.content.Context
@@ -15,15 +15,15 @@ import androidx.exifinterface.media.ExifInterface
 import androidx.exifinterface.media.ExifInterface.TAG_GPS_IMG_DIRECTION
 import androidx.exifinterface.media.ExifInterface.TAG_GPS_IMG_DIRECTION_REF
 import androidx.fragment.app.Fragment
-import de.westnordost.streetcomplete.ApplicationConstants
-import de.westnordost.streetcomplete.R
-import de.westnordost.streetcomplete.data.osmnotes.deleteImages
-import de.westnordost.streetcomplete.databinding.FragmentAttachPhotoBinding
-import de.westnordost.streetcomplete.util.decodeScaledBitmapAndNormalize
-import de.westnordost.streetcomplete.util.ktx.nowAsEpochMilliseconds
-import de.westnordost.streetcomplete.util.ktx.toast
-import de.westnordost.streetcomplete.util.viewBinding
-import de.westnordost.streetcomplete.view.AdapterDataChangedWatcher
+import de.westnordost.streetcompletegpx.ApplicationConstants
+import de.westnordost.streetcompletegpx.R
+import de.westnordost.streetcompletegpx.data.osmnotes.deleteImages
+import de.westnordost.streetcompletegpx.databinding.FragmentAttachPhotoBinding
+import de.westnordost.streetcompletegpx.util.decodeScaledBitmapAndNormalize
+import de.westnordost.streetcompletegpx.util.ktx.nowAsEpochMilliseconds
+import de.westnordost.streetcompletegpx.util.ktx.toast
+import de.westnordost.streetcompletegpx.util.viewBinding
+import de.westnordost.streetcompletegpx.view.AdapterDataChangedWatcher
 import java.io.File
 import java.io.FileOutputStream
 import java.io.IOException

@@ -1,17 +1,17 @@
-package de.westnordost.streetcomplete.overlays.cycleway
+package de.westnordost.streetcompletegpx.overlays.cycleway
 
 import android.os.Bundle
 import android.view.View
-import de.westnordost.streetcomplete.R
-import de.westnordost.streetcomplete.data.osm.edits.update_tags.StringMapChangesBuilder
-import de.westnordost.streetcomplete.data.osm.edits.update_tags.UpdateElementTagsAction
-import de.westnordost.streetcomplete.osm.cycleway_separate.SeparateCycleway
-import de.westnordost.streetcomplete.osm.cycleway_separate.SeparateCycleway.*
-import de.westnordost.streetcomplete.osm.cycleway_separate.applyTo
-import de.westnordost.streetcomplete.osm.cycleway_separate.asItem
-import de.westnordost.streetcomplete.osm.cycleway_separate.createSeparateCycleway
-import de.westnordost.streetcomplete.overlays.AImageSelectOverlayForm
-import de.westnordost.streetcomplete.view.image_select.DisplayItem
+import de.westnordost.streetcompletegpx.R
+import de.westnordost.streetcompletegpx.data.osm.edits.update_tags.StringMapChangesBuilder
+import de.westnordost.streetcompletegpx.data.osm.edits.update_tags.UpdateElementTagsAction
+import de.westnordost.streetcompletegpx.osm.cycleway_separate.SeparateCycleway
+import de.westnordost.streetcompletegpx.osm.cycleway_separate.SeparateCycleway.*
+import de.westnordost.streetcompletegpx.osm.cycleway_separate.applyTo
+import de.westnordost.streetcompletegpx.osm.cycleway_separate.asItem
+import de.westnordost.streetcompletegpx.osm.cycleway_separate.createSeparateCycleway
+import de.westnordost.streetcompletegpx.overlays.AImageSelectOverlayForm
+import de.westnordost.streetcompletegpx.view.image_select.DisplayItem
 
 class SeparateCyclewayForm : AImageSelectOverlayForm<SeparateCycleway>() {
 

@@ -1,12 +1,12 @@
-package de.westnordost.streetcomplete.osm.address
+package de.westnordost.streetcompletegpx.osm.address
 
 import android.widget.EditText
 import androidx.core.widget.doAfterTextChanged
-import de.westnordost.streetcomplete.data.meta.AbbreviationsByLocale
-import de.westnordost.streetcomplete.data.osm.mapdata.LatLon
-import de.westnordost.streetcomplete.quests.road_name.RoadNameSuggestionsSource
-import de.westnordost.streetcomplete.util.ktx.nonBlankTextOrNull
-import de.westnordost.streetcomplete.view.controller.AutoCorrectAbbreviationsViewController
+import de.westnordost.streetcompletegpx.data.meta.AbbreviationsByLocale
+import de.westnordost.streetcompletegpx.data.osm.mapdata.LatLon
+import de.westnordost.streetcompletegpx.quests.road_name.RoadNameSuggestionsSource
+import de.westnordost.streetcompletegpx.util.ktx.nonBlankTextOrNull
+import de.westnordost.streetcompletegpx.view.controller.AutoCorrectAbbreviationsViewController
 import java.util.Locale
 
 /** Manages inputting a street name associated with an address. The user can either select it via a

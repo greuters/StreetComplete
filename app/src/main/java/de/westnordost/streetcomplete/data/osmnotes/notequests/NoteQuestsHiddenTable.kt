@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.data.osmnotes.notequests
+package de.westnordost.streetcompletegpx.data.osmnotes.notequests
 
 object NoteQuestsHiddenTable {
     const val NAME = "osm_notes_hidden"

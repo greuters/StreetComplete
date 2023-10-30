@@ -1,9 +1,9 @@
-package de.westnordost.streetcomplete.quests.oneway_suspects.data
+package de.westnordost.streetcompletegpx.quests.oneway_suspects.data
 
 import android.annotation.SuppressLint
-import de.westnordost.streetcomplete.data.osm.mapdata.BoundingBox
-import de.westnordost.streetcomplete.data.osm.mapdata.LatLon
-import de.westnordost.streetcomplete.util.ktx.format
+import de.westnordost.streetcompletegpx.data.osm.mapdata.BoundingBox
+import de.westnordost.streetcompletegpx.data.osm.mapdata.LatLon
+import de.westnordost.streetcompletegpx.util.ktx.format
 import org.json.JSONObject
 import java.net.URL
 

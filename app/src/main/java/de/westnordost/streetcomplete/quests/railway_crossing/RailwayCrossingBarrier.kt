@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.quests.railway_crossing
+package de.westnordost.streetcompletegpx.quests.railway_crossing
 
 enum class RailwayCrossingBarrier(val osmValue: String?) {
     NO("no"),

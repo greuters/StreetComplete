@@ -1,7 +1,7 @@
-package de.westnordost.streetcomplete.data.osmnotes
+package de.westnordost.streetcompletegpx.data.osmnotes
 
 import android.content.Context
-import de.westnordost.streetcomplete.ApplicationConstants
+import de.westnordost.streetcompletegpx.ApplicationConstants
 import org.koin.core.qualifier.named
 import org.koin.dsl.module
 import java.io.File

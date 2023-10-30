@@ -1,14 +1,14 @@
-package de.westnordost.streetcomplete.data.quest
+package de.westnordost.streetcompletegpx.data.quest
 
-import de.westnordost.streetcomplete.data.osm.mapdata.BoundingBox
-import de.westnordost.streetcomplete.data.osm.osmquests.OsmQuest
-import de.westnordost.streetcomplete.data.osm.osmquests.OsmQuestSource
-import de.westnordost.streetcomplete.data.osmnotes.notequests.OsmNoteQuest
-import de.westnordost.streetcomplete.data.osmnotes.notequests.OsmNoteQuestSource
-import de.westnordost.streetcomplete.data.overlays.SelectedOverlaySource
-import de.westnordost.streetcomplete.data.visiblequests.TeamModeQuestFilter
-import de.westnordost.streetcomplete.data.visiblequests.VisibleQuestTypeSource
-import de.westnordost.streetcomplete.util.SpatialCache
+import de.westnordost.streetcompletegpx.data.osm.mapdata.BoundingBox
+import de.westnordost.streetcompletegpx.data.osm.osmquests.OsmQuest
+import de.westnordost.streetcompletegpx.data.osm.osmquests.OsmQuestSource
+import de.westnordost.streetcompletegpx.data.osmnotes.notequests.OsmNoteQuest
+import de.westnordost.streetcompletegpx.data.osmnotes.notequests.OsmNoteQuestSource
+import de.westnordost.streetcompletegpx.data.overlays.SelectedOverlaySource
+import de.westnordost.streetcompletegpx.data.visiblequests.TeamModeQuestFilter
+import de.westnordost.streetcompletegpx.data.visiblequests.VisibleQuestTypeSource
+import de.westnordost.streetcompletegpx.util.SpatialCache
 import java.util.concurrent.CopyOnWriteArrayList
 
 /** Access and listen to quests visible on the map */

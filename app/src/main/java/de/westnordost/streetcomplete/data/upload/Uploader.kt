@@ -1,14 +1,14 @@
-package de.westnordost.streetcomplete.data.upload
+package de.westnordost.streetcompletegpx.data.upload
 
 import android.util.Log
-import de.westnordost.streetcomplete.ApplicationConstants
-import de.westnordost.streetcomplete.data.download.tiles.DownloadedTilesController
-import de.westnordost.streetcomplete.data.download.tiles.enclosingTilePos
-import de.westnordost.streetcomplete.data.osm.edits.upload.ElementEditsUploader
-import de.westnordost.streetcomplete.data.osm.mapdata.LatLon
-import de.westnordost.streetcomplete.data.osmnotes.edits.NoteEditsUploader
-import de.westnordost.streetcomplete.data.user.AuthorizationException
-import de.westnordost.streetcomplete.data.user.UserLoginStatusSource
+import de.westnordost.streetcompletegpx.ApplicationConstants
+import de.westnordost.streetcompletegpx.data.download.tiles.DownloadedTilesController
+import de.westnordost.streetcompletegpx.data.download.tiles.enclosingTilePos
+import de.westnordost.streetcompletegpx.data.osm.edits.upload.ElementEditsUploader
+import de.westnordost.streetcompletegpx.data.osm.mapdata.LatLon
+import de.westnordost.streetcompletegpx.data.osmnotes.edits.NoteEditsUploader
+import de.westnordost.streetcompletegpx.data.user.AuthorizationException
+import de.westnordost.streetcompletegpx.data.user.UserLoginStatusSource
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.sync.Mutex
 import kotlinx.coroutines.sync.withLock

@@ -1,6 +1,6 @@
-package de.westnordost.streetcomplete.osm.surface
+package de.westnordost.streetcompletegpx.osm.surface
 
-import de.westnordost.streetcomplete.osm.surface.Surface.*
+import de.westnordost.streetcompletegpx.osm.surface.Surface.*
 
 data class SurfaceAndNote(val surface: Surface?, val note: String? = null)
 

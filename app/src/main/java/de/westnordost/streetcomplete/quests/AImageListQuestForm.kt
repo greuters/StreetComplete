@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.quests
+package de.westnordost.streetcompletegpx.quests
 
 import android.content.Context
 import android.os.Bundle
@@ -6,12 +6,12 @@ import android.view.View
 import androidx.core.view.isGone
 import androidx.preference.PreferenceManager
 import androidx.recyclerview.widget.GridLayoutManager
-import de.westnordost.streetcomplete.R
-import de.westnordost.streetcomplete.databinding.QuestGenericListBinding
-import de.westnordost.streetcomplete.util.LastPickedValuesStore
-import de.westnordost.streetcomplete.util.padWith
-import de.westnordost.streetcomplete.view.image_select.DisplayItem
-import de.westnordost.streetcomplete.view.image_select.ImageSelectAdapter
+import de.westnordost.streetcompletegpx.R
+import de.westnordost.streetcompletegpx.databinding.QuestGenericListBinding
+import de.westnordost.streetcompletegpx.util.LastPickedValuesStore
+import de.westnordost.streetcompletegpx.util.padWith
+import de.westnordost.streetcompletegpx.view.image_select.DisplayItem
+import de.westnordost.streetcompletegpx.view.image_select.ImageSelectAdapter
 import kotlin.collections.ArrayList
 
 /**

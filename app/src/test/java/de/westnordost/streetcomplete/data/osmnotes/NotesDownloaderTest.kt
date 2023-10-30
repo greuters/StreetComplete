@@ -1,11 +1,11 @@
-package de.westnordost.streetcomplete.data.osmnotes
+package de.westnordost.streetcompletegpx.data.osmnotes
 
-import de.westnordost.streetcomplete.testutils.any
-import de.westnordost.streetcomplete.testutils.bbox
-import de.westnordost.streetcomplete.testutils.eq
-import de.westnordost.streetcomplete.testutils.mock
-import de.westnordost.streetcomplete.testutils.note
-import de.westnordost.streetcomplete.testutils.on
+import de.westnordost.streetcompletegpx.testutils.any
+import de.westnordost.streetcompletegpx.testutils.bbox
+import de.westnordost.streetcompletegpx.testutils.eq
+import de.westnordost.streetcompletegpx.testutils.mock
+import de.westnordost.streetcompletegpx.testutils.note
+import de.westnordost.streetcompletegpx.testutils.on
 import kotlinx.coroutines.runBlocking
 import org.mockito.Mockito.anyInt
 import org.mockito.Mockito.verify

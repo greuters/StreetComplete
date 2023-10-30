@@ -1,6 +1,6 @@
-package de.westnordost.streetcomplete.quests.powerpoles_material
+package de.westnordost.streetcompletegpx.quests.powerpoles_material
 
-import de.westnordost.streetcomplete.quests.AImageListQuestForm
+import de.westnordost.streetcompletegpx.quests.AImageListQuestForm
 
 class AddPowerPolesMaterialForm : AImageListQuestForm<PowerPolesMaterial, PowerPolesMaterial>() {
 

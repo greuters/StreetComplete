@@ -1,20 +1,20 @@
-package de.westnordost.streetcomplete.data.osm.edits.create
+package de.westnordost.streetcompletegpx.data.osm.edits.create
 
-import de.westnordost.streetcomplete.data.osm.edits.ElementEditAction
-import de.westnordost.streetcomplete.data.osm.edits.ElementIdProvider
-import de.westnordost.streetcomplete.data.osm.edits.IsActionRevertable
-import de.westnordost.streetcomplete.data.osm.edits.NewElementsCount
-import de.westnordost.streetcomplete.data.osm.edits.update_tags.RevertUpdateElementTagsAction
-import de.westnordost.streetcomplete.data.osm.edits.update_tags.StringMapChanges
-import de.westnordost.streetcomplete.data.osm.edits.update_tags.changesApplied
-import de.westnordost.streetcomplete.data.osm.mapdata.ElementKey
-import de.westnordost.streetcomplete.data.osm.mapdata.ElementType
-import de.westnordost.streetcomplete.data.osm.mapdata.MapDataChanges
-import de.westnordost.streetcomplete.data.osm.mapdata.MapDataRepository
-import de.westnordost.streetcomplete.data.osm.mapdata.Node
-import de.westnordost.streetcomplete.data.osm.mapdata.key
-import de.westnordost.streetcomplete.data.upload.ConflictException
-import de.westnordost.streetcomplete.util.ktx.containsExactlyInAnyOrder
+import de.westnordost.streetcompletegpx.data.osm.edits.ElementEditAction
+import de.westnordost.streetcompletegpx.data.osm.edits.ElementIdProvider
+import de.westnordost.streetcompletegpx.data.osm.edits.IsActionRevertable
+import de.westnordost.streetcompletegpx.data.osm.edits.NewElementsCount
+import de.westnordost.streetcompletegpx.data.osm.edits.update_tags.RevertUpdateElementTagsAction
+import de.westnordost.streetcompletegpx.data.osm.edits.update_tags.StringMapChanges
+import de.westnordost.streetcompletegpx.data.osm.edits.update_tags.changesApplied
+import de.westnordost.streetcompletegpx.data.osm.mapdata.ElementKey
+import de.westnordost.streetcompletegpx.data.osm.mapdata.ElementType
+import de.westnordost.streetcompletegpx.data.osm.mapdata.MapDataChanges
+import de.westnordost.streetcompletegpx.data.osm.mapdata.MapDataRepository
+import de.westnordost.streetcompletegpx.data.osm.mapdata.Node
+import de.westnordost.streetcompletegpx.data.osm.mapdata.key
+import de.westnordost.streetcompletegpx.data.upload.ConflictException
+import de.westnordost.streetcompletegpx.util.ktx.containsExactlyInAnyOrder
 import kotlinx.serialization.Serializable
 
 /** Action that transforms a way vertex into a node, i.e. adds tags to a vertex in a way.

@@ -1,6 +1,6 @@
-package de.westnordost.streetcomplete.data.osm.osmquests
+package de.westnordost.streetcompletegpx.data.osm.osmquests
 
-import de.westnordost.streetcomplete.data.quest.OsmQuestKey
+import de.westnordost.streetcompletegpx.data.quest.OsmQuestKey
 
 interface HideOsmQuestController {
     fun hide(key: OsmQuestKey)

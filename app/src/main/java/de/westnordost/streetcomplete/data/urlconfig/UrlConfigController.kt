@@ -1,11 +1,11 @@
-package de.westnordost.streetcomplete.data.urlconfig
+package de.westnordost.streetcompletegpx.data.urlconfig
 
-import de.westnordost.streetcomplete.data.overlays.OverlayRegistry
-import de.westnordost.streetcomplete.data.overlays.SelectedOverlayController
-import de.westnordost.streetcomplete.data.quest.QuestTypeRegistry
-import de.westnordost.streetcomplete.data.visiblequests.QuestPresetsController
-import de.westnordost.streetcomplete.data.visiblequests.QuestTypeOrderController
-import de.westnordost.streetcomplete.data.visiblequests.VisibleQuestTypeController
+import de.westnordost.streetcompletegpx.data.overlays.OverlayRegistry
+import de.westnordost.streetcompletegpx.data.overlays.SelectedOverlayController
+import de.westnordost.streetcompletegpx.data.quest.QuestTypeRegistry
+import de.westnordost.streetcompletegpx.data.visiblequests.QuestPresetsController
+import de.westnordost.streetcompletegpx.data.visiblequests.QuestTypeOrderController
+import de.westnordost.streetcompletegpx.data.visiblequests.VisibleQuestTypeController
 
 /** Configure (quest preset, selected overlay) through an URL */
 class UrlConfigController(

@@ -1,7 +1,7 @@
-package de.westnordost.streetcomplete.data.elementfilter.filters
+package de.westnordost.streetcompletegpx.data.elementfilter.filters
 
-import de.westnordost.streetcomplete.data.elementfilter.dateDaysAgo
-import de.westnordost.streetcomplete.osm.toCheckDateString
+import de.westnordost.streetcompletegpx.data.elementfilter.dateDaysAgo
+import de.westnordost.streetcompletegpx.osm.toCheckDateString
 import kotlinx.datetime.LocalDate
 import kotlin.test.Test
 import kotlin.test.assertEquals

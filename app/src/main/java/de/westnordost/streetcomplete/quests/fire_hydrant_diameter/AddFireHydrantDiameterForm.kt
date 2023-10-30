@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.quests.fire_hydrant_diameter
+package de.westnordost.streetcompletegpx.quests.fire_hydrant_diameter
 
 import android.content.Context
 import android.os.Bundle
@@ -9,14 +9,14 @@ import androidx.appcompat.widget.PopupMenu
 import androidx.core.view.isGone
 import androidx.core.widget.doAfterTextChanged
 import androidx.preference.PreferenceManager
-import de.westnordost.streetcomplete.R
-import de.westnordost.streetcomplete.quests.AbstractOsmQuestForm
-import de.westnordost.streetcomplete.quests.AnswerItem
-import de.westnordost.streetcomplete.quests.fire_hydrant_diameter.FireHydrantDiameterMeasurementUnit.INCH
-import de.westnordost.streetcomplete.quests.fire_hydrant_diameter.FireHydrantDiameterMeasurementUnit.MILLIMETER
-import de.westnordost.streetcomplete.util.LastPickedValuesStore
-import de.westnordost.streetcomplete.util.ktx.intOrNull
-import de.westnordost.streetcomplete.util.mostCommonWithin
+import de.westnordost.streetcompletegpx.R
+import de.westnordost.streetcompletegpx.quests.AbstractOsmQuestForm
+import de.westnordost.streetcompletegpx.quests.AnswerItem
+import de.westnordost.streetcompletegpx.quests.fire_hydrant_diameter.FireHydrantDiameterMeasurementUnit.INCH
+import de.westnordost.streetcompletegpx.quests.fire_hydrant_diameter.FireHydrantDiameterMeasurementUnit.MILLIMETER
+import de.westnordost.streetcompletegpx.util.LastPickedValuesStore
+import de.westnordost.streetcompletegpx.util.ktx.intOrNull
+import de.westnordost.streetcompletegpx.util.mostCommonWithin
 
 class AddFireHydrantDiameterForm : AbstractOsmQuestForm<FireHydrantDiameterAnswer>() {
 

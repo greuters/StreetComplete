@@ -1,6 +1,6 @@
-package de.westnordost.streetcomplete.data.elementfilter
+package de.westnordost.streetcompletegpx.data.elementfilter
 
-import de.westnordost.streetcomplete.osm.toCheckDateString
+import de.westnordost.streetcompletegpx.osm.toCheckDateString
 import kotlin.test.Test
 import kotlin.test.assertEquals
 

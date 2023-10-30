@@ -1,6 +1,6 @@
-package de.westnordost.streetcomplete.data.messages
+package de.westnordost.streetcompletegpx.data.messages
 
-import de.westnordost.streetcomplete.data.user.achievements.Achievement
+import de.westnordost.streetcompletegpx.data.user.achievements.Achievement
 
 sealed class Message
 

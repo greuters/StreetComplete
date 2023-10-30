@@ -1,9 +1,9 @@
-package de.westnordost.streetcomplete.data.osmnotes.edits
+package de.westnordost.streetcompletegpx.data.osmnotes.edits
 
-import de.westnordost.streetcomplete.data.edithistory.Edit
-import de.westnordost.streetcomplete.data.edithistory.NoteEditKey
-import de.westnordost.streetcomplete.data.osm.mapdata.LatLon
-import de.westnordost.streetcomplete.data.osmtracks.Trackpoint
+import de.westnordost.streetcompletegpx.data.edithistory.Edit
+import de.westnordost.streetcompletegpx.data.edithistory.NoteEditKey
+import de.westnordost.streetcompletegpx.data.osm.mapdata.LatLon
+import de.westnordost.streetcompletegpx.data.osmtracks.Trackpoint
 
 /** Contains all necessary information to create/comment on an OSM note. */
 data class NoteEdit(

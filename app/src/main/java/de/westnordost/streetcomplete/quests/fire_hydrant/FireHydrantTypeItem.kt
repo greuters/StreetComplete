@@ -1,11 +1,11 @@
-package de.westnordost.streetcomplete.quests.fire_hydrant
+package de.westnordost.streetcompletegpx.quests.fire_hydrant
 
-import de.westnordost.streetcomplete.R
-import de.westnordost.streetcomplete.quests.fire_hydrant.FireHydrantType.PILLAR
-import de.westnordost.streetcomplete.quests.fire_hydrant.FireHydrantType.PIPE
-import de.westnordost.streetcomplete.quests.fire_hydrant.FireHydrantType.UNDERGROUND
-import de.westnordost.streetcomplete.quests.fire_hydrant.FireHydrantType.WALL
-import de.westnordost.streetcomplete.view.image_select.Item
+import de.westnordost.streetcompletegpx.R
+import de.westnordost.streetcompletegpx.quests.fire_hydrant.FireHydrantType.PILLAR
+import de.westnordost.streetcompletegpx.quests.fire_hydrant.FireHydrantType.PIPE
+import de.westnordost.streetcompletegpx.quests.fire_hydrant.FireHydrantType.UNDERGROUND
+import de.westnordost.streetcompletegpx.quests.fire_hydrant.FireHydrantType.WALL
+import de.westnordost.streetcompletegpx.view.image_select.Item
 
 fun FireHydrantType.asItem() = Item(this, iconResId, titleResId)
 

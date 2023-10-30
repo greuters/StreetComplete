@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.data.overlays
+package de.westnordost.streetcompletegpx.data.overlays
 
 import org.koin.dsl.module
 

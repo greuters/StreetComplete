@@ -1,6 +1,6 @@
-package de.westnordost.streetcomplete.osm.lane_narrowing_traffic_calming
+package de.westnordost.streetcompletegpx.osm.lane_narrowing_traffic_calming
 
-import de.westnordost.streetcomplete.osm.lane_narrowing_traffic_calming.LaneNarrowingTrafficCalming.*
+import de.westnordost.streetcompletegpx.osm.lane_narrowing_traffic_calming.LaneNarrowingTrafficCalming.*
 
 /** Parses only the part of traffic_calming that relates to the narrowing of the road */
 fun createNarrowingTrafficCalming(tags: Map<String, String>): LaneNarrowingTrafficCalming? {

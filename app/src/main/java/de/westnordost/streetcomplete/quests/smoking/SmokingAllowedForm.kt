@@ -1,12 +1,12 @@
-package de.westnordost.streetcomplete.quests.smoking
+package de.westnordost.streetcompletegpx.quests.smoking
 
-import de.westnordost.streetcomplete.R
-import de.westnordost.streetcomplete.quests.AListQuestForm
-import de.westnordost.streetcomplete.quests.TextItem
-import de.westnordost.streetcomplete.quests.smoking.SmokingAllowed.NO
-import de.westnordost.streetcomplete.quests.smoking.SmokingAllowed.OUTSIDE
-import de.westnordost.streetcomplete.quests.smoking.SmokingAllowed.SEPARATED
-import de.westnordost.streetcomplete.quests.smoking.SmokingAllowed.YES
+import de.westnordost.streetcompletegpx.R
+import de.westnordost.streetcompletegpx.quests.AListQuestForm
+import de.westnordost.streetcompletegpx.quests.TextItem
+import de.westnordost.streetcompletegpx.quests.smoking.SmokingAllowed.NO
+import de.westnordost.streetcompletegpx.quests.smoking.SmokingAllowed.OUTSIDE
+import de.westnordost.streetcompletegpx.quests.smoking.SmokingAllowed.SEPARATED
+import de.westnordost.streetcompletegpx.quests.smoking.SmokingAllowed.YES
 
 class SmokingAllowedForm : AListQuestForm<SmokingAllowed>() {
 

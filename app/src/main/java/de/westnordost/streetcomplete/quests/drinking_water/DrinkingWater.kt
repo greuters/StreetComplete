@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.quests.drinking_water
+package de.westnordost.streetcompletegpx.quests.drinking_water
 
 enum class DrinkingWater(val osmValue: String, val osmLegalValue: String?) {
     POTABLE_SIGNED("yes", "yes"),

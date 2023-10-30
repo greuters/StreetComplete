@@ -1,9 +1,9 @@
-package de.westnordost.streetcomplete.data.user
+package de.westnordost.streetcompletegpx.data.user
 
 import android.content.SharedPreferences
 import androidx.core.content.edit
 import de.westnordost.osmapi.user.UserDetails
-import de.westnordost.streetcomplete.Prefs
+import de.westnordost.streetcompletegpx.Prefs
 import java.util.concurrent.CopyOnWriteArrayList
 
 /** Controller that handles user login, logout, auth and updated data */

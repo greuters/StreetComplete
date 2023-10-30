@@ -1,7 +1,7 @@
-package de.westnordost.streetcomplete.data.elementfilter.filters
+package de.westnordost.streetcompletegpx.data.elementfilter.filters
 
-import de.westnordost.streetcomplete.osm.getLastCheckDateKeys
-import de.westnordost.streetcomplete.osm.toCheckDateString
+import de.westnordost.streetcompletegpx.osm.getLastCheckDateKeys
+import de.westnordost.streetcompletegpx.osm.toCheckDateString
 
 fun ElementFilter.toOverpassString(): String = when (this) {
     is CombineFilters -> filters.joinToString("") { it.toOverpassString() }

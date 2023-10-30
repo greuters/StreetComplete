@@ -1,6 +1,6 @@
-package de.westnordost.streetcomplete.data.osm.edits
+package de.westnordost.streetcompletegpx.data.osm.edits
 
-import de.westnordost.streetcomplete.data.user.achievements.EditTypeAchievement
+import de.westnordost.streetcompletegpx.data.user.achievements.EditTypeAchievement
 
 interface EditType {
     /** the icon resource id used to display this edit type (in edit history, statistics, on map if

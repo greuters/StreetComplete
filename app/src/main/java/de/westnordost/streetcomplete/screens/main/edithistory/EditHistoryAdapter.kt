@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.screens.main.edithistory
+package de.westnordost.streetcompletegpx.screens.main.edithistory
 
 import android.text.format.DateUtils
 import android.view.LayoutInflater
@@ -7,15 +7,15 @@ import android.widget.Toast
 import androidx.core.view.isGone
 import androidx.core.view.isInvisible
 import androidx.recyclerview.widget.RecyclerView
-import de.westnordost.streetcomplete.R
-import de.westnordost.streetcomplete.data.edithistory.Edit
-import de.westnordost.streetcomplete.data.edithistory.icon
-import de.westnordost.streetcomplete.data.edithistory.overlayIcon
-import de.westnordost.streetcomplete.databinding.RowEditItemBinding
-import de.westnordost.streetcomplete.databinding.RowEditSyncedBinding
-import de.westnordost.streetcomplete.util.ktx.findNext
-import de.westnordost.streetcomplete.util.ktx.nowAsEpochMilliseconds
-import de.westnordost.streetcomplete.util.ktx.toast
+import de.westnordost.streetcompletegpx.R
+import de.westnordost.streetcompletegpx.data.edithistory.Edit
+import de.westnordost.streetcompletegpx.data.edithistory.icon
+import de.westnordost.streetcompletegpx.data.edithistory.overlayIcon
+import de.westnordost.streetcompletegpx.databinding.RowEditItemBinding
+import de.westnordost.streetcompletegpx.databinding.RowEditSyncedBinding
+import de.westnordost.streetcompletegpx.util.ktx.findNext
+import de.westnordost.streetcompletegpx.util.ktx.nowAsEpochMilliseconds
+import de.westnordost.streetcompletegpx.util.ktx.toast
 import java.text.DateFormat
 import java.util.Collections
 import kotlin.collections.ArrayList

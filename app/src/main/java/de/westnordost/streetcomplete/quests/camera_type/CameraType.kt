@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.quests.camera_type
+package de.westnordost.streetcompletegpx.quests.camera_type
 
 enum class CameraType(val osmValue: String) {
     DOME("dome"),

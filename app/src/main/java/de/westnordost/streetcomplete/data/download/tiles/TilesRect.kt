@@ -1,8 +1,8 @@
-package de.westnordost.streetcomplete.data.download.tiles
+package de.westnordost.streetcompletegpx.data.download.tiles
 
-import de.westnordost.streetcomplete.data.osm.mapdata.BoundingBox
-import de.westnordost.streetcomplete.data.osm.mapdata.LatLon
-import de.westnordost.streetcomplete.data.osm.mapdata.splitAt180thMeridian
+import de.westnordost.streetcompletegpx.data.osm.mapdata.BoundingBox
+import de.westnordost.streetcompletegpx.data.osm.mapdata.LatLon
+import de.westnordost.streetcompletegpx.data.osm.mapdata.splitAt180thMeridian
 import kotlinx.serialization.Serializable
 import kotlin.math.PI
 import kotlin.math.asinh

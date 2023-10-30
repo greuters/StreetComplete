@@ -1,9 +1,9 @@
-package de.westnordost.streetcomplete.quests.barrier_type
+package de.westnordost.streetcompletegpx.quests.barrier_type
 
-import de.westnordost.streetcomplete.data.elementfilter.ElementFilterExpression
-import de.westnordost.streetcomplete.data.osm.mapdata.Element
-import de.westnordost.streetcomplete.data.osm.mapdata.MapDataWithGeometry
-import de.westnordost.streetcomplete.osm.findNodesAtCrossingsOf
+import de.westnordost.streetcompletegpx.data.elementfilter.ElementFilterExpression
+import de.westnordost.streetcompletegpx.data.osm.mapdata.Element
+import de.westnordost.streetcompletegpx.data.osm.mapdata.MapDataWithGeometry
+import de.westnordost.streetcompletegpx.osm.findNodesAtCrossingsOf
 
 fun detectWayBarrierIntersection(mapData: MapDataWithGeometry, barrierFilter: ElementFilterExpression, pathsFilter: ElementFilterExpression): Iterable<Element> {
     val barrierWays = mapData.ways.asSequence()

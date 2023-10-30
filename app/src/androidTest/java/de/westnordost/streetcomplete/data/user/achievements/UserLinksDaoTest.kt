@@ -1,6 +1,6 @@
-package de.westnordost.streetcomplete.data.user.achievements
+package de.westnordost.streetcompletegpx.data.user.achievements
 
-import de.westnordost.streetcomplete.data.ApplicationDbTestCase
+import de.westnordost.streetcompletegpx.data.ApplicationDbTestCase
 import kotlin.test.BeforeTest
 import kotlin.test.Test
 import kotlin.test.assertEquals

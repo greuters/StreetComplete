@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.quests.max_weight
+package de.westnordost.streetcompletegpx.quests.max_weight
 
 sealed interface MaxWeightAnswer
 

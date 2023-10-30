@@ -1,13 +1,13 @@
-package de.westnordost.streetcomplete.data.osm.osmquests
+package de.westnordost.streetcompletegpx.data.osm.osmquests
 
-import de.westnordost.streetcomplete.data.osm.geometry.ElementGeometry
-import de.westnordost.streetcomplete.data.osm.geometry.ElementPolylinesGeometry
-import de.westnordost.streetcomplete.data.osm.mapdata.ElementType
-import de.westnordost.streetcomplete.data.osm.mapdata.LatLon
-import de.westnordost.streetcomplete.data.quest.OsmQuestKey
-import de.westnordost.streetcomplete.data.quest.Quest
-import de.westnordost.streetcomplete.util.math.measuredLength
-import de.westnordost.streetcomplete.util.math.pointsOnPolylineFromStart
+import de.westnordost.streetcompletegpx.data.osm.geometry.ElementGeometry
+import de.westnordost.streetcompletegpx.data.osm.geometry.ElementPolylinesGeometry
+import de.westnordost.streetcompletegpx.data.osm.mapdata.ElementType
+import de.westnordost.streetcompletegpx.data.osm.mapdata.LatLon
+import de.westnordost.streetcompletegpx.data.quest.OsmQuestKey
+import de.westnordost.streetcompletegpx.data.quest.Quest
+import de.westnordost.streetcompletegpx.util.math.measuredLength
+import de.westnordost.streetcompletegpx.util.math.pointsOnPolylineFromStart
 
 /** Represents one task for the user to complete/correct the data based on one OSM element  */
 data class OsmQuest(

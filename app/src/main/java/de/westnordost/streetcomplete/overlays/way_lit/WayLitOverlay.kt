@@ -1,22 +1,22 @@
-package de.westnordost.streetcomplete.overlays.way_lit
+package de.westnordost.streetcompletegpx.overlays.way_lit
 
-import de.westnordost.streetcomplete.R
-import de.westnordost.streetcomplete.data.osm.mapdata.Element
-import de.westnordost.streetcomplete.data.osm.mapdata.MapDataWithGeometry
-import de.westnordost.streetcomplete.data.osm.mapdata.filter
-import de.westnordost.streetcomplete.data.user.achievements.EditTypeAchievement.PEDESTRIAN
-import de.westnordost.streetcomplete.osm.ALL_PATHS
-import de.westnordost.streetcomplete.osm.ALL_ROADS
-import de.westnordost.streetcomplete.osm.isPrivateOnFoot
-import de.westnordost.streetcomplete.osm.lit.LitStatus
-import de.westnordost.streetcomplete.osm.lit.createLitStatus
-import de.westnordost.streetcomplete.overlays.Color
-import de.westnordost.streetcomplete.overlays.Overlay
-import de.westnordost.streetcomplete.overlays.PolygonStyle
-import de.westnordost.streetcomplete.overlays.PolylineStyle
-import de.westnordost.streetcomplete.overlays.StrokeStyle
-import de.westnordost.streetcomplete.overlays.Style
-import de.westnordost.streetcomplete.quests.way_lit.AddWayLit
+import de.westnordost.streetcompletegpx.R
+import de.westnordost.streetcompletegpx.data.osm.mapdata.Element
+import de.westnordost.streetcompletegpx.data.osm.mapdata.MapDataWithGeometry
+import de.westnordost.streetcompletegpx.data.osm.mapdata.filter
+import de.westnordost.streetcompletegpx.data.user.achievements.EditTypeAchievement.PEDESTRIAN
+import de.westnordost.streetcompletegpx.osm.ALL_PATHS
+import de.westnordost.streetcompletegpx.osm.ALL_ROADS
+import de.westnordost.streetcompletegpx.osm.isPrivateOnFoot
+import de.westnordost.streetcompletegpx.osm.lit.LitStatus
+import de.westnordost.streetcompletegpx.osm.lit.createLitStatus
+import de.westnordost.streetcompletegpx.overlays.Color
+import de.westnordost.streetcompletegpx.overlays.Overlay
+import de.westnordost.streetcompletegpx.overlays.PolygonStyle
+import de.westnordost.streetcompletegpx.overlays.PolylineStyle
+import de.westnordost.streetcompletegpx.overlays.StrokeStyle
+import de.westnordost.streetcompletegpx.overlays.Style
+import de.westnordost.streetcompletegpx.quests.way_lit.AddWayLit
 
 class WayLitOverlay : Overlay {
 

@@ -1,12 +1,12 @@
-package de.westnordost.streetcomplete.quests.bollard_type
+package de.westnordost.streetcompletegpx.quests.bollard_type
 
-import de.westnordost.streetcomplete.R
-import de.westnordost.streetcomplete.quests.bollard_type.BollardType.FIXED
-import de.westnordost.streetcomplete.quests.bollard_type.BollardType.FLEXIBLE
-import de.westnordost.streetcomplete.quests.bollard_type.BollardType.FOLDABLE
-import de.westnordost.streetcomplete.quests.bollard_type.BollardType.REMOVABLE
-import de.westnordost.streetcomplete.quests.bollard_type.BollardType.RISING
-import de.westnordost.streetcomplete.view.image_select.Item
+import de.westnordost.streetcompletegpx.R
+import de.westnordost.streetcompletegpx.quests.bollard_type.BollardType.FIXED
+import de.westnordost.streetcompletegpx.quests.bollard_type.BollardType.FLEXIBLE
+import de.westnordost.streetcompletegpx.quests.bollard_type.BollardType.FOLDABLE
+import de.westnordost.streetcompletegpx.quests.bollard_type.BollardType.REMOVABLE
+import de.westnordost.streetcompletegpx.quests.bollard_type.BollardType.RISING
+import de.westnordost.streetcompletegpx.view.image_select.Item
 
 fun BollardType.asItem() = Item(this, iconResId, titleResId)
 

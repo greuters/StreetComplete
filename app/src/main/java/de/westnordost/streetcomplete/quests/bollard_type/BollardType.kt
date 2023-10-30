@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.quests.bollard_type
+package de.westnordost.streetcompletegpx.quests.bollard_type
 
 sealed interface BollardTypeAnswer
 

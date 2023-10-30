@@ -1,11 +1,11 @@
-package de.westnordost.streetcomplete.quests
+package de.westnordost.streetcompletegpx.quests
 
 import android.content.res.Resources
 import android.text.Html
 import android.text.Spanned
 import androidx.core.text.parseAsHtml
-import de.westnordost.streetcomplete.data.osm.osmquests.OsmElementQuestType
-import de.westnordost.streetcomplete.data.quest.QuestType
+import de.westnordost.streetcompletegpx.data.osm.osmquests.OsmElementQuestType
+import de.westnordost.streetcompletegpx.data.quest.QuestType
 
 fun Resources.getQuestTitle(questType: QuestType, tags: Map<String, String>): String {
     val arguments = getTemplateArguments(questType, tags)

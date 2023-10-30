@@ -1,18 +1,18 @@
-package de.westnordost.streetcomplete.quests.shop_type
+package de.westnordost.streetcompletegpx.quests.shop_type
 
 import android.os.Bundle
 import android.view.View
 import android.widget.RadioButton
 import de.westnordost.osmfeatures.Feature
-import de.westnordost.streetcomplete.R
-import de.westnordost.streetcomplete.data.osm.mapdata.LatLon
-import de.westnordost.streetcomplete.data.osm.mapdata.Node
-import de.westnordost.streetcomplete.databinding.ViewShopTypeBinding
-import de.westnordost.streetcomplete.osm.IS_SHOP_EXPRESSION
-import de.westnordost.streetcomplete.quests.AbstractOsmQuestForm
-import de.westnordost.streetcomplete.util.ktx.geometryType
-import de.westnordost.streetcomplete.view.controller.FeatureViewController
-import de.westnordost.streetcomplete.view.dialogs.SearchFeaturesDialog
+import de.westnordost.streetcompletegpx.R
+import de.westnordost.streetcompletegpx.data.osm.mapdata.LatLon
+import de.westnordost.streetcompletegpx.data.osm.mapdata.Node
+import de.westnordost.streetcompletegpx.databinding.ViewShopTypeBinding
+import de.westnordost.streetcompletegpx.osm.IS_SHOP_EXPRESSION
+import de.westnordost.streetcompletegpx.quests.AbstractOsmQuestForm
+import de.westnordost.streetcompletegpx.util.ktx.geometryType
+import de.westnordost.streetcompletegpx.view.controller.FeatureViewController
+import de.westnordost.streetcompletegpx.view.dialogs.SearchFeaturesDialog
 
 class ShopTypeForm : AbstractOsmQuestForm<ShopTypeAnswer>() {
 

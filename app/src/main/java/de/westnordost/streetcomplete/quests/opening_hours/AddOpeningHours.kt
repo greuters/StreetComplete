@@ -1,22 +1,22 @@
-package de.westnordost.streetcomplete.quests.opening_hours
+package de.westnordost.streetcompletegpx.quests.opening_hours
 
 import de.westnordost.osmfeatures.Feature
-import de.westnordost.streetcomplete.R
-import de.westnordost.streetcomplete.data.elementfilter.filters.RelativeDate
-import de.westnordost.streetcomplete.data.elementfilter.filters.TagOlderThan
-import de.westnordost.streetcomplete.data.elementfilter.toElementFilterExpression
-import de.westnordost.streetcomplete.data.osm.geometry.ElementGeometry
-import de.westnordost.streetcomplete.data.osm.mapdata.Element
-import de.westnordost.streetcomplete.data.osm.mapdata.MapDataWithGeometry
-import de.westnordost.streetcomplete.data.osm.mapdata.filter
-import de.westnordost.streetcomplete.data.osm.osmquests.OsmElementQuestType
-import de.westnordost.streetcomplete.data.user.achievements.EditTypeAchievement.CITIZEN
-import de.westnordost.streetcomplete.osm.IS_SHOP_OR_DISUSED_SHOP_EXPRESSION
-import de.westnordost.streetcomplete.osm.Tags
-import de.westnordost.streetcomplete.osm.opening_hours.parser.isSupportedOpeningHours
-import de.westnordost.streetcomplete.osm.opening_hours.parser.toOpeningHoursRules
-import de.westnordost.streetcomplete.osm.updateCheckDateForKey
-import de.westnordost.streetcomplete.osm.updateWithCheckDate
+import de.westnordost.streetcompletegpx.R
+import de.westnordost.streetcompletegpx.data.elementfilter.filters.RelativeDate
+import de.westnordost.streetcompletegpx.data.elementfilter.filters.TagOlderThan
+import de.westnordost.streetcompletegpx.data.elementfilter.toElementFilterExpression
+import de.westnordost.streetcompletegpx.data.osm.geometry.ElementGeometry
+import de.westnordost.streetcompletegpx.data.osm.mapdata.Element
+import de.westnordost.streetcompletegpx.data.osm.mapdata.MapDataWithGeometry
+import de.westnordost.streetcompletegpx.data.osm.mapdata.filter
+import de.westnordost.streetcompletegpx.data.osm.osmquests.OsmElementQuestType
+import de.westnordost.streetcompletegpx.data.user.achievements.EditTypeAchievement.CITIZEN
+import de.westnordost.streetcompletegpx.osm.IS_SHOP_OR_DISUSED_SHOP_EXPRESSION
+import de.westnordost.streetcompletegpx.osm.Tags
+import de.westnordost.streetcompletegpx.osm.opening_hours.parser.isSupportedOpeningHours
+import de.westnordost.streetcompletegpx.osm.opening_hours.parser.toOpeningHoursRules
+import de.westnordost.streetcompletegpx.osm.updateCheckDateForKey
+import de.westnordost.streetcompletegpx.osm.updateWithCheckDate
 
 class AddOpeningHours(
     private val getFeature: (tags: Map<String, String>) -> Feature?

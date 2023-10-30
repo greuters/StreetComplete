@@ -1,15 +1,15 @@
-package de.westnordost.streetcomplete.quests.max_height
+package de.westnordost.streetcompletegpx.quests.max_height
 
 import android.os.Bundle
 import android.view.View
 import android.widget.TextView
 import androidx.appcompat.app.AlertDialog
 import androidx.core.view.isGone
-import de.westnordost.streetcomplete.R
-import de.westnordost.streetcomplete.data.osm.mapdata.ElementType
-import de.westnordost.streetcomplete.quests.AbstractOsmQuestForm
-import de.westnordost.streetcomplete.quests.AnswerItem
-import de.westnordost.streetcomplete.view.controller.LengthInputViewController
+import de.westnordost.streetcompletegpx.R
+import de.westnordost.streetcompletegpx.data.osm.mapdata.ElementType
+import de.westnordost.streetcompletegpx.quests.AbstractOsmQuestForm
+import de.westnordost.streetcompletegpx.quests.AnswerItem
+import de.westnordost.streetcompletegpx.view.controller.LengthInputViewController
 
 class AddMaxHeightForm : AbstractOsmQuestForm<MaxHeightAnswer>() {
 

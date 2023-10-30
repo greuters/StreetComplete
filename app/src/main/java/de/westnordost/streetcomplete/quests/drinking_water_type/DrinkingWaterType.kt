@@ -1,9 +1,9 @@
-package de.westnordost.streetcomplete.quests.drinking_water_type
+package de.westnordost.streetcompletegpx.quests.drinking_water_type
 
-import de.westnordost.streetcomplete.osm.Tags
-import de.westnordost.streetcomplete.osm.hasCheckDate
-import de.westnordost.streetcomplete.osm.updateCheckDate
-import de.westnordost.streetcomplete.quests.drinking_water_type.DrinkingWaterType.*
+import de.westnordost.streetcompletegpx.osm.Tags
+import de.westnordost.streetcompletegpx.osm.hasCheckDate
+import de.westnordost.streetcompletegpx.osm.updateCheckDate
+import de.westnordost.streetcompletegpx.quests.drinking_water_type.DrinkingWaterType.*
 
 enum class DrinkingWaterType {
     WATER_TAP,

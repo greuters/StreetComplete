@@ -1,11 +1,11 @@
-package de.westnordost.streetcomplete.data.download.tiles
+package de.westnordost.streetcompletegpx.data.download.tiles
 
-import de.westnordost.streetcomplete.data.Database
-import de.westnordost.streetcomplete.data.download.tiles.DownloadedTilesTable.Columns.DATE
-import de.westnordost.streetcomplete.data.download.tiles.DownloadedTilesTable.Columns.X
-import de.westnordost.streetcomplete.data.download.tiles.DownloadedTilesTable.Columns.Y
-import de.westnordost.streetcomplete.data.download.tiles.DownloadedTilesTable.NAME
-import de.westnordost.streetcomplete.util.ktx.nowAsEpochMilliseconds
+import de.westnordost.streetcompletegpx.data.Database
+import de.westnordost.streetcompletegpx.data.download.tiles.DownloadedTilesTable.Columns.DATE
+import de.westnordost.streetcompletegpx.data.download.tiles.DownloadedTilesTable.Columns.X
+import de.westnordost.streetcompletegpx.data.download.tiles.DownloadedTilesTable.Columns.Y
+import de.westnordost.streetcompletegpx.data.download.tiles.DownloadedTilesTable.NAME
+import de.westnordost.streetcompletegpx.util.ktx.nowAsEpochMilliseconds
 
 /** Keeps info in which areas things have been downloaded already in a tile grid */
 class DownloadedTilesDao(private val db: Database) {

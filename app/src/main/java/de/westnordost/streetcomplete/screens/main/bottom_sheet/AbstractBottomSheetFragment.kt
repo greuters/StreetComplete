@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.screens.main.bottom_sheet
+package de.westnordost.streetcompletegpx.screens.main.bottom_sheet
 
 import android.content.res.Configuration
 import android.os.Bundle
@@ -14,13 +14,13 @@ import androidx.fragment.app.Fragment
 import com.google.android.material.bottomsheet.BottomSheetBehavior
 import com.google.android.material.bottomsheet.BottomSheetBehavior.STATE_COLLAPSED
 import com.google.android.material.bottomsheet.BottomSheetBehavior.STATE_EXPANDED
-import de.westnordost.streetcomplete.R
-import de.westnordost.streetcomplete.data.osm.mapdata.LatLon
-import de.westnordost.streetcomplete.util.ktx.updateMargins
-import de.westnordost.streetcomplete.util.ktx.viewLifecycleScope
-import de.westnordost.streetcomplete.view.RoundRectOutlineProvider
-import de.westnordost.streetcomplete.view.SlidingRelativeLayout
-import de.westnordost.streetcomplete.view.insets_animation.respectSystemInsets
+import de.westnordost.streetcompletegpx.R
+import de.westnordost.streetcompletegpx.data.osm.mapdata.LatLon
+import de.westnordost.streetcompletegpx.util.ktx.updateMargins
+import de.westnordost.streetcompletegpx.util.ktx.viewLifecycleScope
+import de.westnordost.streetcompletegpx.view.RoundRectOutlineProvider
+import de.westnordost.streetcompletegpx.view.SlidingRelativeLayout
+import de.westnordost.streetcompletegpx.view.insets_animation.respectSystemInsets
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 import kotlin.math.min

@@ -1,9 +1,9 @@
-package de.westnordost.streetcomplete.overlays.surface
+package de.westnordost.streetcompletegpx.overlays.surface
 
-import de.westnordost.streetcomplete.osm.surface.Surface
-import de.westnordost.streetcomplete.osm.surface.createSurfaceAndNote
-import de.westnordost.streetcomplete.overlays.Color
-import de.westnordost.streetcomplete.testutils.way
+import de.westnordost.streetcompletegpx.osm.surface.Surface
+import de.westnordost.streetcompletegpx.osm.surface.createSurfaceAndNote
+import de.westnordost.streetcompletegpx.overlays.Color
+import de.westnordost.streetcompletegpx.testutils.way
 import kotlin.test.*
 import kotlin.test.Test
 

@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.quests.oneway_suspects.data
+package de.westnordost.streetcompletegpx.quests.oneway_suspects.data
 
 import org.koin.dsl.module
 

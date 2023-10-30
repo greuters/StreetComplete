@@ -1,6 +1,6 @@
-package de.westnordost.streetcomplete.data.quest
+package de.westnordost.streetcompletegpx.data.quest
 
-import de.westnordost.streetcomplete.data.ObjectTypeRegistry
+import de.westnordost.streetcompletegpx.data.ObjectTypeRegistry
 
 /** Every osm quest needs to be registered here.
  *

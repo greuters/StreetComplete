@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.quests.postbox_collection_times
+package de.westnordost.streetcompletegpx.quests.postbox_collection_times
 
 import android.content.Context
 import android.text.format.DateFormat
@@ -6,13 +6,13 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.core.view.isInvisible
 import androidx.recyclerview.widget.RecyclerView
-import de.westnordost.streetcomplete.data.meta.CountryInfo
-import de.westnordost.streetcomplete.databinding.QuestTimesWeekdayRowBinding
-import de.westnordost.streetcomplete.osm.opening_hours.model.Weekdays
-import de.westnordost.streetcomplete.osm.opening_hours.parser.toOpeningHoursRules
-import de.westnordost.streetcomplete.quests.opening_hours.WeekdaysPickerDialog
-import de.westnordost.streetcomplete.util.timeOfDayToString
-import de.westnordost.streetcomplete.view.dialogs.TimePickerDialog
+import de.westnordost.streetcompletegpx.data.meta.CountryInfo
+import de.westnordost.streetcompletegpx.databinding.QuestTimesWeekdayRowBinding
+import de.westnordost.streetcompletegpx.osm.opening_hours.model.Weekdays
+import de.westnordost.streetcompletegpx.osm.opening_hours.parser.toOpeningHoursRules
+import de.westnordost.streetcompletegpx.quests.opening_hours.WeekdaysPickerDialog
+import de.westnordost.streetcompletegpx.util.timeOfDayToString
+import de.westnordost.streetcompletegpx.view.dialogs.TimePickerDialog
 import kotlinx.serialization.Serializable
 import java.util.Locale
 

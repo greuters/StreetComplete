@@ -1,8 +1,8 @@
-package de.westnordost.streetcomplete.data.user.achievements
+package de.westnordost.streetcompletegpx.data.user.achievements
 
-import de.westnordost.streetcomplete.data.Database
-import de.westnordost.streetcomplete.data.user.achievements.UserLinksTable.Columns.LINK
-import de.westnordost.streetcomplete.data.user.achievements.UserLinksTable.NAME
+import de.westnordost.streetcompletegpx.data.Database
+import de.westnordost.streetcompletegpx.data.user.achievements.UserLinksTable.Columns.LINK
+import de.westnordost.streetcompletegpx.data.user.achievements.UserLinksTable.NAME
 
 /** Stores which link ids have been unlocked by the user */
 class UserLinksDao(private val db: Database) {

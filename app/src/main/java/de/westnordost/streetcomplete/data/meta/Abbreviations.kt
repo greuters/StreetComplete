@@ -1,6 +1,6 @@
-package de.westnordost.streetcomplete.data.meta
+package de.westnordost.streetcompletegpx.data.meta
 
-import de.westnordost.streetcomplete.util.ktx.anyIndexed
+import de.westnordost.streetcompletegpx.util.ktx.anyIndexed
 import java.util.Locale
 
 /** Road abbreviations for all languages */

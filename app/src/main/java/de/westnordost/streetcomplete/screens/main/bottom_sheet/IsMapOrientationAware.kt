@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.screens.main.bottom_sheet
+package de.westnordost.streetcompletegpx.screens.main.bottom_sheet
 
 interface IsMapOrientationAware {
     fun onMapOrientation(rotation: Float, tilt: Float)

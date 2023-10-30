@@ -1,8 +1,8 @@
-package de.westnordost.streetcomplete.data.download.tiles
+package de.westnordost.streetcompletegpx.data.download.tiles
 
-import de.westnordost.streetcomplete.testutils.eq
-import de.westnordost.streetcomplete.testutils.mock
-import de.westnordost.streetcomplete.testutils.on
+import de.westnordost.streetcompletegpx.testutils.eq
+import de.westnordost.streetcompletegpx.testutils.mock
+import de.westnordost.streetcompletegpx.testutils.on
 import org.mockito.Mockito.anyLong
 import org.mockito.Mockito.verify
 import kotlin.test.BeforeTest

@@ -1,13 +1,13 @@
-package de.westnordost.streetcomplete.quests.recycling_material
+package de.westnordost.streetcompletegpx.quests.recycling_material
 
 import android.os.Bundle
 import androidx.appcompat.app.AlertDialog
-import de.westnordost.streetcomplete.R
-import de.westnordost.streetcomplete.quests.AImageListQuestForm
-import de.westnordost.streetcomplete.quests.AnswerItem
-import de.westnordost.streetcomplete.view.image_select.ImageListPickerDialog
-import de.westnordost.streetcomplete.view.image_select.ImageSelectAdapter
-import de.westnordost.streetcomplete.view.image_select.Item
+import de.westnordost.streetcompletegpx.R
+import de.westnordost.streetcompletegpx.quests.AImageListQuestForm
+import de.westnordost.streetcompletegpx.quests.AnswerItem
+import de.westnordost.streetcompletegpx.view.image_select.ImageListPickerDialog
+import de.westnordost.streetcompletegpx.view.image_select.ImageSelectAdapter
+import de.westnordost.streetcompletegpx.view.image_select.Item
 
 class AddRecyclingContainerMaterialsForm :
     AImageListQuestForm<List<RecyclingMaterial>, RecyclingContainerMaterialsAnswer>() {

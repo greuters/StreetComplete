@@ -1,13 +1,13 @@
-package de.westnordost.streetcomplete.quests.way_lit
+package de.westnordost.streetcompletegpx.quests.way_lit
 
-import de.westnordost.streetcomplete.R
-import de.westnordost.streetcomplete.osm.lit.LitStatus.AUTOMATIC
-import de.westnordost.streetcomplete.osm.lit.LitStatus.NIGHT_AND_DAY
-import de.westnordost.streetcomplete.osm.lit.LitStatus.NO
-import de.westnordost.streetcomplete.osm.lit.LitStatus.YES
-import de.westnordost.streetcomplete.quests.AbstractOsmQuestForm
-import de.westnordost.streetcomplete.quests.AnswerItem
-import de.westnordost.streetcomplete.util.ktx.couldBeSteps
+import de.westnordost.streetcompletegpx.R
+import de.westnordost.streetcompletegpx.osm.lit.LitStatus.AUTOMATIC
+import de.westnordost.streetcompletegpx.osm.lit.LitStatus.NIGHT_AND_DAY
+import de.westnordost.streetcompletegpx.osm.lit.LitStatus.NO
+import de.westnordost.streetcompletegpx.osm.lit.LitStatus.YES
+import de.westnordost.streetcompletegpx.quests.AbstractOsmQuestForm
+import de.westnordost.streetcompletegpx.quests.AnswerItem
+import de.westnordost.streetcompletegpx.util.ktx.couldBeSteps
 
 class WayLitForm : AbstractOsmQuestForm<WayLitOrIsStepsAnswer>() {
 

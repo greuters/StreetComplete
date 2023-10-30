@@ -1,19 +1,19 @@
-package de.westnordost.streetcomplete.quests.board_type
+package de.westnordost.streetcompletegpx.quests.board_type
 
 import androidx.appcompat.app.AlertDialog
-import de.westnordost.streetcomplete.R
-import de.westnordost.streetcomplete.quests.AListQuestForm
-import de.westnordost.streetcomplete.quests.AnswerItem
-import de.westnordost.streetcomplete.quests.TextItem
-import de.westnordost.streetcomplete.quests.board_type.BoardType.GEOLOGY
-import de.westnordost.streetcomplete.quests.board_type.BoardType.HISTORY
-import de.westnordost.streetcomplete.quests.board_type.BoardType.MAP
-import de.westnordost.streetcomplete.quests.board_type.BoardType.NATURE
-import de.westnordost.streetcomplete.quests.board_type.BoardType.NOTICE
-import de.westnordost.streetcomplete.quests.board_type.BoardType.PLANTS
-import de.westnordost.streetcomplete.quests.board_type.BoardType.PUBLIC_TRANSPORT
-import de.westnordost.streetcomplete.quests.board_type.BoardType.SPORT
-import de.westnordost.streetcomplete.quests.board_type.BoardType.WILDLIFE
+import de.westnordost.streetcompletegpx.R
+import de.westnordost.streetcompletegpx.quests.AListQuestForm
+import de.westnordost.streetcompletegpx.quests.AnswerItem
+import de.westnordost.streetcompletegpx.quests.TextItem
+import de.westnordost.streetcompletegpx.quests.board_type.BoardType.GEOLOGY
+import de.westnordost.streetcompletegpx.quests.board_type.BoardType.HISTORY
+import de.westnordost.streetcompletegpx.quests.board_type.BoardType.MAP
+import de.westnordost.streetcompletegpx.quests.board_type.BoardType.NATURE
+import de.westnordost.streetcompletegpx.quests.board_type.BoardType.NOTICE
+import de.westnordost.streetcompletegpx.quests.board_type.BoardType.PLANTS
+import de.westnordost.streetcompletegpx.quests.board_type.BoardType.PUBLIC_TRANSPORT
+import de.westnordost.streetcompletegpx.quests.board_type.BoardType.SPORT
+import de.westnordost.streetcompletegpx.quests.board_type.BoardType.WILDLIFE
 
 class AddBoardTypeForm : AListQuestForm<BoardType>() {
 

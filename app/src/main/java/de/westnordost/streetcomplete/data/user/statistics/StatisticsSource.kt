@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.data.user.statistics
+package de.westnordost.streetcompletegpx.data.user.statistics
 
 import kotlinx.datetime.LocalDate
 

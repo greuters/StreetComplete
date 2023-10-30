@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.data.user.statistics
+package de.westnordost.streetcompletegpx.data.user.statistics
 
 object EditTypeStatisticsTables {
     const val NAME = "quest_statistics"

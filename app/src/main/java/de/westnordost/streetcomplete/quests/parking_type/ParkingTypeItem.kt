@@ -1,12 +1,12 @@
-package de.westnordost.streetcomplete.quests.parking_type
+package de.westnordost.streetcompletegpx.quests.parking_type
 
-import de.westnordost.streetcomplete.R
-import de.westnordost.streetcomplete.quests.parking_type.ParkingType.LANE
-import de.westnordost.streetcomplete.quests.parking_type.ParkingType.MULTI_STOREY
-import de.westnordost.streetcomplete.quests.parking_type.ParkingType.STREET_SIDE
-import de.westnordost.streetcomplete.quests.parking_type.ParkingType.SURFACE
-import de.westnordost.streetcomplete.quests.parking_type.ParkingType.UNDERGROUND
-import de.westnordost.streetcomplete.view.image_select.Item
+import de.westnordost.streetcompletegpx.R
+import de.westnordost.streetcompletegpx.quests.parking_type.ParkingType.LANE
+import de.westnordost.streetcompletegpx.quests.parking_type.ParkingType.MULTI_STOREY
+import de.westnordost.streetcompletegpx.quests.parking_type.ParkingType.STREET_SIDE
+import de.westnordost.streetcompletegpx.quests.parking_type.ParkingType.SURFACE
+import de.westnordost.streetcompletegpx.quests.parking_type.ParkingType.UNDERGROUND
+import de.westnordost.streetcompletegpx.view.image_select.Item
 
 fun ParkingType.asItem() = Item(this, iconResId, titleResId)
 

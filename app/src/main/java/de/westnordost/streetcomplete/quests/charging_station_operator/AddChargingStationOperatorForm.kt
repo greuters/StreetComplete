@@ -1,6 +1,6 @@
-package de.westnordost.streetcomplete.quests.charging_station_operator
+package de.westnordost.streetcompletegpx.quests.charging_station_operator
 
-import de.westnordost.streetcomplete.quests.ANameWithSuggestionsForm
+import de.westnordost.streetcompletegpx.quests.ANameWithSuggestionsForm
 
 class AddChargingStationOperatorForm : ANameWithSuggestionsForm<String>() {
 

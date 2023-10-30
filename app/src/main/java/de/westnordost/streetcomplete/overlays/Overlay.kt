@@ -1,8 +1,8 @@
-package de.westnordost.streetcomplete.overlays
+package de.westnordost.streetcompletegpx.overlays
 
-import de.westnordost.streetcomplete.data.osm.edits.ElementEditType
-import de.westnordost.streetcomplete.data.osm.mapdata.Element
-import de.westnordost.streetcomplete.data.osm.mapdata.MapDataWithGeometry
+import de.westnordost.streetcompletegpx.data.osm.edits.ElementEditType
+import de.westnordost.streetcompletegpx.data.osm.mapdata.Element
+import de.westnordost.streetcompletegpx.data.osm.mapdata.MapDataWithGeometry
 
 /** An overlay is displayed on top of the normal map but behind quest pins and visualizes how
  *  selected data is tagged. Tapping on an element can optionally open a form in which the user

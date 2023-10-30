@@ -1,25 +1,25 @@
-package de.westnordost.streetcomplete.quests.address
+package de.westnordost.streetcompletegpx.quests.address
 
-import de.westnordost.streetcomplete.R
-import de.westnordost.streetcomplete.data.elementfilter.toElementFilterExpression
-import de.westnordost.streetcomplete.data.osm.geometry.ElementGeometry
-import de.westnordost.streetcomplete.data.osm.geometry.ElementPolygonsGeometry
-import de.westnordost.streetcomplete.data.osm.mapdata.Element
-import de.westnordost.streetcomplete.data.osm.mapdata.ElementType
-import de.westnordost.streetcomplete.data.osm.mapdata.LatLon
-import de.westnordost.streetcomplete.data.osm.mapdata.MapDataWithGeometry
-import de.westnordost.streetcomplete.data.osm.mapdata.Relation
-import de.westnordost.streetcomplete.data.osm.mapdata.Way
-import de.westnordost.streetcomplete.data.osm.mapdata.filter
-import de.westnordost.streetcomplete.data.osm.osmquests.OsmElementQuestType
-import de.westnordost.streetcomplete.data.quest.AllCountriesExcept
-import de.westnordost.streetcomplete.data.user.achievements.EditTypeAchievement.POSTMAN
-import de.westnordost.streetcomplete.osm.Tags
-import de.westnordost.streetcomplete.osm.address.applyTo
-import de.westnordost.streetcomplete.util.ktx.isArea
-import de.westnordost.streetcomplete.util.math.LatLonRaster
-import de.westnordost.streetcomplete.util.math.isCompletelyInside
-import de.westnordost.streetcomplete.util.math.isInMultipolygon
+import de.westnordost.streetcompletegpx.R
+import de.westnordost.streetcompletegpx.data.elementfilter.toElementFilterExpression
+import de.westnordost.streetcompletegpx.data.osm.geometry.ElementGeometry
+import de.westnordost.streetcompletegpx.data.osm.geometry.ElementPolygonsGeometry
+import de.westnordost.streetcompletegpx.data.osm.mapdata.Element
+import de.westnordost.streetcompletegpx.data.osm.mapdata.ElementType
+import de.westnordost.streetcompletegpx.data.osm.mapdata.LatLon
+import de.westnordost.streetcompletegpx.data.osm.mapdata.MapDataWithGeometry
+import de.westnordost.streetcompletegpx.data.osm.mapdata.Relation
+import de.westnordost.streetcompletegpx.data.osm.mapdata.Way
+import de.westnordost.streetcompletegpx.data.osm.mapdata.filter
+import de.westnordost.streetcompletegpx.data.osm.osmquests.OsmElementQuestType
+import de.westnordost.streetcompletegpx.data.quest.AllCountriesExcept
+import de.westnordost.streetcompletegpx.data.user.achievements.EditTypeAchievement.POSTMAN
+import de.westnordost.streetcompletegpx.osm.Tags
+import de.westnordost.streetcompletegpx.osm.address.applyTo
+import de.westnordost.streetcompletegpx.util.ktx.isArea
+import de.westnordost.streetcompletegpx.util.math.LatLonRaster
+import de.westnordost.streetcompletegpx.util.math.isCompletelyInside
+import de.westnordost.streetcompletegpx.util.math.isInMultipolygon
 
 class AddHousenumber : OsmElementQuestType<HouseNumberAnswer> {
 

@@ -1,23 +1,23 @@
-package de.westnordost.streetcomplete.overlays.surface
+package de.westnordost.streetcompletegpx.overlays.surface
 
-import de.westnordost.streetcomplete.R
-import de.westnordost.streetcomplete.data.osm.mapdata.Element
-import de.westnordost.streetcomplete.data.osm.mapdata.MapDataWithGeometry
-import de.westnordost.streetcomplete.data.osm.mapdata.filter
-import de.westnordost.streetcomplete.data.user.achievements.EditTypeAchievement.*
-import de.westnordost.streetcomplete.osm.ALL_PATHS
-import de.westnordost.streetcomplete.osm.ALL_ROADS
-import de.westnordost.streetcomplete.osm.surface.createSurfaceAndNote
-import de.westnordost.streetcomplete.overlays.Color
-import de.westnordost.streetcomplete.overlays.Overlay
-import de.westnordost.streetcomplete.overlays.PolygonStyle
-import de.westnordost.streetcomplete.overlays.PolylineStyle
-import de.westnordost.streetcomplete.overlays.StrokeStyle
-import de.westnordost.streetcomplete.overlays.Style
-import de.westnordost.streetcomplete.quests.surface.AddCyclewayPartSurface
-import de.westnordost.streetcomplete.quests.surface.AddFootwayPartSurface
-import de.westnordost.streetcomplete.quests.surface.AddPathSurface
-import de.westnordost.streetcomplete.quests.surface.AddRoadSurface
+import de.westnordost.streetcompletegpx.R
+import de.westnordost.streetcompletegpx.data.osm.mapdata.Element
+import de.westnordost.streetcompletegpx.data.osm.mapdata.MapDataWithGeometry
+import de.westnordost.streetcompletegpx.data.osm.mapdata.filter
+import de.westnordost.streetcompletegpx.data.user.achievements.EditTypeAchievement.*
+import de.westnordost.streetcompletegpx.osm.ALL_PATHS
+import de.westnordost.streetcompletegpx.osm.ALL_ROADS
+import de.westnordost.streetcompletegpx.osm.surface.createSurfaceAndNote
+import de.westnordost.streetcompletegpx.overlays.Color
+import de.westnordost.streetcompletegpx.overlays.Overlay
+import de.westnordost.streetcompletegpx.overlays.PolygonStyle
+import de.westnordost.streetcompletegpx.overlays.PolylineStyle
+import de.westnordost.streetcompletegpx.overlays.StrokeStyle
+import de.westnordost.streetcompletegpx.overlays.Style
+import de.westnordost.streetcompletegpx.quests.surface.AddCyclewayPartSurface
+import de.westnordost.streetcompletegpx.quests.surface.AddFootwayPartSurface
+import de.westnordost.streetcompletegpx.quests.surface.AddPathSurface
+import de.westnordost.streetcompletegpx.quests.surface.AddRoadSurface
 
 class SurfaceOverlay : Overlay {
 

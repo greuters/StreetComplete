@@ -1,14 +1,14 @@
-package de.westnordost.streetcomplete.quests.surface
+package de.westnordost.streetcompletegpx.quests.surface
 
-import de.westnordost.streetcomplete.R
-import de.westnordost.streetcomplete.data.osm.mapdata.Way
-import de.westnordost.streetcomplete.osm.surface.SELECTABLE_WAY_SURFACES
-import de.westnordost.streetcomplete.osm.surface.Surface
-import de.westnordost.streetcomplete.osm.surface.SurfaceAndNote
-import de.westnordost.streetcomplete.osm.surface.toItems
-import de.westnordost.streetcomplete.quests.AImageListQuestForm
-import de.westnordost.streetcomplete.quests.AnswerItem
-import de.westnordost.streetcomplete.util.ktx.couldBeSteps
+import de.westnordost.streetcompletegpx.R
+import de.westnordost.streetcompletegpx.data.osm.mapdata.Way
+import de.westnordost.streetcompletegpx.osm.surface.SELECTABLE_WAY_SURFACES
+import de.westnordost.streetcompletegpx.osm.surface.Surface
+import de.westnordost.streetcompletegpx.osm.surface.SurfaceAndNote
+import de.westnordost.streetcompletegpx.osm.surface.toItems
+import de.westnordost.streetcompletegpx.quests.AImageListQuestForm
+import de.westnordost.streetcompletegpx.quests.AnswerItem
+import de.westnordost.streetcompletegpx.util.ktx.couldBeSteps
 
 class AddPathSurfaceForm : AImageListQuestForm<Surface, SurfaceOrIsStepsAnswer>() {
     override val items get() = SELECTABLE_WAY_SURFACES.toItems()

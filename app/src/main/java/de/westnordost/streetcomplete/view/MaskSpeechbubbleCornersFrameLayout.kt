@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.view
+package de.westnordost.streetcompletegpx.view
 
 import android.content.Context
 import android.graphics.Canvas
@@ -6,7 +6,7 @@ import android.graphics.Path
 import android.graphics.RectF
 import android.util.AttributeSet
 import android.widget.FrameLayout
-import de.westnordost.streetcomplete.util.ktx.dpToPx
+import de.westnordost.streetcompletegpx.util.ktx.dpToPx
 
 /** Mask the speech_bubble_none.9.png */
 class MaskSpeechbubbleCornersFrameLayout @JvmOverloads constructor(

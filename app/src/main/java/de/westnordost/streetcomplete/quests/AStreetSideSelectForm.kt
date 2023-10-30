@@ -1,16 +1,16 @@
-package de.westnordost.streetcomplete.quests
+package de.westnordost.streetcompletegpx.quests
 
 import android.content.SharedPreferences
 import android.os.Bundle
 import android.view.View
-import de.westnordost.streetcomplete.Prefs
-import de.westnordost.streetcomplete.R
-import de.westnordost.streetcomplete.data.osm.geometry.ElementPolylinesGeometry
-import de.westnordost.streetcomplete.databinding.QuestStreetSidePuzzleWithLastAnswerButtonBinding
-import de.westnordost.streetcomplete.util.math.getOrientationAtCenterLineInDegrees
-import de.westnordost.streetcomplete.view.ResImage
-import de.westnordost.streetcomplete.view.controller.StreetSideDisplayItem
-import de.westnordost.streetcomplete.view.controller.StreetSideSelectWithLastAnswerButtonViewController
+import de.westnordost.streetcompletegpx.Prefs
+import de.westnordost.streetcompletegpx.R
+import de.westnordost.streetcompletegpx.data.osm.geometry.ElementPolylinesGeometry
+import de.westnordost.streetcompletegpx.databinding.QuestStreetSidePuzzleWithLastAnswerButtonBinding
+import de.westnordost.streetcompletegpx.util.math.getOrientationAtCenterLineInDegrees
+import de.westnordost.streetcompletegpx.view.ResImage
+import de.westnordost.streetcompletegpx.view.controller.StreetSideDisplayItem
+import de.westnordost.streetcompletegpx.view.controller.StreetSideSelectWithLastAnswerButtonViewController
 import org.koin.android.ext.android.inject
 
 /** Abstract base class for any quest answer form in which the user selects items for the left and

@@ -1,6 +1,6 @@
-package de.westnordost.streetcomplete.osm
+package de.westnordost.streetcompletegpx.osm
 
-import de.westnordost.streetcomplete.data.osm.edits.update_tags.StringMapChangesBuilder
+import de.westnordost.streetcompletegpx.data.osm.edits.update_tags.StringMapChangesBuilder
 
 typealias Tags = StringMapChangesBuilder
 

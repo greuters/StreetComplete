@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.data.download
+package de.westnordost.streetcompletegpx.data.download
 
 class QueryTooBigException @JvmOverloads constructor(
     message: String? = null,

@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.quests.postbox_royal_cypher
+package de.westnordost.streetcompletegpx.quests.postbox_royal_cypher
 
 enum class PostboxRoyalCypher(val osmValue: String) {
     ELIZABETH_II("EIIR"),

@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.quests.orchard_produce
+package de.westnordost.streetcompletegpx.quests.orchard_produce
 
 enum class OrchardProduce(val osmValue: String, val osmLanduseValue: String? = null) {
 

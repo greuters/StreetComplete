@@ -1,6 +1,6 @@
-package de.westnordost.streetcomplete.quests.surface
+package de.westnordost.streetcompletegpx.quests.surface
 
-import de.westnordost.streetcomplete.testutils.way
+import de.westnordost.streetcompletegpx.testutils.way
 import kotlin.test.Test
 import kotlin.test.assertFalse
 import kotlin.test.assertTrue

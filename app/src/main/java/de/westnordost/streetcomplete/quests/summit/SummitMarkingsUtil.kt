@@ -1,8 +1,8 @@
-package de.westnordost.streetcomplete.quests.summit
+package de.westnordost.streetcompletegpx.quests.summit
 
-import de.westnordost.streetcomplete.data.elementfilter.toElementFilterExpression
-import de.westnordost.streetcomplete.data.osm.geometry.ElementPolylinesGeometry
-import de.westnordost.streetcomplete.data.osm.mapdata.MapDataWithGeometry
+import de.westnordost.streetcompletegpx.data.elementfilter.toElementFilterExpression
+import de.westnordost.streetcompletegpx.data.osm.geometry.ElementPolylinesGeometry
+import de.westnordost.streetcompletegpx.data.osm.mapdata.MapDataWithGeometry
 
 private val hikingPathsFilter by lazy { """
     ways with

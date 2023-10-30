@@ -1,12 +1,12 @@
-package de.westnordost.streetcomplete.quests.parking_fee
+package de.westnordost.streetcompletegpx.quests.parking_fee
 
-import de.westnordost.streetcomplete.osm.Tags
-import de.westnordost.streetcomplete.osm.opening_hours.parser.OpeningHoursRuleList
-import de.westnordost.streetcomplete.osm.updateWithCheckDate
-import de.westnordost.streetcomplete.quests.parking_fee.Maxstay.Unit.DAYS
-import de.westnordost.streetcomplete.quests.parking_fee.Maxstay.Unit.HOURS
-import de.westnordost.streetcomplete.quests.parking_fee.Maxstay.Unit.MINUTES
-import de.westnordost.streetcomplete.util.ktx.toShortString
+import de.westnordost.streetcompletegpx.osm.Tags
+import de.westnordost.streetcompletegpx.osm.opening_hours.parser.OpeningHoursRuleList
+import de.westnordost.streetcompletegpx.osm.updateWithCheckDate
+import de.westnordost.streetcompletegpx.quests.parking_fee.Maxstay.Unit.DAYS
+import de.westnordost.streetcompletegpx.quests.parking_fee.Maxstay.Unit.HOURS
+import de.westnordost.streetcompletegpx.quests.parking_fee.Maxstay.Unit.MINUTES
+import de.westnordost.streetcompletegpx.util.ktx.toShortString
 
 sealed interface Maxstay {
     enum class Unit { MINUTES, HOURS, DAYS }

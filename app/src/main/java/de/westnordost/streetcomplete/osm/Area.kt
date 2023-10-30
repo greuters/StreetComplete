@@ -1,6 +1,6 @@
-package de.westnordost.streetcomplete.osm
+package de.westnordost.streetcompletegpx.osm
 
-import de.westnordost.streetcomplete.data.elementfilter.toElementFilterExpression
+import de.westnordost.streetcompletegpx.data.elementfilter.toElementFilterExpression
 
 /** Expression to see if an element is an area. disused:X is an area too if X is an area. */
 val IS_AREA_EXPRESSION = """

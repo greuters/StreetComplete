@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.screens.user.statistics
+package de.westnordost.streetcompletegpx.screens.user.statistics
 
 import android.content.Context
 import android.content.res.Resources
@@ -11,8 +11,8 @@ import android.graphics.drawable.Drawable
 import android.util.AttributeSet
 import android.view.View
 import android.view.ViewOutlineProvider
-import de.westnordost.streetcomplete.R
-import de.westnordost.streetcomplete.util.ktx.getYamlStringMap
+import de.westnordost.streetcompletegpx.R
+import de.westnordost.streetcompletegpx.util.ktx.getYamlStringMap
 import kotlin.math.min
 
 /** Show a flag of a country in a circle */

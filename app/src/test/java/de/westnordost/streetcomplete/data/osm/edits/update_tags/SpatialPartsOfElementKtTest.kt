@@ -1,12 +1,12 @@
-package de.westnordost.streetcomplete.data.osm.edits.update_tags
+package de.westnordost.streetcompletegpx.data.osm.edits.update_tags
 
-import de.westnordost.streetcomplete.data.osm.mapdata.ElementType
-import de.westnordost.streetcomplete.testutils.member
-import de.westnordost.streetcomplete.testutils.node
-import de.westnordost.streetcomplete.testutils.p
-import de.westnordost.streetcomplete.testutils.rel
-import de.westnordost.streetcomplete.testutils.way
-import de.westnordost.streetcomplete.util.math.translate
+import de.westnordost.streetcompletegpx.data.osm.mapdata.ElementType
+import de.westnordost.streetcompletegpx.testutils.member
+import de.westnordost.streetcompletegpx.testutils.node
+import de.westnordost.streetcompletegpx.testutils.p
+import de.westnordost.streetcompletegpx.testutils.rel
+import de.westnordost.streetcompletegpx.testutils.way
+import de.westnordost.streetcompletegpx.util.math.translate
 import kotlin.test.*
 import kotlin.test.Test
 

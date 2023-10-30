@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.screens.tutorial
+package de.westnordost.streetcompletegpx.screens.tutorial
 
 import android.annotation.SuppressLint
 import android.content.pm.ActivityInfo
@@ -9,14 +9,14 @@ import android.view.animation.AccelerateDecelerateInterpolator
 import android.view.animation.AccelerateInterpolator
 import android.view.animation.BounceInterpolator
 import androidx.fragment.app.Fragment
-import de.westnordost.streetcomplete.R
-import de.westnordost.streetcomplete.databinding.FragmentTutorialBinding
-import de.westnordost.streetcomplete.screens.main.controls.LocationStateButton
-import de.westnordost.streetcomplete.util.ktx.dpToPx
-import de.westnordost.streetcomplete.util.ktx.pxToDp
-import de.westnordost.streetcomplete.util.ktx.viewLifecycleScope
-import de.westnordost.streetcomplete.util.viewBinding
-import de.westnordost.streetcomplete.view.insets_animation.respectSystemInsets
+import de.westnordost.streetcompletegpx.R
+import de.westnordost.streetcompletegpx.databinding.FragmentTutorialBinding
+import de.westnordost.streetcompletegpx.screens.main.controls.LocationStateButton
+import de.westnordost.streetcompletegpx.util.ktx.dpToPx
+import de.westnordost.streetcompletegpx.util.ktx.pxToDp
+import de.westnordost.streetcompletegpx.util.ktx.viewLifecycleScope
+import de.westnordost.streetcompletegpx.util.viewBinding
+import de.westnordost.streetcompletegpx.view.insets_animation.respectSystemInsets
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 

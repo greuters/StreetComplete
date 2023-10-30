@@ -1,15 +1,15 @@
-package de.westnordost.streetcomplete.data.quest
+package de.westnordost.streetcompletegpx.data.quest
 
-import de.westnordost.streetcomplete.data.UnsyncedChangesCountSource
-import de.westnordost.streetcomplete.data.osm.edits.ElementEdit
-import de.westnordost.streetcomplete.data.osm.edits.ElementEditsSource
-import de.westnordost.streetcomplete.data.osm.osmquests.OsmQuestSource
-import de.westnordost.streetcomplete.data.osmnotes.edits.NoteEditsSource
-import de.westnordost.streetcomplete.data.osmnotes.notequests.OsmNoteQuestSource
-import de.westnordost.streetcomplete.testutils.any
-import de.westnordost.streetcomplete.testutils.mock
-import de.westnordost.streetcomplete.testutils.noteEdit
-import de.westnordost.streetcomplete.testutils.on
+import de.westnordost.streetcompletegpx.data.UnsyncedChangesCountSource
+import de.westnordost.streetcompletegpx.data.osm.edits.ElementEdit
+import de.westnordost.streetcompletegpx.data.osm.edits.ElementEditsSource
+import de.westnordost.streetcompletegpx.data.osm.osmquests.OsmQuestSource
+import de.westnordost.streetcompletegpx.data.osmnotes.edits.NoteEditsSource
+import de.westnordost.streetcompletegpx.data.osmnotes.notequests.OsmNoteQuestSource
+import de.westnordost.streetcompletegpx.testutils.any
+import de.westnordost.streetcompletegpx.testutils.mock
+import de.westnordost.streetcompletegpx.testutils.noteEdit
+import de.westnordost.streetcompletegpx.testutils.on
 import kotlinx.coroutines.runBlocking
 import org.mockito.Mockito.verify
 import org.mockito.Mockito.verifyNoInteractions

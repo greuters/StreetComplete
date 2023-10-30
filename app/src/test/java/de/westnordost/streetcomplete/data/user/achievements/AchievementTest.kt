@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.data.user.achievements
+package de.westnordost.streetcompletegpx.data.user.achievements
 
 import kotlin.test.Test
 import kotlin.test.assertEquals

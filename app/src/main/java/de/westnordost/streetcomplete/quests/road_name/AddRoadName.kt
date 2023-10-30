@@ -1,15 +1,15 @@
-package de.westnordost.streetcomplete.quests.road_name
+package de.westnordost.streetcompletegpx.quests.road_name
 
-import de.westnordost.streetcomplete.R
-import de.westnordost.streetcomplete.data.osm.geometry.ElementGeometry
-import de.westnordost.streetcomplete.data.osm.osmquests.OsmFilterQuestType
-import de.westnordost.streetcomplete.data.quest.AllCountriesExcept
-import de.westnordost.streetcomplete.data.user.achievements.EditTypeAchievement.CAR
-import de.westnordost.streetcomplete.data.user.achievements.EditTypeAchievement.PEDESTRIAN
-import de.westnordost.streetcomplete.data.user.achievements.EditTypeAchievement.POSTMAN
-import de.westnordost.streetcomplete.osm.LocalizedName
-import de.westnordost.streetcomplete.osm.Tags
-import de.westnordost.streetcomplete.osm.applyTo
+import de.westnordost.streetcompletegpx.R
+import de.westnordost.streetcompletegpx.data.osm.geometry.ElementGeometry
+import de.westnordost.streetcompletegpx.data.osm.osmquests.OsmFilterQuestType
+import de.westnordost.streetcompletegpx.data.quest.AllCountriesExcept
+import de.westnordost.streetcompletegpx.data.user.achievements.EditTypeAchievement.CAR
+import de.westnordost.streetcompletegpx.data.user.achievements.EditTypeAchievement.PEDESTRIAN
+import de.westnordost.streetcompletegpx.data.user.achievements.EditTypeAchievement.POSTMAN
+import de.westnordost.streetcompletegpx.osm.LocalizedName
+import de.westnordost.streetcompletegpx.osm.Tags
+import de.westnordost.streetcompletegpx.osm.applyTo
 
 class AddRoadName : OsmFilterQuestType<RoadNameAnswer>() {
 

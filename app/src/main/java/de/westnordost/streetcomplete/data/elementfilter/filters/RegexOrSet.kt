@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.data.elementfilter.filters
+package de.westnordost.streetcompletegpx.data.elementfilter.filters
 
 /** Either works like a regex if there is a real regex in the string or otherwise as a set if the
  *  regex only consists of a string with pipes, e.g. bakery|pharmacy|clock */

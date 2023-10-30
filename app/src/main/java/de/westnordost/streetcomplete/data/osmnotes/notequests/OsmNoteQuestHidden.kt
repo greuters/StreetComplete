@@ -1,10 +1,10 @@
-package de.westnordost.streetcomplete.data.osmnotes.notequests
+package de.westnordost.streetcompletegpx.data.osmnotes.notequests
 
-import de.westnordost.streetcomplete.data.edithistory.Edit
-import de.westnordost.streetcomplete.data.edithistory.OsmNoteQuestHiddenKey
-import de.westnordost.streetcomplete.data.osm.mapdata.LatLon
-import de.westnordost.streetcomplete.data.osmnotes.Note
-import de.westnordost.streetcomplete.data.quest.OsmNoteQuestKey
+import de.westnordost.streetcompletegpx.data.edithistory.Edit
+import de.westnordost.streetcompletegpx.data.edithistory.OsmNoteQuestHiddenKey
+import de.westnordost.streetcompletegpx.data.osm.mapdata.LatLon
+import de.westnordost.streetcompletegpx.data.osmnotes.Note
+import de.westnordost.streetcompletegpx.data.quest.OsmNoteQuestKey
 
 data class OsmNoteQuestHidden(
     val note: Note,

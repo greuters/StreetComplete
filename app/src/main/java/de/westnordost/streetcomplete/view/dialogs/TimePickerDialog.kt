@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.view.dialogs
+package de.westnordost.streetcompletegpx.view.dialogs
 
 import android.content.Context
 import android.os.Build

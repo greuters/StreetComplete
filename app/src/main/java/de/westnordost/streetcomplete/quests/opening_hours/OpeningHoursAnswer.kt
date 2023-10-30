@@ -1,6 +1,6 @@
-package de.westnordost.streetcomplete.quests.opening_hours
+package de.westnordost.streetcompletegpx.quests.opening_hours
 
-import de.westnordost.streetcomplete.osm.opening_hours.parser.OpeningHoursRuleList
+import de.westnordost.streetcompletegpx.osm.opening_hours.parser.OpeningHoursRuleList
 
 sealed interface OpeningHoursAnswer
 

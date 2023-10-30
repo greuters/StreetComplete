@@ -1,26 +1,26 @@
-package de.westnordost.streetcomplete.quests.address
+package de.westnordost.streetcompletegpx.quests.address
 
 import android.os.Bundle
 import android.view.View
 import android.widget.EditText
 import androidx.appcompat.app.AlertDialog
 import androidx.core.view.isGone
-import de.westnordost.streetcomplete.R
-import de.westnordost.streetcomplete.databinding.DialogQuestAddressNoHousenumberBinding
-import de.westnordost.streetcomplete.databinding.ViewAddressNumberOrNameInputBinding
-import de.westnordost.streetcomplete.osm.address.AddressNumberAndNameInputViewController
-import de.westnordost.streetcomplete.osm.address.HouseAndBlockNumber
-import de.westnordost.streetcomplete.osm.address.HouseNumberAndBlock
-import de.westnordost.streetcomplete.osm.address.looksInvalid
-import de.westnordost.streetcomplete.osm.address.streetHouseNumber
-import de.westnordost.streetcomplete.osm.buildingSynonyms
-import de.westnordost.streetcomplete.quests.AbstractOsmQuestForm
-import de.westnordost.streetcomplete.quests.AnswerItem
-import de.westnordost.streetcomplete.quests.IAnswerItem
-import de.westnordost.streetcomplete.quests.building_type.BuildingType
-import de.westnordost.streetcomplete.quests.building_type.asItem
-import de.westnordost.streetcomplete.view.image_select.DisplayItem
-import de.westnordost.streetcomplete.view.image_select.ItemViewHolder
+import de.westnordost.streetcompletegpx.R
+import de.westnordost.streetcompletegpx.databinding.DialogQuestAddressNoHousenumberBinding
+import de.westnordost.streetcompletegpx.databinding.ViewAddressNumberOrNameInputBinding
+import de.westnordost.streetcompletegpx.osm.address.AddressNumberAndNameInputViewController
+import de.westnordost.streetcompletegpx.osm.address.HouseAndBlockNumber
+import de.westnordost.streetcompletegpx.osm.address.HouseNumberAndBlock
+import de.westnordost.streetcompletegpx.osm.address.looksInvalid
+import de.westnordost.streetcompletegpx.osm.address.streetHouseNumber
+import de.westnordost.streetcompletegpx.osm.buildingSynonyms
+import de.westnordost.streetcompletegpx.quests.AbstractOsmQuestForm
+import de.westnordost.streetcompletegpx.quests.AnswerItem
+import de.westnordost.streetcompletegpx.quests.IAnswerItem
+import de.westnordost.streetcompletegpx.quests.building_type.BuildingType
+import de.westnordost.streetcompletegpx.quests.building_type.asItem
+import de.westnordost.streetcompletegpx.view.image_select.DisplayItem
+import de.westnordost.streetcompletegpx.view.image_select.ItemViewHolder
 
 class AddHousenumberForm : AbstractOsmQuestForm<HouseNumberAnswer>() {
 

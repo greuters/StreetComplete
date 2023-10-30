@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.util.ktx
+package de.westnordost.streetcompletegpx.util.ktx
 
 import androidx.core.os.LocaleListCompat
 import java.util.Locale

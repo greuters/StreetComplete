@@ -1,12 +1,12 @@
 // we want to use the greek letters to stay close to the mathematical examples linked
 @file:Suppress("NonAsciiCharacters")
 
-package de.westnordost.streetcomplete.util.math
+package de.westnordost.streetcompletegpx.util.math
 
-import de.westnordost.streetcomplete.data.osm.mapdata.BoundingBox
-import de.westnordost.streetcomplete.data.osm.mapdata.LatLon
-import de.westnordost.streetcomplete.data.osm.mapdata.splitAt180thMeridian
-import de.westnordost.streetcomplete.util.ktx.asSequenceOfPairs
+import de.westnordost.streetcompletegpx.data.osm.mapdata.BoundingBox
+import de.westnordost.streetcompletegpx.data.osm.mapdata.LatLon
+import de.westnordost.streetcompletegpx.data.osm.mapdata.splitAt180thMeridian
+import de.westnordost.streetcompletegpx.util.ktx.asSequenceOfPairs
 import kotlin.math.PI
 import kotlin.math.abs
 import kotlin.math.acos

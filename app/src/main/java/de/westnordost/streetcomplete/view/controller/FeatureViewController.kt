@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.view.controller
+package de.westnordost.streetcompletegpx.view.controller
 
 import android.content.Context
 import android.graphics.drawable.Drawable
@@ -11,9 +11,9 @@ import androidx.core.text.color
 import androidx.core.text.italic
 import de.westnordost.osmfeatures.Feature
 import de.westnordost.osmfeatures.FeatureDictionary
-import de.westnordost.streetcomplete.R
-import de.westnordost.streetcomplete.util.getLocalesForFeatureDictionary
-import de.westnordost.streetcomplete.view.presetIconIndex
+import de.westnordost.streetcompletegpx.R
+import de.westnordost.streetcompletegpx.util.getLocalesForFeatureDictionary
+import de.westnordost.streetcompletegpx.view.presetIconIndex
 
 /** Just displays a OSM feature */
 class FeatureViewController(

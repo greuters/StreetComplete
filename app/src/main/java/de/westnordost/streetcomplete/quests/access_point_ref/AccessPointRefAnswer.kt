@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.quests.access_point_ref
+package de.westnordost.streetcompletegpx.quests.access_point_ref
 
 sealed interface AccessPointRefAnswer
 

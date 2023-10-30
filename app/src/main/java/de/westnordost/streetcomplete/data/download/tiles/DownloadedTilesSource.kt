@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.data.download.tiles
+package de.westnordost.streetcompletegpx.data.download.tiles
 
 interface DownloadedTilesSource {
     interface Listener {

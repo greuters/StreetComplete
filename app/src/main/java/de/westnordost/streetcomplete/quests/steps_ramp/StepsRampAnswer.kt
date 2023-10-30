@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.quests.steps_ramp
+package de.westnordost.streetcompletegpx.quests.steps_ramp
 
 data class StepsRampAnswer(
     val bicycleRamp: Boolean,

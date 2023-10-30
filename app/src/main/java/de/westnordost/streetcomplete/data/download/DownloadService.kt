@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.data.download
+package de.westnordost.streetcompletegpx.data.download
 
 import android.app.ForegroundServiceStartNotAllowedException
 import android.content.Context
@@ -7,10 +7,10 @@ import android.os.Binder
 import android.os.Build
 import android.os.IBinder
 import android.util.Log
-import de.westnordost.streetcomplete.ApplicationConstants.NOTIFICATIONS_ID_SYNC
-import de.westnordost.streetcomplete.data.download.tiles.TilesRect
-import de.westnordost.streetcomplete.data.sync.CoroutineIntentService
-import de.westnordost.streetcomplete.data.sync.createSyncNotification
+import de.westnordost.streetcompletegpx.ApplicationConstants.NOTIFICATIONS_ID_SYNC
+import de.westnordost.streetcompletegpx.data.download.tiles.TilesRect
+import de.westnordost.streetcompletegpx.data.sync.CoroutineIntentService
+import de.westnordost.streetcompletegpx.data.sync.createSyncNotification
 import kotlinx.coroutines.CancellationException
 import kotlinx.serialization.decodeFromString
 import kotlinx.serialization.encodeToString

@@ -1,28 +1,28 @@
-package de.westnordost.streetcomplete.data.osm.osmquests
+package de.westnordost.streetcompletegpx.data.osm.osmquests
 
-import de.westnordost.streetcomplete.data.osm.edits.ElementEditType
-import de.westnordost.streetcomplete.data.osm.geometry.ElementGeometry
-import de.westnordost.streetcomplete.data.osm.mapdata.Element
-import de.westnordost.streetcomplete.data.osm.mapdata.MapDataWithGeometry
-import de.westnordost.streetcomplete.data.quest.AllCountries
-import de.westnordost.streetcomplete.data.quest.Countries
-import de.westnordost.streetcomplete.data.quest.QuestType
-import de.westnordost.streetcomplete.osm.Tags
-import de.westnordost.streetcomplete.quests.AbstractOsmQuestForm
+import de.westnordost.streetcompletegpx.data.osm.edits.ElementEditType
+import de.westnordost.streetcompletegpx.data.osm.geometry.ElementGeometry
+import de.westnordost.streetcompletegpx.data.osm.mapdata.Element
+import de.westnordost.streetcompletegpx.data.osm.mapdata.MapDataWithGeometry
+import de.westnordost.streetcompletegpx.data.quest.AllCountries
+import de.westnordost.streetcompletegpx.data.quest.Countries
+import de.westnordost.streetcompletegpx.data.quest.QuestType
+import de.westnordost.streetcompletegpx.osm.Tags
+import de.westnordost.streetcompletegpx.quests.AbstractOsmQuestForm
 
 /** Quest type where each quest refers to one OSM element.
  *
  *  A quest type referring to one OSM element specifies via the [getApplicableElements] and
  *  [isApplicableTo] methods for which OSM elements a quest of this type should be created.
  *  Quest types that do not require complex filters that depend on the geometry of surrounding
- *  elements subclass [OsmFilterQuestType][de.westnordost.streetcomplete.data.osm.osmquests.OsmFilterQuestType]
+ *  elements subclass [OsmFilterQuestType][de.westnordost.streetcompletegpx.data.osm.osmquests.OsmFilterQuestType]
  *  */
 interface OsmElementQuestType<T> : QuestType, ElementEditType {
 
     /** In which countries the quest should be shown. By default, in all countries.
      *
-     *  Use [AllCountriesExcept][de.westnordost.streetcomplete.data.quest.AllCountriesExcept] to exclude some countries.
-     *  Use [NoCountriesExcept][de.westnordost.streetcomplete.data.quest.NoCountriesExcept] to exclude all except some countries.
+     *  Use [AllCountriesExcept][de.westnordost.streetcompletegpx.data.quest.AllCountriesExcept] to exclude some countries.
+     *  Use [NoCountriesExcept][de.westnordost.streetcompletegpx.data.quest.NoCountriesExcept] to exclude all except some countries.
      *
      * A quest type should not be shown in a country if it is either irrelevant/not applicable in
      * that country or if it would not fulfill the [quest guidelines](https://github.com/streetcomplete/StreetComplete/blob/master/QUEST_GUIDELINES.md)

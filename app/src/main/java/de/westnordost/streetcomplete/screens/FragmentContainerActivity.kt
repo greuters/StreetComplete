@@ -1,11 +1,11 @@
-package de.westnordost.streetcomplete.screens
+package de.westnordost.streetcompletegpx.screens
 
 import androidx.annotation.LayoutRes
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
 import androidx.fragment.app.FragmentTransaction
 import androidx.fragment.app.commit
-import de.westnordost.streetcomplete.R
+import de.westnordost.streetcompletegpx.R
 
 /** An activity that contains one full-screen ("main") fragment */
 open class FragmentContainerActivity(

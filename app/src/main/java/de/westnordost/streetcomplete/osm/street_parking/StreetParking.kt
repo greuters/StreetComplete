@@ -1,7 +1,7 @@
-package de.westnordost.streetcomplete.osm.street_parking
+package de.westnordost.streetcompletegpx.osm.street_parking
 
-import de.westnordost.streetcomplete.osm.street_parking.ParkingOrientation.*
-import de.westnordost.streetcomplete.osm.street_parking.ParkingPosition.*
+import de.westnordost.streetcompletegpx.osm.street_parking.ParkingOrientation.*
+import de.westnordost.streetcompletegpx.osm.street_parking.ParkingPosition.*
 import kotlinx.serialization.Serializable
 
 data class LeftAndRightStreetParking(val left: StreetParking?, val right: StreetParking?)

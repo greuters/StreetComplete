@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.data.upload
+package de.westnordost.streetcompletegpx.data.upload
 
 interface UploadProgressListener {
     fun onStarted() {}

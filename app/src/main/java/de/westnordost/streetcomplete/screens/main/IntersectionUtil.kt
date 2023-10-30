@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.screens.main
+package de.westnordost.streetcompletegpx.screens.main
 
 import android.graphics.PointF
 import android.view.View

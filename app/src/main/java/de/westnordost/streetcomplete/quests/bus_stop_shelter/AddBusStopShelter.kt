@@ -1,14 +1,14 @@
-package de.westnordost.streetcomplete.quests.bus_stop_shelter
+package de.westnordost.streetcompletegpx.quests.bus_stop_shelter
 
-import de.westnordost.streetcomplete.R
-import de.westnordost.streetcomplete.data.osm.geometry.ElementGeometry
-import de.westnordost.streetcomplete.data.osm.osmquests.OsmFilterQuestType
-import de.westnordost.streetcomplete.data.user.achievements.EditTypeAchievement.PEDESTRIAN
-import de.westnordost.streetcomplete.osm.Tags
-import de.westnordost.streetcomplete.osm.updateWithCheckDate
-import de.westnordost.streetcomplete.quests.bus_stop_shelter.BusStopShelterAnswer.COVERED
-import de.westnordost.streetcomplete.quests.bus_stop_shelter.BusStopShelterAnswer.NO_SHELTER
-import de.westnordost.streetcomplete.quests.bus_stop_shelter.BusStopShelterAnswer.SHELTER
+import de.westnordost.streetcompletegpx.R
+import de.westnordost.streetcompletegpx.data.osm.geometry.ElementGeometry
+import de.westnordost.streetcompletegpx.data.osm.osmquests.OsmFilterQuestType
+import de.westnordost.streetcompletegpx.data.user.achievements.EditTypeAchievement.PEDESTRIAN
+import de.westnordost.streetcompletegpx.osm.Tags
+import de.westnordost.streetcompletegpx.osm.updateWithCheckDate
+import de.westnordost.streetcompletegpx.quests.bus_stop_shelter.BusStopShelterAnswer.COVERED
+import de.westnordost.streetcompletegpx.quests.bus_stop_shelter.BusStopShelterAnswer.NO_SHELTER
+import de.westnordost.streetcompletegpx.quests.bus_stop_shelter.BusStopShelterAnswer.SHELTER
 
 class AddBusStopShelter : OsmFilterQuestType<BusStopShelterAnswer>() {
 

@@ -1,6 +1,6 @@
-package de.westnordost.streetcomplete.util.math
+package de.westnordost.streetcompletegpx.util.math
 
-import de.westnordost.streetcomplete.data.osm.geometry.ElementPolylinesGeometry
+import de.westnordost.streetcompletegpx.data.osm.geometry.ElementPolylinesGeometry
 
 fun ElementPolylinesGeometry.getOrientationAtCenterLineInDegrees(): Float {
     val centerLine = polylines.first().centerLineOfPolyline()

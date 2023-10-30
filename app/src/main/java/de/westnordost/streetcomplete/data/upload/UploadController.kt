@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.data.upload
+package de.westnordost.streetcompletegpx.data.upload
 
 import android.content.ComponentName
 import android.content.Context

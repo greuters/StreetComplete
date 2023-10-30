@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.screens.main.teammode
+package de.westnordost.streetcompletegpx.screens.main.teammode
 
 import android.content.Context
 import android.graphics.Color
@@ -6,8 +6,8 @@ import android.util.AttributeSet
 import android.view.LayoutInflater
 import androidx.annotation.ColorInt
 import androidx.constraintlayout.widget.ConstraintLayout
-import de.westnordost.streetcomplete.R
-import de.westnordost.streetcomplete.databinding.ViewTeamModeColorCircleBinding
+import de.westnordost.streetcompletegpx.R
+import de.westnordost.streetcompletegpx.databinding.ViewTeamModeColorCircleBinding
 
 class TeamModeColorCircleView @JvmOverloads constructor(
     context: Context,

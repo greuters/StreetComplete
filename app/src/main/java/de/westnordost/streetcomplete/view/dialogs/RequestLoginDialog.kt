@@ -1,12 +1,12 @@
-package de.westnordost.streetcomplete.view.dialogs
+package de.westnordost.streetcompletegpx.view.dialogs
 
 import android.annotation.SuppressLint
 import android.content.Context
 import android.content.Intent
 import android.view.LayoutInflater
 import androidx.appcompat.app.AlertDialog
-import de.westnordost.streetcomplete.R
-import de.westnordost.streetcomplete.screens.user.UserActivity
+import de.westnordost.streetcompletegpx.R
+import de.westnordost.streetcompletegpx.screens.user.UserActivity
 
 /** Shows a dialog that asks the user to login */
 @SuppressLint("InflateParams")

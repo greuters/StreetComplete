@@ -1,7 +1,7 @@
-package de.westnordost.streetcomplete.quests.barrier_type
+package de.westnordost.streetcompletegpx.quests.barrier_type
 
-import de.westnordost.streetcomplete.R
-import de.westnordost.streetcomplete.view.image_select.Item
+import de.westnordost.streetcompletegpx.R
+import de.westnordost.streetcompletegpx.view.image_select.Item
 
 fun StileTypeAnswer.asItem() = Item(this, iconResId, titleResId)
 

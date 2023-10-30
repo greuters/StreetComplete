@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.quests.recycling
+package de.westnordost.streetcompletegpx.quests.recycling
 
 enum class RecyclingType {
     OVERGROUND_CONTAINER,

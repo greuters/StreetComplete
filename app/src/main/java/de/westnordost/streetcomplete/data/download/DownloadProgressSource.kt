@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.data.download
+package de.westnordost.streetcompletegpx.data.download
 
 interface DownloadProgressSource {
     val isPriorityDownloadInProgress: Boolean

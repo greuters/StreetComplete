@@ -1,17 +1,17 @@
-package de.westnordost.streetcomplete.screens.main.map
+package de.westnordost.streetcompletegpx.screens.main.map
 
 import android.content.Context
 import android.content.SharedPreferences
 import android.graphics.Bitmap
 import android.graphics.Canvas
 import androidx.core.content.edit
-import de.westnordost.streetcomplete.BuildConfig
-import de.westnordost.streetcomplete.Prefs
-import de.westnordost.streetcomplete.R
-import de.westnordost.streetcomplete.data.overlays.OverlayRegistry
-import de.westnordost.streetcomplete.data.quest.QuestTypeRegistry
-import de.westnordost.streetcomplete.util.ktx.getDouble
-import de.westnordost.streetcomplete.util.ktx.isApril1st
+import de.westnordost.streetcompletegpx.BuildConfig
+import de.westnordost.streetcompletegpx.Prefs
+import de.westnordost.streetcompletegpx.R
+import de.westnordost.streetcompletegpx.data.overlays.OverlayRegistry
+import de.westnordost.streetcompletegpx.data.quest.QuestTypeRegistry
+import de.westnordost.streetcompletegpx.util.ktx.getDouble
+import de.westnordost.streetcompletegpx.util.ktx.isApril1st
 import kotlin.math.ceil
 import kotlin.math.sqrt
 

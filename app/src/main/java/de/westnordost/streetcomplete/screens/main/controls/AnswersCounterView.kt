@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.screens.main.controls
+package de.westnordost.streetcompletegpx.screens.main.controls
 
 import android.content.Context
 import android.util.AttributeSet
@@ -8,7 +8,7 @@ import android.view.animation.DecelerateInterpolator
 import android.widget.RelativeLayout
 import androidx.core.view.isGone
 import androidx.core.view.isInvisible
-import de.westnordost.streetcomplete.databinding.ViewAnswersCounterBinding
+import de.westnordost.streetcompletegpx.databinding.ViewAnswersCounterBinding
 
 /** View that displays the user's quest answer counter */
 class AnswersCounterView @JvmOverloads constructor(

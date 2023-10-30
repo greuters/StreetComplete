@@ -1,18 +1,18 @@
-package de.westnordost.streetcomplete.screens.main.map.components
+package de.westnordost.streetcompletegpx.screens.main.map.components
 
 import android.content.res.Resources
 import android.graphics.drawable.BitmapDrawable
 import androidx.annotation.DrawableRes
-import de.westnordost.streetcomplete.data.osm.geometry.ElementGeometry
-import de.westnordost.streetcomplete.data.osm.geometry.ElementPointGeometry
-import de.westnordost.streetcomplete.data.osm.geometry.ElementPolygonsGeometry
-import de.westnordost.streetcomplete.data.osm.geometry.ElementPolylinesGeometry
-import de.westnordost.streetcomplete.data.osm.mapdata.LatLon
-import de.westnordost.streetcomplete.screens.main.map.tangram.KtMapController
-import de.westnordost.streetcomplete.screens.main.map.tangram.Marker
-import de.westnordost.streetcomplete.screens.main.map.tangram.toTangramGeometry
-import de.westnordost.streetcomplete.util.ktx.getBitmapDrawable
-import de.westnordost.streetcomplete.util.math.centerPointOfPolyline
+import de.westnordost.streetcompletegpx.data.osm.geometry.ElementGeometry
+import de.westnordost.streetcompletegpx.data.osm.geometry.ElementPointGeometry
+import de.westnordost.streetcompletegpx.data.osm.geometry.ElementPolygonsGeometry
+import de.westnordost.streetcompletegpx.data.osm.geometry.ElementPolylinesGeometry
+import de.westnordost.streetcompletegpx.data.osm.mapdata.LatLon
+import de.westnordost.streetcompletegpx.screens.main.map.tangram.KtMapController
+import de.westnordost.streetcompletegpx.screens.main.map.tangram.Marker
+import de.westnordost.streetcompletegpx.screens.main.map.tangram.toTangramGeometry
+import de.westnordost.streetcompletegpx.util.ktx.getBitmapDrawable
+import de.westnordost.streetcompletegpx.util.math.centerPointOfPolyline
 
 /** Manages putting some generic geometry markers with an optional drawable on the map. I.e. to
  *  show the geometry of elements surrounding the selected quest */

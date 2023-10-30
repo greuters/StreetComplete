@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.screens.measure
+package de.westnordost.streetcompletegpx.screens.measure
 
 import android.app.Activity
 import android.content.ActivityNotFoundException
@@ -6,10 +6,10 @@ import android.content.Context
 import android.content.Intent
 import androidx.activity.result.contract.ActivityResultContract
 import androidx.core.os.bundleOf
-import de.westnordost.streetcomplete.data.meta.LengthUnit
-import de.westnordost.streetcomplete.osm.Length
-import de.westnordost.streetcomplete.osm.LengthInFeetAndInches
-import de.westnordost.streetcomplete.osm.LengthInMeters
+import de.westnordost.streetcompletegpx.data.meta.LengthUnit
+import de.westnordost.streetcompletegpx.osm.Length
+import de.westnordost.streetcompletegpx.osm.LengthInFeetAndInches
+import de.westnordost.streetcompletegpx.osm.LengthInMeters
 
 class MeasureContract : ActivityResultContract<MeasureContract.Params, Length?>() {
     data class Params(val lengthUnit: LengthUnit, val measureVertical: Boolean, )

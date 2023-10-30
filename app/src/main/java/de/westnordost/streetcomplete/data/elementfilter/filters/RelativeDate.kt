@@ -1,8 +1,8 @@
-package de.westnordost.streetcomplete.data.elementfilter.filters
+package de.westnordost.streetcompletegpx.data.elementfilter.filters
 
-import de.westnordost.streetcomplete.util.ktx.minusInSystemTimeZone
-import de.westnordost.streetcomplete.util.ktx.now
-import de.westnordost.streetcomplete.util.ktx.plusInSystemTimeZone
+import de.westnordost.streetcompletegpx.util.ktx.minusInSystemTimeZone
+import de.westnordost.streetcompletegpx.util.ktx.now
+import de.westnordost.streetcompletegpx.util.ktx.plusInSystemTimeZone
 import kotlinx.datetime.DateTimeUnit
 import kotlinx.datetime.LocalDate
 import kotlinx.datetime.LocalDateTime

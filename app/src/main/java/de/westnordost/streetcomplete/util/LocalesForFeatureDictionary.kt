@@ -1,8 +1,8 @@
-package de.westnordost.streetcomplete.util
+package de.westnordost.streetcompletegpx.util
 
 import android.content.res.Configuration
 import androidx.core.os.ConfigurationCompat
-import de.westnordost.streetcomplete.util.ktx.toList
+import de.westnordost.streetcompletegpx.util.ktx.toList
 import java.util.Locale
 
 fun getLocalesForFeatureDictionary(configuration: Configuration): Array<Locale?> {

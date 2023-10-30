@@ -1,10 +1,10 @@
-package de.westnordost.streetcomplete.data.user
+package de.westnordost.streetcompletegpx.data.user
 
 import android.util.Log
 import de.westnordost.osmapi.user.UserApi
-import de.westnordost.streetcomplete.data.osmnotes.AvatarsDownloader
-import de.westnordost.streetcomplete.data.user.statistics.StatisticsController
-import de.westnordost.streetcomplete.data.user.statistics.StatisticsDownloader
+import de.westnordost.streetcompletegpx.data.osmnotes.AvatarsDownloader
+import de.westnordost.streetcompletegpx.data.user.statistics.StatisticsController
+import de.westnordost.streetcompletegpx.data.user.statistics.StatisticsDownloader
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.SupervisorJob

@@ -1,18 +1,18 @@
-package de.westnordost.streetcomplete.overlays.address
+package de.westnordost.streetcompletegpx.overlays.address
 
 import de.westnordost.countryboundaries.CountryBoundaries
-import de.westnordost.streetcomplete.R
-import de.westnordost.streetcomplete.data.osm.mapdata.Element
-import de.westnordost.streetcomplete.data.osm.mapdata.MapDataWithGeometry
-import de.westnordost.streetcomplete.data.osm.mapdata.filter
-import de.westnordost.streetcomplete.data.user.achievements.EditTypeAchievement.POSTMAN
-import de.westnordost.streetcomplete.overlays.Color
-import de.westnordost.streetcomplete.overlays.Overlay
-import de.westnordost.streetcomplete.overlays.PointStyle
-import de.westnordost.streetcomplete.overlays.PolygonStyle
-import de.westnordost.streetcomplete.quests.address.AddHousenumber
-import de.westnordost.streetcomplete.util.getShortHouseNumber
-import de.westnordost.streetcomplete.util.ktx.getIds
+import de.westnordost.streetcompletegpx.R
+import de.westnordost.streetcompletegpx.data.osm.mapdata.Element
+import de.westnordost.streetcompletegpx.data.osm.mapdata.MapDataWithGeometry
+import de.westnordost.streetcompletegpx.data.osm.mapdata.filter
+import de.westnordost.streetcompletegpx.data.user.achievements.EditTypeAchievement.POSTMAN
+import de.westnordost.streetcompletegpx.overlays.Color
+import de.westnordost.streetcompletegpx.overlays.Overlay
+import de.westnordost.streetcompletegpx.overlays.PointStyle
+import de.westnordost.streetcompletegpx.overlays.PolygonStyle
+import de.westnordost.streetcompletegpx.quests.address.AddHousenumber
+import de.westnordost.streetcompletegpx.util.getShortHouseNumber
+import de.westnordost.streetcompletegpx.util.ktx.getIds
 import java.util.concurrent.FutureTask
 
 class AddressOverlay(

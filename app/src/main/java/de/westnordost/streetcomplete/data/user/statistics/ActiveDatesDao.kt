@@ -1,9 +1,9 @@
-package de.westnordost.streetcomplete.data.user.statistics
+package de.westnordost.streetcompletegpx.data.user.statistics
 
-import de.westnordost.streetcomplete.data.Database
-import de.westnordost.streetcomplete.data.user.statistics.ActiveDaysTable.Columns.DATE
-import de.westnordost.streetcomplete.data.user.statistics.ActiveDaysTable.NAME
-import de.westnordost.streetcomplete.util.ktx.systemTimeNow
+import de.westnordost.streetcompletegpx.data.Database
+import de.westnordost.streetcompletegpx.data.user.statistics.ActiveDaysTable.Columns.DATE
+import de.westnordost.streetcompletegpx.data.user.statistics.ActiveDaysTable.NAME
+import de.westnordost.streetcompletegpx.util.ktx.systemTimeNow
 import kotlinx.datetime.LocalDate
 import kotlinx.datetime.TimeZone
 import kotlinx.datetime.toLocalDateTime

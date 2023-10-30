@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.screens.user.achievements
+package de.westnordost.streetcompletegpx.screens.user.achievements
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -9,18 +9,18 @@ import androidx.core.view.updateLayoutParams
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import de.westnordost.streetcomplete.R
-import de.westnordost.streetcomplete.data.user.achievements.Achievement
-import de.westnordost.streetcomplete.data.user.achievements.AchievementsSource
-import de.westnordost.streetcomplete.data.user.statistics.StatisticsSource
-import de.westnordost.streetcomplete.databinding.CellAchievementBinding
-import de.westnordost.streetcomplete.databinding.FragmentAchievementsBinding
-import de.westnordost.streetcomplete.util.ktx.awaitLayout
-import de.westnordost.streetcomplete.util.ktx.dpToPx
-import de.westnordost.streetcomplete.util.ktx.viewLifecycleScope
-import de.westnordost.streetcomplete.util.viewBinding
-import de.westnordost.streetcomplete.view.GridLayoutSpacingItemDecoration
-import de.westnordost.streetcomplete.view.ListAdapter
+import de.westnordost.streetcompletegpx.R
+import de.westnordost.streetcompletegpx.data.user.achievements.Achievement
+import de.westnordost.streetcompletegpx.data.user.achievements.AchievementsSource
+import de.westnordost.streetcompletegpx.data.user.statistics.StatisticsSource
+import de.westnordost.streetcompletegpx.databinding.CellAchievementBinding
+import de.westnordost.streetcompletegpx.databinding.FragmentAchievementsBinding
+import de.westnordost.streetcompletegpx.util.ktx.awaitLayout
+import de.westnordost.streetcompletegpx.util.ktx.dpToPx
+import de.westnordost.streetcompletegpx.util.ktx.viewLifecycleScope
+import de.westnordost.streetcompletegpx.util.viewBinding
+import de.westnordost.streetcompletegpx.view.GridLayoutSpacingItemDecoration
+import de.westnordost.streetcompletegpx.view.ListAdapter
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext

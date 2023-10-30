@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.data.user.statistics
+package de.westnordost.streetcompletegpx.data.user.statistics
 
 import org.koin.core.qualifier.named
 import org.koin.dsl.module

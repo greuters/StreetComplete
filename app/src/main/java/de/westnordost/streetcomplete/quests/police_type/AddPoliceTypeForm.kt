@@ -1,8 +1,8 @@
-package de.westnordost.streetcomplete.quests.police_type
+package de.westnordost.streetcompletegpx.quests.police_type
 
 import android.os.Bundle
-import de.westnordost.streetcomplete.R
-import de.westnordost.streetcomplete.quests.AImageListQuestForm
+import de.westnordost.streetcompletegpx.R
+import de.westnordost.streetcompletegpx.quests.AImageListQuestForm
 
 class AddPoliceTypeForm : AImageListQuestForm<PoliceType, PoliceType>() {
 

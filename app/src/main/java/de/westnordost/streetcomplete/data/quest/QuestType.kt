@@ -1,7 +1,7 @@
-package de.westnordost.streetcomplete.data.quest
+package de.westnordost.streetcompletegpx.data.quest
 
-import de.westnordost.streetcomplete.data.osm.edits.EditType
-import de.westnordost.streetcomplete.quests.AbstractQuestForm
+import de.westnordost.streetcompletegpx.data.osm.edits.EditType
+import de.westnordost.streetcompletegpx.quests.AbstractQuestForm
 
 /** A quest type appears as a pin with an icon on the map and when opened, the quest type's
  *  question is displayed along with a UI to answer that quest.
@@ -9,7 +9,7 @@ import de.westnordost.streetcomplete.quests.AbstractQuestForm
  *  How many quests of which types have been solved is persisted for the statistics and each quest
  *  type can contribute to unlocking new achievement levels of certain types.
  *
- *  Most QuestType inherit from [OsmElementQuestType][de.westnordost.streetcomplete.data.osm.osmquests.OsmElementQuestType] */
+ *  Most QuestType inherit from [OsmElementQuestType][de.westnordost.streetcompletegpx.data.osm.osmquests.OsmElementQuestType] */
 interface QuestType : EditType {
 
     /** the string resource id that explains why this quest is disabled by default or zero if it is

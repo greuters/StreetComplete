@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.overlays.surface
+package de.westnordost.streetcompletegpx.overlays.surface
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
@@ -7,17 +7,17 @@ import android.widget.TextView
 import androidx.core.view.children
 import androidx.core.view.isGone
 import androidx.core.widget.doAfterTextChanged
-import de.westnordost.streetcomplete.R
-import de.westnordost.streetcomplete.osm.surface.Surface
-import de.westnordost.streetcomplete.osm.surface.SurfaceAndNote
-import de.westnordost.streetcomplete.osm.surface.asItem
-import de.westnordost.streetcomplete.osm.surface.shouldBeDescribed
-import de.westnordost.streetcomplete.osm.surface.toItems
-import de.westnordost.streetcomplete.quests.surface.DescribeGenericSurfaceDialog
-import de.westnordost.streetcomplete.util.ktx.nonBlankTextOrNull
-import de.westnordost.streetcomplete.view.image_select.DisplayItem
-import de.westnordost.streetcomplete.view.image_select.ImageListPickerDialog
-import de.westnordost.streetcomplete.view.image_select.ItemViewHolder
+import de.westnordost.streetcompletegpx.R
+import de.westnordost.streetcompletegpx.osm.surface.Surface
+import de.westnordost.streetcompletegpx.osm.surface.SurfaceAndNote
+import de.westnordost.streetcompletegpx.osm.surface.asItem
+import de.westnordost.streetcompletegpx.osm.surface.shouldBeDescribed
+import de.westnordost.streetcompletegpx.osm.surface.toItems
+import de.westnordost.streetcompletegpx.quests.surface.DescribeGenericSurfaceDialog
+import de.westnordost.streetcompletegpx.util.ktx.nonBlankTextOrNull
+import de.westnordost.streetcompletegpx.view.image_select.DisplayItem
+import de.westnordost.streetcompletegpx.view.image_select.ImageListPickerDialog
+import de.westnordost.streetcompletegpx.view.image_select.ItemViewHolder
 
 /** Manages UI for inputting the surface and conditionally the surface description / note.
  *  Tapping on the [selectButton] opens a chooser dialog for the [selectableSurfaces]. The selected

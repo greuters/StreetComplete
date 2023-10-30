@@ -1,12 +1,12 @@
-package de.westnordost.streetcomplete.quests
+package de.westnordost.streetcompletegpx.quests
 
 import android.os.Bundle
 import android.view.View
 import android.widget.ArrayAdapter
 import androidx.core.widget.doAfterTextChanged
-import de.westnordost.streetcomplete.R
-import de.westnordost.streetcomplete.databinding.QuestNameSuggestionBinding
-import de.westnordost.streetcomplete.util.ktx.nonBlankTextOrNull
+import de.westnordost.streetcompletegpx.R
+import de.westnordost.streetcompletegpx.databinding.QuestNameSuggestionBinding
+import de.westnordost.streetcompletegpx.util.ktx.nonBlankTextOrNull
 
 abstract class ANameWithSuggestionsForm<T> : AbstractOsmQuestForm<T>() {
 

@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.quests.bike_rental_type
+package de.westnordost.streetcompletegpx.quests.bike_rental_type
 
 sealed interface BikeRentalTypeAnswer
 

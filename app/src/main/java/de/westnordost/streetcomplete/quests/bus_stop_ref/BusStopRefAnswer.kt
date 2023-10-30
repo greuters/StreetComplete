@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.quests.bus_stop_ref
+package de.westnordost.streetcompletegpx.quests.bus_stop_ref
 
 sealed interface BusStopRefAnswer
 

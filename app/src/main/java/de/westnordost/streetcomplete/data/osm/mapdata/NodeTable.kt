@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.data.osm.mapdata
+package de.westnordost.streetcompletegpx.data.osm.mapdata
 
 object NodeTable {
     const val NAME = "osm_nodes"

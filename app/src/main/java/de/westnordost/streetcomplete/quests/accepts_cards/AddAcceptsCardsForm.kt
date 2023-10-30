@@ -1,12 +1,12 @@
-package de.westnordost.streetcomplete.quests.accepts_cards
+package de.westnordost.streetcompletegpx.quests.accepts_cards
 
-import de.westnordost.streetcomplete.R
-import de.westnordost.streetcomplete.quests.AListQuestForm
-import de.westnordost.streetcomplete.quests.TextItem
-import de.westnordost.streetcomplete.quests.accepts_cards.CardAcceptance.CREDIT_CARDS_ONLY
-import de.westnordost.streetcomplete.quests.accepts_cards.CardAcceptance.DEBIT_AND_CREDIT
-import de.westnordost.streetcomplete.quests.accepts_cards.CardAcceptance.DEBIT_CARDS_ONLY
-import de.westnordost.streetcomplete.quests.accepts_cards.CardAcceptance.NEITHER_DEBIT_NOR_CREDIT
+import de.westnordost.streetcompletegpx.R
+import de.westnordost.streetcompletegpx.quests.AListQuestForm
+import de.westnordost.streetcompletegpx.quests.TextItem
+import de.westnordost.streetcompletegpx.quests.accepts_cards.CardAcceptance.CREDIT_CARDS_ONLY
+import de.westnordost.streetcompletegpx.quests.accepts_cards.CardAcceptance.DEBIT_AND_CREDIT
+import de.westnordost.streetcompletegpx.quests.accepts_cards.CardAcceptance.DEBIT_CARDS_ONLY
+import de.westnordost.streetcompletegpx.quests.accepts_cards.CardAcceptance.NEITHER_DEBIT_NOR_CREDIT
 
 class AddAcceptsCardsForm : AListQuestForm<CardAcceptance>() {
 

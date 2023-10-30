@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.quests.roof_shape
+package de.westnordost.streetcompletegpx.quests.roof_shape
 
 enum class RoofShape(val osmValue: String) {
     GABLED("gabled"),

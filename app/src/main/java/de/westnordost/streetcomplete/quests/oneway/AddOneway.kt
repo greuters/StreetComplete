@@ -1,19 +1,19 @@
-package de.westnordost.streetcomplete.quests.oneway
+package de.westnordost.streetcompletegpx.quests.oneway
 
-import de.westnordost.streetcomplete.R
-import de.westnordost.streetcomplete.data.elementfilter.toElementFilterExpression
-import de.westnordost.streetcomplete.data.osm.geometry.ElementGeometry
-import de.westnordost.streetcomplete.data.osm.mapdata.Element
-import de.westnordost.streetcomplete.data.osm.mapdata.MapDataWithGeometry
-import de.westnordost.streetcomplete.data.osm.mapdata.Way
-import de.westnordost.streetcomplete.data.osm.osmquests.OsmElementQuestType
-import de.westnordost.streetcomplete.data.user.achievements.EditTypeAchievement.CAR
-import de.westnordost.streetcomplete.osm.ALL_ROADS
-import de.westnordost.streetcomplete.osm.Tags
-import de.westnordost.streetcomplete.osm.estimateUsableRoadwayWidth
-import de.westnordost.streetcomplete.quests.oneway.OnewayAnswer.BACKWARD
-import de.westnordost.streetcomplete.quests.oneway.OnewayAnswer.FORWARD
-import de.westnordost.streetcomplete.quests.oneway.OnewayAnswer.NO_ONEWAY
+import de.westnordost.streetcompletegpx.R
+import de.westnordost.streetcompletegpx.data.elementfilter.toElementFilterExpression
+import de.westnordost.streetcompletegpx.data.osm.geometry.ElementGeometry
+import de.westnordost.streetcompletegpx.data.osm.mapdata.Element
+import de.westnordost.streetcompletegpx.data.osm.mapdata.MapDataWithGeometry
+import de.westnordost.streetcompletegpx.data.osm.mapdata.Way
+import de.westnordost.streetcompletegpx.data.osm.osmquests.OsmElementQuestType
+import de.westnordost.streetcompletegpx.data.user.achievements.EditTypeAchievement.CAR
+import de.westnordost.streetcompletegpx.osm.ALL_ROADS
+import de.westnordost.streetcompletegpx.osm.Tags
+import de.westnordost.streetcompletegpx.osm.estimateUsableRoadwayWidth
+import de.westnordost.streetcompletegpx.quests.oneway.OnewayAnswer.BACKWARD
+import de.westnordost.streetcompletegpx.quests.oneway.OnewayAnswer.FORWARD
+import de.westnordost.streetcompletegpx.quests.oneway.OnewayAnswer.NO_ONEWAY
 
 class AddOneway : OsmElementQuestType<OnewayAnswer> {
 

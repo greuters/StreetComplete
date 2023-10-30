@@ -1,10 +1,10 @@
-package de.westnordost.streetcomplete.quests.crossing_type
+package de.westnordost.streetcompletegpx.quests.crossing_type
 
-import de.westnordost.streetcomplete.R
-import de.westnordost.streetcomplete.quests.crossing_type.CrossingType.MARKED
-import de.westnordost.streetcomplete.quests.crossing_type.CrossingType.TRAFFIC_SIGNALS
-import de.westnordost.streetcomplete.quests.crossing_type.CrossingType.UNMARKED
-import de.westnordost.streetcomplete.view.image_select.Item
+import de.westnordost.streetcompletegpx.R
+import de.westnordost.streetcompletegpx.quests.crossing_type.CrossingType.MARKED
+import de.westnordost.streetcompletegpx.quests.crossing_type.CrossingType.TRAFFIC_SIGNALS
+import de.westnordost.streetcompletegpx.quests.crossing_type.CrossingType.UNMARKED
+import de.westnordost.streetcompletegpx.view.image_select.Item
 
 fun CrossingType.asItem() = Item(this, iconResId, titleResId)
 

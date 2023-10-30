@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.data.elementfilter
+package de.westnordost.streetcompletegpx.data.elementfilter
 
 abstract class BooleanExpression<I : Matcher<T>, T> {
     var parent: Chain<I, T>? = null

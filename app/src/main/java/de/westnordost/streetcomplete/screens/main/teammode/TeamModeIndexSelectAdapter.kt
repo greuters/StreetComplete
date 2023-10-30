@@ -1,9 +1,9 @@
-package de.westnordost.streetcomplete.screens.main.teammode
+package de.westnordost.streetcompletegpx.screens.main.teammode
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import de.westnordost.streetcomplete.databinding.CellTeamModeColorCircleSelectBinding
+import de.westnordost.streetcompletegpx.databinding.CellTeamModeColorCircleSelectBinding
 import java.util.concurrent.CopyOnWriteArrayList
 
 class TeamModeIndexSelectAdapter : RecyclerView.Adapter<TeamModeIndexSelectAdapter.ViewHolder>() {

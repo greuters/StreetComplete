@@ -1,9 +1,9 @@
-package de.westnordost.streetcomplete.osm.cycleway_separate
+package de.westnordost.streetcompletegpx.osm.cycleway_separate
 
-import de.westnordost.streetcomplete.osm.cycleway_separate.SeparateCycleway.*
-import de.westnordost.streetcomplete.osm.sidewalk.Sidewalk
-import de.westnordost.streetcomplete.osm.sidewalk.any
-import de.westnordost.streetcomplete.osm.sidewalk.createSidewalkSides
+import de.westnordost.streetcompletegpx.osm.cycleway_separate.SeparateCycleway.*
+import de.westnordost.streetcompletegpx.osm.sidewalk.Sidewalk
+import de.westnordost.streetcompletegpx.osm.sidewalk.any
+import de.westnordost.streetcompletegpx.osm.sidewalk.createSidewalkSides
 
 /** Returns the situation for a separately mapped cycleway */
 fun createSeparateCycleway(tags: Map<String, String>): SeparateCycleway? {

@@ -1,10 +1,10 @@
-package de.westnordost.streetcomplete.screens.main.map.components
+package de.westnordost.streetcompletegpx.screens.main.map.components
 
 import com.mapzen.tangram.LngLat
 import com.mapzen.tangram.geometry.Polyline
-import de.westnordost.streetcomplete.data.osm.mapdata.LatLon
-import de.westnordost.streetcomplete.screens.main.map.tangram.KtMapController
-import de.westnordost.streetcomplete.screens.main.map.tangram.toLngLat
+import de.westnordost.streetcompletegpx.data.osm.mapdata.LatLon
+import de.westnordost.streetcompletegpx.screens.main.map.tangram.KtMapController
+import de.westnordost.streetcompletegpx.screens.main.map.tangram.toLngLat
 import kotlin.math.max
 
 /** Takes care of showing the path(s) walked on the map */

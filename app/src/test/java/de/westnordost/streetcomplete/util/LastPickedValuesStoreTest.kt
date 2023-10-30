@@ -1,8 +1,8 @@
-package de.westnordost.streetcomplete.util
+package de.westnordost.streetcompletegpx.util
 
-import de.westnordost.streetcomplete.util.Letter.A
-import de.westnordost.streetcomplete.util.Letter.B
-import de.westnordost.streetcomplete.util.Letter.C
+import de.westnordost.streetcompletegpx.util.Letter.A
+import de.westnordost.streetcompletegpx.util.Letter.B
+import de.westnordost.streetcompletegpx.util.Letter.C
 import kotlin.test.Test
 import kotlin.test.assertEquals
 

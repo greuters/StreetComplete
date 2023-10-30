@@ -1,8 +1,8 @@
-package de.westnordost.streetcomplete.osm.surface
+package de.westnordost.streetcompletegpx.osm.surface
 
-import de.westnordost.streetcomplete.osm.Tags
-import de.westnordost.streetcomplete.osm.removeCheckDatesForKey
-import de.westnordost.streetcomplete.osm.updateWithCheckDate
+import de.westnordost.streetcompletegpx.osm.Tags
+import de.westnordost.streetcompletegpx.osm.removeCheckDatesForKey
+import de.westnordost.streetcompletegpx.osm.updateWithCheckDate
 
 /** Apply the surface and note to the given [tags], with optional [prefix], e.g. "footway" for
  *  "footway:surface.

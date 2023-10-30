@@ -1,15 +1,15 @@
-package de.westnordost.streetcomplete.data.download
+package de.westnordost.streetcompletegpx.data.download
 
 import android.util.Log
-import de.westnordost.streetcomplete.ApplicationConstants
-import de.westnordost.streetcomplete.data.download.tiles.DownloadedTilesController
-import de.westnordost.streetcomplete.data.download.tiles.TilesRect
-import de.westnordost.streetcomplete.data.maptiles.MapTilesDownloader
-import de.westnordost.streetcomplete.data.osm.mapdata.MapDataDownloader
-import de.westnordost.streetcomplete.data.osmnotes.NotesDownloader
-import de.westnordost.streetcomplete.util.ktx.format
-import de.westnordost.streetcomplete.util.ktx.nowAsEpochMilliseconds
-import de.westnordost.streetcomplete.util.math.area
+import de.westnordost.streetcompletegpx.ApplicationConstants
+import de.westnordost.streetcompletegpx.data.download.tiles.DownloadedTilesController
+import de.westnordost.streetcompletegpx.data.download.tiles.TilesRect
+import de.westnordost.streetcompletegpx.data.maptiles.MapTilesDownloader
+import de.westnordost.streetcompletegpx.data.osm.mapdata.MapDataDownloader
+import de.westnordost.streetcompletegpx.data.osmnotes.NotesDownloader
+import de.westnordost.streetcompletegpx.util.ktx.format
+import de.westnordost.streetcompletegpx.util.ktx.nowAsEpochMilliseconds
+import de.westnordost.streetcompletegpx.util.math.area
 import kotlinx.coroutines.coroutineScope
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.sync.Mutex

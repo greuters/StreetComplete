@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.quests.fire_hydrant
+package de.westnordost.streetcompletegpx.quests.fire_hydrant
 
 enum class FireHydrantType(val osmValue: String) {
     PILLAR("pillar"),

@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.util.ktx
+package de.westnordost.streetcompletegpx.util.ktx
 
 /** Return the first and last element of this list. If it contains only one element, just that one */
 fun <E> List<E>.firstAndLast() = if (size == 1) listOf(first()) else listOf(first(), last())

@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.data.elementfilter
+package de.westnordost.streetcompletegpx.data.elementfilter
 
 fun String.withOptionalUnitToDoubleOrNull(): Double? {
     if (isEmpty()) return null

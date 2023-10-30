@@ -1,15 +1,15 @@
-package de.westnordost.streetcomplete.quests.cycleway
+package de.westnordost.streetcompletegpx.quests.cycleway
 
 import de.westnordost.countryboundaries.CountryBoundaries
-import de.westnordost.streetcomplete.data.meta.CountryInfo
-import de.westnordost.streetcomplete.data.meta.CountryInfos
-import de.westnordost.streetcomplete.data.meta.getByLocation
-import de.westnordost.streetcomplete.quests.TestMapDataWithGeometry
-import de.westnordost.streetcomplete.testutils.mock
-import de.westnordost.streetcomplete.testutils.on
-import de.westnordost.streetcomplete.testutils.pGeom
-import de.westnordost.streetcomplete.testutils.way
-import de.westnordost.streetcomplete.util.ktx.nowAsEpochMilliseconds
+import de.westnordost.streetcompletegpx.data.meta.CountryInfo
+import de.westnordost.streetcompletegpx.data.meta.CountryInfos
+import de.westnordost.streetcompletegpx.data.meta.getByLocation
+import de.westnordost.streetcompletegpx.quests.TestMapDataWithGeometry
+import de.westnordost.streetcompletegpx.testutils.mock
+import de.westnordost.streetcompletegpx.testutils.on
+import de.westnordost.streetcompletegpx.testutils.pGeom
+import de.westnordost.streetcompletegpx.testutils.way
+import de.westnordost.streetcompletegpx.util.ktx.nowAsEpochMilliseconds
 import org.mockito.ArgumentMatchers.anyDouble
 import java.util.concurrent.FutureTask
 import kotlin.test.BeforeTest

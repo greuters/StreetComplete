@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.quests.postbox_ref
+package de.westnordost.streetcompletegpx.quests.postbox_ref
 
 sealed interface PostboxRefAnswer
 

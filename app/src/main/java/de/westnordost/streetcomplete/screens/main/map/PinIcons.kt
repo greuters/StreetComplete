@@ -1,9 +1,9 @@
-package de.westnordost.streetcomplete.screens.main.map
+package de.westnordost.streetcompletegpx.screens.main.map
 
 import androidx.annotation.DrawableRes
-import de.westnordost.streetcomplete.R
-import de.westnordost.streetcomplete.util.getNameLabel
-import de.westnordost.streetcomplete.util.getShortHouseNumber
+import de.westnordost.streetcompletegpx.R
+import de.westnordost.streetcompletegpx.util.getNameLabel
+import de.westnordost.streetcompletegpx.util.getShortHouseNumber
 
 @DrawableRes fun getPinIcon(map: Map<String, String>): Int? {
     when (map["amenity"]) {

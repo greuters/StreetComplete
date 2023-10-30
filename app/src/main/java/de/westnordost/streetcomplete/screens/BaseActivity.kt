@@ -1,15 +1,15 @@
-package de.westnordost.streetcomplete.screens
+package de.westnordost.streetcompletegpx.screens
 
 import android.content.Context
 import android.content.res.Configuration
 import androidx.annotation.LayoutRes
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.app.ActivityCompat
-import de.westnordost.streetcomplete.util.getSelectedLocale
-import de.westnordost.streetcomplete.util.getSystemLocales
-import de.westnordost.streetcomplete.util.ktx.addedToFront
-import de.westnordost.streetcomplete.util.setDefaultLocales
-import de.westnordost.streetcomplete.util.setLocales
+import de.westnordost.streetcompletegpx.util.getSelectedLocale
+import de.westnordost.streetcompletegpx.util.getSystemLocales
+import de.westnordost.streetcompletegpx.util.ktx.addedToFront
+import de.westnordost.streetcompletegpx.util.setDefaultLocales
+import de.westnordost.streetcompletegpx.util.setLocales
 import java.util.Locale
 
 open class BaseActivity : AppCompatActivity {

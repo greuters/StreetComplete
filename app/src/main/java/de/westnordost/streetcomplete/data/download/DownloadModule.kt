@@ -1,10 +1,10 @@
-package de.westnordost.streetcomplete.data.download
+package de.westnordost.streetcompletegpx.data.download
 
-import de.westnordost.streetcomplete.data.download.strategy.MobileDataAutoDownloadStrategy
-import de.westnordost.streetcomplete.data.download.strategy.WifiAutoDownloadStrategy
-import de.westnordost.streetcomplete.data.download.tiles.DownloadedTilesController
-import de.westnordost.streetcomplete.data.download.tiles.DownloadedTilesDao
-import de.westnordost.streetcomplete.data.download.tiles.DownloadedTilesSource
+import de.westnordost.streetcompletegpx.data.download.strategy.MobileDataAutoDownloadStrategy
+import de.westnordost.streetcompletegpx.data.download.strategy.WifiAutoDownloadStrategy
+import de.westnordost.streetcompletegpx.data.download.tiles.DownloadedTilesController
+import de.westnordost.streetcompletegpx.data.download.tiles.DownloadedTilesDao
+import de.westnordost.streetcompletegpx.data.download.tiles.DownloadedTilesSource
 import org.koin.core.qualifier.named
 import org.koin.dsl.module
 

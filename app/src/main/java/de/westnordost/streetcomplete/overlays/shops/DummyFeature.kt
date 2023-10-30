@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.overlays.shops
+package de.westnordost.streetcompletegpx.overlays.shops
 
 import de.westnordost.osmfeatures.Feature
 import de.westnordost.osmfeatures.GeometryType

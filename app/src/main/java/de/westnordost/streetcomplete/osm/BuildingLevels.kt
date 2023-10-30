@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.osm
+package de.westnordost.streetcompletegpx.osm
 
 val BUILDINGS_WITH_LEVELS = arrayOf(
     "house", "residential", "apartments", "detached", "terrace", "dormitory", "semi",

@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.util.location
+package de.westnordost.streetcompletegpx.util.location
 
 import android.content.BroadcastReceiver
 import android.content.Context
@@ -6,8 +6,8 @@ import android.content.Intent
 import android.content.IntentFilter
 import android.location.LocationManager
 import androidx.localbroadcastmanager.content.LocalBroadcastManager
-import de.westnordost.streetcomplete.util.ktx.hasLocationPermission
-import de.westnordost.streetcomplete.util.ktx.isLocationEnabled
+import de.westnordost.streetcompletegpx.util.ktx.hasLocationPermission
+import de.westnordost.streetcompletegpx.util.ktx.isLocationEnabled
 
 /** Tells its listeners changes to whether the location is available, i.e. being updated. The
  *  location is available if there is both a GPS (or other location provider) fix and the user

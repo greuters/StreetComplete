@@ -1,7 +1,7 @@
-package de.westnordost.streetcomplete.screens.about
+package de.westnordost.streetcompletegpx.screens.about
 
 import androidx.preference.PreferenceFragmentCompat
-import de.westnordost.streetcomplete.screens.TwoPaneHeaderFragment
+import de.westnordost.streetcompletegpx.screens.TwoPaneHeaderFragment
 
 /** Shows the about screen lists and details in a two pane layout. */
 class TwoPaneAboutFragment : TwoPaneHeaderFragment() {

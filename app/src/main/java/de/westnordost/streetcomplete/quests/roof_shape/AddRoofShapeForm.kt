@@ -1,10 +1,10 @@
-package de.westnordost.streetcomplete.quests.roof_shape
+package de.westnordost.streetcompletegpx.quests.roof_shape
 
 import android.os.Bundle
-import de.westnordost.streetcomplete.R
-import de.westnordost.streetcomplete.quests.AImageListQuestForm
-import de.westnordost.streetcomplete.quests.AnswerItem
-import de.westnordost.streetcomplete.quests.roof_shape.RoofShape.MANY
+import de.westnordost.streetcompletegpx.R
+import de.westnordost.streetcompletegpx.quests.AImageListQuestForm
+import de.westnordost.streetcompletegpx.quests.AnswerItem
+import de.westnordost.streetcompletegpx.quests.roof_shape.RoofShape.MANY
 
 class AddRoofShapeForm : AImageListQuestForm<RoofShape, RoofShape>() {
 

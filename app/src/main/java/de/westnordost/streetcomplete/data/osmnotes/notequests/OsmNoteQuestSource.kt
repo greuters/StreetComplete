@@ -1,6 +1,6 @@
-package de.westnordost.streetcomplete.data.osmnotes.notequests
+package de.westnordost.streetcompletegpx.data.osmnotes.notequests
 
-import de.westnordost.streetcomplete.data.osm.mapdata.BoundingBox
+import de.westnordost.streetcompletegpx.data.osm.mapdata.BoundingBox
 
 interface OsmNoteQuestSource {
     interface Listener {

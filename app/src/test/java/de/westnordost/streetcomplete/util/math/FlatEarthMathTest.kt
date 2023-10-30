@@ -1,6 +1,6 @@
-package de.westnordost.streetcomplete.util.math
+package de.westnordost.streetcompletegpx.util.math
 
-import de.westnordost.streetcomplete.data.osm.mapdata.LatLon
+import de.westnordost.streetcompletegpx.data.osm.mapdata.LatLon
 import kotlin.random.Random
 import kotlin.test.Test
 import kotlin.test.assertEquals

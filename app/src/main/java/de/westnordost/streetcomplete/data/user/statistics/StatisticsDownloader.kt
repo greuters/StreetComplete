@@ -1,6 +1,6 @@
-package de.westnordost.streetcomplete.data.user.statistics
+package de.westnordost.streetcompletegpx.data.user.statistics
 
-import de.westnordost.streetcomplete.ApplicationConstants
+import de.westnordost.streetcompletegpx.ApplicationConstants
 import java.io.IOException
 import java.net.HttpURLConnection
 import java.net.URL

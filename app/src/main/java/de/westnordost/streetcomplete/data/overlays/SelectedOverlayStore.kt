@@ -1,8 +1,8 @@
-package de.westnordost.streetcomplete.data.overlays
+package de.westnordost.streetcompletegpx.data.overlays
 
 import android.content.SharedPreferences
 import androidx.core.content.edit
-import de.westnordost.streetcomplete.Prefs
+import de.westnordost.streetcompletegpx.Prefs
 
 class SelectedOverlayStore(private val prefs: SharedPreferences) {
 

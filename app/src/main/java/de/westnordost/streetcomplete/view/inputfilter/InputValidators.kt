@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.view.inputfilter
+package de.westnordost.streetcompletegpx.view.inputfilter
 
 import android.text.InputFilter
 import android.text.Spanned

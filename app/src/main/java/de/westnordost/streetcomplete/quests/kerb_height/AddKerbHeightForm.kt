@@ -1,6 +1,6 @@
-package de.westnordost.streetcomplete.quests.kerb_height
+package de.westnordost.streetcompletegpx.quests.kerb_height
 
-import de.westnordost.streetcomplete.quests.AImageListQuestForm
+import de.westnordost.streetcompletegpx.quests.AImageListQuestForm
 
 class AddKerbHeightForm : AImageListQuestForm<KerbHeight, KerbHeight>() {
 

@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.view
+package de.westnordost.streetcompletegpx.view
 
 import androidx.recyclerview.widget.RecyclerView
 import androidx.viewbinding.ViewBinding

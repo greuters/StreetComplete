@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.osm.address
+package de.westnordost.streetcompletegpx.osm.address
 
 import kotlin.test.Test
 import kotlin.test.assertEquals

@@ -1,16 +1,16 @@
-package de.westnordost.streetcomplete.quests.road_name
+package de.westnordost.streetcompletegpx.quests.road_name
 
-import de.westnordost.streetcomplete.data.osm.edits.MapDataWithEditsSource
-import de.westnordost.streetcomplete.data.osm.geometry.ElementPolylinesGeometry
-import de.westnordost.streetcomplete.data.osm.mapdata.LatLon
-import de.westnordost.streetcomplete.data.osm.mapdata.Way
-import de.westnordost.streetcomplete.osm.ALL_PATHS
-import de.westnordost.streetcomplete.osm.ALL_ROADS
-import de.westnordost.streetcomplete.osm.LocalizedName
-import de.westnordost.streetcomplete.osm.createLocalizedNames
-import de.westnordost.streetcomplete.util.math.distanceTo
-import de.westnordost.streetcomplete.util.math.enclosingBoundingBox
-import de.westnordost.streetcomplete.util.math.enlargedBy
+import de.westnordost.streetcompletegpx.data.osm.edits.MapDataWithEditsSource
+import de.westnordost.streetcompletegpx.data.osm.geometry.ElementPolylinesGeometry
+import de.westnordost.streetcompletegpx.data.osm.mapdata.LatLon
+import de.westnordost.streetcompletegpx.data.osm.mapdata.Way
+import de.westnordost.streetcompletegpx.osm.ALL_PATHS
+import de.westnordost.streetcompletegpx.osm.ALL_ROADS
+import de.westnordost.streetcompletegpx.osm.LocalizedName
+import de.westnordost.streetcompletegpx.osm.createLocalizedNames
+import de.westnordost.streetcompletegpx.util.math.distanceTo
+import de.westnordost.streetcompletegpx.util.math.enclosingBoundingBox
+import de.westnordost.streetcompletegpx.util.math.enlargedBy
 
 class RoadNameSuggestionsSource(
     private val mapDataSource: MapDataWithEditsSource

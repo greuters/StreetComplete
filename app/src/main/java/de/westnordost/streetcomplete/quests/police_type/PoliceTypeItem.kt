@@ -1,13 +1,13 @@
-package de.westnordost.streetcomplete.quests.police_type
+package de.westnordost.streetcompletegpx.quests.police_type
 
-import de.westnordost.streetcomplete.R
-import de.westnordost.streetcomplete.quests.police_type.PoliceType.CARABINIERI
-import de.westnordost.streetcomplete.quests.police_type.PoliceType.GUARDIA_COSTIERA
-import de.westnordost.streetcomplete.quests.police_type.PoliceType.GUARDIA_DI_FINANZA
-import de.westnordost.streetcomplete.quests.police_type.PoliceType.POLIZIA_DI_STATO
-import de.westnordost.streetcomplete.quests.police_type.PoliceType.POLIZIA_LOCALE
-import de.westnordost.streetcomplete.quests.police_type.PoliceType.POLIZIA_MUNICIPALE
-import de.westnordost.streetcomplete.view.image_select.Item
+import de.westnordost.streetcompletegpx.R
+import de.westnordost.streetcompletegpx.quests.police_type.PoliceType.CARABINIERI
+import de.westnordost.streetcompletegpx.quests.police_type.PoliceType.GUARDIA_COSTIERA
+import de.westnordost.streetcompletegpx.quests.police_type.PoliceType.GUARDIA_DI_FINANZA
+import de.westnordost.streetcompletegpx.quests.police_type.PoliceType.POLIZIA_DI_STATO
+import de.westnordost.streetcompletegpx.quests.police_type.PoliceType.POLIZIA_LOCALE
+import de.westnordost.streetcompletegpx.quests.police_type.PoliceType.POLIZIA_MUNICIPALE
+import de.westnordost.streetcompletegpx.view.image_select.Item
 
 fun PoliceType.asItem() = Item(this, iconResId, titleResId)
 

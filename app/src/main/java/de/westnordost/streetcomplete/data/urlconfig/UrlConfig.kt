@@ -1,9 +1,9 @@
-package de.westnordost.streetcomplete.data.urlconfig
+package de.westnordost.streetcompletegpx.data.urlconfig
 
-import de.westnordost.streetcomplete.data.overlays.OverlayRegistry
-import de.westnordost.streetcomplete.data.quest.QuestType
-import de.westnordost.streetcomplete.data.quest.QuestTypeRegistry
-import de.westnordost.streetcomplete.overlays.Overlay
+import de.westnordost.streetcompletegpx.data.overlays.OverlayRegistry
+import de.westnordost.streetcompletegpx.data.quest.QuestType
+import de.westnordost.streetcompletegpx.data.quest.QuestTypeRegistry
+import de.westnordost.streetcompletegpx.overlays.Overlay
 import java.net.URLDecoder
 import java.net.URLEncoder
 

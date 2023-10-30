@@ -1,6 +1,6 @@
-package de.westnordost.streetcomplete.quests.incline_direction
+package de.westnordost.streetcompletegpx.quests.incline_direction
 
-import de.westnordost.streetcomplete.osm.Tags
+import de.westnordost.streetcompletegpx.osm.Tags
 
 sealed interface BicycleInclineAnswer
 class RegularBicycleInclineAnswer(val value: Incline) : BicycleInclineAnswer

@@ -1,7 +1,7 @@
-package de.westnordost.streetcomplete.quests.road_name
+package de.westnordost.streetcompletegpx.quests.road_name
 
-import de.westnordost.streetcomplete.data.osm.mapdata.LatLon
-import de.westnordost.streetcomplete.osm.LocalizedName
+import de.westnordost.streetcompletegpx.data.osm.mapdata.LatLon
+import de.westnordost.streetcompletegpx.osm.LocalizedName
 
 sealed interface RoadNameAnswer
 

@@ -1,7 +1,7 @@
-package de.westnordost.streetcomplete.data
+package de.westnordost.streetcompletegpx.data
 
 import android.database.sqlite.SQLiteOpenHelper
-import de.westnordost.streetcomplete.ApplicationConstants
+import de.westnordost.streetcompletegpx.ApplicationConstants
 import org.koin.dsl.module
 
 val dbModule = module {

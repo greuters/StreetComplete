@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.quests.traffic_calming_type
+package de.westnordost.streetcompletegpx.quests.traffic_calming_type
 
 enum class TrafficCalmingType(val osmValue: String) {
     BUMP("bump"),

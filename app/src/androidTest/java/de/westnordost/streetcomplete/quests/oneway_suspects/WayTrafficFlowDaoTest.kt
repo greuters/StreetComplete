@@ -1,9 +1,9 @@
-package de.westnordost.streetcomplete.quests.oneway_suspects
+package de.westnordost.streetcompletegpx.quests.oneway_suspects
 
-import de.westnordost.streetcomplete.data.ApplicationDbTestCase
-import de.westnordost.streetcomplete.data.osm.mapdata.Way
-import de.westnordost.streetcomplete.data.osm.mapdata.WayDao
-import de.westnordost.streetcomplete.quests.oneway_suspects.data.WayTrafficFlowDao
+import de.westnordost.streetcompletegpx.data.ApplicationDbTestCase
+import de.westnordost.streetcompletegpx.data.osm.mapdata.Way
+import de.westnordost.streetcompletegpx.data.osm.mapdata.WayDao
+import de.westnordost.streetcompletegpx.quests.oneway_suspects.data.WayTrafficFlowDao
 import kotlin.test.BeforeTest
 import kotlin.test.Test
 import kotlin.test.assertFalse

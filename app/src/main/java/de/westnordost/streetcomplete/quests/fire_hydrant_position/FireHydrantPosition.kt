@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.quests.fire_hydrant_position
+package de.westnordost.streetcompletegpx.quests.fire_hydrant_position
 
 enum class FireHydrantPosition(val osmValue: String) {
     GREEN("green"),

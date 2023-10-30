@@ -1,12 +1,12 @@
-package de.westnordost.streetcomplete.quests.internet_access
+package de.westnordost.streetcompletegpx.quests.internet_access
 
-import de.westnordost.streetcomplete.R
-import de.westnordost.streetcomplete.quests.AListQuestForm
-import de.westnordost.streetcomplete.quests.TextItem
-import de.westnordost.streetcomplete.quests.internet_access.InternetAccess.NO
-import de.westnordost.streetcomplete.quests.internet_access.InternetAccess.TERMINAL
-import de.westnordost.streetcomplete.quests.internet_access.InternetAccess.WIFI
-import de.westnordost.streetcomplete.quests.internet_access.InternetAccess.WIRED
+import de.westnordost.streetcompletegpx.R
+import de.westnordost.streetcompletegpx.quests.AListQuestForm
+import de.westnordost.streetcompletegpx.quests.TextItem
+import de.westnordost.streetcompletegpx.quests.internet_access.InternetAccess.NO
+import de.westnordost.streetcompletegpx.quests.internet_access.InternetAccess.TERMINAL
+import de.westnordost.streetcompletegpx.quests.internet_access.InternetAccess.WIFI
+import de.westnordost.streetcompletegpx.quests.internet_access.InternetAccess.WIRED
 
 class AddInternetAccessForm : AListQuestForm<InternetAccess>() {
 

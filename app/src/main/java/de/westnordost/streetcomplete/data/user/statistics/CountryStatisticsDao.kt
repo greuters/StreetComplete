@@ -1,10 +1,10 @@
-package de.westnordost.streetcomplete.data.user.statistics
+package de.westnordost.streetcompletegpx.data.user.statistics
 
-import de.westnordost.streetcomplete.data.CursorPosition
-import de.westnordost.streetcomplete.data.Database
-import de.westnordost.streetcomplete.data.user.statistics.CountryStatisticsTables.Columns.COUNTRY_CODE
-import de.westnordost.streetcomplete.data.user.statistics.CountryStatisticsTables.Columns.RANK
-import de.westnordost.streetcomplete.data.user.statistics.CountryStatisticsTables.Columns.SUCCEEDED
+import de.westnordost.streetcompletegpx.data.CursorPosition
+import de.westnordost.streetcompletegpx.data.Database
+import de.westnordost.streetcompletegpx.data.user.statistics.CountryStatisticsTables.Columns.COUNTRY_CODE
+import de.westnordost.streetcompletegpx.data.user.statistics.CountryStatisticsTables.Columns.RANK
+import de.westnordost.streetcompletegpx.data.user.statistics.CountryStatisticsTables.Columns.SUCCEEDED
 
 /** Stores how many quests the user solved in which country */
 class CountryStatisticsDao(private val db: Database, private val name: String) {

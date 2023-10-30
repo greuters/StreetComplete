@@ -1,10 +1,10 @@
-package de.westnordost.streetcomplete.screens.settings
+package de.westnordost.streetcompletegpx.screens.settings
 
 import androidx.fragment.app.Fragment
 import androidx.preference.PreferenceFragmentCompat
-import de.westnordost.streetcomplete.screens.TwoPaneHeaderFragment
-import de.westnordost.streetcomplete.screens.settings.questselection.QuestPresetsFragment
-import de.westnordost.streetcomplete.screens.settings.questselection.QuestSelectionFragment
+import de.westnordost.streetcompletegpx.screens.TwoPaneHeaderFragment
+import de.westnordost.streetcompletegpx.screens.settings.questselection.QuestPresetsFragment
+import de.westnordost.streetcompletegpx.screens.settings.questselection.QuestSelectionFragment
 
 /** Shows the settings lists and details in a two pane layout. */
 class TwoPaneSettingsFragment : TwoPaneHeaderFragment() {

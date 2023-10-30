@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.osm.address
+package de.westnordost.streetcompletegpx.osm.address
 
 import android.app.Activity
 import android.view.View
@@ -7,8 +7,8 @@ import android.widget.EditText
 import android.widget.TextView
 import androidx.core.view.isGone
 import androidx.core.widget.doAfterTextChanged
-import de.westnordost.streetcomplete.R
-import de.westnordost.streetcomplete.util.ktx.nonBlankTextOrNull
+import de.westnordost.streetcompletegpx.R
+import de.westnordost.streetcompletegpx.util.ktx.nonBlankTextOrNull
 
 /** Manages the UI for inputting the address number (usually housenumber, see [AddressNumberInputViewController])
  *  and/or a house name.

@@ -1,15 +1,15 @@
-package de.westnordost.streetcomplete.data.osm.edits.update_tags
+package de.westnordost.streetcompletegpx.data.osm.edits.update_tags
 
-import de.westnordost.streetcomplete.data.osm.edits.ElementEditAction
-import de.westnordost.streetcomplete.data.osm.edits.ElementIdProvider
-import de.westnordost.streetcomplete.data.osm.edits.IsRevertAction
-import de.westnordost.streetcomplete.data.osm.mapdata.Element
-import de.westnordost.streetcomplete.data.osm.mapdata.ElementKey
-import de.westnordost.streetcomplete.data.osm.mapdata.MapDataChanges
-import de.westnordost.streetcomplete.data.osm.mapdata.MapDataRepository
-import de.westnordost.streetcomplete.data.osm.mapdata.key
-import de.westnordost.streetcomplete.data.upload.ConflictException
-import de.westnordost.streetcomplete.util.ktx.copy
+import de.westnordost.streetcompletegpx.data.osm.edits.ElementEditAction
+import de.westnordost.streetcompletegpx.data.osm.edits.ElementIdProvider
+import de.westnordost.streetcompletegpx.data.osm.edits.IsRevertAction
+import de.westnordost.streetcompletegpx.data.osm.mapdata.Element
+import de.westnordost.streetcompletegpx.data.osm.mapdata.ElementKey
+import de.westnordost.streetcompletegpx.data.osm.mapdata.MapDataChanges
+import de.westnordost.streetcompletegpx.data.osm.mapdata.MapDataRepository
+import de.westnordost.streetcompletegpx.data.osm.mapdata.key
+import de.westnordost.streetcompletegpx.data.upload.ConflictException
+import de.westnordost.streetcompletegpx.util.ktx.copy
 import kotlinx.serialization.Serializable
 
 /** Contains the information necessary to apply a revert of tag changes made on an element */

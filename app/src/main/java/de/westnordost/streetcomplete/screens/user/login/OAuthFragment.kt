@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.screens.user.login
+package de.westnordost.streetcompletegpx.screens.user.login
 
 import android.annotation.SuppressLint
 import android.graphics.Bitmap
@@ -11,13 +11,13 @@ import android.widget.Toast
 import androidx.activity.OnBackPressedCallback
 import androidx.core.net.toUri
 import androidx.fragment.app.Fragment
-import de.westnordost.streetcomplete.ApplicationConstants
-import de.westnordost.streetcomplete.R
-import de.westnordost.streetcomplete.databinding.FragmentOauthBinding
-import de.westnordost.streetcomplete.screens.HasTitle
-import de.westnordost.streetcomplete.util.ktx.toast
-import de.westnordost.streetcomplete.util.ktx.viewLifecycleScope
-import de.westnordost.streetcomplete.util.viewBinding
+import de.westnordost.streetcompletegpx.ApplicationConstants
+import de.westnordost.streetcompletegpx.R
+import de.westnordost.streetcompletegpx.databinding.FragmentOauthBinding
+import de.westnordost.streetcompletegpx.screens.HasTitle
+import de.westnordost.streetcompletegpx.util.ktx.toast
+import de.westnordost.streetcompletegpx.util.ktx.viewLifecycleScope
+import de.westnordost.streetcompletegpx.util.viewBinding
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext

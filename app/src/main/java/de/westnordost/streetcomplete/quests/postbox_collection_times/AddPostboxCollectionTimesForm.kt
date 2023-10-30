@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.quests.postbox_collection_times
+package de.westnordost.streetcompletegpx.quests.postbox_collection_times
 
 import android.os.Bundle
 import android.view.Menu
@@ -8,13 +8,13 @@ import androidx.appcompat.widget.PopupMenu
 import androidx.core.view.isGone
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import de.westnordost.streetcomplete.R
-import de.westnordost.streetcomplete.databinding.QuestCollectionTimesBinding
-import de.westnordost.streetcomplete.osm.opening_hours.parser.toCollectionTimesRows
-import de.westnordost.streetcomplete.osm.opening_hours.parser.toOpeningHoursRules
-import de.westnordost.streetcomplete.quests.AbstractOsmQuestForm
-import de.westnordost.streetcomplete.quests.AnswerItem
-import de.westnordost.streetcomplete.view.AdapterDataChangedWatcher
+import de.westnordost.streetcompletegpx.R
+import de.westnordost.streetcompletegpx.databinding.QuestCollectionTimesBinding
+import de.westnordost.streetcompletegpx.osm.opening_hours.parser.toCollectionTimesRows
+import de.westnordost.streetcompletegpx.osm.opening_hours.parser.toOpeningHoursRules
+import de.westnordost.streetcompletegpx.quests.AbstractOsmQuestForm
+import de.westnordost.streetcompletegpx.quests.AnswerItem
+import de.westnordost.streetcompletegpx.view.AdapterDataChangedWatcher
 import kotlinx.serialization.decodeFromString
 import kotlinx.serialization.encodeToString
 import kotlinx.serialization.json.Json

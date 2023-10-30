@@ -1,6 +1,6 @@
-package de.westnordost.streetcomplete.quests.recycling
+package de.westnordost.streetcompletegpx.quests.recycling
 
-import de.westnordost.streetcomplete.quests.AImageListQuestForm
+import de.westnordost.streetcompletegpx.quests.AImageListQuestForm
 
 class AddRecyclingTypeForm : AImageListQuestForm<RecyclingType, RecyclingType>() {
 

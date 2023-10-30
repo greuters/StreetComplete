@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.screens.measure
+package de.westnordost.streetcompletegpx.screens.measure
 
 import kotlinx.serialization.Serializable
 import kotlin.math.floor

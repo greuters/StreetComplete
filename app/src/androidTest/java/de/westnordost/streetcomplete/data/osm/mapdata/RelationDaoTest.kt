@@ -1,11 +1,11 @@
-package de.westnordost.streetcomplete.data.osm.mapdata
+package de.westnordost.streetcompletegpx.data.osm.mapdata
 
-import de.westnordost.streetcomplete.data.ApplicationDbTestCase
-import de.westnordost.streetcomplete.data.osm.mapdata.ElementType.NODE
-import de.westnordost.streetcomplete.data.osm.mapdata.ElementType.RELATION
-import de.westnordost.streetcomplete.data.osm.mapdata.ElementType.WAY
-import de.westnordost.streetcomplete.util.ktx.containsExactlyInAnyOrder
-import de.westnordost.streetcomplete.util.ktx.nowAsEpochMilliseconds
+import de.westnordost.streetcompletegpx.data.ApplicationDbTestCase
+import de.westnordost.streetcompletegpx.data.osm.mapdata.ElementType.NODE
+import de.westnordost.streetcompletegpx.data.osm.mapdata.ElementType.RELATION
+import de.westnordost.streetcompletegpx.data.osm.mapdata.ElementType.WAY
+import de.westnordost.streetcompletegpx.util.ktx.containsExactlyInAnyOrder
+import de.westnordost.streetcompletegpx.util.ktx.nowAsEpochMilliseconds
 import kotlin.test.BeforeTest
 import kotlin.test.Test
 import kotlin.test.assertEquals

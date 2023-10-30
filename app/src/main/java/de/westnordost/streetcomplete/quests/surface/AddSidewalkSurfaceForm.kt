@@ -1,25 +1,25 @@
-package de.westnordost.streetcomplete.quests.surface
+package de.westnordost.streetcompletegpx.quests.surface
 
 import android.os.Bundle
 import android.view.View
 import androidx.appcompat.app.AlertDialog
-import de.westnordost.streetcomplete.R
-import de.westnordost.streetcomplete.osm.sidewalk.Sidewalk
-import de.westnordost.streetcomplete.osm.sidewalk.createSidewalkSides
-import de.westnordost.streetcomplete.osm.sidewalk_surface.LeftAndRightSidewalkSurface
-import de.westnordost.streetcomplete.osm.surface.SELECTABLE_WAY_SURFACES
-import de.westnordost.streetcomplete.osm.surface.Surface
-import de.westnordost.streetcomplete.osm.surface.SurfaceAndNote
-import de.westnordost.streetcomplete.osm.surface.asStreetSideItem
-import de.westnordost.streetcomplete.osm.surface.shouldBeDescribed
-import de.westnordost.streetcomplete.osm.surface.toItems
-import de.westnordost.streetcomplete.quests.AStreetSideSelectForm
-import de.westnordost.streetcomplete.quests.AnswerItem
-import de.westnordost.streetcomplete.view.controller.StreetSideSelectWithLastAnswerButtonViewController.Sides.BOTH
-import de.westnordost.streetcomplete.view.controller.StreetSideSelectWithLastAnswerButtonViewController.Sides.LEFT
-import de.westnordost.streetcomplete.view.controller.StreetSideSelectWithLastAnswerButtonViewController.Sides.RIGHT
-import de.westnordost.streetcomplete.view.image_select.DisplayItem
-import de.westnordost.streetcomplete.view.image_select.ImageListPickerDialog
+import de.westnordost.streetcompletegpx.R
+import de.westnordost.streetcompletegpx.osm.sidewalk.Sidewalk
+import de.westnordost.streetcompletegpx.osm.sidewalk.createSidewalkSides
+import de.westnordost.streetcompletegpx.osm.sidewalk_surface.LeftAndRightSidewalkSurface
+import de.westnordost.streetcompletegpx.osm.surface.SELECTABLE_WAY_SURFACES
+import de.westnordost.streetcompletegpx.osm.surface.Surface
+import de.westnordost.streetcompletegpx.osm.surface.SurfaceAndNote
+import de.westnordost.streetcompletegpx.osm.surface.asStreetSideItem
+import de.westnordost.streetcompletegpx.osm.surface.shouldBeDescribed
+import de.westnordost.streetcompletegpx.osm.surface.toItems
+import de.westnordost.streetcompletegpx.quests.AStreetSideSelectForm
+import de.westnordost.streetcompletegpx.quests.AnswerItem
+import de.westnordost.streetcompletegpx.view.controller.StreetSideSelectWithLastAnswerButtonViewController.Sides.BOTH
+import de.westnordost.streetcompletegpx.view.controller.StreetSideSelectWithLastAnswerButtonViewController.Sides.LEFT
+import de.westnordost.streetcompletegpx.view.controller.StreetSideSelectWithLastAnswerButtonViewController.Sides.RIGHT
+import de.westnordost.streetcompletegpx.view.image_select.DisplayItem
+import de.westnordost.streetcompletegpx.view.image_select.ImageListPickerDialog
 
 class AddSidewalkSurfaceForm : AStreetSideSelectForm<Surface, SidewalkSurfaceAnswer>() {
 

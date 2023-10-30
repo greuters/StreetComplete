@@ -1,8 +1,8 @@
-package de.westnordost.streetcomplete.data.user
+package de.westnordost.streetcompletegpx.data.user
 
 import android.content.SharedPreferences
 import androidx.core.content.edit
-import de.westnordost.streetcomplete.Prefs
+import de.westnordost.streetcompletegpx.Prefs
 import oauth.signpost.OAuthConsumer
 import org.koin.core.component.KoinComponent
 import org.koin.core.component.get

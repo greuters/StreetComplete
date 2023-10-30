@@ -1,8 +1,8 @@
-package de.westnordost.streetcomplete.screens.main.map
+package de.westnordost.streetcompletegpx.screens.main.map
 
-import de.westnordost.streetcomplete.data.osmtracks.Trackpoint
-import de.westnordost.streetcomplete.util.math.distanceTo
-import de.westnordost.streetcomplete.util.math.initialBearingTo
+import de.westnordost.streetcompletegpx.data.osmtracks.Trackpoint
+import de.westnordost.streetcompletegpx.util.math.distanceTo
+import de.westnordost.streetcompletegpx.util.math.initialBearingTo
 
 /** Utility function to estimate current bearing from a track */
 fun getTrackBearing(track: List<Trackpoint>): Double? {

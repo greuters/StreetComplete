@@ -1,7 +1,7 @@
-package de.westnordost.streetcomplete.util.ktx
+package de.westnordost.streetcompletegpx.util.ktx
 
-import de.westnordost.streetcomplete.R
-import de.westnordost.streetcomplete.data.meta.CountryInfo
+import de.westnordost.streetcompletegpx.R
+import de.westnordost.streetcompletegpx.data.meta.CountryInfo
 
 val CountryInfo.advisorySpeedLimitSignLayoutResId: Int? get() = when (advisorySpeedLimitSignStyle) {
     "blue" -> R.layout.quest_maxspeed_advisory_blue

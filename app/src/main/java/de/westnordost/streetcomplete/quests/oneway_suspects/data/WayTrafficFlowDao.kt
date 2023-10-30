@@ -1,10 +1,10 @@
-package de.westnordost.streetcomplete.quests.oneway_suspects.data
+package de.westnordost.streetcompletegpx.quests.oneway_suspects.data
 
-import de.westnordost.streetcomplete.data.Database
-import de.westnordost.streetcomplete.data.osm.mapdata.WayTables
-import de.westnordost.streetcomplete.quests.oneway_suspects.data.WayTrafficFlowTable.Columns.IS_FORWARD
-import de.westnordost.streetcomplete.quests.oneway_suspects.data.WayTrafficFlowTable.Columns.WAY_ID
-import de.westnordost.streetcomplete.quests.oneway_suspects.data.WayTrafficFlowTable.NAME
+import de.westnordost.streetcompletegpx.data.Database
+import de.westnordost.streetcompletegpx.data.osm.mapdata.WayTables
+import de.westnordost.streetcompletegpx.quests.oneway_suspects.data.WayTrafficFlowTable.Columns.IS_FORWARD
+import de.westnordost.streetcompletegpx.quests.oneway_suspects.data.WayTrafficFlowTable.Columns.WAY_ID
+import de.westnordost.streetcompletegpx.quests.oneway_suspects.data.WayTrafficFlowTable.NAME
 
 class WayTrafficFlowDao(private val db: Database) {
 

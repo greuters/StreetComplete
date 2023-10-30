@@ -1,11 +1,11 @@
-package de.westnordost.streetcomplete.quests.bench_backrest
+package de.westnordost.streetcompletegpx.quests.bench_backrest
 
-import de.westnordost.streetcomplete.R
-import de.westnordost.streetcomplete.quests.AbstractOsmQuestForm
-import de.westnordost.streetcomplete.quests.AnswerItem
-import de.westnordost.streetcomplete.quests.bench_backrest.BenchBackrestAnswer.NO
-import de.westnordost.streetcomplete.quests.bench_backrest.BenchBackrestAnswer.PICNIC_TABLE
-import de.westnordost.streetcomplete.quests.bench_backrest.BenchBackrestAnswer.YES
+import de.westnordost.streetcompletegpx.R
+import de.westnordost.streetcompletegpx.quests.AbstractOsmQuestForm
+import de.westnordost.streetcompletegpx.quests.AnswerItem
+import de.westnordost.streetcompletegpx.quests.bench_backrest.BenchBackrestAnswer.NO
+import de.westnordost.streetcompletegpx.quests.bench_backrest.BenchBackrestAnswer.PICNIC_TABLE
+import de.westnordost.streetcompletegpx.quests.bench_backrest.BenchBackrestAnswer.YES
 
 class AddBenchBackrestForm : AbstractOsmQuestForm<BenchBackrestAnswer>() {
 

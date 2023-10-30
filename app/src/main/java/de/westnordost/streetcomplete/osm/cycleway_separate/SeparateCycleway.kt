@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.osm.cycleway_separate
+package de.westnordost.streetcompletegpx.osm.cycleway_separate
 
 enum class SeparateCycleway {
     /** Just a path, not designated to anyone in particular */

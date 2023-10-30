@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.osm.address
+package de.westnordost.streetcompletegpx.osm.address
 
 import android.content.res.Resources
 import android.view.View
@@ -7,13 +7,13 @@ import android.widget.EditText
 import android.widget.Spinner
 import androidx.core.view.isGone
 import androidx.core.widget.doAfterTextChanged
-import de.westnordost.streetcomplete.R
-import de.westnordost.streetcomplete.data.meta.AbbreviationsByLocale
-import de.westnordost.streetcomplete.data.osm.mapdata.LatLon
-import de.westnordost.streetcomplete.osm.address.StreetOrPlaceNameViewController.StreetOrPlace.*
-import de.westnordost.streetcomplete.quests.road_name.RoadNameSuggestionsSource
-import de.westnordost.streetcomplete.util.ktx.nonBlankTextOrNull
-import de.westnordost.streetcomplete.view.OnAdapterItemSelectedListener
+import de.westnordost.streetcompletegpx.R
+import de.westnordost.streetcompletegpx.data.meta.AbbreviationsByLocale
+import de.westnordost.streetcompletegpx.data.osm.mapdata.LatLon
+import de.westnordost.streetcompletegpx.osm.address.StreetOrPlaceNameViewController.StreetOrPlace.*
+import de.westnordost.streetcompletegpx.quests.road_name.RoadNameSuggestionsSource
+import de.westnordost.streetcompletegpx.util.ktx.nonBlankTextOrNull
+import de.westnordost.streetcompletegpx.view.OnAdapterItemSelectedListener
 import java.util.Locale
 
 /** Manages the input of a street name or alternatively (if not available) a place name.

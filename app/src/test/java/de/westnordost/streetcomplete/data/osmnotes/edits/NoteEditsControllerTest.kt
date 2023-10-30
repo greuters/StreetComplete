@@ -1,14 +1,14 @@
-package de.westnordost.streetcomplete.data.osmnotes.edits
+package de.westnordost.streetcompletegpx.data.osmnotes.edits
 
-import de.westnordost.streetcomplete.data.osm.mapdata.ElementIdUpdate
-import de.westnordost.streetcomplete.data.osm.mapdata.ElementType
-import de.westnordost.streetcomplete.testutils.any
-import de.westnordost.streetcomplete.testutils.eq
-import de.westnordost.streetcomplete.testutils.mock
-import de.westnordost.streetcomplete.testutils.note
-import de.westnordost.streetcomplete.testutils.noteEdit
-import de.westnordost.streetcomplete.testutils.on
-import de.westnordost.streetcomplete.testutils.p
+import de.westnordost.streetcompletegpx.data.osm.mapdata.ElementIdUpdate
+import de.westnordost.streetcompletegpx.data.osm.mapdata.ElementType
+import de.westnordost.streetcompletegpx.testutils.any
+import de.westnordost.streetcompletegpx.testutils.eq
+import de.westnordost.streetcompletegpx.testutils.mock
+import de.westnordost.streetcompletegpx.testutils.note
+import de.westnordost.streetcompletegpx.testutils.noteEdit
+import de.westnordost.streetcompletegpx.testutils.on
+import de.westnordost.streetcompletegpx.testutils.p
 import org.mockito.ArgumentMatchers.anyLong
 import org.mockito.Mockito.never
 import org.mockito.Mockito.verify

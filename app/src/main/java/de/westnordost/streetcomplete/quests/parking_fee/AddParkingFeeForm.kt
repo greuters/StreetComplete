@@ -1,20 +1,20 @@
-package de.westnordost.streetcomplete.quests.parking_fee
+package de.westnordost.streetcompletegpx.quests.parking_fee
 
-import de.westnordost.streetcomplete.R
-import de.westnordost.streetcomplete.databinding.QuestFeeHoursBinding
-import de.westnordost.streetcomplete.databinding.QuestMaxstayBinding
-import de.westnordost.streetcomplete.osm.opening_hours.parser.toOpeningHoursRules
-import de.westnordost.streetcomplete.quests.AbstractOsmQuestForm
-import de.westnordost.streetcomplete.quests.AnswerItem
-import de.westnordost.streetcomplete.quests.parking_fee.AddParkingFeeForm.Mode.FEE_AT_HOURS
-import de.westnordost.streetcomplete.quests.parking_fee.AddParkingFeeForm.Mode.FEE_YES_NO
-import de.westnordost.streetcomplete.quests.parking_fee.AddParkingFeeForm.Mode.MAX_STAY
-import de.westnordost.streetcomplete.view.controller.DurationInputViewController
-import de.westnordost.streetcomplete.view.controller.DurationUnit
-import de.westnordost.streetcomplete.view.controller.TimeRestriction.AT_ANY_TIME
-import de.westnordost.streetcomplete.view.controller.TimeRestriction.EXCEPT_AT_HOURS
-import de.westnordost.streetcomplete.view.controller.TimeRestriction.ONLY_AT_HOURS
-import de.westnordost.streetcomplete.view.controller.TimeRestrictionSelectViewController
+import de.westnordost.streetcompletegpx.R
+import de.westnordost.streetcompletegpx.databinding.QuestFeeHoursBinding
+import de.westnordost.streetcompletegpx.databinding.QuestMaxstayBinding
+import de.westnordost.streetcompletegpx.osm.opening_hours.parser.toOpeningHoursRules
+import de.westnordost.streetcompletegpx.quests.AbstractOsmQuestForm
+import de.westnordost.streetcompletegpx.quests.AnswerItem
+import de.westnordost.streetcompletegpx.quests.parking_fee.AddParkingFeeForm.Mode.FEE_AT_HOURS
+import de.westnordost.streetcompletegpx.quests.parking_fee.AddParkingFeeForm.Mode.FEE_YES_NO
+import de.westnordost.streetcompletegpx.quests.parking_fee.AddParkingFeeForm.Mode.MAX_STAY
+import de.westnordost.streetcompletegpx.view.controller.DurationInputViewController
+import de.westnordost.streetcompletegpx.view.controller.DurationUnit
+import de.westnordost.streetcompletegpx.view.controller.TimeRestriction.AT_ANY_TIME
+import de.westnordost.streetcompletegpx.view.controller.TimeRestriction.EXCEPT_AT_HOURS
+import de.westnordost.streetcompletegpx.view.controller.TimeRestriction.ONLY_AT_HOURS
+import de.westnordost.streetcompletegpx.view.controller.TimeRestrictionSelectViewController
 
 class AddParkingFeeForm : AbstractOsmQuestForm<FeeAndMaxStay>() {
 

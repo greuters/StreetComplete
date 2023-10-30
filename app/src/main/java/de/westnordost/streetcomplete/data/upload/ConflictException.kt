@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.data.upload
+package de.westnordost.streetcompletegpx.data.upload
 
 class ConflictException @JvmOverloads constructor(
     message: String? = null,

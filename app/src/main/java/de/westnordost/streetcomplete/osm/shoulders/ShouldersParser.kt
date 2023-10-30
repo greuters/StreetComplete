@@ -1,7 +1,7 @@
-package de.westnordost.streetcomplete.osm.shoulders
+package de.westnordost.streetcompletegpx.osm.shoulders
 
-import de.westnordost.streetcomplete.osm.isOneway
-import de.westnordost.streetcomplete.osm.isReversedOneway
+import de.westnordost.streetcompletegpx.osm.isOneway
+import de.westnordost.streetcompletegpx.osm.isReversedOneway
 
 /** Returns on which sides are shoulders. Returns null if there is no shoulders tagging at all */
 fun createShoulders(tags: Map<String, String>, isLeftHandTraffic: Boolean): Shoulders? {

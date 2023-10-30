@@ -1,15 +1,15 @@
-package de.westnordost.streetcomplete.data
+package de.westnordost.streetcompletegpx.data
 
 import de.westnordost.osmapi.OsmConnection
 import de.westnordost.osmapi.user.UserApi
-import de.westnordost.streetcomplete.ApplicationConstants
-import de.westnordost.streetcomplete.data.osm.mapdata.MapDataApi
-import de.westnordost.streetcomplete.data.osm.mapdata.MapDataApiImpl
-import de.westnordost.streetcomplete.data.osmnotes.NotesApi
-import de.westnordost.streetcomplete.data.osmnotes.NotesApiImpl
-import de.westnordost.streetcomplete.data.osmtracks.TracksApi
-import de.westnordost.streetcomplete.data.osmtracks.TracksApiImpl
-import de.westnordost.streetcomplete.data.user.OAuthStore
+import de.westnordost.streetcompletegpx.ApplicationConstants
+import de.westnordost.streetcompletegpx.data.osm.mapdata.MapDataApi
+import de.westnordost.streetcompletegpx.data.osm.mapdata.MapDataApiImpl
+import de.westnordost.streetcompletegpx.data.osmnotes.NotesApi
+import de.westnordost.streetcompletegpx.data.osmnotes.NotesApiImpl
+import de.westnordost.streetcompletegpx.data.osmtracks.TracksApi
+import de.westnordost.streetcompletegpx.data.osmtracks.TracksApiImpl
+import de.westnordost.streetcompletegpx.data.user.OAuthStore
 import oauth.signpost.OAuthConsumer
 import org.koin.androidx.workmanager.dsl.worker
 import org.koin.core.qualifier.named

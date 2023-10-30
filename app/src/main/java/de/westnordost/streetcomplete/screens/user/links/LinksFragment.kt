@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.screens.user.links
+package de.westnordost.streetcompletegpx.screens.user.links
 
 import android.os.Bundle
 import android.view.View
@@ -6,16 +6,16 @@ import androidx.core.view.isGone
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import de.westnordost.streetcomplete.R
-import de.westnordost.streetcomplete.data.user.achievements.AchievementsSource
-import de.westnordost.streetcomplete.data.user.statistics.StatisticsSource
-import de.westnordost.streetcomplete.databinding.FragmentLinksBinding
-import de.westnordost.streetcomplete.util.ktx.awaitLayout
-import de.westnordost.streetcomplete.util.ktx.openUri
-import de.westnordost.streetcomplete.util.ktx.pxToDp
-import de.westnordost.streetcomplete.util.ktx.viewLifecycleScope
-import de.westnordost.streetcomplete.util.viewBinding
-import de.westnordost.streetcomplete.view.GridLayoutSpacingItemDecoration
+import de.westnordost.streetcompletegpx.R
+import de.westnordost.streetcompletegpx.data.user.achievements.AchievementsSource
+import de.westnordost.streetcompletegpx.data.user.statistics.StatisticsSource
+import de.westnordost.streetcompletegpx.databinding.FragmentLinksBinding
+import de.westnordost.streetcompletegpx.util.ktx.awaitLayout
+import de.westnordost.streetcompletegpx.util.ktx.openUri
+import de.westnordost.streetcompletegpx.util.ktx.pxToDp
+import de.westnordost.streetcompletegpx.util.ktx.viewLifecycleScope
+import de.westnordost.streetcompletegpx.util.viewBinding
+import de.westnordost.streetcompletegpx.view.GridLayoutSpacingItemDecoration
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext

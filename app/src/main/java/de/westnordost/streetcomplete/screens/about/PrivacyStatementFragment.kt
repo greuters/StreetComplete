@@ -1,14 +1,14 @@
-package de.westnordost.streetcomplete.screens.about
+package de.westnordost.streetcompletegpx.screens.about
 
 import android.os.Bundle
 import android.view.View
-import de.westnordost.streetcomplete.R
-import de.westnordost.streetcomplete.databinding.FragmentShowHtmlBinding
-import de.westnordost.streetcomplete.screens.HasTitle
-import de.westnordost.streetcomplete.screens.TwoPaneDetailFragment
-import de.westnordost.streetcomplete.screens.main.map.VectorTileProvider
-import de.westnordost.streetcomplete.util.viewBinding
-import de.westnordost.streetcomplete.view.setHtml
+import de.westnordost.streetcompletegpx.R
+import de.westnordost.streetcompletegpx.databinding.FragmentShowHtmlBinding
+import de.westnordost.streetcompletegpx.screens.HasTitle
+import de.westnordost.streetcompletegpx.screens.TwoPaneDetailFragment
+import de.westnordost.streetcompletegpx.screens.main.map.VectorTileProvider
+import de.westnordost.streetcompletegpx.util.viewBinding
+import de.westnordost.streetcompletegpx.view.setHtml
 import org.koin.android.ext.android.inject
 
 /** Shows the privacy statement */

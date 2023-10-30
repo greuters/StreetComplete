@@ -1,16 +1,16 @@
-package de.westnordost.streetcomplete.data.user.statistics
+package de.westnordost.streetcompletegpx.data.user.statistics
 
 import android.content.SharedPreferences
 import android.util.Log
 import androidx.core.content.edit
 import de.westnordost.countryboundaries.CountryBoundaries
-import de.westnordost.streetcomplete.Prefs
-import de.westnordost.streetcomplete.data.osm.mapdata.LatLon
-import de.westnordost.streetcomplete.data.user.UserLoginStatusSource
-import de.westnordost.streetcomplete.util.ktx.getIds
-import de.westnordost.streetcomplete.util.ktx.nowAsEpochMilliseconds
-import de.westnordost.streetcomplete.util.ktx.systemTimeNow
-import de.westnordost.streetcomplete.util.ktx.toLocalDate
+import de.westnordost.streetcompletegpx.Prefs
+import de.westnordost.streetcompletegpx.data.osm.mapdata.LatLon
+import de.westnordost.streetcompletegpx.data.user.UserLoginStatusSource
+import de.westnordost.streetcompletegpx.util.ktx.getIds
+import de.westnordost.streetcompletegpx.util.ktx.nowAsEpochMilliseconds
+import de.westnordost.streetcompletegpx.util.ktx.systemTimeNow
+import de.westnordost.streetcompletegpx.util.ktx.toLocalDate
 import kotlinx.datetime.Instant
 import kotlinx.datetime.LocalDate
 import java.util.concurrent.CopyOnWriteArrayList

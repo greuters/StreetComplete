@@ -1,14 +1,14 @@
-package de.westnordost.streetcomplete.data.osm.edits.delete
+package de.westnordost.streetcompletegpx.data.osm.edits.delete
 
-import de.westnordost.streetcomplete.data.osm.edits.ElementIdProvider
-import de.westnordost.streetcomplete.data.osm.mapdata.ElementKey
-import de.westnordost.streetcomplete.data.osm.mapdata.ElementType
-import de.westnordost.streetcomplete.data.osm.mapdata.MapDataRepository
-import de.westnordost.streetcomplete.data.upload.ConflictException
-import de.westnordost.streetcomplete.testutils.mock
-import de.westnordost.streetcomplete.testutils.node
-import de.westnordost.streetcomplete.testutils.on
-import de.westnordost.streetcomplete.util.ktx.copy
+import de.westnordost.streetcompletegpx.data.osm.edits.ElementIdProvider
+import de.westnordost.streetcompletegpx.data.osm.mapdata.ElementKey
+import de.westnordost.streetcompletegpx.data.osm.mapdata.ElementType
+import de.westnordost.streetcompletegpx.data.osm.mapdata.MapDataRepository
+import de.westnordost.streetcompletegpx.data.upload.ConflictException
+import de.westnordost.streetcompletegpx.testutils.mock
+import de.westnordost.streetcompletegpx.testutils.node
+import de.westnordost.streetcompletegpx.testutils.on
+import de.westnordost.streetcompletegpx.util.ktx.copy
 import kotlin.test.BeforeTest
 import kotlin.test.Test
 import kotlin.test.assertEquals

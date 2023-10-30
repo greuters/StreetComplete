@@ -1,6 +1,6 @@
-package de.westnordost.streetcomplete.quests
+package de.westnordost.streetcompletegpx.quests
 
-import de.westnordost.streetcomplete.data.quest.QuestKey
+import de.westnordost.streetcompletegpx.data.quest.QuestKey
 
 interface IsShowingQuestDetails {
     val questKey: QuestKey

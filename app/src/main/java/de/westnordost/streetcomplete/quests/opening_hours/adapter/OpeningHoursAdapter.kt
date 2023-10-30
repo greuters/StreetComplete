@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.quests.opening_hours.adapter
+package de.westnordost.streetcompletegpx.quests.opening_hours.adapter
 
 import android.annotation.SuppressLint
 import android.content.Context
@@ -7,17 +7,17 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.core.view.isInvisible
 import androidx.recyclerview.widget.RecyclerView
-import de.westnordost.streetcomplete.R
-import de.westnordost.streetcomplete.databinding.QuestTimesMonthRowBinding
-import de.westnordost.streetcomplete.databinding.QuestTimesOffdayRowBinding
-import de.westnordost.streetcomplete.databinding.QuestTimesWeekdayRowBinding
-import de.westnordost.streetcomplete.osm.opening_hours.model.Months
-import de.westnordost.streetcomplete.osm.opening_hours.model.TimeRange
-import de.westnordost.streetcomplete.osm.opening_hours.model.Weekdays
-import de.westnordost.streetcomplete.osm.opening_hours.parser.toOpeningHoursRules
-import de.westnordost.streetcomplete.quests.opening_hours.MonthsPickerDialog
-import de.westnordost.streetcomplete.quests.opening_hours.TimeRangePickerDialog
-import de.westnordost.streetcomplete.quests.opening_hours.WeekdaysPickerDialog
+import de.westnordost.streetcompletegpx.R
+import de.westnordost.streetcompletegpx.databinding.QuestTimesMonthRowBinding
+import de.westnordost.streetcompletegpx.databinding.QuestTimesOffdayRowBinding
+import de.westnordost.streetcompletegpx.databinding.QuestTimesWeekdayRowBinding
+import de.westnordost.streetcompletegpx.osm.opening_hours.model.Months
+import de.westnordost.streetcompletegpx.osm.opening_hours.model.TimeRange
+import de.westnordost.streetcompletegpx.osm.opening_hours.model.Weekdays
+import de.westnordost.streetcompletegpx.osm.opening_hours.parser.toOpeningHoursRules
+import de.westnordost.streetcompletegpx.quests.opening_hours.MonthsPickerDialog
+import de.westnordost.streetcompletegpx.quests.opening_hours.TimeRangePickerDialog
+import de.westnordost.streetcompletegpx.quests.opening_hours.WeekdaysPickerDialog
 import kotlinx.serialization.Serializable
 import java.util.Locale
 

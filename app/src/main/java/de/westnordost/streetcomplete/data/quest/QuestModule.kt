@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.data.quest
+package de.westnordost.streetcompletegpx.data.quest
 
 import org.koin.dsl.module
 

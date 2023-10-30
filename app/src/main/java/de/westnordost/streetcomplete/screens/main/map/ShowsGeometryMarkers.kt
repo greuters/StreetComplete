@@ -1,7 +1,7 @@
-package de.westnordost.streetcomplete.screens.main.map
+package de.westnordost.streetcompletegpx.screens.main.map
 
 import androidx.annotation.DrawableRes
-import de.westnordost.streetcomplete.data.osm.geometry.ElementGeometry
+import de.westnordost.streetcompletegpx.data.osm.geometry.ElementGeometry
 
 interface ShowsGeometryMarkers {
     fun putMarkerForCurrentHighlighting(

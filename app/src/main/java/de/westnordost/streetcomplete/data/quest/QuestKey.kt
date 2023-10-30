@@ -1,6 +1,6 @@
-package de.westnordost.streetcomplete.data.quest
+package de.westnordost.streetcompletegpx.data.quest
 
-import de.westnordost.streetcomplete.data.osm.mapdata.ElementType
+import de.westnordost.streetcompletegpx.data.osm.mapdata.ElementType
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
 

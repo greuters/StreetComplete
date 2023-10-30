@@ -1,10 +1,10 @@
-package de.westnordost.streetcomplete.quests.bike_rental_type
+package de.westnordost.streetcompletegpx.quests.bike_rental_type
 
-import de.westnordost.streetcomplete.R
-import de.westnordost.streetcomplete.quests.bike_rental_type.BikeRentalType.DOCKING_STATION
-import de.westnordost.streetcomplete.quests.bike_rental_type.BikeRentalType.DROPOFF_POINT
-import de.westnordost.streetcomplete.quests.bike_rental_type.BikeRentalType.HUMAN
-import de.westnordost.streetcomplete.view.image_select.Item
+import de.westnordost.streetcompletegpx.R
+import de.westnordost.streetcompletegpx.quests.bike_rental_type.BikeRentalType.DOCKING_STATION
+import de.westnordost.streetcompletegpx.quests.bike_rental_type.BikeRentalType.DROPOFF_POINT
+import de.westnordost.streetcompletegpx.quests.bike_rental_type.BikeRentalType.HUMAN
+import de.westnordost.streetcompletegpx.view.image_select.Item
 
 fun BikeRentalTypeAnswer.asItem() = Item(this, iconResId, titleResId)
 

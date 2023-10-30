@@ -1,6 +1,6 @@
-package de.westnordost.streetcomplete.quests.bridge_structure
+package de.westnordost.streetcompletegpx.quests.bridge_structure
 
-import de.westnordost.streetcomplete.quests.AImageListQuestForm
+import de.westnordost.streetcompletegpx.quests.AImageListQuestForm
 
 class AddBridgeStructureForm : AImageListQuestForm<BridgeStructure, BridgeStructure>() {
 

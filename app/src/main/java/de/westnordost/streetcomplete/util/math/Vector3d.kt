@@ -1,7 +1,7 @@
 // we want to use the greek letters to stay close to the mathematical examples linked below
 @file:Suppress("NonAsciiCharacters")
 
-package de.westnordost.streetcomplete.util.math
+package de.westnordost.streetcompletegpx.util.math
 
 import kotlin.math.atan2
 import kotlin.math.cos

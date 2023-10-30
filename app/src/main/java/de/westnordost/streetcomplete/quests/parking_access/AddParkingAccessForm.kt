@@ -1,11 +1,11 @@
-package de.westnordost.streetcomplete.quests.parking_access
+package de.westnordost.streetcompletegpx.quests.parking_access
 
-import de.westnordost.streetcomplete.R
-import de.westnordost.streetcomplete.quests.AListQuestForm
-import de.westnordost.streetcomplete.quests.TextItem
-import de.westnordost.streetcomplete.quests.parking_access.ParkingAccess.CUSTOMERS
-import de.westnordost.streetcomplete.quests.parking_access.ParkingAccess.PRIVATE
-import de.westnordost.streetcomplete.quests.parking_access.ParkingAccess.YES
+import de.westnordost.streetcompletegpx.R
+import de.westnordost.streetcompletegpx.quests.AListQuestForm
+import de.westnordost.streetcompletegpx.quests.TextItem
+import de.westnordost.streetcompletegpx.quests.parking_access.ParkingAccess.CUSTOMERS
+import de.westnordost.streetcompletegpx.quests.parking_access.ParkingAccess.PRIVATE
+import de.westnordost.streetcompletegpx.quests.parking_access.ParkingAccess.YES
 
 class AddParkingAccessForm : AListQuestForm<ParkingAccess>() {
 

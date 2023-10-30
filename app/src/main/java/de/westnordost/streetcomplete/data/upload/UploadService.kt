@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.data.upload
+package de.westnordost.streetcompletegpx.data.upload
 
 import android.app.ForegroundServiceStartNotAllowedException
 import android.content.Context
@@ -7,10 +7,10 @@ import android.os.Binder
 import android.os.Build
 import android.os.IBinder
 import android.util.Log
-import de.westnordost.streetcomplete.ApplicationConstants.NOTIFICATIONS_ID_SYNC
-import de.westnordost.streetcomplete.data.osm.mapdata.LatLon
-import de.westnordost.streetcomplete.data.sync.CoroutineIntentService
-import de.westnordost.streetcomplete.data.sync.createSyncNotification
+import de.westnordost.streetcompletegpx.ApplicationConstants.NOTIFICATIONS_ID_SYNC
+import de.westnordost.streetcompletegpx.data.osm.mapdata.LatLon
+import de.westnordost.streetcompletegpx.data.sync.CoroutineIntentService
+import de.westnordost.streetcompletegpx.data.sync.createSyncNotification
 import org.koin.android.ext.android.inject
 
 /** Collects and uploads all changes the user has done: notes he left, comments he left on existing

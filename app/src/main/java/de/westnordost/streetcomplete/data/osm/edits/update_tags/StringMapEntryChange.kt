@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.data.osm.edits.update_tags
+package de.westnordost.streetcompletegpx.data.osm.edits.update_tags
 
 import kotlinx.serialization.Serializable
 

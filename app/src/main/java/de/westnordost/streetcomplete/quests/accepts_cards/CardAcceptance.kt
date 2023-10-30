@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.quests.accepts_cards
+package de.westnordost.streetcompletegpx.quests.accepts_cards
 
 enum class CardAcceptance(val debit: Boolean, val credit: Boolean) {
     DEBIT_AND_CREDIT(true, true),

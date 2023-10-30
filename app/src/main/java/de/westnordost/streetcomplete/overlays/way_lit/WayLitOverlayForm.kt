@@ -1,24 +1,24 @@
-package de.westnordost.streetcomplete.overlays.way_lit
+package de.westnordost.streetcompletegpx.overlays.way_lit
 
 import android.os.Bundle
 import android.view.View
-import de.westnordost.streetcomplete.R
-import de.westnordost.streetcomplete.data.osm.edits.update_tags.StringMapChangesBuilder
-import de.westnordost.streetcomplete.data.osm.edits.update_tags.UpdateElementTagsAction
-import de.westnordost.streetcomplete.osm.changeToSteps
-import de.westnordost.streetcomplete.osm.lit.LitStatus
-import de.westnordost.streetcomplete.osm.lit.LitStatus.AUTOMATIC
-import de.westnordost.streetcomplete.osm.lit.LitStatus.NIGHT_AND_DAY
-import de.westnordost.streetcomplete.osm.lit.LitStatus.NO
-import de.westnordost.streetcomplete.osm.lit.LitStatus.UNSUPPORTED
-import de.westnordost.streetcomplete.osm.lit.LitStatus.YES
-import de.westnordost.streetcomplete.osm.lit.applyTo
-import de.westnordost.streetcomplete.osm.lit.asItem
-import de.westnordost.streetcomplete.osm.lit.createLitStatus
-import de.westnordost.streetcomplete.overlays.AImageSelectOverlayForm
-import de.westnordost.streetcomplete.overlays.AnswerItem
-import de.westnordost.streetcomplete.util.ktx.couldBeSteps
-import de.westnordost.streetcomplete.view.image_select.DisplayItem
+import de.westnordost.streetcompletegpx.R
+import de.westnordost.streetcompletegpx.data.osm.edits.update_tags.StringMapChangesBuilder
+import de.westnordost.streetcompletegpx.data.osm.edits.update_tags.UpdateElementTagsAction
+import de.westnordost.streetcompletegpx.osm.changeToSteps
+import de.westnordost.streetcompletegpx.osm.lit.LitStatus
+import de.westnordost.streetcompletegpx.osm.lit.LitStatus.AUTOMATIC
+import de.westnordost.streetcompletegpx.osm.lit.LitStatus.NIGHT_AND_DAY
+import de.westnordost.streetcompletegpx.osm.lit.LitStatus.NO
+import de.westnordost.streetcompletegpx.osm.lit.LitStatus.UNSUPPORTED
+import de.westnordost.streetcompletegpx.osm.lit.LitStatus.YES
+import de.westnordost.streetcompletegpx.osm.lit.applyTo
+import de.westnordost.streetcompletegpx.osm.lit.asItem
+import de.westnordost.streetcompletegpx.osm.lit.createLitStatus
+import de.westnordost.streetcompletegpx.overlays.AImageSelectOverlayForm
+import de.westnordost.streetcompletegpx.overlays.AnswerItem
+import de.westnordost.streetcompletegpx.util.ktx.couldBeSteps
+import de.westnordost.streetcompletegpx.view.image_select.DisplayItem
 
 class WayLitOverlayForm : AImageSelectOverlayForm<LitStatus>() {
 

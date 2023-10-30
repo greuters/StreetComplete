@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.screens.main
+package de.westnordost.streetcompletegpx.screens.main
 
 import android.content.Context
 import android.graphics.Bitmap
@@ -15,8 +15,8 @@ import androidx.core.content.withStyledAttributes
 import androidx.core.graphics.applyCanvas
 import androidx.core.graphics.createBitmap
 import androidx.core.graphics.withRotation
-import de.westnordost.streetcomplete.R
-import de.westnordost.streetcomplete.util.ktx.dpToPx
+import de.westnordost.streetcompletegpx.R
+import de.westnordost.streetcompletegpx.util.ktx.dpToPx
 import kotlin.math.PI
 import kotlin.math.cos
 import kotlin.math.min

@@ -1,8 +1,8 @@
-package de.westnordost.streetcomplete.util
+package de.westnordost.streetcompletegpx.util
 
 import android.net.Uri
 import androidx.core.net.toUri
-import de.westnordost.streetcomplete.util.ktx.format
+import de.westnordost.streetcompletegpx.util.ktx.format
 
 fun parseGeoUri(uri: Uri): GeoLocation? {
     if (uri.scheme != "geo") return null

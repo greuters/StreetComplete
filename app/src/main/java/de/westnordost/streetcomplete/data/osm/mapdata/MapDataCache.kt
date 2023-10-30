@@ -1,13 +1,13 @@
-package de.westnordost.streetcomplete.data.osm.mapdata
+package de.westnordost.streetcompletegpx.data.osm.mapdata
 
-import de.westnordost.streetcomplete.data.download.tiles.enclosingTilesRect
-import de.westnordost.streetcomplete.data.download.tiles.minTileRect
-import de.westnordost.streetcomplete.data.osm.geometry.ElementGeometry
-import de.westnordost.streetcomplete.data.osm.geometry.ElementGeometryEntry
-import de.westnordost.streetcomplete.data.osm.geometry.ElementPointGeometry
-import de.westnordost.streetcomplete.util.SpatialCache
-import de.westnordost.streetcomplete.util.math.contains
-import de.westnordost.streetcomplete.util.math.isCompletelyInside
+import de.westnordost.streetcompletegpx.data.download.tiles.enclosingTilesRect
+import de.westnordost.streetcompletegpx.data.download.tiles.minTileRect
+import de.westnordost.streetcompletegpx.data.osm.geometry.ElementGeometry
+import de.westnordost.streetcompletegpx.data.osm.geometry.ElementGeometryEntry
+import de.westnordost.streetcompletegpx.data.osm.geometry.ElementPointGeometry
+import de.westnordost.streetcompletegpx.util.SpatialCache
+import de.westnordost.streetcompletegpx.util.math.contains
+import de.westnordost.streetcompletegpx.util.math.isCompletelyInside
 
 /**
  * Cache for MapDataController that uses SpatialCache for nodes (i.e. geometry) and hash maps

@@ -1,10 +1,10 @@
-package de.westnordost.streetcomplete.view
+package de.westnordost.streetcompletegpx.view
 
 import android.graphics.Rect
 import android.view.View
 import android.view.ViewGroup
 import android.view.ViewPropertyAnimator
-import de.westnordost.streetcomplete.util.math.normalizeDegrees
+import de.westnordost.streetcompletegpx.util.math.normalizeDegrees
 
 data class Transforms(
     val translationX: Float,

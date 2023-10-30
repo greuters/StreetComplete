@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.quests.hairdresser
+package de.westnordost.streetcompletegpx.quests.hairdresser
 
 enum class HairdresserCustomers(val isMale: Boolean, val isFemale: Boolean) {
     NOT_SIGNED(false, false),

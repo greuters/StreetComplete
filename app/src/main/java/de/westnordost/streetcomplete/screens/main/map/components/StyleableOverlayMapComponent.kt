@@ -1,25 +1,25 @@
-package de.westnordost.streetcomplete.screens.main.map.components
+package de.westnordost.streetcompletegpx.screens.main.map.components
 
 import android.content.res.Resources
 import android.graphics.Color
 import com.mapzen.tangram.MapData
 import com.mapzen.tangram.geometry.Geometry
-import de.westnordost.streetcomplete.R
-import de.westnordost.streetcomplete.data.osm.geometry.ElementGeometry
-import de.westnordost.streetcomplete.data.osm.geometry.ElementPointGeometry
-import de.westnordost.streetcomplete.data.osm.mapdata.Element
-import de.westnordost.streetcomplete.data.osm.mapdata.ElementKey
-import de.westnordost.streetcomplete.data.osm.mapdata.ElementType
-import de.westnordost.streetcomplete.osm.isOneway
-import de.westnordost.streetcomplete.overlays.PointStyle
-import de.westnordost.streetcomplete.overlays.PolygonStyle
-import de.westnordost.streetcomplete.overlays.PolylineStyle
-import de.westnordost.streetcomplete.overlays.Style
-import de.westnordost.streetcomplete.screens.main.map.tangram.KtMapController
-import de.westnordost.streetcomplete.screens.main.map.tangram.toTangramGeometry
-import de.westnordost.streetcomplete.util.ktx.addTransparency
-import de.westnordost.streetcomplete.util.ktx.darken
-import de.westnordost.streetcomplete.util.ktx.toARGBString
+import de.westnordost.streetcompletegpx.R
+import de.westnordost.streetcompletegpx.data.osm.geometry.ElementGeometry
+import de.westnordost.streetcompletegpx.data.osm.geometry.ElementPointGeometry
+import de.westnordost.streetcompletegpx.data.osm.mapdata.Element
+import de.westnordost.streetcompletegpx.data.osm.mapdata.ElementKey
+import de.westnordost.streetcompletegpx.data.osm.mapdata.ElementType
+import de.westnordost.streetcompletegpx.osm.isOneway
+import de.westnordost.streetcompletegpx.overlays.PointStyle
+import de.westnordost.streetcompletegpx.overlays.PolygonStyle
+import de.westnordost.streetcompletegpx.overlays.PolylineStyle
+import de.westnordost.streetcompletegpx.overlays.Style
+import de.westnordost.streetcompletegpx.screens.main.map.tangram.KtMapController
+import de.westnordost.streetcompletegpx.screens.main.map.tangram.toTangramGeometry
+import de.westnordost.streetcompletegpx.util.ktx.addTransparency
+import de.westnordost.streetcompletegpx.util.ktx.darken
+import de.westnordost.streetcompletegpx.util.ktx.toARGBString
 import kotlin.math.absoluteValue
 
 /** Takes care of displaying styled map data */

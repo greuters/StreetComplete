@@ -1,7 +1,7 @@
-package de.westnordost.streetcomplete.osm
+package de.westnordost.streetcompletegpx.osm
 
-import de.westnordost.streetcomplete.data.meta.CountryInfos
-import de.westnordost.streetcomplete.data.meta.SpeedMeasurementUnit
+import de.westnordost.streetcompletegpx.data.meta.CountryInfos
+import de.westnordost.streetcompletegpx.data.meta.SpeedMeasurementUnit
 
 val MAXSPEED_TYPE_KEYS = setOf(
     "source:maxspeed",

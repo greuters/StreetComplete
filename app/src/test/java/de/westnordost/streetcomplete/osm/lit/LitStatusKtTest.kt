@@ -1,11 +1,11 @@
-package de.westnordost.streetcomplete.osm.lit
+package de.westnordost.streetcompletegpx.osm.lit
 
-import de.westnordost.streetcomplete.data.osm.edits.update_tags.StringMapChangesBuilder
-import de.westnordost.streetcomplete.data.osm.edits.update_tags.StringMapEntryAdd
-import de.westnordost.streetcomplete.data.osm.edits.update_tags.StringMapEntryChange
-import de.westnordost.streetcomplete.data.osm.edits.update_tags.StringMapEntryModify
-import de.westnordost.streetcomplete.osm.lit.LitStatus.*
-import de.westnordost.streetcomplete.osm.nowAsCheckDateString
+import de.westnordost.streetcompletegpx.data.osm.edits.update_tags.StringMapChangesBuilder
+import de.westnordost.streetcompletegpx.data.osm.edits.update_tags.StringMapEntryAdd
+import de.westnordost.streetcompletegpx.data.osm.edits.update_tags.StringMapEntryChange
+import de.westnordost.streetcompletegpx.data.osm.edits.update_tags.StringMapEntryModify
+import de.westnordost.streetcompletegpx.osm.lit.LitStatus.*
+import de.westnordost.streetcompletegpx.osm.nowAsCheckDateString
 import org.assertj.core.api.Assertions
 import kotlin.test.Test
 import kotlin.test.assertFailsWith

@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.data.meta
+package de.westnordost.streetcompletegpx.data.meta
 
 import android.content.res.AssetManager
 import de.westnordost.countryboundaries.CountryBoundaries

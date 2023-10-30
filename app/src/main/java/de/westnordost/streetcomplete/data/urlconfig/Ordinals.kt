@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.data.urlconfig
+package de.westnordost.streetcompletegpx.data.urlconfig
 
 import java.math.BigInteger
 

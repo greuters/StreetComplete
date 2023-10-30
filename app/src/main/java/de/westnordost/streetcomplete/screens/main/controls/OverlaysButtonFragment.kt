@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.screens.main.controls
+package de.westnordost.streetcompletegpx.screens.main.controls
 
 import android.content.SharedPreferences
 import android.os.Bundle
@@ -6,14 +6,14 @@ import android.view.View
 import android.widget.ImageView
 import androidx.appcompat.widget.ListPopupWindow
 import androidx.fragment.app.Fragment
-import de.westnordost.streetcomplete.Prefs
-import de.westnordost.streetcomplete.R
-import de.westnordost.streetcomplete.data.overlays.OverlayRegistry
-import de.westnordost.streetcomplete.data.overlays.SelectedOverlayController
-import de.westnordost.streetcomplete.data.overlays.SelectedOverlaySource
-import de.westnordost.streetcomplete.screens.main.overlays.OverlaySelectionAdapter
-import de.westnordost.streetcomplete.util.ktx.dpToPx
-import de.westnordost.streetcomplete.util.ktx.viewLifecycleScope
+import de.westnordost.streetcompletegpx.Prefs
+import de.westnordost.streetcompletegpx.R
+import de.westnordost.streetcompletegpx.data.overlays.OverlayRegistry
+import de.westnordost.streetcompletegpx.data.overlays.SelectedOverlayController
+import de.westnordost.streetcompletegpx.data.overlays.SelectedOverlaySource
+import de.westnordost.streetcompletegpx.screens.main.overlays.OverlaySelectionAdapter
+import de.westnordost.streetcompletegpx.util.ktx.dpToPx
+import de.westnordost.streetcompletegpx.util.ktx.viewLifecycleScope
 import kotlinx.coroutines.launch
 import org.koin.android.ext.android.inject
 

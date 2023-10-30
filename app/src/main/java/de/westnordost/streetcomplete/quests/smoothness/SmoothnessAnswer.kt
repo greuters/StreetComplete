@@ -1,9 +1,9 @@
-package de.westnordost.streetcomplete.quests.smoothness
+package de.westnordost.streetcompletegpx.quests.smoothness
 
-import de.westnordost.streetcomplete.osm.Tags
-import de.westnordost.streetcomplete.osm.changeToSteps
-import de.westnordost.streetcomplete.osm.removeCheckDatesForKey
-import de.westnordost.streetcomplete.osm.updateWithCheckDate
+import de.westnordost.streetcompletegpx.osm.Tags
+import de.westnordost.streetcompletegpx.osm.changeToSteps
+import de.westnordost.streetcompletegpx.osm.removeCheckDatesForKey
+import de.westnordost.streetcompletegpx.osm.updateWithCheckDate
 
 sealed interface SmoothnessAnswer
 

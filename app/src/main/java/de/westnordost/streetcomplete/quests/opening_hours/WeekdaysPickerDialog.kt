@@ -1,9 +1,9 @@
-package de.westnordost.streetcomplete.quests.opening_hours
+package de.westnordost.streetcompletegpx.quests.opening_hours
 
 import android.content.Context
 import androidx.appcompat.app.AlertDialog
-import de.westnordost.streetcomplete.R
-import de.westnordost.streetcomplete.osm.opening_hours.model.Weekdays
+import de.westnordost.streetcompletegpx.R
+import de.westnordost.streetcompletegpx.osm.opening_hours.model.Weekdays
 import java.util.Locale
 
 object WeekdaysPickerDialog {

@@ -1,11 +1,11 @@
-package de.westnordost.streetcomplete
+package de.westnordost.streetcompletegpx
 
 import android.content.SharedPreferences
 import android.content.res.AssetManager
 import android.content.res.Resources
 import androidx.preference.PreferenceManager
-import de.westnordost.streetcomplete.util.CrashReportExceptionHandler
-import de.westnordost.streetcomplete.util.SoundFx
+import de.westnordost.streetcompletegpx.util.CrashReportExceptionHandler
+import de.westnordost.streetcompletegpx.util.SoundFx
 import org.koin.android.ext.koin.androidContext
 import org.koin.dsl.module
 

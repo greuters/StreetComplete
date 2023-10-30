@@ -1,11 +1,11 @@
-package de.westnordost.streetcomplete.quests.fire_hydrant_position
+package de.westnordost.streetcompletegpx.quests.fire_hydrant_position
 
-import de.westnordost.streetcomplete.R
-import de.westnordost.streetcomplete.quests.fire_hydrant_position.FireHydrantPosition.GREEN
-import de.westnordost.streetcomplete.quests.fire_hydrant_position.FireHydrantPosition.LANE
-import de.westnordost.streetcomplete.quests.fire_hydrant_position.FireHydrantPosition.PARKING_LOT
-import de.westnordost.streetcomplete.quests.fire_hydrant_position.FireHydrantPosition.SIDEWALK
-import de.westnordost.streetcomplete.view.image_select.Item
+import de.westnordost.streetcompletegpx.R
+import de.westnordost.streetcompletegpx.quests.fire_hydrant_position.FireHydrantPosition.GREEN
+import de.westnordost.streetcompletegpx.quests.fire_hydrant_position.FireHydrantPosition.LANE
+import de.westnordost.streetcompletegpx.quests.fire_hydrant_position.FireHydrantPosition.PARKING_LOT
+import de.westnordost.streetcompletegpx.quests.fire_hydrant_position.FireHydrantPosition.SIDEWALK
+import de.westnordost.streetcompletegpx.view.image_select.Item
 
 fun FireHydrantPosition.asItem(isPillar: Boolean) =
     Item(this, if (isPillar) pillarIconResId else undergroundIconResId, titleResId)

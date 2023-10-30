@@ -1,11 +1,11 @@
-package de.westnordost.streetcomplete.quests.playground_access
+package de.westnordost.streetcompletegpx.quests.playground_access
 
-import de.westnordost.streetcomplete.R
-import de.westnordost.streetcomplete.quests.AListQuestForm
-import de.westnordost.streetcomplete.quests.TextItem
-import de.westnordost.streetcomplete.quests.playground_access.PlaygroundAccess.CUSTOMERS
-import de.westnordost.streetcomplete.quests.playground_access.PlaygroundAccess.PRIVATE
-import de.westnordost.streetcomplete.quests.playground_access.PlaygroundAccess.YES
+import de.westnordost.streetcompletegpx.R
+import de.westnordost.streetcompletegpx.quests.AListQuestForm
+import de.westnordost.streetcompletegpx.quests.TextItem
+import de.westnordost.streetcompletegpx.quests.playground_access.PlaygroundAccess.CUSTOMERS
+import de.westnordost.streetcompletegpx.quests.playground_access.PlaygroundAccess.PRIVATE
+import de.westnordost.streetcompletegpx.quests.playground_access.PlaygroundAccess.YES
 
 class AddPlaygroundAccessForm : AListQuestForm<PlaygroundAccess>() {
 

@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.view.controller
+package de.westnordost.streetcompletegpx.view.controller
 
 import android.content.SharedPreferences
 import android.view.View
@@ -6,15 +6,15 @@ import androidx.annotation.DrawableRes
 import androidx.annotation.StringRes
 import androidx.core.content.edit
 import androidx.core.view.isGone
-import de.westnordost.streetcomplete.R
-import de.westnordost.streetcomplete.databinding.ViewStreetSideLastAnswerButtonBinding
-import de.westnordost.streetcomplete.util.math.normalizeDegrees
-import de.westnordost.streetcomplete.view.Image
-import de.westnordost.streetcomplete.view.ResImage
-import de.westnordost.streetcomplete.view.ResText
-import de.westnordost.streetcomplete.view.StreetSideSelectPuzzle
-import de.westnordost.streetcomplete.view.Text
-import de.westnordost.streetcomplete.view.setImage
+import de.westnordost.streetcompletegpx.R
+import de.westnordost.streetcompletegpx.databinding.ViewStreetSideLastAnswerButtonBinding
+import de.westnordost.streetcompletegpx.util.math.normalizeDegrees
+import de.westnordost.streetcompletegpx.view.Image
+import de.westnordost.streetcompletegpx.view.ResImage
+import de.westnordost.streetcompletegpx.view.ResText
+import de.westnordost.streetcompletegpx.view.StreetSideSelectPuzzle
+import de.westnordost.streetcompletegpx.view.Text
+import de.westnordost.streetcompletegpx.view.setImage
 import kotlin.math.PI
 import kotlin.math.absoluteValue
 

@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.data.osmnotes
+package de.westnordost.streetcompletegpx.data.osmnotes
 
 class AvatarsInNotesUpdater(private val downloader: AvatarsDownloader) :
     NoteController.Listener {

@@ -1,22 +1,22 @@
-package de.westnordost.streetcomplete.osm.street_parking
+package de.westnordost.streetcompletegpx.osm.street_parking
 
 import android.content.Context
-import de.westnordost.streetcomplete.R
-import de.westnordost.streetcomplete.osm.street_parking.ParkingPosition.HALF_ON_STREET
-import de.westnordost.streetcomplete.osm.street_parking.ParkingPosition.OFF_STREET
-import de.westnordost.streetcomplete.osm.street_parking.ParkingPosition.ON_STREET
-import de.westnordost.streetcomplete.osm.street_parking.ParkingPosition.PAINTED_AREA_ONLY
-import de.westnordost.streetcomplete.osm.street_parking.ParkingPosition.STAGGERED_HALF_ON_STREET
-import de.westnordost.streetcomplete.osm.street_parking.ParkingPosition.STAGGERED_ON_STREET
-import de.westnordost.streetcomplete.osm.street_parking.ParkingPosition.STREET_SIDE
-import de.westnordost.streetcomplete.view.DrawableImage
-import de.westnordost.streetcomplete.view.Image
-import de.westnordost.streetcomplete.view.ResImage
-import de.westnordost.streetcomplete.view.ResText
-import de.westnordost.streetcomplete.view.controller.StreetSideDisplayItem
-import de.westnordost.streetcomplete.view.controller.StreetSideItem2
-import de.westnordost.streetcomplete.view.image_select.DisplayItem
-import de.westnordost.streetcomplete.view.image_select.Item2
+import de.westnordost.streetcompletegpx.R
+import de.westnordost.streetcompletegpx.osm.street_parking.ParkingPosition.HALF_ON_STREET
+import de.westnordost.streetcompletegpx.osm.street_parking.ParkingPosition.OFF_STREET
+import de.westnordost.streetcompletegpx.osm.street_parking.ParkingPosition.ON_STREET
+import de.westnordost.streetcompletegpx.osm.street_parking.ParkingPosition.PAINTED_AREA_ONLY
+import de.westnordost.streetcompletegpx.osm.street_parking.ParkingPosition.STAGGERED_HALF_ON_STREET
+import de.westnordost.streetcompletegpx.osm.street_parking.ParkingPosition.STAGGERED_ON_STREET
+import de.westnordost.streetcompletegpx.osm.street_parking.ParkingPosition.STREET_SIDE
+import de.westnordost.streetcompletegpx.view.DrawableImage
+import de.westnordost.streetcompletegpx.view.Image
+import de.westnordost.streetcompletegpx.view.ResImage
+import de.westnordost.streetcompletegpx.view.ResText
+import de.westnordost.streetcompletegpx.view.controller.StreetSideDisplayItem
+import de.westnordost.streetcompletegpx.view.controller.StreetSideItem2
+import de.westnordost.streetcompletegpx.view.image_select.DisplayItem
+import de.westnordost.streetcompletegpx.view.image_select.Item2
 
 /** Functions to display a (parsed) street parking in the UI */
 

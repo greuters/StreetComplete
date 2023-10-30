@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.data.user.statistics
+package de.westnordost.streetcompletegpx.data.user.statistics
 
 object ActiveDaysTable {
     const val NAME = "active_days_statistics"

@@ -1,7 +1,7 @@
-package de.westnordost.streetcomplete.osm.sidewalk_surface
+package de.westnordost.streetcompletegpx.osm.sidewalk_surface
 
-import de.westnordost.streetcomplete.osm.expandSidesTags
-import de.westnordost.streetcomplete.osm.surface.createSurfaceAndNote
+import de.westnordost.streetcompletegpx.osm.expandSidesTags
+import de.westnordost.streetcompletegpx.osm.surface.createSurfaceAndNote
 
 fun createSidewalkSurface(tags: Map<String, String>): LeftAndRightSidewalkSurface? {
     val expandedTags = expandRelevantSidesTags(tags)

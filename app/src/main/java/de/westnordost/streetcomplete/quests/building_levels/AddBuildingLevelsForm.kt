@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.quests.building_levels
+package de.westnordost.streetcompletegpx.quests.building_levels
 
 import android.content.Context
 import android.os.Bundle
@@ -9,14 +9,14 @@ import androidx.appcompat.app.AlertDialog
 import androidx.core.widget.doAfterTextChanged
 import androidx.preference.PreferenceManager
 import androidx.recyclerview.widget.RecyclerView
-import de.westnordost.streetcomplete.R
-import de.westnordost.streetcomplete.databinding.QuestBuildingLevelsBinding
-import de.westnordost.streetcomplete.databinding.QuestBuildingLevelsLastPickedButtonBinding
-import de.westnordost.streetcomplete.quests.AbstractOsmQuestForm
-import de.westnordost.streetcomplete.quests.AnswerItem
-import de.westnordost.streetcomplete.util.LastPickedValuesStore
-import de.westnordost.streetcomplete.util.ktx.intOrNull
-import de.westnordost.streetcomplete.util.mostCommonWithin
+import de.westnordost.streetcompletegpx.R
+import de.westnordost.streetcompletegpx.databinding.QuestBuildingLevelsBinding
+import de.westnordost.streetcompletegpx.databinding.QuestBuildingLevelsLastPickedButtonBinding
+import de.westnordost.streetcompletegpx.quests.AbstractOsmQuestForm
+import de.westnordost.streetcompletegpx.quests.AnswerItem
+import de.westnordost.streetcompletegpx.util.LastPickedValuesStore
+import de.westnordost.streetcompletegpx.util.ktx.intOrNull
+import de.westnordost.streetcompletegpx.util.mostCommonWithin
 
 class AddBuildingLevelsForm : AbstractOsmQuestForm<BuildingLevelsAnswer>() {
 

@@ -1,13 +1,13 @@
-package de.westnordost.streetcomplete.data
+package de.westnordost.streetcompletegpx.data
 
 import android.util.Log
-import de.westnordost.streetcomplete.ApplicationConstants
-import de.westnordost.streetcomplete.data.download.tiles.DownloadedTilesController
-import de.westnordost.streetcomplete.data.osm.mapdata.MapDataController
-import de.westnordost.streetcomplete.data.osmnotes.NoteController
-import de.westnordost.streetcomplete.data.quest.QuestTypeRegistry
-import de.westnordost.streetcomplete.util.ktx.format
-import de.westnordost.streetcomplete.util.ktx.nowAsEpochMilliseconds
+import de.westnordost.streetcompletegpx.ApplicationConstants
+import de.westnordost.streetcompletegpx.data.download.tiles.DownloadedTilesController
+import de.westnordost.streetcompletegpx.data.osm.mapdata.MapDataController
+import de.westnordost.streetcompletegpx.data.osmnotes.NoteController
+import de.westnordost.streetcompletegpx.data.quest.QuestTypeRegistry
+import de.westnordost.streetcompletegpx.util.ktx.format
+import de.westnordost.streetcompletegpx.util.ktx.nowAsEpochMilliseconds
 
 /** Deletes old unused data in the background */
 class Cleaner(

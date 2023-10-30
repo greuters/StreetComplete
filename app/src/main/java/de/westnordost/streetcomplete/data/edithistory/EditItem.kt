@@ -1,15 +1,15 @@
-package de.westnordost.streetcomplete.data.edithistory
+package de.westnordost.streetcompletegpx.data.edithistory
 
-import de.westnordost.streetcomplete.R
-import de.westnordost.streetcomplete.data.osm.edits.ElementEdit
-import de.westnordost.streetcomplete.data.osm.edits.delete.DeletePoiNodeAction
-import de.westnordost.streetcomplete.data.osm.edits.move.MoveNodeAction
-import de.westnordost.streetcomplete.data.osm.edits.split_way.SplitWayAction
-import de.westnordost.streetcomplete.data.osm.osmquests.OsmQuestHidden
-import de.westnordost.streetcomplete.data.osmnotes.edits.NoteEdit
-import de.westnordost.streetcomplete.data.osmnotes.edits.NoteEditAction.COMMENT
-import de.westnordost.streetcomplete.data.osmnotes.edits.NoteEditAction.CREATE
-import de.westnordost.streetcomplete.data.osmnotes.notequests.OsmNoteQuestHidden
+import de.westnordost.streetcompletegpx.R
+import de.westnordost.streetcompletegpx.data.osm.edits.ElementEdit
+import de.westnordost.streetcompletegpx.data.osm.edits.delete.DeletePoiNodeAction
+import de.westnordost.streetcompletegpx.data.osm.edits.move.MoveNodeAction
+import de.westnordost.streetcompletegpx.data.osm.edits.split_way.SplitWayAction
+import de.westnordost.streetcompletegpx.data.osm.osmquests.OsmQuestHidden
+import de.westnordost.streetcompletegpx.data.osmnotes.edits.NoteEdit
+import de.westnordost.streetcompletegpx.data.osmnotes.edits.NoteEditAction.COMMENT
+import de.westnordost.streetcompletegpx.data.osmnotes.edits.NoteEditAction.CREATE
+import de.westnordost.streetcompletegpx.data.osmnotes.notequests.OsmNoteQuestHidden
 
 val Edit.icon: Int get() = when (this) {
     is ElementEdit -> type.icon

@@ -1,10 +1,10 @@
-package de.westnordost.streetcomplete.quests.incline_direction
+package de.westnordost.streetcompletegpx.quests.incline_direction
 
 import android.os.Bundle
-import de.westnordost.streetcomplete.R
-import de.westnordost.streetcomplete.data.osm.geometry.ElementPolylinesGeometry
-import de.westnordost.streetcomplete.quests.AImageListQuestForm
-import de.westnordost.streetcomplete.util.math.getOrientationAtCenterLineInDegrees
+import de.westnordost.streetcompletegpx.R
+import de.westnordost.streetcompletegpx.data.osm.geometry.ElementPolylinesGeometry
+import de.westnordost.streetcompletegpx.quests.AImageListQuestForm
+import de.westnordost.streetcompletegpx.util.math.getOrientationAtCenterLineInDegrees
 import kotlin.math.PI
 
 class AddInclineForm : AImageListQuestForm<Incline, Incline>() {

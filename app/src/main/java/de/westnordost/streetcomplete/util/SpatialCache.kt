@@ -1,14 +1,14 @@
-package de.westnordost.streetcomplete.util
+package de.westnordost.streetcompletegpx.util
 
 import android.util.Log
-import de.westnordost.streetcomplete.data.download.tiles.TilePos
-import de.westnordost.streetcomplete.data.download.tiles.enclosingTilePos
-import de.westnordost.streetcomplete.data.download.tiles.enclosingTilesRect
-import de.westnordost.streetcomplete.data.download.tiles.minTileRect
-import de.westnordost.streetcomplete.data.osm.mapdata.BoundingBox
-import de.westnordost.streetcomplete.data.osm.mapdata.LatLon
-import de.westnordost.streetcomplete.util.math.contains
-import de.westnordost.streetcomplete.util.math.isCompletelyInside
+import de.westnordost.streetcompletegpx.data.download.tiles.TilePos
+import de.westnordost.streetcompletegpx.data.download.tiles.enclosingTilePos
+import de.westnordost.streetcompletegpx.data.download.tiles.enclosingTilesRect
+import de.westnordost.streetcompletegpx.data.download.tiles.minTileRect
+import de.westnordost.streetcompletegpx.data.osm.mapdata.BoundingBox
+import de.westnordost.streetcompletegpx.data.osm.mapdata.LatLon
+import de.westnordost.streetcompletegpx.util.math.contains
+import de.westnordost.streetcompletegpx.util.math.isCompletelyInside
 
 /**
  * Spatial cache containing items of type T that each must have an id of type K and a position

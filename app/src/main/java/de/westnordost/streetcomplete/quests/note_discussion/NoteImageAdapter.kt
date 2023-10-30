@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.quests.note_discussion
+package de.westnordost.streetcompletegpx.quests.note_discussion
 
 import android.app.Dialog
 import android.content.Context
@@ -11,11 +11,11 @@ import android.widget.ImageView
 import androidx.appcompat.app.AlertDialog
 import androidx.core.view.doOnLayout
 import com.github.chrisbanes.photoview.PhotoView
-import de.westnordost.streetcomplete.R
-import de.westnordost.streetcomplete.databinding.CellImageThumbnailBinding
-import de.westnordost.streetcomplete.util.decodeScaledBitmapAndNormalize
-import de.westnordost.streetcomplete.util.getRotationMatrix
-import de.westnordost.streetcomplete.view.ListAdapter
+import de.westnordost.streetcompletegpx.R
+import de.westnordost.streetcompletegpx.databinding.CellImageThumbnailBinding
+import de.westnordost.streetcompletegpx.util.decodeScaledBitmapAndNormalize
+import de.westnordost.streetcompletegpx.util.getRotationMatrix
+import de.westnordost.streetcompletegpx.view.ListAdapter
 import java.io.File
 
 class NoteImageAdapter(list: List<String>, private val context: Context) : ListAdapter<String>(list) {

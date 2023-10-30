@@ -1,10 +1,10 @@
-package de.westnordost.streetcomplete.data.osm.edits.split_way
+package de.westnordost.streetcompletegpx.data.osm.edits.split_way
 
-import de.westnordost.streetcomplete.data.osm.mapdata.LatLon
-import de.westnordost.streetcomplete.data.upload.ConflictException
-import de.westnordost.streetcomplete.util.ktx.equalsInOsm
-import de.westnordost.streetcomplete.util.math.measuredLength
-import de.westnordost.streetcomplete.util.math.pointOnPolylineFromStart
+import de.westnordost.streetcompletegpx.data.osm.mapdata.LatLon
+import de.westnordost.streetcompletegpx.data.upload.ConflictException
+import de.westnordost.streetcompletegpx.util.ktx.equalsInOsm
+import de.westnordost.streetcompletegpx.util.math.measuredLength
+import de.westnordost.streetcompletegpx.util.math.pointOnPolylineFromStart
 import kotlin.math.sign
 
 /** data class that carries the information for one split to perform on a random position on a way.

@@ -1,13 +1,13 @@
-package de.westnordost.streetcomplete.data.urlconfig
+package de.westnordost.streetcompletegpx.data.urlconfig
 
-import de.westnordost.streetcomplete.data.overlay.TestOverlayA
-import de.westnordost.streetcomplete.data.overlay.TestOverlayB
-import de.westnordost.streetcomplete.data.overlays.OverlayRegistry
-import de.westnordost.streetcomplete.data.quest.QuestTypeRegistry
-import de.westnordost.streetcomplete.data.quest.TestQuestTypeA
-import de.westnordost.streetcomplete.data.quest.TestQuestTypeB
-import de.westnordost.streetcomplete.data.quest.TestQuestTypeC
-import de.westnordost.streetcomplete.data.quest.TestQuestTypeD
+import de.westnordost.streetcompletegpx.data.overlay.TestOverlayA
+import de.westnordost.streetcompletegpx.data.overlay.TestOverlayB
+import de.westnordost.streetcompletegpx.data.overlays.OverlayRegistry
+import de.westnordost.streetcompletegpx.data.quest.QuestTypeRegistry
+import de.westnordost.streetcompletegpx.data.quest.TestQuestTypeA
+import de.westnordost.streetcompletegpx.data.quest.TestQuestTypeB
+import de.westnordost.streetcompletegpx.data.quest.TestQuestTypeC
+import de.westnordost.streetcompletegpx.data.quest.TestQuestTypeD
 import kotlin.test.Test
 import kotlin.test.assertEquals
 import kotlin.test.assertNull

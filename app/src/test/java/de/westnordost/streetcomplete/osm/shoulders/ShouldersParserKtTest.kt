@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.osm.shoulders
+package de.westnordost.streetcompletegpx.osm.shoulders
 
 import kotlin.test.Test
 import kotlin.test.assertEquals

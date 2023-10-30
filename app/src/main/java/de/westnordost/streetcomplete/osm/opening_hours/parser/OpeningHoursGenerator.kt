@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.osm.opening_hours.parser
+package de.westnordost.streetcompletegpx.osm.opening_hours.parser
 
 import ch.poole.openinghoursparser.DateRange
 import ch.poole.openinghoursparser.DateWithOffset
@@ -9,17 +9,17 @@ import ch.poole.openinghoursparser.RuleModifier
 import ch.poole.openinghoursparser.TimeSpan
 import ch.poole.openinghoursparser.WeekDay
 import ch.poole.openinghoursparser.WeekDayRange
-import de.westnordost.streetcomplete.osm.opening_hours.model.CircularSection
-import de.westnordost.streetcomplete.osm.opening_hours.model.Months
-import de.westnordost.streetcomplete.osm.opening_hours.model.NumberSystem
-import de.westnordost.streetcomplete.osm.opening_hours.model.TimeRange
-import de.westnordost.streetcomplete.osm.opening_hours.model.Weekdays
-import de.westnordost.streetcomplete.osm.opening_hours.model.Weekdays.Companion.PUBLIC_HOLIDAY
-import de.westnordost.streetcomplete.quests.opening_hours.adapter.OffDaysRow
-import de.westnordost.streetcomplete.quests.opening_hours.adapter.OpeningHoursRow
-import de.westnordost.streetcomplete.quests.opening_hours.adapter.OpeningMonthsRow
-import de.westnordost.streetcomplete.quests.opening_hours.adapter.OpeningWeekdaysRow
-import de.westnordost.streetcomplete.quests.postbox_collection_times.CollectionTimesRow
+import de.westnordost.streetcompletegpx.osm.opening_hours.model.CircularSection
+import de.westnordost.streetcompletegpx.osm.opening_hours.model.Months
+import de.westnordost.streetcompletegpx.osm.opening_hours.model.NumberSystem
+import de.westnordost.streetcompletegpx.osm.opening_hours.model.TimeRange
+import de.westnordost.streetcompletegpx.osm.opening_hours.model.Weekdays
+import de.westnordost.streetcompletegpx.osm.opening_hours.model.Weekdays.Companion.PUBLIC_HOLIDAY
+import de.westnordost.streetcompletegpx.quests.opening_hours.adapter.OffDaysRow
+import de.westnordost.streetcompletegpx.quests.opening_hours.adapter.OpeningHoursRow
+import de.westnordost.streetcompletegpx.quests.opening_hours.adapter.OpeningMonthsRow
+import de.westnordost.streetcompletegpx.quests.opening_hours.adapter.OpeningWeekdaysRow
+import de.westnordost.streetcompletegpx.quests.postbox_collection_times.CollectionTimesRow
 
 @JvmName("openingHoursRowsToOpeningHoursRules")
 fun List<OpeningHoursRow>.toOpeningHoursRules(): OpeningHoursRuleList {

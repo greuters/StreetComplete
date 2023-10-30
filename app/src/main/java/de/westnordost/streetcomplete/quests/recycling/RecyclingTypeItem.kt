@@ -1,10 +1,10 @@
-package de.westnordost.streetcomplete.quests.recycling
+package de.westnordost.streetcompletegpx.quests.recycling
 
-import de.westnordost.streetcomplete.R
-import de.westnordost.streetcomplete.quests.recycling.RecyclingType.OVERGROUND_CONTAINER
-import de.westnordost.streetcomplete.quests.recycling.RecyclingType.RECYCLING_CENTRE
-import de.westnordost.streetcomplete.quests.recycling.RecyclingType.UNDERGROUND_CONTAINER
-import de.westnordost.streetcomplete.view.image_select.Item
+import de.westnordost.streetcompletegpx.R
+import de.westnordost.streetcompletegpx.quests.recycling.RecyclingType.OVERGROUND_CONTAINER
+import de.westnordost.streetcompletegpx.quests.recycling.RecyclingType.RECYCLING_CENTRE
+import de.westnordost.streetcompletegpx.quests.recycling.RecyclingType.UNDERGROUND_CONTAINER
+import de.westnordost.streetcompletegpx.view.image_select.Item
 
 fun RecyclingType.asItem() = Item(this, iconResId, titleResId)
 

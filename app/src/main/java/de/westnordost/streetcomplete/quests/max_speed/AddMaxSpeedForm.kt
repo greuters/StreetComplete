@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.quests.max_speed
+package de.westnordost.streetcompletegpx.quests.max_speed
 
 import android.os.Bundle
 import android.view.View
@@ -14,24 +14,24 @@ import androidx.appcompat.app.AlertDialog
 import androidx.core.view.children
 import androidx.core.view.isGone
 import androidx.core.widget.doAfterTextChanged
-import de.westnordost.streetcomplete.R
-import de.westnordost.streetcomplete.data.meta.SpeedMeasurementUnit
-import de.westnordost.streetcomplete.data.meta.SpeedMeasurementUnit.KILOMETERS_PER_HOUR
-import de.westnordost.streetcomplete.data.meta.SpeedMeasurementUnit.MILES_PER_HOUR
-import de.westnordost.streetcomplete.databinding.QuestMaxspeedBinding
-import de.westnordost.streetcomplete.databinding.QuestMaxspeedNoSignNoSlowZoneConfirmationBinding
-import de.westnordost.streetcomplete.quests.AbstractOsmQuestForm
-import de.westnordost.streetcomplete.quests.AnswerItem
-import de.westnordost.streetcomplete.quests.max_speed.SpeedType.ADVISORY
-import de.westnordost.streetcomplete.quests.max_speed.SpeedType.LIVING_STREET
-import de.westnordost.streetcomplete.quests.max_speed.SpeedType.NO_SIGN
-import de.westnordost.streetcomplete.quests.max_speed.SpeedType.NSL
-import de.westnordost.streetcomplete.quests.max_speed.SpeedType.SIGN
-import de.westnordost.streetcomplete.quests.max_speed.SpeedType.ZONE
-import de.westnordost.streetcomplete.util.ktx.advisorySpeedLimitSignLayoutResId
-import de.westnordost.streetcomplete.util.ktx.intOrNull
-import de.westnordost.streetcomplete.util.ktx.livingStreetSignDrawableResId
-import de.westnordost.streetcomplete.util.ktx.showKeyboard
+import de.westnordost.streetcompletegpx.R
+import de.westnordost.streetcompletegpx.data.meta.SpeedMeasurementUnit
+import de.westnordost.streetcompletegpx.data.meta.SpeedMeasurementUnit.KILOMETERS_PER_HOUR
+import de.westnordost.streetcompletegpx.data.meta.SpeedMeasurementUnit.MILES_PER_HOUR
+import de.westnordost.streetcompletegpx.databinding.QuestMaxspeedBinding
+import de.westnordost.streetcompletegpx.databinding.QuestMaxspeedNoSignNoSlowZoneConfirmationBinding
+import de.westnordost.streetcompletegpx.quests.AbstractOsmQuestForm
+import de.westnordost.streetcompletegpx.quests.AnswerItem
+import de.westnordost.streetcompletegpx.quests.max_speed.SpeedType.ADVISORY
+import de.westnordost.streetcompletegpx.quests.max_speed.SpeedType.LIVING_STREET
+import de.westnordost.streetcompletegpx.quests.max_speed.SpeedType.NO_SIGN
+import de.westnordost.streetcompletegpx.quests.max_speed.SpeedType.NSL
+import de.westnordost.streetcompletegpx.quests.max_speed.SpeedType.SIGN
+import de.westnordost.streetcompletegpx.quests.max_speed.SpeedType.ZONE
+import de.westnordost.streetcompletegpx.util.ktx.advisorySpeedLimitSignLayoutResId
+import de.westnordost.streetcompletegpx.util.ktx.intOrNull
+import de.westnordost.streetcompletegpx.util.ktx.livingStreetSignDrawableResId
+import de.westnordost.streetcompletegpx.util.ktx.showKeyboard
 
 class AddMaxSpeedForm : AbstractOsmQuestForm<MaxSpeedAnswer>() {
 

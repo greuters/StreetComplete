@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.data.osm.mapdata
+package de.westnordost.streetcompletegpx.data.osm.mapdata
 
 import de.westnordost.osmapi.OsmConnection
 import de.westnordost.osmapi.common.errors.OsmApiException
@@ -15,10 +15,10 @@ import de.westnordost.osmapi.map.data.OsmRelation
 import de.westnordost.osmapi.map.data.OsmRelationMember
 import de.westnordost.osmapi.map.data.OsmWay
 import de.westnordost.osmapi.map.handler.MapDataHandler
-import de.westnordost.streetcomplete.data.download.ConnectionException
-import de.westnordost.streetcomplete.data.download.QueryTooBigException
-import de.westnordost.streetcomplete.data.upload.ConflictException
-import de.westnordost.streetcomplete.data.user.AuthorizationException
+import de.westnordost.streetcompletegpx.data.download.ConnectionException
+import de.westnordost.streetcompletegpx.data.download.QueryTooBigException
+import de.westnordost.streetcompletegpx.data.upload.ConflictException
+import de.westnordost.streetcompletegpx.data.user.AuthorizationException
 import kotlinx.datetime.Instant
 import kotlinx.datetime.toJavaInstant
 import de.westnordost.osmapi.map.MapDataApi as OsmApiMapDataApi

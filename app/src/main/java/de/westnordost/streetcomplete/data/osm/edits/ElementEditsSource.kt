@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.data.osm.edits
+package de.westnordost.streetcompletegpx.data.osm.edits
 
 interface ElementEditsSource {
     /** Interface to be notified of new or updated OSM elements */

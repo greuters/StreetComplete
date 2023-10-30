@@ -1,15 +1,15 @@
-package de.westnordost.streetcomplete.overlays
+package de.westnordost.streetcompletegpx.overlays
 
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import androidx.core.view.children
 import androidx.core.view.isGone
-import de.westnordost.streetcomplete.R
-import de.westnordost.streetcomplete.databinding.FragmentOverlayImageSelectBinding
-import de.westnordost.streetcomplete.view.image_select.DisplayItem
-import de.westnordost.streetcomplete.view.image_select.ImageListPickerDialog
-import de.westnordost.streetcomplete.view.image_select.ItemViewHolder
+import de.westnordost.streetcompletegpx.R
+import de.westnordost.streetcompletegpx.databinding.FragmentOverlayImageSelectBinding
+import de.westnordost.streetcompletegpx.view.image_select.DisplayItem
+import de.westnordost.streetcompletegpx.view.image_select.ImageListPickerDialog
+import de.westnordost.streetcompletegpx.view.image_select.ItemViewHolder
 
 /** Abstract base class for any overlay form in which the user selects an image item */
 abstract class AImageSelectOverlayForm<I> : AbstractOverlayForm() {

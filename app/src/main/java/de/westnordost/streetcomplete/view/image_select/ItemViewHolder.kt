@@ -1,13 +1,13 @@
-package de.westnordost.streetcomplete.view.image_select
+package de.westnordost.streetcompletegpx.view.image_select
 
 import android.view.View
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.core.view.isGone
 import androidx.recyclerview.widget.RecyclerView
-import de.westnordost.streetcomplete.R
-import de.westnordost.streetcomplete.view.setImage
-import de.westnordost.streetcomplete.view.setText
+import de.westnordost.streetcompletegpx.R
+import de.westnordost.streetcompletegpx.view.setImage
+import de.westnordost.streetcompletegpx.view.setText
 
 class ItemViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
 

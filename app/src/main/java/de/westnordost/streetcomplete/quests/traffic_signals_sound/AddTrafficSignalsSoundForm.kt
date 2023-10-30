@@ -1,8 +1,8 @@
-package de.westnordost.streetcomplete.quests.traffic_signals_sound
+package de.westnordost.streetcompletegpx.quests.traffic_signals_sound
 
-import de.westnordost.streetcomplete.R
-import de.westnordost.streetcomplete.quests.AbstractOsmQuestForm
-import de.westnordost.streetcomplete.quests.AnswerItem
+import de.westnordost.streetcompletegpx.R
+import de.westnordost.streetcompletegpx.quests.AbstractOsmQuestForm
+import de.westnordost.streetcompletegpx.quests.AnswerItem
 
 class AddTrafficSignalsSoundForm : AbstractOsmQuestForm<Boolean>() {
 

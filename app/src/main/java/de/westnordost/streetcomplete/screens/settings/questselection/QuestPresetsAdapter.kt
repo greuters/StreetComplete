@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.screens.settings.questselection
+package de.westnordost.streetcompletegpx.screens.settings.questselection
 
 import android.content.Context
 import android.text.InputFilter
@@ -9,15 +9,15 @@ import androidx.appcompat.widget.PopupMenu
 import androidx.lifecycle.DefaultLifecycleObserver
 import androidx.lifecycle.LifecycleOwner
 import androidx.recyclerview.widget.RecyclerView
-import de.westnordost.streetcomplete.R
-import de.westnordost.streetcomplete.data.urlconfig.UrlConfigController
-import de.westnordost.streetcomplete.data.visiblequests.QuestPreset
-import de.westnordost.streetcomplete.data.visiblequests.QuestPresetsController
-import de.westnordost.streetcomplete.data.visiblequests.QuestPresetsSource
-import de.westnordost.streetcomplete.data.visiblequests.QuestTypeOrderController
-import de.westnordost.streetcomplete.data.visiblequests.VisibleQuestTypeController
-import de.westnordost.streetcomplete.databinding.RowQuestPresetBinding
-import de.westnordost.streetcomplete.view.dialogs.EditTextDialog
+import de.westnordost.streetcompletegpx.R
+import de.westnordost.streetcompletegpx.data.urlconfig.UrlConfigController
+import de.westnordost.streetcompletegpx.data.visiblequests.QuestPreset
+import de.westnordost.streetcompletegpx.data.visiblequests.QuestPresetsController
+import de.westnordost.streetcompletegpx.data.visiblequests.QuestPresetsSource
+import de.westnordost.streetcompletegpx.data.visiblequests.QuestTypeOrderController
+import de.westnordost.streetcompletegpx.data.visiblequests.VisibleQuestTypeController
+import de.westnordost.streetcompletegpx.databinding.RowQuestPresetBinding
+import de.westnordost.streetcompletegpx.view.dialogs.EditTextDialog
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.SupervisorJob

@@ -1,13 +1,13 @@
-package de.westnordost.streetcomplete.quests.railway_crossing
+package de.westnordost.streetcompletegpx.quests.railway_crossing
 
-import de.westnordost.streetcomplete.R
-import de.westnordost.streetcomplete.quests.railway_crossing.RailwayCrossingBarrier.CHICANE
-import de.westnordost.streetcomplete.quests.railway_crossing.RailwayCrossingBarrier.DOUBLE_HALF
-import de.westnordost.streetcomplete.quests.railway_crossing.RailwayCrossingBarrier.FULL
-import de.westnordost.streetcomplete.quests.railway_crossing.RailwayCrossingBarrier.GATE
-import de.westnordost.streetcomplete.quests.railway_crossing.RailwayCrossingBarrier.HALF
-import de.westnordost.streetcomplete.quests.railway_crossing.RailwayCrossingBarrier.NO
-import de.westnordost.streetcomplete.view.image_select.Item
+import de.westnordost.streetcompletegpx.R
+import de.westnordost.streetcompletegpx.quests.railway_crossing.RailwayCrossingBarrier.CHICANE
+import de.westnordost.streetcompletegpx.quests.railway_crossing.RailwayCrossingBarrier.DOUBLE_HALF
+import de.westnordost.streetcompletegpx.quests.railway_crossing.RailwayCrossingBarrier.FULL
+import de.westnordost.streetcompletegpx.quests.railway_crossing.RailwayCrossingBarrier.GATE
+import de.westnordost.streetcompletegpx.quests.railway_crossing.RailwayCrossingBarrier.HALF
+import de.westnordost.streetcompletegpx.quests.railway_crossing.RailwayCrossingBarrier.NO
+import de.westnordost.streetcompletegpx.view.image_select.Item
 
 fun RailwayCrossingBarrier.asItem(isLeftHandTraffic: Boolean): Item<RailwayCrossingBarrier> =
     Item(this, getIconResId(isLeftHandTraffic), titleResId)

@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.util.ktx
+package de.westnordost.streetcompletegpx.util.ktx
 
 import androidx.preference.Preference
 import androidx.preference.PreferenceGroup

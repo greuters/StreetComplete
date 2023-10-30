@@ -1,18 +1,18 @@
-package de.westnordost.streetcomplete.quests.width
+package de.westnordost.streetcompletegpx.quests.width
 
-import de.westnordost.streetcomplete.R
-import de.westnordost.streetcomplete.data.elementfilter.toElementFilterExpression
-import de.westnordost.streetcomplete.data.osm.geometry.ElementGeometry
-import de.westnordost.streetcomplete.data.osm.mapdata.Element
-import de.westnordost.streetcomplete.data.osm.mapdata.MapDataWithGeometry
-import de.westnordost.streetcomplete.data.osm.mapdata.filter
-import de.westnordost.streetcomplete.data.osm.osmquests.OsmElementQuestType
-import de.westnordost.streetcomplete.data.user.achievements.EditTypeAchievement
-import de.westnordost.streetcomplete.osm.MAXSPEED_TYPE_KEYS
-import de.westnordost.streetcomplete.osm.ROADS_ASSUMED_TO_BE_PAVED
-import de.westnordost.streetcomplete.osm.Tags
-import de.westnordost.streetcomplete.osm.surface.ANYTHING_PAVED
-import de.westnordost.streetcomplete.screens.measure.ArSupportChecker
+import de.westnordost.streetcompletegpx.R
+import de.westnordost.streetcompletegpx.data.elementfilter.toElementFilterExpression
+import de.westnordost.streetcompletegpx.data.osm.geometry.ElementGeometry
+import de.westnordost.streetcompletegpx.data.osm.mapdata.Element
+import de.westnordost.streetcompletegpx.data.osm.mapdata.MapDataWithGeometry
+import de.westnordost.streetcompletegpx.data.osm.mapdata.filter
+import de.westnordost.streetcompletegpx.data.osm.osmquests.OsmElementQuestType
+import de.westnordost.streetcompletegpx.data.user.achievements.EditTypeAchievement
+import de.westnordost.streetcompletegpx.osm.MAXSPEED_TYPE_KEYS
+import de.westnordost.streetcompletegpx.osm.ROADS_ASSUMED_TO_BE_PAVED
+import de.westnordost.streetcompletegpx.osm.Tags
+import de.westnordost.streetcompletegpx.osm.surface.ANYTHING_PAVED
+import de.westnordost.streetcompletegpx.screens.measure.ArSupportChecker
 
 class AddRoadWidth(
     private val checkArSupport: ArSupportChecker

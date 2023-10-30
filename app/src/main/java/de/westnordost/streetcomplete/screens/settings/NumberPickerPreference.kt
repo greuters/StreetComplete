@@ -1,10 +1,10 @@
-package de.westnordost.streetcomplete.screens.settings
+package de.westnordost.streetcompletegpx.screens.settings
 
 import android.content.Context
 import android.content.res.TypedArray
 import android.util.AttributeSet
 import androidx.core.content.withStyledAttributes
-import de.westnordost.streetcomplete.R
+import de.westnordost.streetcompletegpx.R
 
 /**
  * Preference that shows a simple number picker

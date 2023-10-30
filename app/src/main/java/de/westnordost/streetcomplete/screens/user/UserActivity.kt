@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.screens.user
+package de.westnordost.streetcompletegpx.screens.user
 
 import android.os.Bundle
 import android.view.MenuItem
@@ -7,18 +7,18 @@ import androidx.appcompat.widget.Toolbar
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
 import androidx.lifecycle.lifecycleScope
-import de.westnordost.streetcomplete.R
-import de.westnordost.streetcomplete.data.osm.edits.EditType
-import de.westnordost.streetcomplete.data.user.UserLoginStatusSource
-import de.westnordost.streetcomplete.data.user.achievements.Achievement
-import de.westnordost.streetcomplete.screens.FragmentContainerActivity
-import de.westnordost.streetcomplete.screens.HasTitle
-import de.westnordost.streetcomplete.screens.user.achievements.AchievementInfoFragment
-import de.westnordost.streetcomplete.screens.user.achievements.AchievementsFragment
-import de.westnordost.streetcomplete.screens.user.login.LoginFragment
-import de.westnordost.streetcomplete.screens.user.statistics.CountryInfoFragment
-import de.westnordost.streetcomplete.screens.user.statistics.EditStatisticsFragment
-import de.westnordost.streetcomplete.screens.user.statistics.EditTypeInfoFragment
+import de.westnordost.streetcompletegpx.R
+import de.westnordost.streetcompletegpx.data.osm.edits.EditType
+import de.westnordost.streetcompletegpx.data.user.UserLoginStatusSource
+import de.westnordost.streetcompletegpx.data.user.achievements.Achievement
+import de.westnordost.streetcompletegpx.screens.FragmentContainerActivity
+import de.westnordost.streetcompletegpx.screens.HasTitle
+import de.westnordost.streetcompletegpx.screens.user.achievements.AchievementInfoFragment
+import de.westnordost.streetcompletegpx.screens.user.achievements.AchievementsFragment
+import de.westnordost.streetcompletegpx.screens.user.login.LoginFragment
+import de.westnordost.streetcompletegpx.screens.user.statistics.CountryInfoFragment
+import de.westnordost.streetcompletegpx.screens.user.statistics.EditStatisticsFragment
+import de.westnordost.streetcompletegpx.screens.user.statistics.EditTypeInfoFragment
 import kotlinx.coroutines.launch
 import org.koin.android.ext.android.inject
 
@@ -121,6 +121,6 @@ class UserActivity :
     }
 
     companion object {
-        const val EXTRA_LAUNCH_AUTH = "de.westnordost.streetcomplete.screens.user.launch_auth"
+        const val EXTRA_LAUNCH_AUTH = "de.westnordost.streetcompletegpx.screens.user.launch_auth"
     }
 }

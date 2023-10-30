@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.quests.parking_type
+package de.westnordost.streetcompletegpx.quests.parking_type
 
 enum class ParkingType(val osmValue: String) {
     SURFACE("surface"),

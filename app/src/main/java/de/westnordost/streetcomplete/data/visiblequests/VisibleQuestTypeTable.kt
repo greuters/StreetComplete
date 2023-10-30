@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.data.visiblequests
+package de.westnordost.streetcompletegpx.data.visiblequests
 
 object VisibleQuestTypeTable {
     const val NAME = "quest_visibility"

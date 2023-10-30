@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.quests.bike_shop
+package de.westnordost.streetcompletegpx.quests.bike_shop
 
 enum class SecondHandBicycleAvailability(val osmValue: String?) {
     ONLY_NEW("no"),

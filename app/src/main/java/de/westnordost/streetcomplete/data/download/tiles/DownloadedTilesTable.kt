@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.data.download.tiles
+package de.westnordost.streetcompletegpx.data.download.tiles
 
 object DownloadedTilesTable {
     const val NAME = "downloaded_tiles"

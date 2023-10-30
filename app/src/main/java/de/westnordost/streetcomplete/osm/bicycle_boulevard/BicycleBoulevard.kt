@@ -1,7 +1,7 @@
-package de.westnordost.streetcomplete.osm.bicycle_boulevard
+package de.westnordost.streetcompletegpx.osm.bicycle_boulevard
 
-import de.westnordost.streetcomplete.osm.Tags
-import de.westnordost.streetcomplete.osm.bicycle_boulevard.BicycleBoulevard.*
+import de.westnordost.streetcompletegpx.osm.Tags
+import de.westnordost.streetcompletegpx.osm.bicycle_boulevard.BicycleBoulevard.*
 
 enum class BicycleBoulevard { YES, NO }
 

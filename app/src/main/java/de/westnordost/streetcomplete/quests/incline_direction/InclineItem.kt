@@ -1,12 +1,12 @@
-package de.westnordost.streetcomplete.quests.incline_direction
+package de.westnordost.streetcompletegpx.quests.incline_direction
 
 import android.content.Context
-import de.westnordost.streetcomplete.R
-import de.westnordost.streetcomplete.view.DrawableImage
-import de.westnordost.streetcomplete.view.ResText
-import de.westnordost.streetcomplete.view.RotatedCircleDrawable
-import de.westnordost.streetcomplete.view.image_select.DisplayItem
-import de.westnordost.streetcomplete.view.image_select.Item2
+import de.westnordost.streetcompletegpx.R
+import de.westnordost.streetcompletegpx.view.DrawableImage
+import de.westnordost.streetcompletegpx.view.ResText
+import de.westnordost.streetcompletegpx.view.RotatedCircleDrawable
+import de.westnordost.streetcompletegpx.view.image_select.DisplayItem
+import de.westnordost.streetcompletegpx.view.image_select.Item2
 
 fun Incline.asItem(context: Context, rotation: Float): DisplayItem<Incline> {
     val drawable = RotatedCircleDrawable(context.getDrawable(iconResId)!!)

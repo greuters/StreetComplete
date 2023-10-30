@@ -1,6 +1,6 @@
-package de.westnordost.streetcomplete.data.upload
+package de.westnordost.streetcompletegpx.data.upload
 
-import de.westnordost.streetcomplete.ApplicationConstants
+import de.westnordost.streetcompletegpx.ApplicationConstants
 import kotlinx.coroutines.sync.Mutex
 import org.koin.core.qualifier.named
 import org.koin.dsl.module

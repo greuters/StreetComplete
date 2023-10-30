@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.quests.building_entrance_reference
+package de.westnordost.streetcompletegpx.quests.building_entrance_reference
 
 sealed interface EntranceAnswer
 

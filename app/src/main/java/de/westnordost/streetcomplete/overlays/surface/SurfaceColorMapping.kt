@@ -1,12 +1,12 @@
-package de.westnordost.streetcomplete.overlays.surface
+package de.westnordost.streetcompletegpx.overlays.surface
 
-import de.westnordost.streetcomplete.data.osm.mapdata.Element
-import de.westnordost.streetcomplete.osm.isPrivateOnFoot
-import de.westnordost.streetcomplete.osm.surface.Surface
-import de.westnordost.streetcomplete.osm.surface.Surface.*
-import de.westnordost.streetcomplete.osm.surface.SurfaceAndNote
-import de.westnordost.streetcomplete.osm.surface.isComplete
-import de.westnordost.streetcomplete.overlays.Color
+import de.westnordost.streetcompletegpx.data.osm.mapdata.Element
+import de.westnordost.streetcompletegpx.osm.isPrivateOnFoot
+import de.westnordost.streetcompletegpx.osm.surface.Surface
+import de.westnordost.streetcompletegpx.osm.surface.Surface.*
+import de.westnordost.streetcompletegpx.osm.surface.SurfaceAndNote
+import de.westnordost.streetcompletegpx.osm.surface.isComplete
+import de.westnordost.streetcompletegpx.overlays.Color
 
 /*
  * Design considerations:

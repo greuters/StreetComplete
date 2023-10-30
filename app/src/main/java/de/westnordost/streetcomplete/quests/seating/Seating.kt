@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.quests.seating
+package de.westnordost.streetcompletegpx.quests.seating
 
 enum class Seating(val hasOutdoorSeating: Boolean, val hasIndoorSeating: Boolean) {
     NO(false, false),

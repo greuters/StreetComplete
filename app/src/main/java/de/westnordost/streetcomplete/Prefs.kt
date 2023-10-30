@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete
+package de.westnordost.streetcompletegpx
 
 import androidx.appcompat.app.AppCompatDelegate
 

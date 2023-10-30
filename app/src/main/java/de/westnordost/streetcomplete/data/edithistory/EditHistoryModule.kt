@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.data.edithistory
+package de.westnordost.streetcompletegpx.data.edithistory
 
 import org.koin.dsl.module
 

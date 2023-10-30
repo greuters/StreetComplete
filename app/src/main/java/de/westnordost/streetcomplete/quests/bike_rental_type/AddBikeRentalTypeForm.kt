@@ -1,6 +1,6 @@
-package de.westnordost.streetcomplete.quests.bike_rental_type
+package de.westnordost.streetcompletegpx.quests.bike_rental_type
 
-import de.westnordost.streetcomplete.quests.AImageListQuestForm
+import de.westnordost.streetcompletegpx.quests.AImageListQuestForm
 
 class AddBikeRentalTypeForm : AImageListQuestForm<BikeRentalTypeAnswer, BikeRentalTypeAnswer>() {
 

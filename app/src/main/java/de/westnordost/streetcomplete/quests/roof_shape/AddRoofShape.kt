@@ -1,17 +1,17 @@
-package de.westnordost.streetcomplete.quests.roof_shape
+package de.westnordost.streetcompletegpx.quests.roof_shape
 
 import de.westnordost.countryboundaries.CountryBoundaries
-import de.westnordost.streetcomplete.R
-import de.westnordost.streetcomplete.data.elementfilter.toElementFilterExpression
-import de.westnordost.streetcomplete.data.meta.CountryInfos
-import de.westnordost.streetcomplete.data.meta.getByLocation
-import de.westnordost.streetcomplete.data.osm.geometry.ElementGeometry
-import de.westnordost.streetcomplete.data.osm.mapdata.Element
-import de.westnordost.streetcomplete.data.osm.mapdata.MapDataWithGeometry
-import de.westnordost.streetcomplete.data.osm.osmquests.OsmElementQuestType
-import de.westnordost.streetcomplete.data.user.achievements.EditTypeAchievement.BUILDING
-import de.westnordost.streetcomplete.osm.BUILDINGS_WITH_LEVELS
-import de.westnordost.streetcomplete.osm.Tags
+import de.westnordost.streetcompletegpx.R
+import de.westnordost.streetcompletegpx.data.elementfilter.toElementFilterExpression
+import de.westnordost.streetcompletegpx.data.meta.CountryInfos
+import de.westnordost.streetcompletegpx.data.meta.getByLocation
+import de.westnordost.streetcompletegpx.data.osm.geometry.ElementGeometry
+import de.westnordost.streetcompletegpx.data.osm.mapdata.Element
+import de.westnordost.streetcompletegpx.data.osm.mapdata.MapDataWithGeometry
+import de.westnordost.streetcompletegpx.data.osm.osmquests.OsmElementQuestType
+import de.westnordost.streetcompletegpx.data.user.achievements.EditTypeAchievement.BUILDING
+import de.westnordost.streetcompletegpx.osm.BUILDINGS_WITH_LEVELS
+import de.westnordost.streetcompletegpx.osm.Tags
 import java.util.concurrent.FutureTask
 
 class AddRoofShape(

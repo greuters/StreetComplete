@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.screens.main.map.tangram
+package de.westnordost.streetcompletegpx.screens.main.map.tangram
 
 import android.graphics.PointF
 import android.graphics.RectF
@@ -7,15 +7,15 @@ import com.mapzen.tangram.geometry.Geometry
 import com.mapzen.tangram.geometry.Point
 import com.mapzen.tangram.geometry.Polygon
 import com.mapzen.tangram.geometry.Polyline
-import de.westnordost.streetcomplete.data.osm.geometry.ElementGeometry
-import de.westnordost.streetcomplete.data.osm.geometry.ElementPointGeometry
-import de.westnordost.streetcomplete.data.osm.geometry.ElementPolygonsGeometry
-import de.westnordost.streetcomplete.data.osm.geometry.ElementPolylinesGeometry
-import de.westnordost.streetcomplete.data.osm.mapdata.LatLon
-import de.westnordost.streetcomplete.util.math.distanceTo
-import de.westnordost.streetcomplete.util.math.isInPolygon
-import de.westnordost.streetcomplete.util.math.isRingDefinedClockwise
-import de.westnordost.streetcomplete.util.math.measuredArea
+import de.westnordost.streetcompletegpx.data.osm.geometry.ElementGeometry
+import de.westnordost.streetcompletegpx.data.osm.geometry.ElementPointGeometry
+import de.westnordost.streetcompletegpx.data.osm.geometry.ElementPolygonsGeometry
+import de.westnordost.streetcompletegpx.data.osm.geometry.ElementPolylinesGeometry
+import de.westnordost.streetcompletegpx.data.osm.mapdata.LatLon
+import de.westnordost.streetcompletegpx.util.math.distanceTo
+import de.westnordost.streetcompletegpx.util.math.isInPolygon
+import de.westnordost.streetcompletegpx.util.math.isRingDefinedClockwise
+import de.westnordost.streetcompletegpx.util.math.measuredArea
 
 fun ElementGeometry.toTangramGeometry(properties: Map<String, String> = emptyMap()): List<Geometry> = when (this) {
     is ElementPolylinesGeometry -> toTangramGeometry(properties)

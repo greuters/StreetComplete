@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.data.edithistory
+package de.westnordost.streetcompletegpx.data.edithistory
 
 interface EditHistorySource {
     interface Listener {

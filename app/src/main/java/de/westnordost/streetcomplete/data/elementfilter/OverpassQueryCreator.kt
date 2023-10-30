@@ -1,11 +1,11 @@
-package de.westnordost.streetcomplete.data.elementfilter
+package de.westnordost.streetcompletegpx.data.elementfilter
 
-import de.westnordost.streetcomplete.data.elementfilter.ElementsTypeFilter.NODES
-import de.westnordost.streetcomplete.data.elementfilter.ElementsTypeFilter.RELATIONS
-import de.westnordost.streetcomplete.data.elementfilter.ElementsTypeFilter.WAYS
-import de.westnordost.streetcomplete.data.elementfilter.filters.ElementFilter
-import de.westnordost.streetcomplete.data.elementfilter.filters.toOverpassString
-import de.westnordost.streetcomplete.data.osm.mapdata.Element
+import de.westnordost.streetcompletegpx.data.elementfilter.ElementsTypeFilter.NODES
+import de.westnordost.streetcompletegpx.data.elementfilter.ElementsTypeFilter.RELATIONS
+import de.westnordost.streetcompletegpx.data.elementfilter.ElementsTypeFilter.WAYS
+import de.westnordost.streetcompletegpx.data.elementfilter.filters.ElementFilter
+import de.westnordost.streetcompletegpx.data.elementfilter.filters.toOverpassString
+import de.westnordost.streetcompletegpx.data.osm.mapdata.Element
 
 /** Create an overpass query from the given element filter expression */
 class OverpassQueryCreator(

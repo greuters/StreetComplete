@@ -1,9 +1,9 @@
-package de.westnordost.streetcomplete.util.math
+package de.westnordost.streetcompletegpx.util.math
 
-import de.westnordost.streetcomplete.data.osm.mapdata.BoundingBox
-import de.westnordost.streetcomplete.data.osm.mapdata.LatLon
-import de.westnordost.streetcomplete.testutils.bbox
-import de.westnordost.streetcomplete.util.ktx.equalsInOsm
+import de.westnordost.streetcompletegpx.data.osm.mapdata.BoundingBox
+import de.westnordost.streetcompletegpx.data.osm.mapdata.LatLon
+import de.westnordost.streetcompletegpx.testutils.bbox
+import de.westnordost.streetcompletegpx.util.ktx.equalsInOsm
 import kotlin.math.PI
 import kotlin.math.roundToInt
 import kotlin.math.sqrt

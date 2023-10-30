@@ -1,7 +1,7 @@
-package de.westnordost.streetcomplete.util
+package de.westnordost.streetcompletegpx.util
 
-import de.westnordost.streetcomplete.util.ktx.systemTimeNow
-import de.westnordost.streetcomplete.util.ktx.toLocalDate
+import de.westnordost.streetcompletegpx.util.ktx.systemTimeNow
+import de.westnordost.streetcompletegpx.util.ktx.toLocalDate
 import kotlinx.datetime.LocalDateTime
 import kotlinx.datetime.LocalTime
 import kotlinx.datetime.TimeZone

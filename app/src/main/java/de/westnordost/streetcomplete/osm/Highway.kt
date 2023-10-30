@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.osm
+package de.westnordost.streetcompletegpx.osm
 
 val ALL_ROADS = setOf(
     "motorway", "motorway_link", "trunk", "trunk_link", "primary", "primary_link",

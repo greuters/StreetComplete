@@ -1,14 +1,14 @@
-package de.westnordost.streetcomplete.data.visiblequests
+package de.westnordost.streetcompletegpx.data.visiblequests
 
-import de.westnordost.streetcomplete.data.quest.QuestType
-import de.westnordost.streetcomplete.data.quest.QuestTypeRegistry
-import de.westnordost.streetcomplete.data.quest.TestQuestTypeA
-import de.westnordost.streetcomplete.data.quest.TestQuestTypeB
-import de.westnordost.streetcomplete.data.quest.TestQuestTypeC
-import de.westnordost.streetcomplete.data.quest.TestQuestTypeD
-import de.westnordost.streetcomplete.testutils.any
-import de.westnordost.streetcomplete.testutils.mock
-import de.westnordost.streetcomplete.testutils.on
+import de.westnordost.streetcompletegpx.data.quest.QuestType
+import de.westnordost.streetcompletegpx.data.quest.QuestTypeRegistry
+import de.westnordost.streetcompletegpx.data.quest.TestQuestTypeA
+import de.westnordost.streetcompletegpx.data.quest.TestQuestTypeB
+import de.westnordost.streetcompletegpx.data.quest.TestQuestTypeC
+import de.westnordost.streetcompletegpx.data.quest.TestQuestTypeD
+import de.westnordost.streetcompletegpx.testutils.any
+import de.westnordost.streetcompletegpx.testutils.mock
+import de.westnordost.streetcompletegpx.testutils.on
 import org.mockito.Mockito.verify
 import org.mockito.Mockito.verifyNoInteractions
 import kotlin.test.BeforeTest

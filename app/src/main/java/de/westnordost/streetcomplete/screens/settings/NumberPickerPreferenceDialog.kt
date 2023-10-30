@@ -1,9 +1,9 @@
-package de.westnordost.streetcomplete.screens.settings
+package de.westnordost.streetcompletegpx.screens.settings
 
 import android.view.View
 import android.widget.NumberPicker
 import androidx.preference.PreferenceDialogFragmentCompat
-import de.westnordost.streetcomplete.R
+import de.westnordost.streetcompletegpx.R
 
 /** Preference dialog where user should pick a number */
 class NumberPickerPreferenceDialog : PreferenceDialogFragmentCompat() {
