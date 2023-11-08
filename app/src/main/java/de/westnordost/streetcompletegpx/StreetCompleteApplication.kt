@@ -8,6 +8,7 @@ import androidx.core.content.edit
 import androidx.work.ExistingPeriodicWorkPolicy
 import androidx.work.PeriodicWorkRequest
 import androidx.work.WorkManager
+import de.westnordost.streetcompletegpx.data.import.importModule
 import de.westnordost.streetcompletegpx.data.CacheTrimmer
 import de.westnordost.streetcompletegpx.data.CleanerWorker
 import de.westnordost.streetcompletegpx.data.Preloader
@@ -93,6 +94,7 @@ class StreetCompleteApplication : Application() {
                 editHistoryModule,
                 elementEditsModule,
                 elementGeometryModule,
+                importModule,
                 mapDataModule,
                 mapModule,
                 mainModule,

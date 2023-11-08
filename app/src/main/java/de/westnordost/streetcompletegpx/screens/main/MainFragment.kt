@@ -11,6 +11,7 @@ import android.graphics.PointF
 import android.graphics.Rect
 import android.graphics.RectF
 import android.location.Location
+import android.net.Uri
 import android.os.Bundle
 import android.util.Log
 import android.view.View
@@ -40,6 +41,7 @@ import androidx.fragment.app.commit
 import de.westnordost.osmapi.common.Handler
 import de.westnordost.osmapi.traces.GpsTrackpoint
 import de.westnordost.osmapi.traces.GpxTrackParser
+import de.westnordost.osmfeatures.FeatureDictionary
 import de.westnordost.streetcompletegpx.ApplicationConstants
 import de.westnordost.streetcompletegpx.Prefs
 import de.westnordost.streetcompletegpx.R
@@ -90,6 +92,8 @@ import de.westnordost.streetcompletegpx.screens.main.bottom_sheet.IsMapOrientati
 import de.westnordost.streetcompletegpx.screens.main.bottom_sheet.IsMapPositionAware
 import de.westnordost.streetcompletegpx.screens.main.bottom_sheet.MoveNodeFragment
 import de.westnordost.streetcompletegpx.screens.main.bottom_sheet.SplitWayFragment
+import de.westnordost.streetcompletegpx.screens.main.controls.GpxImportConfirmationDialog
+import de.westnordost.streetcompletegpx.screens.main.controls.GpxImportSettingsDialog
 import de.westnordost.streetcompletegpx.screens.main.controls.LocationStateButton
 import de.westnordost.streetcompletegpx.screens.main.controls.MainMenuButtonFragment
 import de.westnordost.streetcompletegpx.screens.main.controls.UndoButtonFragment
@@ -126,8 +130,12 @@ import de.westnordost.streetcompletegpx.util.viewBinding
 import de.westnordost.streetcompletegpx.view.insets_animation.respectSystemInsets
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
+import kotlinx.coroutines.suspendCancellableCoroutine
 import kotlinx.coroutines.withContext
 import org.koin.android.ext.android.inject
+import org.koin.core.qualifier.named
+import java.util.concurrent.FutureTask
+import kotlin.coroutines.resume
 import kotlin.math.PI
 import kotlin.math.abs
 import kotlin.math.cos
@@ -1277,6 +1285,39 @@ class MainFragment :
         mapFragment?.isNavigationMode = false
         mapFragment?.setInitialCameraPosition(CameraPosition(position, 0f, 0f, zoom))
         setIsFollowingPosition(false)
+    }
+
+    fun importTrack(uri: Uri) {
+        val ctx = context ?: return
+        val fragment = mapFragment ?: return
+        viewLifecycleScope.launch {
+            val importData = suspendCancellableCoroutine { cont ->
+                ctx.contentResolver?.openInputStream(uri)?.let { inputStream ->
+                    val dialog = GpxImportSettingsDialog(
+                        inputStream,
+                    ) { cont.resume(it) }
+                    dialog.show(parentFragmentManager, null)
+                }
+            }.getOrNull() ?: return@launch
+
+            if (!importData.downloadAlongTrack) {
+                fragment.replaceImportedTrack(importData.trackpoints)
+            } else if (importData.areaToDownloadInSqkm > ApplicationConstants.MAX_DOWNLOADABLE_AREA_IN_SQKM * 25) {
+                context?.toast(R.string.gpx_import_download_area_too_big, Toast.LENGTH_LONG)
+            } else {
+                suspendCancellableCoroutine { cont ->
+                    GpxImportConfirmationDialog(
+                        ctx,
+                        importData
+                    ) { cont.resume(it) }.show()
+                }
+
+                for (bBox in importData.downloadBBoxes) {
+                    downloadController.download(bBox)
+                }
+                fragment.replaceImportedTrack(importData.trackpoints)
+            }
+        }
     }
 
     //endregion

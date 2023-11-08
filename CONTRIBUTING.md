@@ -102,7 +102,7 @@ See also [this far more detailed guide to making a new quest](CONTRIBUTING_A_NEW
 
 ### Code style
 
-Inheritance and class hierarchy should be avoided if possible. It is preferable to extract shared code to helper file such as [KerbUtil.kt](app/src/main/java/de/westnordost/streetcomplete/osm/kerb/KerbUtil.kt).
+Inheritance and class hierarchy should be avoided if possible. It is preferable to extract shared code to helper file such as [KerbUtil.kt](app/src/main/java/de/westnordost/streetcompletegpx/osm/kerb/KerbUtil.kt).
 
 It is recommended to install the [Ktlint (unofficial)](https://plugins.jetbrains.com/plugin/15057-ktlint-unofficial-) Android Studio plugin which highlights lint issues (e.g. inconsistent spacing) directly inline while writing code.
 
