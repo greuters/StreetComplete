@@ -25,7 +25,6 @@ import androidx.activity.result.contract.ActivityResultContracts
 import androidx.annotation.AnyThread
 import androidx.annotation.DrawableRes
 import androidx.annotation.UiThread
-import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.widget.PopupMenu
 import androidx.core.graphics.Insets
 import androidx.core.graphics.minus
@@ -41,7 +40,6 @@ import androidx.fragment.app.commit
 import de.westnordost.osmapi.common.Handler
 import de.westnordost.osmapi.traces.GpsTrackpoint
 import de.westnordost.osmapi.traces.GpxTrackParser
-import de.westnordost.osmfeatures.FeatureDictionary
 import de.westnordost.streetcompletegpx.ApplicationConstants
 import de.westnordost.streetcompletegpx.Prefs
 import de.westnordost.streetcompletegpx.R
@@ -50,6 +48,8 @@ import de.westnordost.streetcompletegpx.data.download.tiles.asBoundingBoxOfEnclo
 import de.westnordost.streetcompletegpx.data.edithistory.Edit
 import de.westnordost.streetcompletegpx.data.edithistory.EditKey
 import de.westnordost.streetcompletegpx.data.edithistory.icon
+import de.westnordost.streetcompletegpx.data.meta.CountryInfos
+import de.westnordost.streetcompletegpx.data.meta.LengthUnit
 import de.westnordost.streetcompletegpx.data.osm.edits.ElementEdit
 import de.westnordost.streetcompletegpx.data.osm.edits.ElementEditType
 import de.westnordost.streetcompletegpx.data.osm.edits.MapDataWithEditsSource
@@ -133,8 +133,7 @@ import kotlinx.coroutines.launch
 import kotlinx.coroutines.suspendCancellableCoroutine
 import kotlinx.coroutines.withContext
 import org.koin.android.ext.android.inject
-import org.koin.core.qualifier.named
-import java.util.concurrent.FutureTask
+import java.util.Locale
 import kotlin.coroutines.resume
 import kotlin.math.PI
 import kotlin.math.abs
@@ -185,7 +184,7 @@ class MainFragment :
     ShowsGeometryMarkers {
 
     private val downloadController: DownloadController by inject()
-
+    private val countryInfos: CountryInfos by inject()
     private val visibleQuestsSource: VisibleQuestsSource by inject()
     private val mapDataWithEditsSource: MapDataWithEditsSource by inject()
     private val notesSource: NotesWithEditsSource by inject()
@@ -1291,10 +1290,14 @@ class MainFragment :
         val ctx = context ?: return
         val fragment = mapFragment ?: return
         viewLifecycleScope.launch {
+            val lengthUnit = Locale.getDefault().country.takeIf { it.isNotEmpty() }
+                ?.let { countryInfos.get(listOf(it)) }?.lengthUnits?.first() ?: LengthUnit.METER
+
             val importData = suspendCancellableCoroutine { cont ->
                 ctx.contentResolver?.openInputStream(uri)?.let { inputStream ->
                     val dialog = GpxImportSettingsDialog(
                         inputStream,
+                        lengthUnit
                     ) { cont.resume(it) }
                     dialog.show(parentFragmentManager, null)
                 }
@@ -1310,7 +1313,8 @@ class MainFragment :
                     suspendCancellableCoroutine { cont ->
                         GpxImportConfirmationDialog(
                             ctx,
-                            importData
+                            importData,
+                            lengthUnit
                         ) { cont.resume(it) }.show()
                     }
 
